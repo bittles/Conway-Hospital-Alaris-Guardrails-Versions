@@ -1,5 +1,9 @@
 20is:
-
+	increase hard max for propofol for seizures
+	
+	** to do
+	seperate therapy for propofol for seizures and sedation?
+	check what plan with versed is, baxter or alaris pumps
 19is:
 	added phenobarbital
 	add new premix vancomycin concentrations

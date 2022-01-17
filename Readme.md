@@ -1,12 +1,22 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
-20is:
+## 21is:
+	add glucagon drip
+	
+## 20is:
 	increase hard max for propofol for seizures
+		100 to 200 mcg/kg/min
+	phenobarb
+		add weight based dose from anti-convulsant protocol
+		add basic concentration limits
+	add cefiderocol mg and gm
+
 	
 	** to do
 	seperate therapy for propofol for seizures and sedation?
 	check what plan with versed is, baxter or alaris pumps
-19is:
+
+## 19is:
 	added phenobarbital
 	add new premix vancomycin concentrations
 	double check phenobarbital
@@ -23,7 +33,7 @@
 	add anticonvulsant protocol
 	add valproate grams?
 
-18is:
+## 18is:
 	added regeneron catalog code to casirivimab/imdevimab
 	removed imdevimab/casirivimab
 	add 1200mg/260mL concentration and wildcard concentration for different volume bags now possible to regeneron
@@ -35,7 +45,7 @@
 	change maxes for crotalidae
 	lower leveteracetam soft min to 6 min (999 ml/hr rate for 100 mL bag)
 
-17i and 17is:
+## 17i and 17is:
 	mirrored libraries with same changes, difference being 17is has syringe pump capability and drugs in nursery profile
 	enabled syringe module use
 	built syringe library into nursery profile generally coping from pharmguard/medfusion (old syringe pump library) *****NEEDS CHECKED, checked 3/24/21
@@ -47,11 +57,11 @@
 	increased soft max for zerbaxa, had added 3 gm for PNA but never increased soft max
 	changed bamlanivimab volume from 200 ml to 270 ml for updated label
 
-16i:
+## 16i:
 	add adenosine drip for cath lab
 	add bamlanivimab in preparation for EUA
 
-15i:
+## 15i:
 	add protonix drip 40 mg/100 ml contiunous
 	disabled 40 mg/100 ml intermittent to prevent confusion
 	add initial infusion default rate to cangrelor for cath lab
@@ -63,7 +73,7 @@
 	add gm and mg therapies to TXA, change hard min infusion to 7 min
 	add 1 g/100 ml conc to TXA, hard min 10 min.  remove volume in calculation of total volume for TXA vial in formulary manager
 
-14i:
+## 14i:
 	change heparin standard/cardiac/PVD from 15 unit/kg/h to 12 unit/kg/h
 	cleaned up continuous heparin; removed non weight based therapy; made sure all had heparin advisory
 	added actual choices for 3g zerbaxa in guardrails to more easily select it instead of manually putting in strength/volume if not using interop
@@ -88,14 +98,14 @@
 	added buffer to max dose of weight based acyclovir (10 to 10.5 mg/kg)
 	added non weight based daptomycin for interop use for when osmanzai decides to not order a weight based dose
 
-13i:
+## 13i:
 	"enabled" cardene concentration; was previously created but not active
 
-12i,
+## 12i,
 	added cardene 40mg/200ml conc., amiodarone 360mg/200ml
 	updated zerbaxa conc. max limits for gram and mg for new PNA guidelines
 
-11i,
+## 11i,
 	Merrem 2g/50ml removed, conc. limit is 20mg/ml
 		add tylenol IV for gram
 	add F flag to MVI, MVI+FOLATE+THIAMINE, dextrose 10%, and parenteral nutrition aliases to catch if ordered continuous or intermittent (hopefully)
@@ -111,7 +121,7 @@
 	TODO:
 	bolus for lidocaine drip?? i think worth adding, no policy against
 
-10 & 10i,
+## 10 & 10i,
 	Amphotericin B and amphotericin B liposomal changed to primary only
 	MVI Only and MVI+Folate+Thiamine moved to fluids libary to allow interop
 	Added 15 mEq/L therapy to IVF + KCL
@@ -156,7 +166,7 @@
 		BOLUS/LOADING DOSE:
 	Aggrastat possible?
 
-9 & 9i, Interopability start with Cerner; Show aliases option activated in Guardrails for 9i; from now on, changes to library need to be made in both the regular and interoperability versions
+## 9 & 9i, Interopability start with Cerner; Show aliases option activated in Guardrails for 9i; from now on, changes to library need to be made in both the regular and interoperability versions
 	Caffeine citrate removed, caffeine and sodium benzoate added (to adult library as well as peds)
 	Added Avycaz to adult library as ceftazidime/avibacta
 	Added pentamidine and chlorpromazine and pralidoxime
@@ -193,7 +203,7 @@
 	Possibly alteplase.  Cannot exist in current form with interoperability, might need to be out of scope
 			UPDATE: alteplase should work in scope, check if ER is using bolus on pump or pulling out bolus with syringe
 
-8, Bolus feature removed from diltiazem drips
+## 8, Bolus feature removed from diltiazem drips
 	changes to occlusion configurations under Pump Module Configuration
 	Changed naming for pantoprazole, from 'pantoprazole' to 'pantoprazole gtt' avoid confusion
 	Auto-Restart Attempts changed in configuration for Adults and Peds library from 5-->>9
@@ -204,20 +214,20 @@
 	Oxytocin conversion chart made for OB for mL to unit in order to easily access for bolus
 	Oxytocin min and max bolus values changed to allow boluses from 1 to 30
 
-7, Ketamine ANES added, initial 0.1 mg/kg/hr, soft max 0.5 mg/kg/hr, hard max 1 mg/kg/hr
+## 7, Ketamine ANES added, initial 0.1 mg/kg/hr, soft max 0.5 mg/kg/hr, hard max 1 mg/kg/hr
 		Concentrations of 50mg/50ml and 100mg/100ml added until can be narrowed
 	Propofol ANES given bolus range of 19-71 mg, initial 30 mg (3 mL); Bolus is 12 mL/min
 	zz Code drugs fixed to match their non-zz counterparts
 
-6, Oxytocin blank setup removed, entries added under postparum for 10, 20, 30, 40 units in 1000 ml; GO LIVE DATASET
+## 6, Oxytocin blank setup removed, entries added under postparum for 10, 20, 30, 40 units in 1000 ml; GO LIVE DATASET
 
-5, Post-"finalized" data set, pre-go live
+## 5, Post-"finalized" data set, pre-go live
 	Double concentrated therapies added for dopamine, dobutamine, norepinephrine, and vasopressin
 	Dobutamine Echo Stress therapy added
 	Bug fixes and stability improvements
 	Added blank setup for oxytocin postpartum with conc. limits
 
-4, Finalized data set with changes from data set analysis
+## 4, Finalized data set with changes from data set analysis
 	Library nomenclature changed from eg. cmc.pump.library.yyyy.x to conwaymedical.yyyy.x where x is version number
 	Typos found during data set anaylsis fixed
 	Mins set for every drug
@@ -226,14 +236,14 @@
 	Fixed a bug that allowed concentrations to shadow-step to unintended locations
 	Bug fixes and stability improvements
 
-3: Data Set Review Changes
+## 3: Data Set Review Changes
 	Kinevac added
 	Dobutamine stress test therapy
 	Anesthesia drugs reviewed
 	Maternity insulin fixed
 	Bug fixes and stability improvements
 
-2: Data Set for Data Set Review
+## 2: Data Set for Data Set Review
 	"Completed" library, entries for majority of drugs
 
-1: Initial Drug Library
+## 1: Initial Drug Library

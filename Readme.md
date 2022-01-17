@@ -1,5 +1,8 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
+## 22is:
+	add robaxin IV
+
 ## 21is:
 	add glucagon drip
 	
@@ -10,7 +13,8 @@
 		add weight based dose from anti-convulsant protocol
 		add basic concentration limits
 	add cefiderocol mg and gm
-
+	add premixed peng 3 million units
+	add zidovudine
 	
 	** to do
 	seperate therapy for propofol for seizures and sedation?

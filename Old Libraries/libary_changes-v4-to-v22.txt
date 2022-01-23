@@ -4,7 +4,7 @@ Alaris(r) System
 Data Set Report
 APPROVED
 
-Conway.2021.v21is
+Conway.2021.v22is
 
 
 Conway Medical Center
@@ -35,17 +35,17 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2021.v21is
+Conway.2021.v22is
  Hospital Name
 Conway Medical Center
  Data Set ID
-02936a33f-A
+02943f4f3-A
  Data Set Status
 Approved
  Last Changed On
-11/28/2021 20:29
+12/8/2021 22:57
  Filename
-C:\Users\nbauer\Documents\Guardrails Editor\0293254ab-R.gre
+C:\Users\nbauer\Documents\Guardrails Editor\02936a33f-R.gre
 
 
 
@@ -8834,6 +8834,45 @@ n/a
 
 
 
+                              
+methocarbamol
+
+X
+X
+mg
+249
+
+1,001
+1,000 mg / 250 mL (4 mg / mL)
+X
+
+00:10
+
+04:00
+
+n/a
+
+
+
+
+
+
+
+
+
+
+
+--- mg / --- mL
+X
+
+00:10
+
+04:00
+
+mg/mL
+0.5
+1
+15
                               
 methylPREDNISolone
 
@@ -18655,6 +18694,14 @@ mesna
 --- mg / --- mL
 Intermittent
 2762918I
+methocarbamol
+1,000 mg / 250 mL (4 mg / mL)
+Intermittent
+2763080I
+methocarbamol
+--- mg / --- mL
+Intermittent
+2763080I
 methylPREDNISolone
 500 mg / 100 mL (5 mg / mL)
 Intermittent
@@ -19604,7 +19651,7 @@ Drug is a vesicant. Check blood return.
 
 
 
-Conway Medical Center - 11/28/2021 20:29														Page 1 of 1
-Conway.2021.v21is, 02936a33f-A
+Conway Medical Center - 12/8/2021 22:57														Page 1 of 1
+Conway.2021.v22is, 02943f4f3-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

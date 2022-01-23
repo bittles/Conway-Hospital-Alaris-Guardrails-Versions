@@ -4,7 +4,7 @@ Alaris(r) System
 Data Set Report
 APPROVED
 
-Conway.2021.v20is
+Conway.2021.v21is
 
 
 Conway Medical Center
@@ -35,17 +35,17 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2021.v20is
+Conway.2021.v21is
  Hospital Name
 Conway Medical Center
  Data Set ID
-0293254ab-A
+02936a33f-A
  Data Set Status
 Approved
  Last Changed On
-11/25/2021 14:05
+11/28/2021 20:29
  Filename
-C:\Users\nbauer\Documents\Guardrails Editor\029324f9e-R.gre
+C:\Users\nbauer\Documents\Guardrails Editor\0293254ab-R.gre
 
 
 
@@ -1098,6 +1098,34 @@ mg/h
 
 Protect From 
 Light
+glucagon
+
+10 mg / 50 mL (0.2 mg / mL)
+10 mg / 100 mL (0.1 mg / mL)
+
+
+X
+X
+
+
+
+
+n/a
+Continuous
+mg/h
+0.1
+10
+
+
+
+
+
+
+
+
+
+
+
 heparin
 ..Std. Cardiac/PVD
 25,000 unit / 500 mL (50 unit / mL)
@@ -18338,6 +18366,14 @@ gentamicin
 --- mg / --- mL
 Intermittent
 2758928I
+glucagon
+10 mg / 50 mL (0.2 mg / mL)
+Cont/Bolus or PCA
+2759022C
+glucagon
+10 mg / 100 mL (0.1 mg / mL)
+Cont/Bolus or PCA
+2759022C
 heparin
 25,000 unit / 500 mL (50 unit / mL)
 Cont/Bolus or PCA
@@ -19568,7 +19604,7 @@ Drug is a vesicant. Check blood return.
 
 
 
-Conway Medical Center - 11/25/2021 14:05														Page 1 of 1
-Conway.2021.v20is, 0293254ab-A
+Conway Medical Center - 11/28/2021 20:29														Page 1 of 1
+Conway.2021.v21is, 02936a33f-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

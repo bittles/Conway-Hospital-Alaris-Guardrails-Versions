@@ -4,7 +4,7 @@ Alaris(r) System
 Data Set Report
 APPROVED
 
-Conway.2021.v18is
+Conway.2021.v19is
 
 
 Conway Medical Center
@@ -35,15 +35,15 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2021.v18is
+Conway.2021.v19is
  Hospital Name
 Conway Medical Center
  Data Set ID
-0287871e3-A
+0289c6329-A
  Data Set Status
 Approved
  Last Changed On
-7/7/2021 14:08
+8/3/2021 20:27
  Filename
 C:\Users\nbauer\Documents\Guardrails Editor\027ee0875-R.gre
 
@@ -3934,6 +3934,160 @@ n/a
 
 
                               
+bamlaniv/estesivimab
+.Standard wt >=50 kg
+X
+X
+mg
+699
+701
+
+700 mg / 110 mL (6.3636 mg / mL)
+X
+
+00:19
+00:20
+06:00
+00:22
+n/a
+
+
+
+
+
+
+
+
+
+
+
+700 mg / 160 mL (4.375 mg / mL)
+X
+
+00:27
+00:28
+06:00
+00:31
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+700 mg / 210 mL (3.3333 mg / mL)
+X
+
+00:36
+00:37
+06:00
+00:41
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+700 mg / 310 mL (2.2581 mg / mL)
+X
+
+00:49
+00:50
+06:00
+01:00
+n/a
+
+
+
+                              
+bamlaniv/estesivimab
+Weight < 50 kg
+X
+X
+mg
+699
+701
+
+700 mg / 110 mL (6.3636 mg / mL)
+X
+
+00:19
+00:20
+06:00
+00:22
+n/a
+
+
+
+
+
+
+
+
+
+
+
+700 mg / 160 mL (4.375 mg / mL)
+X
+
+00:27
+00:28
+06:00
+00:31
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+700 mg / 210 mL (3.3333 mg / mL)
+X
+
+00:36
+00:37
+06:00
+00:41
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+700 mg / 310 mL (2.2581 mg / mL)
+X
+
+00:59
+01:00
+06:00
+01:10
+n/a
+
+
+
+                              
 bamlanivimab
 
 X
@@ -4352,13 +4506,13 @@ mg
 1,190
 1,201
 1,210
-1,200 mg / 60 mL (20 mg / mL)
+1,200 mg / 260 mL (4.6154 mg / mL)
 X
 
-00:16
-00:17
+00:48
+00:49
 04:00
-00:20
+01:00
 n/a
 
 
@@ -4372,33 +4526,14 @@ Filter
 
 
 
-1,200 mg / 110 mL (10.9091 mg / mL)
+--- mg / --- mL
 X
 
+00:18
 00:19
-00:20
 04:00
-00:22
-n/a
 
-
-
-                              
-
-
-
-
-
-
-
-1,200 mg / 260 mL (4.6154 mg / mL)
-X
-
-00:44
-00:45
-04:00
-01:00
-n/a
+No
 
 
 
@@ -7088,6 +7223,26 @@ X
 mg
 250
 750
+1,501
+750 mg / 265 mL (2.8302 mg / mL)
+X
+
+
+00:15
+02:00
+
+n/a
+
+
+
+Hypersensitivi
+ty
+
+
+
+
+
+
 
 --- mg / --- mL
 X
@@ -7097,11 +7252,50 @@ X
 02:00
 
 mg/mL
-1
+1.9
 2
 4
+                              
+ferric carboxymaltos
+
+X
+X
+mg/kg
+5
+16
+
+750 mg / 265 mL (2.8302 mg / mL)
+X
+
+
+00:15
+02:00
+
+n/a
+
+
+
 Hypersensitivi
 ty
+
+
+
+
+
+
+
+--- mg / --- mL
+X
+
+
+00:15
+02:00
+
+mg/mL
+1.9
+2
+4
+                              
 fluconazole
 
 X
@@ -7906,11 +8100,31 @@ X
 
 
 00:06
-00:30
+02:00
 00:15
 mg/mL
 2
 2.5
+15
+
+levETIRAcetam
+
+X
+X
+mg/kg
+1
+60
+
+--- mg / --- mL
+X
+
+
+00:06
+02:00
+00:15
+mg/mL
+
+0.5
 15
 
 levoFLOXacin
@@ -8982,6 +9196,102 @@ unit/mL
 0.02
 0.12
 1unit=1million
+PHENobarbital
+
+X
+X
+mg
+5
+270
+
+130 mg / 52 mL (2.5 mg / mL)
+X
+
+00:04
+
+04:00
+
+n/a
+
+
+
+
+
+
+
+
+
+
+
+130 mg / 102 mL (1.2745 mg / mL)
+X
+
+00:07
+
+04:00
+
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+260 mg / 54 mL (4.8148 mg / mL)
+X
+
+00:04
+
+04:00
+
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+260 mg / 104 mL (2.5 mg / mL)
+X
+
+00:07
+
+04:00
+
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+--- mg / --- mL
+X
+
+00:04
+
+04:00
+
+No
+
+
+
+                              
 phenytoin
 
 X
@@ -9743,6 +10053,46 @@ L
 0.01
 0.25
 
+sotrovimab
+
+X
+X
+mg
+490
+510
+511
+500 mg / 50 mL (10 mg / mL)
+X
+
+00:22
+00:23
+04:00
+00:30
+n/a
+
+
+
+Low Binding 
+Filter
+
+
+
+
+
+
+
+500 mg / 100 mL (5 mg / mL)
+X
+
+00:22
+00:23
+04:00
+00:30
+n/a
+
+
+
+                              
 tedizolid phosphate
 
 X
@@ -9938,6 +10288,84 @@ mg/mL
 0.5
 10
 
+tocilizumab
+
+X
+
+mg
+200
+
+801
+800 mg / 100 mL (8 mg / mL)
+X
+
+00:54
+00:55
+04:00
+01:00
+n/a
+
+
+
+
+
+
+
+
+
+
+
+--- mg / --- mL
+X
+
+00:54
+00:55
+04:00
+01:00
+mg/mL
+0.9
+1
+8.1
+                              
+tocilizumab
+
+X
+
+mg/kg
+3.9
+12.1
+12.2
+800 mg / 100 mL (8 mg / mL)
+X
+
+00:54
+00:55
+04:00
+01:00
+n/a
+
+
+
+
+
+
+
+
+
+
+
+--- mg / --- mL
+X
+
+00:54
+00:55
+04:00
+01:00
+mg/mL
+0.9
+1
+8.1
+                              
 tranexamic BOLUS
 .MG Dosing
 X
@@ -16648,7 +17076,11 @@ andulafungin
 Intermittent
 4144679I
 antivenin crotalidae
---- unit / --- mL
+4 unit / 250 mL (0.016 unit / mL)
+Intermittent
+2749465I
+antivenin crotalidae
+6 unit / 250 mL (0.024 unit / mL)
 Intermittent
 2749465I
 antivenin crotalidae
@@ -16656,11 +17088,7 @@ antivenin crotalidae
 Intermittent
 2749465I
 antivenin crotalidae
-4 unit / 250 mL (0.016 unit / mL)
-Intermittent
-2749465I
-antivenin crotalidae
-6 unit / 250 mL (0.024 unit / mL)
+--- unit / --- mL
 Intermittent
 2749465I
 aprepitant
@@ -16743,6 +17171,22 @@ aztreonam
 2 gram / 100 mL (0.02 gram / mL)
 Intermittent
 2750475I
+bamlaniv/estesivimab
+700 mg / 110 mL (6.3636 mg / mL)
+Intermittent
+1000000200I
+bamlaniv/estesivimab
+700 mg / 160 mL (4.375 mg / mL)
+Intermittent
+1000000200I
+bamlaniv/estesivimab
+700 mg / 210 mL (3.3333 mg / mL)
+Intermittent
+1000000200I
+bamlaniv/estesivimab
+700 mg / 310 mL (2.2581 mg / mL)
+Intermittent
+1000000200I
 bamlanivimab
 700 mg / 270 mL (2.5926 mg / mL)
 Intermittent
@@ -16884,15 +17328,11 @@ carfilzomib
 Intermittent
 24495877I
 casirivimab/imdevima
-1,200 mg / 60 mL (20 mg / mL)
-Intermittent
-3958645811I
-casirivimab/imdevima
-1,200 mg / 110 mL (10.9091 mg / mL)
-Intermittent
-3958645811I
-casirivimab/imdevima
 1,200 mg / 260 mL (4.6154 mg / mL)
+Intermittent
+3958645811I
+casirivimab/imdevima
+--- mg / --- mL
 Intermittent
 3958645811I
 caspofungin
@@ -17598,6 +18038,10 @@ fenoldopam
 Cont/Bolus or PCA
 2758046C
 ferric carboxymaltos
+750 mg / 265 mL (2.8302 mg / mL)
+Intermittent
+24606832I
+ferric carboxymaltos
 --- mg / --- mL
 Intermittent
 24606832I
@@ -18240,6 +18684,22 @@ pertuzumab
 Intermittent
 24607638I
 PHENobarbital
+130 mg / 52 mL (2.5 mg / mL)
+Intermittent
+2766460I
+PHENobarbital
+130 mg / 102 mL (1.2745 mg / mL)
+Intermittent
+2766460I
+PHENobarbital
+260 mg / 54 mL (4.8148 mg / mL)
+Intermittent
+2766460I
+PHENobarbital
+260 mg / 104 mL (2.5 mg / mL)
+Intermittent
+2766460I
+PHENobarbital
 --- mg / --- mL
 Intermittent
 2766460I
@@ -18502,6 +18962,14 @@ tobramycin
 --- mg / --- mL
 Intermittent
 2770186I
+tocilizumab
+800 mg / 100 mL (8 mg / mL)
+Intermittent
+19955605I
+tocilizumab
+--- mg / --- mL
+Intermittent
+19955605I
 topotecan
 --- mg / --- mL
 Intermittent
@@ -18868,7 +19336,7 @@ Drug is a vesicant. Check blood return.
 
 
 
-Conway Medical Center - 7/7/2021 14:08														Page 1 of 1
-Conway.2021.v18is, 0287871e3-A
+Conway Medical Center - 8/3/2021 20:27														Page 1 of 1
+Conway.2021.v19is, 0289c6329-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

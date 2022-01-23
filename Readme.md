@@ -1,5 +1,9 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
+## 23is:
+	add 25 g/125 mL fat emulsion and extend soft max for fats from 13 to 24 hr
+	add sotrovimab catalog code
+
 ## 22is:
 	add robaxin IV
 

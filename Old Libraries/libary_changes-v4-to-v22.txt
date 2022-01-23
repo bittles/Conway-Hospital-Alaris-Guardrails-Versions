@@ -2,50 +2,27 @@ Alaris(r) System
  
 
 Data Set Report
-APPROVED
+RELEASED
 
-Conway.2018.v8
-
-
-Conway Medical Center
-
-__________________________________ a(n) __________________________________corporation
-(Name)					                                     (State Incorporated)
-
-__________________________________	_____________________________________
-(Address)					                          (City, State, Zip)
+Conway.2020.v13i
 
 
-Conway Medical Center acknowledges that Conway Medical Center's unique data sets (Customized Data Set) have been developed by Conway Medical Center in 
-accordance with Conway Medical Center's best practices protocols, for use with Guardrails(r) Safety Software.  Conway Medical Center acknowledges that it is 
-the owner of the Customized Data Set and, as such, is solely responsible for the development, verification and usage of the Customized Data Set in accordance 
-with Conway Medical Center's best practices protocols.
-
-At Conway Medical Center's request, CareFusion personnel may assist Conway Medical Center with the upload of Conway Medical Center's Customized Data 
-Sets pursuant to the ALARIS(r) SMARTServiceSM  Implementation Program or other service agreements.
-
-Further, Conway Medical Center acknowledges that the person signing this agreement on behalf of Conway Medical Center is authorized to execute this 
-agreement on behalf of Conway Medical Center.
-
-
-
-Signature			                     Name                                       Title      	                            Date
 
 1.	 Current Data Set Status
 
 
  Data Set Name
-Conway.2018.v8
+Conway.2020.v13i
  Hospital Name
 Conway Medical Center
  Data Set ID
-0227dcfa4-A
+0260693be-R
  Data Set Status
-Approved
+Released
  Last Changed On
-5/3/2018 13:48
+3/19/2020 20:34
  Filename
-C:\Users\nbauer\Documents\Guardrails Editor\0225a9638-R.gre
+C:\Users\nbauer\Documents\Guardrails Editor\0260693be-R.gre
 
 
 
@@ -99,8 +76,8 @@ Max
 Initial
 Value
 
-alteplase
-Stroke < 100kg
+alteplase -stroke
+Stroke < 101 kg
 --- mg / --- mL
 
 
@@ -111,27 +88,23 @@ X
 YES
 Continuous
 mg/kg/h
-Bolus Dose
-mg/kg
-Bolus Admin Rate
-mg/kg/min
-0.8
-0.82
+0.7
+0.9
 
 0.81
-0.08
-0.09
 
-0.09
-0.08
-0.09
 
-0.09
+
+
+
+
+
+
 Alteplase wt 
 based
-alteplase
-Stroke 100kg or more
-90 mg / 90 mL (1 mg / mL)
+alteplase -stroke
+Stroke 101kg or more
+81 mg / 81 mL (1 mg / mL)
 
 
 X
@@ -141,31 +114,30 @@ X
 n/a
 Continuous
 mg/h
-Bolus Dose
-mg
-Bolus Admin Rate
-mg/min
-80
-82
+71
+90
 
 81
-8.9
-9.1
 
-9
-8.9
-9.1
 
-9
+
+
+
+
+
+
 
 amiodarone Drip
 
+360 mg / 200 mL (1.8 mg / mL)
 450 mg / 250 mL (1.8 mg / mL)
 900 mg / 500 mL (1.8 mg / mL)
 
 
 X
 X
+X
+
 
 
 
@@ -203,7 +175,7 @@ Continuous
 mcg/kg/min
 0.5
 10
-10.1
+11.5
 2
 
 
@@ -263,7 +235,7 @@ Bolus Admin Rate
 mcg/kg/min
 15
 30
-30.1
+34
 25
 149
 351
@@ -296,11 +268,11 @@ mg/kg/min
 
 0.07
 0.5
-0.51
+0.58
 
 0.07
 0.5
-0.51
+0.58
 
 Neuromuscular 
 BA
@@ -366,7 +338,7 @@ Bolus Admin Rate
 mg/kg/min
 0.24
 1.1
-1.2
+1.4
 1
 0.3
 0.76
@@ -425,50 +397,40 @@ Bolus Admin Rate
 mcg/kg/min
 2
 4
-4.1
+4.6
 
-29
+26
 
+35
 30
-30
-29
+26
 
-30
+35
 
 
 cisatracurium
 
-100 mg / 100 mL (1 mg / mL)
-200 mg / 200 mL (1 mg / mL)
---- mg / --- mL
+200 mg / 250 mL (0.8 mg / mL)
 
 
 X
-X
-X
 
 
 
-
-
-YES
+n/a
 Continuous
 mcg/kg/min
-Bolus Dose
-mg/kg
-Bolus Admin Rate
-mg/min
 0.5
-8
-11
-3
-0.01
-
-0.4
-
 5
+7
+3
 
-10
+
+
+
+
+
+
 
 Neuromuscular 
 BA
@@ -507,9 +469,12 @@ mg/min
 dexmedetomidine
 
 200 mcg / 50 mL (4 mcg / mL)
+400 mcg / 100 mL (4 mcg / mL)
 
 
 X
+X
+
 
 
 
@@ -535,10 +500,13 @@ mcg/kg/min
 
 dilTIAZem
 
+100 mg / 100 mL (1 mg / mL)
 125 mg / 125 mL (1 mg / mL)
 
 
 X
+X
+
 
 
 
@@ -859,6 +827,34 @@ nanogram/kg/min
 
 
 eptifibatide
+.Standard & wt>121kg
+75 mg / 100 mL (0.75 mg / mL)
+200 mg / 100 mL (2 mg / mL)
+
+
+X
+X
+
+
+
+
+n/a
+Continuous
+mg/h
+13
+17
+
+15
+
+
+
+
+
+
+
+
+SCr<2.0
+eptifibatide
 .Standard Dose
 75 mg / 100 mL (0.75 mg / mL)
 200 mg / 100 mL (2 mg / mL)
@@ -875,36 +871,8 @@ Continuous
 mcg/kg/min
 0.5
 2.2
-2.4
+2.5
 2
-
-
-
-
-
-
-
-
-SCr<2.0
-eptifibatide
-.Weight121kg & above
-75 mg / 100 mL (0.75 mg / mL)
-200 mg / 100 mL (2 mg / mL)
-
-
-X
-X
-
-
-
-
-n/a
-Continuous
-mg/h
-13
-15.1
-
-15
 
 
 
@@ -930,8 +898,8 @@ n/a
 Continuous
 mcg/kg/min
 0.25
-1.1
 1.2
+1.4
 1
 
 
@@ -958,8 +926,8 @@ n/a
 Continuous
 mg/h
 6
-7.6
-
+8
+9
 7.5
 
 
@@ -1013,7 +981,7 @@ Continuous
 mcg/kg/min
 0.03
 1.6
-1.61
+1.8
 0.1
 
 
@@ -1054,7 +1022,7 @@ mg/h
 Protect From 
 Light
 heparin
-
+..Std. Cardiac/PVD
 25,000 unit / 500 mL (50 unit / mL)
 
 
@@ -1067,7 +1035,7 @@ Continuous
 unit/h
 200
 2,200
-3,000
+
 
 
 
@@ -1078,6 +1046,89 @@ unit/h
 
 
 Heparin
+heparin
+..Std. Cardiac/PVD
+25,000 unit / 500 mL (50 unit / mL)
+
+
+X
+
+
+
+n/a
+Continuous
+unit/kg/h
+Bolus Dose
+unit/kg
+Bolus Admin Rate
+unit/kg/min
+1
+100
+
+15
+30
+
+82
+
+30
+
+82
+
+
+heparin
+.VTE (DVT, PE)
+25,000 unit / 500 mL (50 unit / mL)
+
+
+X
+
+
+
+n/a
+Continuous
+unit/kg/h
+Bolus Dose
+unit/kg
+Bolus Admin Rate
+unit/kg/min
+1
+100
+
+18
+30
+
+82
+
+30
+
+82
+
+
+heparin
+Cerebrovascular
+25,000 unit / 500 mL (50 unit / mL)
+
+
+X
+
+
+
+n/a
+Continuous
+unit/kg/h
+1
+100
+
+15
+
+
+
+
+
+
+
+
+
 insulin
 
 100 unit / 100 mL (1 unit / mL)
@@ -1199,7 +1250,7 @@ Continuous
 mg/min
 0.5
 4
-4.1
+4.6
 2
 
 
@@ -1237,7 +1288,7 @@ gram/h
 
 milrinone
 
-20 mg / 100 mL (0.2 mg / mL)
+40 mg / 200 mL (0.2 mg / mL)
 
 
 X
@@ -1303,7 +1354,7 @@ Continuous
 mcg/kg/min
 0.005
 0.03
-0.031
+0.035
 0.01
 
 
@@ -1318,10 +1369,16 @@ niCARdipine
 
 20 mg / 200 mL (0.1 mg / mL)
 25 mg / 250 mL (0.1 mg / mL)
+40 mg / 200 mL (0.2 mg / mL)
+50 mg / 500 mL (0.1 mg / mL)
 
 
 X
 X
+X
+X
+
+
 
 
 
@@ -1409,7 +1466,7 @@ n/a
 Continuous
 mcg/min
 0.3
-45
+60
 
 
 
@@ -1420,7 +1477,7 @@ mcg/min
 
 
 
-
+Levophed
 norepinephrine
 .Double Concentrated
 16 mg / 500 mL (0.032 mg / mL)
@@ -1493,8 +1550,8 @@ unit
 Bolus Admin Rate
 unit/min
 1
-20
 41
+
 
 0.9
 30.1
@@ -1596,10 +1653,13 @@ mg/h
 
 phenylephrine
 
-10 mg / 250 mL (0.04 mg / mL)
+10 mg / 251 mL (0.0398 mg / mL)
+20 mg / 502 mL (0.0398 mg / mL)
 
 
 X
+X
+
 
 
 
@@ -1607,9 +1667,37 @@ n/a
 Continuous
 mcg/min
 10
-120
+300
 
 100
+
+
+
+
+
+
+
+
+Phenylephrine
+phenylephrine ANES
+
+10 mg / 101 mL (0.099 mg / mL)
+10 mg / 251 mL (0.0398 mg / mL)
+
+
+X
+X
+
+
+
+
+YES
+Continuous
+mcg/min
+40
+120
+180
+
 
 
 
@@ -1721,7 +1809,7 @@ mcg/kg/min
 Neuromuscular 
 BA
 tirofiban
-< 153 kg & CrCl<=29
+HiDose & CrCl < 60
 12.5 mg / 250 mL (0.05 mg / mL)
 
 
@@ -1736,22 +1824,82 @@ Bolus Dose
 mcg/kg
 Bolus Admin Rate
 mcg/kg/min
-0.05
+0.065
+
+0.085
 0.075
-0.076
-0.05
-5.9
+22
+
+28
+25
+4
 
 6
-6
-0.19
-0.2
-
-0.2
+5
 Bleeding 
 Precautions
 tirofiban
-< 153 kg & CrCl>=30
+HiDose & CrCl >= 60
+12.5 mg / 250 mL (0.05 mg / mL)
+
+
+X
+
+
+
+n/a
+Continuous
+mcg/kg/min
+Bolus Dose
+mcg/kg
+Bolus Admin Rate
+mcg/kg/min
+0.13
+
+0.17
+0.15
+22
+
+28
+25
+4
+
+6
+5
+Bleeding 
+Precautions
+tirofiban
+LoDose & CrCl < 30
+12.5 mg / 250 mL (0.05 mg / mL)
+
+
+X
+
+
+
+n/a
+Continuous
+mcg/kg/min
+Bolus Dose
+mcg/kg
+Bolus Admin Rate
+mcg/kg/min
+0.04
+0.075
+0.09
+0.05
+10
+
+14
+12
+0.3
+0.44
+
+0.4
+Bleeding 
+Precautions
+tirofiban
+LoDose & CrCl >= 30
 12.5 mg / 250 mL (0.05 mg / mL)
 
 
@@ -1768,76 +1916,16 @@ Bolus Admin Rate
 mcg/kg/min
 0.075
 0.15
-0.16
+0.17
 0.1
-11.9
+10
 
-12
+14
 12
 0.3
-0.4
+0.44
 
 0.4
-Bleeding 
-Precautions
-tirofiban
->= 153 kg & CrCl<=29
-12.5 mg / 250 mL (0.05 mg / mL)
-
-
-X
-
-
-
-n/a
-Continuous
-mcg/min
-Bolus Dose
-mcg
-Bolus Admin Rate
-mcg/min
-11.3
-
-11.5
-11.47
-3,824
-
-3,825
-3,825
-764
-
-765
-765
-Bleeding 
-Precautions
-tirofiban
->= 153 kg & CrCl>=30
-12.5 mg / 250 mL (0.05 mg / mL)
-
-
-X
-
-
-
-n/a
-Continuous
-mcg/min
-Bolus Dose
-mcg
-Bolus Admin Rate
-mcg/min
-22.8
-
-23.1
-22.95
-3,824
-
-3,825
-3,825
-764
-
-765
-765
 Bleeding 
 Precautions
 vasopressin
@@ -1853,8 +1941,8 @@ n/a
 Continuous
 unit/min
 0.01
-0.04
-0.041
+0.05
+0.06
 0.04
 
 
@@ -1878,9 +1966,9 @@ n/a
 Continuous
 unit/min
 0.01
+0.05
+0.06
 0.04
-0.041
-0.04
 
 
 
@@ -1889,7 +1977,8 @@ unit/min
 
 
 
-
+Double 
+Concentrated
 vecuronium
 
 50 mg / 100 mL (0.5 mg / mL)
@@ -1899,7 +1988,7 @@ X
 
 
 
-n/a
+YES
 Continuous
 mcg/kg/min
 Bolus Dose
@@ -2248,13 +2337,13 @@ Soft
 Min
 Soft
 Max
-alteplase
-Stroke < 100kg
+alteplase -stroke
+Stroke < 101 kg
 WeightBased
 X
 
 mg/mL
-0.98
+0.85
 0.99
 1.01
 atracurium
@@ -2275,15 +2364,6 @@ mg/mL
 0.009
 0.01
 0.26
-cisatracurium
-
-WeightBased
-X
-
-mcg/mL
-100
-
-1,500
 doxapram
 
 NonWeightBased
@@ -2328,7 +2408,7 @@ X
 
 mcg/mL
 
-0.05
+0.01
 1
 
 2.1.3	Continuous/Bolus - Anesthesia Only Drugs
@@ -2403,16 +2483,10 @@ mg/kg/h
 
 phenylephrine ANES
 
-10 mg / 100 mL (0.1 mg / mL)
-10 mg / 250 mL (0.04 mg / mL)
 --- mg / --- mL
 
 
 X
-X
-X
-
-
 
 
 
@@ -2550,15 +2624,12 @@ mcg/kg/h
 
 
 
-vecuronium ANES
+vecuronium
 
-50 mg / 100 mL (0.5 mg / mL)
 --- mg / --- mL
 
 
 X
-X
-
 
 
 
@@ -2636,7 +2707,7 @@ mcg/mL
 
 0.2
 4
-vecuronium ANES
+vecuronium
 
 WeightBased
 X
@@ -2644,7 +2715,7 @@ X
 mcg/mL
 
 0.1
-2
+1
 
 2.1.5	Intermittent Drugs
 Intermittent Drugs - Adult
@@ -2691,7 +2762,7 @@ Soft
 Max
 
 acetaminophen
-
+.MG Dosing
 X
 X
 mg
@@ -2699,6 +2770,26 @@ mg
 1,000
 
 1,000 mg / 100 mL (10 mg / mL)
+X
+
+
+00:10
+00:30
+00:15
+n/a
+
+
+
+
+acetaminophen
+GM dosing
+X
+X
+gram
+0.5
+1
+
+1 gram / 100 mL (0.01 gram / mL)
 X
 
 
@@ -2755,9 +2846,9 @@ acetylcysteine
 X
 X
 mg
-14,999
-15,000
-15,001
+13,500
+16,500
+18,000
 15,000 mg / 275 mL (54.5455 mg / 
 mL)
 X
@@ -2796,9 +2887,9 @@ acetylcysteine
 X
 X
 mg
-4,999
-5,000
-5,001
+4,000
+5,500
+6,500
 5,000 mg / 525 mL (9.5238 mg / mL)
 X
 
@@ -2836,9 +2927,9 @@ acetylcysteine
 X
 X
 mg
-9,999
-10,000
-10,001
+9,000
+11,000
+12,500
 10,000 mg / 1,050 mL (9.5238 mg / 
 mL)
 X
@@ -2859,6 +2950,26 @@ X
 mg
 100
 2,000
+
+--- mg / --- mL
+X
+
+
+00:45
+02:00
+01:00
+mg/mL
+0.1
+1
+7
+
+acyclovir
+
+X
+X
+mg/kg
+1
+10
 
 --- mg / --- mL
 X
@@ -2911,6 +3022,85 @@ n/a
 
 
                               
+alteplase-non-stroke
+Central IV Occlusion
+X
+X
+mg
+2
+4
+
+2 mg / 50 mL (0.04 mg / mL)
+X
+
+
+00:07
+01:00
+00:15
+n/a
+
+
+
+
+
+
+
+
+
+
+
+2 mg / 100 mL (0.02 mg / mL)
+X
+
+
+00:07
+01:00
+00:15
+n/a
+
+
+
+                              
+alteplase-non-stroke
+DVT / Ischemic Limb
+X
+X
+mg
+0.9
+
+24
+--- mg / --- mL
+X
+
+01:00
+
+24:00
+
+mg/mL
+0.004
+0.008
+0.51
+
+alteplase-non-stroke
+Pulmonary Embolism
+X
+
+mg
+49
+115
+130
+100 mg / 100 mL (1 mg / mL)
+X
+
+
+01:45
+02:15
+02:00
+n/a
+
+
+
+
 amikacin
 
 X
@@ -2918,7 +3108,7 @@ X
 mg/kg
 1
 10
-10.1
+
 --- mg / --- mL
 X
 
@@ -2932,7 +3122,7 @@ mg/mL
 11
 
 aminocaproic acid
-
+.MG Dosing
 X
 X
 mg
@@ -2951,6 +3141,27 @@ mg/mL
 5
 50
 
+aminocaproic acid
+GM dosing
+X
+X
+gram
+0.5
+5.7
+
+--- gram / --- mL
+X
+
+
+00:45
+02:00
+01:00
+gram/m
+L
+0.001
+0.005
+0.05
+
 amiodarone *Loading*
 
 X
@@ -2958,6 +3169,25 @@ X
 mg
 149
 151
+
+150 mg / 100 mL (1.5 mg / mL)
+X
+
+
+00:08
+00:15
+00:10
+n/a
+
+
+
+
+
+
+
+
+
+
 
 150 mg / 103 mL (1.4563 mg / mL)
 X
@@ -2970,11 +3200,11 @@ n/a
 
 
 
-
+                              
 ampho B (liposomal)
 
 X
-X
+
 mg/kg
 2
 7
@@ -2994,7 +3224,7 @@ AmBisome
 amphotericin B
 
 X
-X
+
 mg/kg
 0.05
 1
@@ -3143,7 +3373,7 @@ X
 mg/mL
 
 1
-21
+30
                               
 ampicillin
 GM dosing
@@ -3257,17 +3487,17 @@ X
 00:30
 gram/m
 L
-
-1
-21
+0.001
+0.002
+0.03
                               
 ampicillin/sulbact
 .MG Dosing
 X
 X
 mg
-1,500
-3,000
+1,200
+3,400
 
 1,500 mg / 50 mL (30 mg / mL)
 X
@@ -3324,8 +3554,8 @@ GM dosing
 X
 X
 gram
-1.5
-3
+1.2
+3.4
 
 1.5 gram / 50 mL (0.03 gram / mL)
 X
@@ -3402,8 +3632,8 @@ azithromycin
 X
 X
 mg
-250
-501
+210
+575
 
 250 mg / 250 mL (1 mg / mL)
 X
@@ -3437,7 +3667,84 @@ n/a
 
                               
 aztreonam
+.MG Dosing
+X
+X
+mg
+250
+2,000
 
+1,000 mg / 50 mL (20 mg / mL)
+X
+
+
+00:20
+01:00
+00:30
+n/a
+
+
+
+
+
+
+
+
+
+
+
+1,000 mg / 100 mL (10 mg / mL)
+X
+
+
+00:20
+01:00
+00:30
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+2,000 mg / 50 mL (40 mg / mL)
+X
+
+
+00:20
+02:00
+01:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+2,000 mg / 100 mL (20 mg / mL)
+X
+
+
+00:20
+02:00
+01:00
+n/a
+
+
+
+                              
+aztreonam
+GM dosing
 X
 X
 gram
@@ -3482,7 +3789,7 @@ n/a
 
 
 
-2 gram / 100 mL (0.02 gram / mL)
+2 gram / 50 mL (0.04 gram / mL)
 X
 
 
@@ -3494,18 +3801,233 @@ n/a
 
 
                               
-calcium gluconate
+
+
+
+
+
+
+
+2 gram / 100 mL (0.02 gram / mL)
+X
+
+
+00:20
+02:00
+02:00
+n/a
+
+
+
+                              
+caffeine citrate
 
 X
 X
-gram
-0.5
-2
+mg
+1
+1,200
 
-1 gram / 50 mL (0.02 gram / mL)
+--- mg / --- mL
+X
+
+
+00:20
+06:00
+
+mg/mL
+
+0.01
+10
+
+caffeine/sod benzoa
+
+X
+X
+mg
+50
+501
+1,001
+--- mg / --- mL
+X
+
+00:15
+00:20
+04:00
+01:00
+mg/mL
+
+0.24
+6
+0.22 Filter 
+Needed
+calcium chloride
+.MG Dosing
+X
+X
+mg
+100
+2,000
+
+1,000 mg / 60 mL (16.6667 mg / mL)
 X
 
 00:10
+00:45
+24:00
+01:00
+n/a
+
+
+
+
+
+
+
+
+
+
+
+1,000 mg / 110 mL (9.0909 mg / mL)
+X
+
+00:10
+00:45
+24:00
+01:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+2,000 mg / 120 mL (16.6667 mg / mL)
+X
+
+00:20
+00:45
+24:00
+02:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+--- mg / --- mL
+X
+
+00:20
+00:45
+24:00
+
+mg/mL
+
+0.1
+20
+                              
+calcium chloride
+GM dosing
+X
+X
+gram
+0.1
+10
+
+1 gram / 60 mL (0.0167 gram / mL)
+X
+
+00:10
+00:45
+24:00
+01:00
+n/a
+
+
+
+
+
+
+
+
+
+
+
+1 gram / 110 mL (0.0091 gram / mL)
+X
+
+00:10
+00:45
+24:00
+01:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+2 gram / 120 mL (0.0167 gram / mL)
+X
+
+00:20
+00:45
+24:00
+02:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+--- gram / --- mL
+X
+
+00:20
+00:45
+24:00
+
+gram/m
+L
+
+0.001
+0.04
+                              
+calcium gluconate
+.MG Dosing
+X
+X
+mg
+500
+2,400
+
+1,000 mg / 60 mL (16.6667 mg / mL)
+X
+
+00:09
 00:15
 06:00
 
@@ -3521,10 +4043,10 @@ n/a
 
 
 
-1 gram / 100 mL (0.01 gram / mL)
+1,000 mg / 110 mL (9.0909 mg / mL)
 X
 
-00:10
+00:09
 00:15
 06:00
 
@@ -3540,10 +4062,10 @@ n/a
 
 
 
-2 gram / 50 mL (0.04 gram / mL)
+2,000 mg / 70 mL (28.5714 mg / mL)
 X
 
-00:20
+00:19
 00:30
 06:00
 
@@ -3559,10 +4081,106 @@ n/a
 
 
 
-2 gram / 100 mL (0.02 gram / mL)
+2,000 mg / 120 mL (16.6667 mg / mL)
 X
 
-00:20
+00:19
+00:30
+06:00
+
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+--- mg / --- mL
+X
+
+00:10
+00:25
+06:00
+
+mg/mL
+1
+
+40
+                              
+calcium gluconate
+GM dosing
+X
+X
+gram
+0.5
+2.4
+
+1 gram / 60 mL (0.0167 gram / mL)
+X
+
+00:09
+00:15
+06:00
+
+n/a
+
+
+
+
+
+
+
+
+
+
+
+1 gram / 110 mL (0.0091 gram / mL)
+X
+
+00:09
+00:15
+06:00
+
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+2 gram / 70 mL (0.0286 gram / mL)
+X
+
+00:19
+00:30
+06:00
+
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+2 gram / 120 mL (0.0167 gram / mL)
+X
+
+00:19
 00:30
 06:00
 
@@ -3582,13 +4200,13 @@ n/a
 X
 
 00:10
-00:15
+00:25
 06:00
 
 gram/m
 L
 0.001
-0.01
+
 0.04
                               
 caspofungin
@@ -3597,7 +4215,7 @@ X
 X
 mg
 35
-70
+90
 
 35 mg / 100 mL (0.35 mg / mL)
 X
@@ -3650,91 +4268,13 @@ n/a
 
 
                               
-Cathflo (alteplase)
-Central IV Occlusion
-X
-X
-mg
-2
-4
-
-2 mg / 50 mL (0.04 mg / mL)
-X
-
-
-00:01
-01:00
-00:15
-n/a
-
-
-
-
-
-
-
-
-
-
-
-2 mg / 100 mL (0.02 mg / mL)
-X
-
-
-00:01
-01:00
-00:15
-n/a
-
-
-
-                              
-Cathflo (alteplase)
-Pulmonary Embolism
-X
-
-mg
-49
-100
-101
-50 mg / 50 mL (1 mg / mL)
-X
-
-
-00:52
-01:08
-01:00
-n/a
-
-
-
-
-
-
-
-
-
-
-
-100 mg / 100 mL (1 mg / mL)
-X
-
-
-01:45
-02:15
-02:00
-n/a
-
-
-
-                              
 ceFAZolin
 .MG Dosing
 X
 X
 mg
-1,000
-2,000
+800
+2,300
 
 1,000 mg / 50 mL (20 mg / mL)
 X
@@ -3829,8 +4369,8 @@ GM dosing
 X
 X
 gram
-1
-2
+0.8
+2.3
 
 1 gram / 50 mL (0.02 gram / mL)
 X
@@ -4164,7 +4704,7 @@ mg
 X
 
 
-00:15
+00:25
 01:00
 00:30
 n/a
@@ -4183,7 +4723,7 @@ n/a
 X
 
 
-00:15
+00:25
 01:00
 00:30
 n/a
@@ -4240,7 +4780,7 @@ n/a
 X
 
 
-00:15
+00:25
 01:00
 00:30
 mg/mL
@@ -4628,7 +5168,7 @@ mg
 X
 
 
-00:05
+00:07
 01:15
 01:00
 n/a
@@ -4647,7 +5187,7 @@ n/a
 X
 
 
-00:05
+00:07
 01:15
 01:00
 n/a
@@ -4666,7 +5206,7 @@ n/a
 X
 
 
-00:05
+00:07
 01:15
 01:00
 n/a
@@ -4685,7 +5225,7 @@ n/a
 X
 
 
-00:05
+00:07
 01:15
 01:00
 n/a
@@ -4704,7 +5244,7 @@ n/a
 X
 
 
-00:05
+00:07
 01:15
 01:00
 n/a
@@ -4723,7 +5263,7 @@ n/a
 X
 
 
-00:05
+00:07
 01:15
 01:00
 n/a
@@ -4742,7 +5282,7 @@ n/a
 X
 
 
-00:05
+00:07
 01:15
 01:00
 n/a
@@ -4761,13 +5301,32 @@ n/a
 X
 
 
-00:05
+00:07
 01:15
 01:00
 n/a
 
 
 
+                              
+
+
+
+
+
+
+
+--- mg / --- mL
+X
+
+
+00:07
+04:00
+01:00
+mg/mL
+
+0.1
+14
                               
 cefTAZidime
 .MG Dosing
@@ -4942,6 +5501,27 @@ n/a
 
 
                               
+ceftazidime/avibacta
+
+X
+X
+gram
+0.93
+
+2.8
+--- gram / --- mL
+X
+
+
+01:42
+02:18
+02:00
+gram/m
+L
+0.003
+
+0.051
+
 ceftolozane/tazo
 .MG Dosing
 X
@@ -5017,7 +5597,7 @@ X
 mg/mL
 1
 1.4
-15.1
+30.1
                               
 ceftolozane/tazo
 GM dosing
@@ -5057,14 +5637,14 @@ gram/m
 L
 0.001
 
-0.016
+0.031
                               
 cefTRIAXone
 .MG Dosing
 X
 X
 mg
-1,000
+500
 2,000
 
 1,000 mg / 50 mL (20 mg / mL)
@@ -5160,7 +5740,7 @@ GM dosing
 X
 X
 gram
-1
+0.5
 2
 
 1 gram / 50 mL (0.02 gram / mL)
@@ -5414,18 +5994,18 @@ X
 mg/kg
 3
 25
-26
+30
 --- mg / --- mL
 X
 
 
 00:15
-00:40
+01:00
 00:30
 mg/mL
 5
 10
-20
+110
 
 chlorothiazide
 
@@ -5434,7 +6014,7 @@ X
 mg
 50
 1,000
-2,000
+2,300
 --- mg / --- mL
 X
 
@@ -5447,21 +6027,42 @@ mg/mL
 2
 20
 
+chlorproMAZINE
+
+X
+X
+mg
+1
+51
+
+--- mg / --- mL
+X
+
+
+00:10
+02:00
+00:15
+mg/mL
+
+0.001
+1.1
+Patient Lie 
+Down
 ciprofloxacin
 
 X
 X
 mg
-200
-400
-401
+180
+440
+500
 200 mg / 100 mL (2 mg / mL)
 X
 
 
 00:50
-01:10
-01:00
+03:05
+
 n/a
 
 
@@ -5479,8 +6080,8 @@ X
 
 
 00:50
-01:10
-01:00
+03:05
+
 n/a
 
 
@@ -5492,20 +6093,115 @@ X
 X
 mg
 50
-900
+901
 
---- mg / --- mL
+300 mg / 50 mL (6 mg / mL)
 X
 
 
 00:20
 01:00
 00:30
-mg/mL
-1
-2
-18.1
+n/a
 
+
+
+
+
+
+
+
+
+
+
+300 mg / 100 mL (3 mg / mL)
+X
+
+
+00:20
+01:00
+00:30
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+600 mg / 50 mL (12 mg / mL)
+X
+
+
+00:20
+01:00
+00:30
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+600 mg / 100 mL (6 mg / mL)
+X
+
+
+00:20
+01:00
+00:30
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+900 mg / 50 mL (18 mg / mL)
+X
+
+
+00:20
+01:00
+00:30
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+900 mg / 100 mL (9 mg / mL)
+X
+
+
+00:20
+01:00
+00:30
+n/a
+
+
+
+                              
 colistimethate
 
 X
@@ -5604,27 +6300,7 @@ X
 mg/mL
 0.05
 0.1
-0.35
-
-DAPTOmycin
-
-X
-X
-mg
-250
-1,000
-
---- mg / --- mL
-X
-
-00:15
-00:25
-01:00
-00:30
-mg/mL
-1
-5
-20
+100
 
 DAPTOmycin
 
@@ -5639,7 +6315,7 @@ X
 
 00:15
 00:25
-01:00
+02:00
 00:30
 mg/mL
 1
@@ -5657,10 +6333,30 @@ mg
 --- mg / --- mL
 X
 
+04:00
 08:00
+24:00
 
-12:00
-10:00
+mg/mL
+1
+
+95
+
+deferoxamine
+
+X
+X
+mg/kg
+30
+60
+
+--- mg / --- mL
+X
+
+04:00
+08:00
+24:00
+
 mg/mL
 1
 
@@ -5670,21 +6366,61 @@ desmopressin
 
 X
 X
-mcg/kg
-0.25
-0.35
+mcg
+0.1
+22
 
 --- mcg / --- mL
 X
 
 
 00:15
-01:00
-00:30
+03:00
+
 mcg/mL
 0.005
 0.01
 4
+
+desmopressin
+
+X
+X
+mcg/kg
+0.25
+0.41
+
+--- mcg / --- mL
+X
+
+
+00:15
+03:00
+
+mcg/mL
+0.005
+0.01
+4
+
+dexamethasone
+
+X
+X
+mg
+1
+20
+
+--- mg / --- mL
+X
+
+00:05
+00:07
+02:00
+00:30
+mg/mL
+0.01
+
+10
 
 digoxin immune fab
 
@@ -6040,9 +6776,9 @@ famotidine
 X
 X
 mg
-19
-40
-41
+8
+44
+50
 20 mg / 50 mL (0.4 mg / mL)
 X
 
@@ -6107,7 +6843,7 @@ X
 
 
 00:15
-01:00
+02:00
 
 mg/mL
 1
@@ -6233,6 +6969,26 @@ mg/mL
 1
 30
 
+fosphenytoin
+
+X
+X
+mg/kg
+1
+20
+
+--- mg / --- mL
+X
+
+00:10
+00:11
+01:00
+00:20
+mg/mL
+0.5
+1
+30
+
 ganciclovir
 
 X
@@ -6324,9 +7080,9 @@ gram
 X
 
 
-00:30
-01:15
-01:00
+00:31
+24:00
+
 n/a
 
 
@@ -6363,8 +7119,8 @@ mg/kg
 --- mg / --- mL
 X
 
-00:04
-00:05
+00:07
+
 00:30
 00:10
 mg/mL
@@ -6380,11 +7136,11 @@ mg
 0.4
 1.25
 
-0.5 mg / 50 mL (0.01 mg / mL)
+1 mg / 60 mL (0.0167 mg / mL)
 X
 
-00:04
-00:05
+00:07
+
 00:30
 00:10
 n/a
@@ -6392,63 +7148,6 @@ n/a
 
 
 
-
-
-
-
-
-
-
-0.5 mg / 100 mL (0.005 mg / mL)
-X
-
-00:04
-00:05
-00:30
-00:10
-n/a
-
-
-
-                              
-
-
-
-
-
-
-
-1 mg / 50 mL (0.02 mg / mL)
-X
-
-00:04
-00:05
-00:30
-00:10
-n/a
-
-
-
-                              
-
-
-
-
-
-
-
-1 mg / 100 mL (0.01 mg / mL)
-X
-
-00:04
-00:05
-00:30
-00:10
-n/a
-
-
-
-                              
 imipenem/cilastatin
 .MG Dosing
 X
@@ -6572,9 +7271,9 @@ X
 X
 gram
 1
-100
+300
 
-5 gram / 100 mL (0.05 gram / mL)
+5 gram / 50 mL (0.1 gram / mL)
 X
 
 
@@ -6587,6 +7286,44 @@ n/a
 
 Hypersensitivi
 ty
+
+
+
+
+
+
+
+5 gram / 100 mL (0.05 gram / mL)
+X
+
+
+00:20
+04:00
+
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+10 gram / 100 mL (0.1 gram / mL)
+X
+
+
+00:40
+08:00
+
+n/a
+
+
+
+                              
 
 
 
@@ -6626,6 +7363,26 @@ L
 0.05
 0.1
                               
+immune glob (IVIG)
+
+X
+X
+gram/kg
+1
+200
+
+--- gram / --- mL
+X
+
+
+02:00
+36:00
+
+No
+
+
+
+
 inFLIXimab
 
 X
@@ -6681,7 +7438,7 @@ X
 
 
 00:20
-01:00
+08:00
 00:30
 n/a
 
@@ -6767,7 +7524,7 @@ mg/mL
 3.4
                               
 Kcentra (Factor IX)
-.INR 2 but <  4
+.INR 2 to <  4
 X
 X
 unit/kg
@@ -6964,26 +7721,6 @@ n/a
 
 
 
-mag OB load
-
-X
-X
-gram
-1
-7
-
-4 gram / 100 mL (0.04 gram / mL)
-X
-
-
-00:20
-08:00
-00:30
-n/a
-
-
-
-
 mag sulfate
 
 X
@@ -6992,25 +7729,6 @@ gram
 0.5
 7
 8
-1 gram / 100 mL (0.01 gram / mL)
-X
-
-
-00:30
-03:00
-02:00
-n/a
-
-
-
-
-
-
-
-
-
-
-
 2 gram / 50 mL (0.04 gram / mL)
 X
 
@@ -7022,7 +7740,7 @@ n/a
 
 
 
-                              
+
 
 
 
@@ -7036,7 +7754,7 @@ X
 
 00:20
 09:00
-08:00
+
 n/a
 
 
@@ -7067,20 +7785,61 @@ mannitol  20%
 X
 X
 gram
-50
+10
 100
 
 100 gram / 500 mL (0.2 gram / mL)
 X
 
 
-00:25
+00:31
 04:00
-00:30
+
 n/a
 
 
 
+In-line filter
+
+
+
+
+
+
+
+--- gram / --- mL
+X
+
+
+00:31
+08:00
+
+gram/m
+L
+0.15
+0.18
+0.21
+                              
+mannitol  20%
+
+X
+X
+gram/kg
+0.1
+2.1
+
+--- gram / --- mL
+X
+
+
+00:31
+08:00
+
+gram/m
+L
+0.15
+0.18
+0.21
 In-line filter
 meropenem
 .MG Dosing
@@ -7148,25 +7907,6 @@ n/a
 
 
 1,000 mg / 100 mL (10 mg / mL)
-X
-
-
-00:15
-01:00
-00:30
-n/a
-
-
-
-                              
-
-
-
-
-
-
-
-2,000 mg / 50 mL (40 mg / mL)
 X
 
 
@@ -7281,25 +8021,6 @@ n/a
 
 
 
-2 gram / 50 mL (0.04 gram / mL)
-X
-
-
-00:15
-01:00
-00:30
-n/a
-
-
-
-                              
-
-
-
-
-
-
-
 2 gram / 100 mL (0.02 gram / mL)
 X
 
@@ -7382,15 +8103,14 @@ mg
 X
 
 
-00:50
+00:30
 02:00
 01:00
 n/a
 
 
 
-Protect From 
-Light
+
 
 
 
@@ -7402,7 +8122,7 @@ Light
 X
 
 
-00:50
+00:30
 02:00
 01:00
 n/a
@@ -7463,84 +8183,6 @@ X
 00:50
 01:30
 01:00
-n/a
-
-
-
-                              
-MVI Folate Thiamine
-
-X
-X
-unit
-0.9
-1.1
-1.11
-1 unit / 500 mL (0.002 unit / mL)
-X
-
-
-00:30
-24:00
-04:00
-n/a
-
-
-
-MVI
-
-
-
-
-
-
-
-1 unit / 1,000 mL (0.001 unit / mL)
-X
-
-
-01:00
-24:00
-08:00
-n/a
-
-
-
-                              
-MVI+Folate+Thiamine
-
-X
-X
-unit
-0.9
-1.1
-1.11
-1 unit / 500 mL (0.002 unit / mL)
-X
-
-
-00:30
-24:00
-04:00
-n/a
-
-
-
-MVI
-
-
-
-
-
-
-
-1 unit / 1,000 mL (0.001 unit / mL)
-X
-
-
-01:00
-24:00
-08:00
 n/a
 
 
@@ -7802,8 +8444,8 @@ X
 X
 mg
 29
-90
-91
+99
+110
 --- mg / --- mL
 X
 
@@ -8087,7 +8729,7 @@ X
 
 00:20
 04:15
-04:00
+
 n/a
 
 
@@ -8106,11 +8748,51 @@ X
 
 00:20
 04:15
+
+n/a
+
+
+
+                              
+potassium acetate
+
+X
+X
+mEq
+1
+46
+48
+40 mEq / 520 mL (0.0769 mEq / mL)
+X
+
+02:00
+03:30
+12:00
 04:00
 n/a
 
 
 
+
+
+
+
+
+
+
+
+--- mEq / --- mL
+X
+
+00:45
+
+12:00
+
+mEq/m
+L
+
+0.01
+0.46
                               
 potassium chloride
 Central Line
@@ -8119,13 +8801,13 @@ X
 mEq
 5
 
-40
+46
 10 mEq / 100 mL (0.1 mEq / mL)
 X
 
 00:20
 00:30
-03:00
+06:00
 01:00
 n/a
 
@@ -8144,7 +8826,7 @@ X
 
 00:40
 01:00
-04:00
+08:00
 02:00
 n/a
 
@@ -8163,7 +8845,7 @@ X
 
 01:40
 02:00
-06:00
+12:00
 04:00
 n/a
 
@@ -8182,7 +8864,7 @@ X
 
 00:50
 01:00
-06:00
+12:00
 
 mEq/m
 L
@@ -8197,13 +8879,13 @@ X
 mEq
 5
 
-40
+46
 10 mEq / 100 mL (0.1 mEq / mL)
 X
 
 00:45
 
-03:00
+06:00
 01:00
 n/a
 
@@ -8222,7 +8904,7 @@ X
 
 03:20
 
-06:00
+12:00
 04:00
 n/a
 
@@ -8241,7 +8923,7 @@ X
 
 00:50
 01:00
-06:00
+12:00
 
 mEq/m
 L
@@ -8260,8 +8942,8 @@ mmol
 --- mmol / --- mL
 X
 
-03:00
-
+01:00
+02:00
 09:00
 
 mmol/m
@@ -8269,6 +8951,174 @@ L
 0.005
 0.01
 0.24
+
+pralidoxime
+Load <67kg 
+WtBasedGM
+X
+X
+gram/kg
+0.001
+
+0.034
+--- gram / --- mL
+X
+
+00:10
+
+01:00
+00:15
+gram/m
+L
+
+0.009
+0.051
+
+pralidoxime
+Load <67kg 
+WtBasedMG
+X
+X
+mg/kg
+1
+
+34
+--- mg / --- mL
+X
+
+00:10
+
+01:00
+00:15
+mg/mL
+
+9
+51
+
+pralidoxime
+Load >67kg 
+WtBasedGM
+X
+X
+gram
+1
+21
+
+--- gram / --- mL
+X
+
+00:11
+
+01:00
+00:20
+gram/m
+L
+
+0.009
+0.051
+
+pralidoxime
+Load >67kg 
+WtBasedMG
+X
+X
+mg
+500
+
+2,300
+--- mg / --- mL
+X
+
+00:11
+
+01:00
+00:20
+mg/mL
+
+9
+51
+
+pralidoxime
+Load NonWtBased MG
+X
+X
+mg
+900
+
+2,300
+--- mg / --- mL
+X
+
+00:10
+
+01:00
+00:20
+mg/mL
+
+9
+51
+
+pralidoxime
+Load NonWtBasedGM
+X
+X
+gram
+0.9
+
+2.3
+--- gram / --- mL
+X
+
+00:10
+
+01:00
+00:15
+gram/m
+L
+
+0.009
+0.051
+
+pralidoxime
+Maintenance Dose GM
+X
+X
+gram
+0.9
+
+2.3
+--- gram / --- mL
+X
+
+00:10
+
+24:00
+
+gram/m
+L
+
+0.009
+0.051
+
+pralidoxime
+Maintenance Dose MG
+X
+X
+mg
+900
+
+2,300
+--- mg / --- mL
+X
+
+00:10
+
+24:00
+
+mg/mL
+5
+9
+51
 
 promethazine
 
@@ -8322,7 +9172,7 @@ mg
 X
 
 
-00:50
+00:25
 03:00
 01:00
 n/a
@@ -8341,7 +9191,7 @@ n/a
 X
 
 
-00:50
+00:25
 03:00
 01:00
 n/a
@@ -8360,7 +9210,7 @@ n/a
 X
 
 
-00:50
+00:25
 03:00
 01:00
 mg/mL
@@ -8384,8 +9234,8 @@ X
 25:00
 
 mg/mL
-0.9
-1
+0.1
+0.2
 4
 Premedicate
 SMX/TMP
@@ -8420,7 +9270,7 @@ mmol
 --- mmol / --- mL
 X
 
-03:00
+00:45
 
 12:00
 
@@ -8435,9 +9285,9 @@ tedizolid phosphate
 X
 X
 mg
-199.9
-200
-200.1
+175
+225
+250
 200 mg / 250 mL (0.8 mg / mL)
 X
 
@@ -8467,7 +9317,7 @@ X
 00:30
 mg/mL
 0.001
-1
+0.7
 5
 
 ticarcillin/clav
@@ -8609,9 +9459,9 @@ tobramycin
 
 X
 X
-mg
-40
-600
+mg/kg
+0.5
+9
 
 --- mg / --- mL
 X
@@ -8652,6 +9502,26 @@ X
 mg
 250
 2,000
+
+--- mg / --- mL
+X
+
+
+00:50
+01:30
+01:00
+mg/mL
+0.1
+1
+11
+
+valproate sodium
+
+X
+X
+mg/kg
+1
+40
 
 --- mg / --- mL
 X
@@ -8838,6 +9708,178 @@ mg/mL
 5
                               
 vancomycin
+.MG Dosing
+X
+X
+mg/kg
+5
+
+30
+500 mg / 100 mL (5 mg / mL)
+X
+
+00:25
+
+04:00
+00:30
+n/a
+
+
+
+
+
+
+
+
+
+
+
+750 mg / 250 mL (3 mg / mL)
+X
+
+00:40
+
+04:00
+01:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+1,000 mg / 200 mL (5 mg / mL)
+X
+
+00:50
+
+04:00
+01:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+1,000 mg / 250 mL (4 mg / mL)
+X
+
+00:50
+
+04:00
+01:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+1,250 mg / 250 mL (5 mg / mL)
+X
+
+01:10
+
+04:00
+01:30
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+1,500 mg / 500 mL (3 mg / mL)
+X
+
+01:20
+
+05:00
+01:30
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+1,750 mg / 500 mL (3.5 mg / mL)
+X
+
+01:45
+
+06:00
+02:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+2,000 mg / 500 mL (4 mg / mL)
+X
+
+01:45
+
+06:00
+02:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+--- mg / --- mL
+X
+
+00:25
+
+06:00
+
+mg/mL
+1
+3
+5
+                              
+vancomycin
 GM dosing
 X
 X
@@ -8963,7 +10005,7 @@ n/a
 mL)
 X
 
-01:45
+01:35
 
 06:00
 02:00
@@ -9004,6 +10046,180 @@ X
 
 00:50
 04:00
+
+gram/m
+L
+0.001
+0.003
+0.006
+                              
+vancomycin
+GM dosing
+X
+X
+gram/kg
+0.005
+
+0.03
+0.5 gram / 100 mL (0.005 gram / mL)
+X
+
+00:20
+
+06:00
+00:30
+n/a
+
+
+
+
+
+
+
+
+
+
+
+0.75 gram / 250 mL (0.003 gram / mL)
+X
+
+00:40
+
+06:00
+01:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+1 gram / 200 mL (0.005 gram / mL)
+X
+
+00:50
+
+06:00
+01:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+1 gram / 250 mL (0.004 gram / mL)
+X
+
+00:50
+
+06:00
+01:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+1.25 gram / 250 mL (0.005 gram / mL)
+X
+
+01:10
+
+06:00
+01:30
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+1.5 gram / 500 mL (0.003 gram / mL)
+X
+
+01:10
+
+06:00
+01:30
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+1.75 gram / 500 mL (0.0035 gram / 
+mL)
+X
+
+01:35
+
+06:00
+02:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+2 gram / 500 mL (0.004 gram / mL)
+X
+
+01:45
+
+06:00
+02:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+--- gram / --- mL
+X
+
+00:25
+
+06:00
 
 gram/m
 L
@@ -9066,8 +10282,8 @@ X
 04:00
 02:00
 mg/mL
+
 0.5
-1
 5
 
 zoledronic acid
@@ -9217,6 +10433,51 @@ X
 999
 
 
+.IVF + KCL
+10 mEq/L
+Yes
+X
+
+1
+999
+
+
+.IVF + KCL
+15 mEq/L
+Yes
+X
+
+1
+666
+700
+
+.IVF + KCL
+20 mEq/L
+Yes
+X
+
+1
+500
+550
+
+.IVF + KCL
+30 mEq/L
+Yes
+X
+
+1
+333
+366
+
+.IVF + KCL
+40 mEq/L
+Yes
+X
+
+1
+250
+275
+
 .IVF + KCL 10 mEq/L
 Yes
 X
@@ -9232,14 +10493,6 @@ X
 1
 500
 550
-
-.IVF + KCL 30 mEq/L
-Yes
-X
-
-1
-333
-350
 
 .IVF + KCL 40 mEq/L
 Yes
@@ -9287,7 +10540,7 @@ X
 
 1
 150
-250
+
 
 Fresh Frozen Plasma
 No
@@ -9305,20 +10558,28 @@ X
 160
 200
 
-Mannitol
-No
+MVI Only
+Yes
 X
 
 1
 999
 
 
-PPN
+MVI+Folate+Thiamine
+Yes
+X
+
+1
+999
+
+
+Parenteral Nutrition
 No
 X
 
-41
-90
+35
+95
 
 Midline Warning
 PRBCs
@@ -9329,18 +10590,10 @@ X
 150
 
 Dedicated IV Line
-TPN
-No
-X
-
-41
-90
-
-Central Line Only
 
 2.1.7	PCA Drugs
 No drugs exist in this section.
-    2.2	 Nursery
+    2.2	 Infusion Center
 
 2.2.1	Continuous/Bolus - Non-Anesthesia Drugs
 No drugs exist in this section.
@@ -9355,10 +10608,1780 @@ No drugs exist in this section.
 No drugs exist in this section.
 
 2.2.5	Intermittent Drugs
-No drugs exist in this section.
+Intermittent Drugs - Infusion Center
+Drug Name
+Therapy
+Available 
+As
+Total Dose Limits
+Concentrations
+Module
+Duration Limits (hh:mm)
+Concentration Limits
+Clinical Ads.
+Name
+
+Pri.
+Sec.
+Dosing
+Units
+Soft
+Min
+Soft
+Max
+Hard
+Max
+
+P
+S
+Hard 
+Min
+Soft 
+Min
+Soft 
+Max
+Initial 
+Value
+Conc. 
+Units
+Hard 
+Min
+Soft 
+Min
+Soft 
+Max
+
+aprepitant
+
+X
+X
+mg
+99
+131
+
+100 mg / 100 mL (1 mg / mL)
+X
+
+00:11
+
+01:00
+00:30
+n/a
+
+
+
+DEHP
+
+
+
+
+
+
+
+130 mg / 100 mL (1.3 mg / mL)
+X
+
+00:11
+
+01:00
+00:30
+n/a
+
+
+
+                              
+atezolizumab
+
+X
+X
+mg
+799
+1,681
+
+840 mg / 250 mL (3.36 mg / mL)
+X
+
+
+00:20
+01:30
+
+n/a
+
+
+
+
+
+
+
+
+
+
+
+1,200 mg / 250 mL (4.8 mg / mL)
+X
+
+
+00:20
+01:30
+
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+1,680 mg / 250 mL (6.72 mg / mL)
+X
+
+
+00:20
+01:30
+
+n/a
+
+
+
+                              
+Bendamusti (Bendeka)
+
+X
+X
+mg/m2
+25
+120
+
+--- mg / --- mL
+X
+
+
+00:08
+00:15
+00:10
+mg/mL
+
+1.85
+5.6
+
+Bendamusti (Treanda)
+
+X
+X
+mg/m2
+25
+120
+
+--- mg / --- mL
+X
+
+
+00:20
+01:20
+00:30
+mg/mL
+
+0.2
+0.7
+
+bevacizumab
+First Dose
+X
+X
+mg/kg
+5
+15
+
+--- mg / --- mL
+X
+
+01:15
+01:30
+03:00
+01:30
+mg/mL
+
+1
+25
+
+bevacizumab
+Second Dose
+X
+X
+mg/kg
+5
+15
+
+--- mg / --- mL
+X
+
+00:45
+
+01:30
+01:00
+mg/mL
+
+1
+25
+
+bevacizumab
+Subsequent Doses
+X
+X
+mg/kg
+5
+15
+
+--- mg / --- mL
+X
+
+00:20
+
+01:30
+00:30
+mg/mL
+
+1
+25
+
+bleomycin
+BSA Based Dose
+X
+X
+unit/m2
+2
+30
+
+--- unit / --- mL
+X
+
+
+00:05
+00:15
+00:10
+unit/mL
+
+0.1
+3
+
+bleomycin
+Non-Based Based 
+Dose
+X
+X
+unit
+1
+60
+61
+--- unit / --- mL
+X
+
+
+00:08
+00:20
+00:10
+unit/mL
+
+0.1
+3
+
+brentuximab
+
+X
+X
+mg/kg
+1
+1.8
+1.81
+--- mg / --- mL
+X
+
+
+00:20
+00:40
+00:30
+mg/mL
+
+0.4
+1.8
+MAX DOSE 
+180 mg
+cabazitaxel
+
+X
+X
+mg/m2
+15
+25
+
+--- mg / --- mL
+X
+
+
+00:50
+01:10
+01:00
+mg/mL
+
+0.1
+0.26
+0.22 Filter 
+Needed
+CARBOplatin
+Based on AUC
+X
+X
+mg
+120
+800
+
+--- mg / --- mL
+X
+
+
+00:15
+24:00
+00:30
+mg/mL
+
+0.5
+5
+
+CARBOplatin
+Based on BSA
+X
+X
+mg/m2
+100
+700
+
+--- mg / --- mL
+X
+
+
+00:15
+03:00
+00:30
+mg/mL
+
+0.5
+5
+
+carfilzomib
+
+X
+X
+mg/m2
+15
+70
+
+--- mg / --- mL
+X
+
+
+00:05
+00:35
+00:30
+mg/mL
+
+0.3
+1.6
+
+cemiplimab
+
+X
+X
+mg
+349
+351
+
+--- mg / --- mL
+X
+
+
+00:25
+00:35
+00:30
+mg/mL
+
+1
+20
+In-line filter
+cetuximab
+Loading Dose
+X
+X
+mg/m2
+400
+500
+
+--- mg / --- mL
+X
+
+01:45
+
+04:00
+02:00
+No
+
+
+
+Low Binding 
+Filter
+cetuximab
+Maintenance Dose
+X
+X
+mg/m2
+150
+250
+
+--- mg / --- mL
+X
+
+
+00:50
+01:30
+01:00
+No
+
+
+
+Low Binding 
+Filter
+CISplatin
+
+X
+X
+mg/m2
+10
+100
+
+--- mg / --- mL
+X
+
+
+00:30
+24:00
+
+mg/mL
+
+0.04
+0.5
+
+cyclophosphamide
+BSA Based Dose
+X
+X
+mg/m2
+100
+2,000
+
+--- mg / --- mL
+X
+
+
+00:30
+01:30
+01:00
+mg/mL
+1.9
+2
+20
+
+cyclophosphamide
+Weight Based
+X
+X
+mg/kg
+1
+50
+51
+--- mg / --- mL
+X
+
+
+00:30
+01:30
+
+mg/mL
+1.9
+2
+20
+
+dacarbazine
+
+X
+X
+mg/m2
+175
+850
+
+--- mg / --- mL
+X
+
+
+00:15
+01:40
+
+mg/mL
+
+0.19
+8
+
+daratumumab
+First Dose
+X
+X
+mg/kg
+7
+16
+16.1
+--- mg / --- mL
+X
+
+02:20
+02:30
+20:00
+
+mg/mL
+
+0.4
+4
+0.22 Filter 
+Needed
+daratumumab
+Second Dose
+X
+X
+mg/kg
+15
+16
+16.1
+--- mg / --- mL
+X
+
+02:30
+04:00
+10:00
+
+mg/mL
+
+0.9
+5
+0.22 Filter 
+Needed
+daratumumab
+Subsequent Doses
+X
+X
+mg/kg
+15
+16
+16.1
+--- mg / --- mL
+X
+
+02:30
+03:50
+10:00
+
+mg/mL
+
+0.9
+5
+0.22 Filter 
+Needed
+dexamethasone
+
+X
+X
+mg
+1
+21
+
+--- mg / --- mL
+X
+
+
+00:05
+00:30
+00:15
+No
+
+
+
+
+DOCEtaxel
+
+X
+X
+mg/m2
+16
+100
+
+--- mg / --- mL
+X
+
+
+00:45
+03:00
+01:00
+mg/mL
+
+0.3
+0.74
+DEHP
+DOXOrubicin
+
+X
+X
+mg/m2
+3
+90
+
+--- mg / --- mL
+X
+
+
+00:10
+24:00
+
+mg/mL
+
+0.01
+5
+
+DOXOrubicin, liposo
+
+X
+X
+mg/m2
+2.5
+55
+
+--- mg / --- mL
+X
+
+
+00:45
+03:00
+01:00
+mg/mL
+
+0.1
+0.36
+NO FILTER
+eriBULin
+
+X
+X
+mg/m2
+0.7
+1.4
+
+--- mg / --- mL
+X
+
+
+00:02
+00:20
+00:10
+mg/mL
+
+0.001
+0.5
+No Dextrose
+etoposide
+
+X
+X
+mg/m2
+35
+750
+
+--- mg / --- mL
+X
+
+
+00:30
+03:00
+
+mg/mL
+
+0.2
+0.4
+Non-PVC
+fluorouracil
+
+X
+X
+mg/m2
+200
+3,000
+
+--- mg / --- mL
+X
+
+
+00:15
+24:00
+
+mg/mL
+
+0.1
+50
+
+fosaprepitant
+
+X
+X
+mg
+149
+151
+
+150 mg / 150 mL (1 mg / mL)
+X
+
+
+00:15
+00:40
+00:30
+n/a
+
+
+
+
+gemcitabine
+
+X
+X
+mg/m2
+300
+1,250
+
+--- mg / --- mL
+X
+
+
+00:20
+01:00
+00:30
+mg/mL
+
+0.1
+38
+
+ifosfamide
+
+X
+X
+mg/m2
+250
+5,000
+
+--- mg / --- mL
+X
+
+
+00:30
+25:00
+
+mg/mL
+
+0.6
+80
+
+ipilimumab
+
+X
+X
+mg/kg
+1
+10
+
+--- mg / --- mL
+X
+
+
+01:25
+01:35
+01:30
+mg/mL
+
+1
+2
+
+irinotecan
+
+X
+X
+mg/m2
+20
+600
+
+--- mg / --- mL
+X
+
+01:20
+
+02:30
+01:30
+mg/mL
+
+0.12
+2.8
+
+irinotecan liposomal
+
+X
+X
+mg/m2
+34
+71
+
+--- mg / --- mL
+X
+
+
+01:20
+02:00
+01:30
+mg/mL
+0.05
+0.1
+0.6
+NO FILTER
+leucovorin
+
+X
+X
+mg/m2
+10
+1,000
+
+--- mg / --- mL
+X
+
+
+00:15
+03:00
+
+mg/mL
+
+0.05
+20
+
+leucovorin
+
+X
+X
+mg
+1
+100
+
+--- mg / --- mL
+X
+
+
+00:15
+03:00
+
+mg/mL
+
+0.05
+20
+
+magnesium sulfate
+
+X
+X
+gram
+0.9
+1.1
+
+1 gram / 100 mL (0.01 gram / mL)
+X
+
+
+00:45
+02:30
+01:00
+n/a
+
+
+
+
+
+
+
+
+
+
+
+--- gram / --- mL
+X
+
+
+00:45
+08:00
+
+No
+
+
+
+                              
+mesna
+
+X
+X
+mg/m2
+300
+5,000
+
+--- mg / --- mL
+X
+
+
+00:15
+25:00
+
+mg/mL
+
+0.01
+20
+
+mesna
+
+X
+X
+mg
+1
+1,000
+
+--- mg / --- mL
+X
+
+
+00:15
+25:00
+
+mg/mL
+
+0.01
+20
+
+mitoMYcin
+
+X
+X
+mg/m2
+1
+20
+
+--- mg / --- mL
+X
+
+
+00:15
+02:00
+
+mg/mL
+
+0.02
+0.04
+
+mitoMYcin
+
+X
+X
+mg
+1
+20
+
+--- mg / --- mL
+X
+
+
+00:15
+02:00
+
+mg/mL
+
+0.02
+0.04
+
+nivolumab
+
+X
+X
+mg
+235
+485
+
+240 mg / 100 mL (2.4 mg / mL)
+X
+
+
+00:25
+01:00
+00:30
+n/a
+
+
+
+In-line filter
+
+
+
+
+
+
+
+480 mg / 100 mL (4.8 mg / mL)
+X
+
+
+00:25
+01:00
+00:30
+n/a
+
+
+
+                              
+nivolumab
+
+X
+X
+mg/kg
+1
+4
+
+240 mg / 100 mL (2.4 mg / mL)
+X
+
+
+00:25
+01:00
+00:30
+n/a
+
+
+
+In-line filter
+
+
+
+
+
+
+
+480 mg / 100 mL (4.8 mg / mL)
+X
+
+
+00:25
+01:00
+00:30
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+--- mg / --- mL
+X
+
+
+00:25
+01:00
+00:30
+mg/mL
+
+1
+10
+                              
+obinutuzumab
+First Dose
+X
+X
+mg
+99
+100.1
+
+100 mg / 104 mL (0.9615 mg / mL)
+X
+
+
+04:00
+08:00
+04:00
+n/a
+
+
+
+
+obinutuzumab
+Subsequent Doses
+X
+X
+mg
+900
+1,000
+
+900 mg / 286 mL (3.1469 mg / mL)
+X
+
+
+02:00
+60:00
+
+n/a
+
+
+
+
+
+
+
+
+
+
+
+1,000 mg / 290 mL (3.4483 mg / mL)
+X
+
+
+02:00
+60:00
+
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+--- mg / --- mL
+X
+
+
+02:00
+60:00
+
+mg/mL
+
+0.9
+3.5
+                              
+ondansetron
+
+X
+X
+mg
+4
+16
+
+8 mg / 54 mL (0.1481 mg / mL)
+X
+
+
+00:10
+00:30
+00:15
+n/a
+
+
+
+
+
+
+
+
+
+
+
+--- mg / --- mL
+X
+
+
+00:10
+01:00
+
+mg/mL
+
+0.01
+0.64
+                              
+oxaliplatin
+
+X
+X
+mg/m2
+20
+130
+
+--- mg / --- mL
+X
+
+
+01:00
+06:30
+02:00
+mg/mL
+
+0.2
+1.2
+
+PACLitaxel
+
+X
+X
+mg/m2
+40
+225
+
+--- mg / --- mL
+X
+
+
+00:50
+24:00
+
+mg/mL
+
+0.3
+1.2
+Filter and 
+DEHP Free
+PACLitaxel protein-b
+
+X
+X
+mg/m2
+49
+261
+
+--- mg / --- mL
+X
+
+
+00:25
+01:00
+00:30
+mg/mL
+
+4.9
+5.1
+NO FILTER
+panitumumab
+
+X
+X
+mg/kg
+3
+6
+
+--- mg / --- mL
+X
+
+
+00:50
+03:00
+01:00
+mg/mL
+
+2
+10
+Low Binding 
+Filter
+pembrolizumab
+
+X
+X
+mg
+100
+250
+
+200 mg / 100 mL (2 mg / mL)
+X
+
+
+00:25
+00:35
+00:30
+n/a
+
+
+
+In-line filter
+
+
+
+
+
+
+
+--- mg / --- mL
+X
+
+
+00:25
+00:35
+00:30
+mg/mL
+
+1
+10
+                              
+PEMEtrexed
+
+X
+X
+mg/m2
+250
+900
+
+--- mg / --- mL
+X
+
+
+00:10
+00:30
+00:10
+mg/mL
+
+3
+13
+
+pertuzumab
+Loading Dose
+X
+X
+mg
+839
+
+841
+840 mg / 278 mL (3.0216 mg / mL)
+X
+
+01:00
+
+02:00
+01:00
+n/a
+
+
+
+
+pertuzumab
+Maintenance Dose
+X
+X
+mg
+419
+
+421
+420 mg / 264 mL (1.5909 mg / mL)
+X
+
+00:30
+
+02:00
+00:30
+n/a
+
+
+
+
+ramucirumab
+
+X
+X
+mg/kg
+5
+10
+
+--- mg / --- mL
+X
+
+
+00:25
+02:00
+
+mg/mL
+
+0.8
+12
+Low Binding 
+Filter
+raNITIdine
+
+X
+X
+mg
+25
+50
+
+50 mg / 102 mL (0.4902 mg / mL)
+X
+
+
+00:10
+00:30
+00:20
+n/a
+
+
+
+
+riTUXimab
+Based on BSA
+X
+X
+mg/m2
+250
+500
+
+--- mg / --- mL
+X
+
+
+01:30
+06:00
+
+mg/mL
+
+0.9
+4.1
+Hypersensitivi
+ty
+riTUXimab
+Rheumatoid Arthritis
+X
+X
+mg
+90
+1,200
+
+--- mg / --- mL
+X
+
+
+01:30
+06:00
+
+mg/mL
+
+0.9
+4.1
+Hypersensitivi
+ty
+temozolomide
+
+X
+X
+mg/m2
+74
+201
+
+--- mg / --- mL
+X
+
+
+01:20
+02:00
+01:30
+mg/mL
+
+2.4
+2.6
+Flush 
+Before/After
+topotecan
+
+X
+X
+mg/m2
+0.2
+1.5
+4
+--- mg / --- mL
+X
+
+
+00:20
+01:00
+00:30
+mg/mL
+
+0.01
+0.5
+
+trastuzumab
+Loading Dose
+X
+X
+mg/kg
+4
+8
+
+--- mg / --- mL
+X
+
+
+01:00
+03:00
+01:30
+mg/mL
+
+0.4
+8
+
+trastuzumab
+Subsequent Doses
+X
+X
+mg/kg
+2
+6
+
+--- mg / --- mL
+X
+
+
+00:20
+02:00
+00:30
+mg/mL
+
+0.4
+8
+
+vinBLAStine
+
+X
+X
+mg/m2
+0.75
+18.5
+18.6
+--- mg / --- mL
+X
+
+
+00:05
+01:00
+00:15
+mg/mL
+
+0.001
+0.6
+Vesicant
+vinCRIStine
+
+X
+X
+mg
+0.4
+2
+2.1
+--- mg / --- mL
+X
+
+
+00:05
+00:20
+00:10
+mg/mL
+
+0.001
+0.1
+Vesicant
+vinorelbine
+
+X
+X
+mg/m2
+5
+35
+
+--- mg / --- mL
+X
+
+
+00:06
+00:30
+00:10
+mg/mL
+
+0.5
+2
+
+ziv-aflibercept
+
+X
+X
+mg/kg
+2
+4
+
+--- mg / --- mL
+X
+
+
+00:55
+01:05
+01:00
+mg/mL
+
+0.6
+8
+0.22 Filter 
+Needed
+zoledronic (ZOMETA)
+
+X
+X
+mg
+3
+4
+
+4 mg / 100 mL (0.04 mg / mL)
+X
+
+00:15
+00:20
+02:00
+00:30
+n/a
+
+
+
 
 
 2.2.6	Fluids
+Fluids - Infusion Center
+Fluid Name
+Therapy
+Supports 
+Secondary
+Module
+Rate Limits (mL/h)
+Clinical Ads. Name
+
+
+P
+S
+Soft
+Min
+Soft
+Max
+Hard
+Max
+
+..IVF Maintenance
+Yes
+X
+
+1
+999
+
+
+.IVF + KCL 10 mEq/L
+Yes
+X
+
+1
+999
+
+
+.IVF + KCL 20 mEq/L
+Yes
+X
+
+1
+667
+
+
+.IVF + KCL 30 mEq/L
+Yes
+X
+
+1
+334
+667
+
+.IVF + KCL 40 mEq/L
+Yes
+X
+
+1
+250
+500
+
+.Maint IVF+Additives
+Yes
+X
+
+1
+250
+
+
+Dextrose 10%
+Yes
+X
+
+15
+200
+
+
+Rituximab (Rituxan)
+Yes
+X
+
+0.1
+250
+
+
+
+2.2.7	PCA Drugs
+No drugs exist in this section.
+    2.3	 Nursery
+
+2.3.1	Continuous/Bolus - Non-Anesthesia Drugs
+No drugs exist in this section.
+
+2.3.2	Continuous/Bolus - Non-Anesthesia Drugs - Concentration Limits
+No drugs exist in this section.
+
+2.3.3	Continuous/Bolus - Anesthesia Only Drugs
+No drugs exist in this section.
+
+2.3.4	Continuous/Bolus - Anesthesia Only Drugs - Concentration Limits
+No drugs exist in this section.
+
+2.3.5	Intermittent Drugs
+No drugs exist in this section.
+
+
+2.3.6	Fluids
 Fluids - Nursery
 Fluid Name
 Therapy
@@ -9395,11 +12418,11 @@ X
 25
 
 
-2.2.7	PCA Drugs
+2.3.7	PCA Drugs
 No drugs exist in this section.
-    2.3	 Pediatrics
+    2.4	 Pediatrics
 
-2.3.1	Continuous/Bolus - Non-Anesthesia Drugs
+2.4.1	Continuous/Bolus - Non-Anesthesia Drugs
 Continuous/Bolus - Non-Anesthesia Drugs - Pediatrics
 Drug Name
 Therapy
@@ -9502,31 +12525,6 @@ mg/kg/min
 0.36
 0.2
 
-amiodarone
-
---- mg / --- mL
-
-
-X
-
-
-
-YES
-Continuous
-mcg/kg/min
-5
-15
-
-
-
-
-
-
-
-
-
-
-In-line filter
 DOBUTamine
 
 250 mg / 250 mL (1 mg / mL)
@@ -9588,11 +12586,11 @@ X
 
 n/a
 Continuous
-mcg/kg/min
-0.05
-1
+mcg/min
+0.33
+20
+30
 
-0.1
 
 
 
@@ -9613,24 +12611,24 @@ X
 
 n/a
 Continuous
-unit/kg/h
+unit/h
 Bolus Dose
-unit/kg
+unit
 Bolus Admin Rate
-unit/kg/min
-0.05
-0.2
-0.9
+unit/min
+1
+15
+30
 
-0.05
-0.1
-0.9
+1
+12
 
-0.1
-0.9
 
-0.1
-2nd RN to verify
+1
+
+10
+10
+
 lidocaine
 
 2,000 mg / 500 mL (4 mg / mL)
@@ -9642,11 +12640,11 @@ X
 
 n/a
 Continuous
-mcg/kg/min
-20
-50
-
-20
+mg/min
+0.5
+4
+4.6
+2
 
 
 
@@ -9721,11 +12719,11 @@ X
 
 n/a
 Continuous
-mcg/kg/min
-0.1
-20
-
-
+mcg/min
+5
+150
+400
+5
 
 
 
@@ -9747,7 +12745,7 @@ X
 n/a
 Continuous
 mcg/kg/min
-1
+0.1
 8
 8.1
 1
@@ -9772,11 +12770,9 @@ X
 
 n/a
 Continuous
-mcg/kg/min
-0.01
-0.1
-2
-0.05
+mcg/min
+0.3
+45
 
 
 
@@ -9786,37 +12782,10 @@ mcg/kg/min
 
 
 
-procainamide
-
-2,000 mg / 500 mL (4 mg / mL)
-
-
-X
 
 
 
-n/a
-Continuous
-mg/kg/min
-Bolus Dose
-mg/kg
-Bolus Admin Rate
-mg/kg/min
-0.01
-0.08
-
-
-2
-6
-15
-
-0.16
-0.5
-
-0.167
-
-
-2.3.2	Continuous/Bolus - Non-Anesthesia Drugs - Concentration Limits
+2.4.2	Continuous/Bolus - Non-Anesthesia Drugs - Concentration Limits
 Continuous/Bolus - Non-Anesthesia Drugs - Concentration Limits - Pediatrics
 Drug Name
 Therapy
@@ -9841,25 +12810,16 @@ X
 
 mcg/mL
 
-2
+1
 20
-amiodarone
 
-WeightBased
-X
-
-mcg/mL
-1,000
-1,500
-2,000
-
-2.3.3	Continuous/Bolus - Anesthesia Only Drugs
+2.4.3	Continuous/Bolus - Anesthesia Only Drugs
 No drugs exist in this section.
 
-2.3.4	Continuous/Bolus - Anesthesia Only Drugs - Concentration Limits
+2.4.4	Continuous/Bolus - Anesthesia Only Drugs - Concentration Limits
 No drugs exist in this section.
 
-2.3.5	Intermittent Drugs
+2.4.5	Intermittent Drugs
 Intermittent Drugs - Pediatrics
 Drug Name
 Therapy
@@ -10024,25 +12984,6 @@ n/a
 
 
 
-
-
-
-
-
-
-
---- mg / --- mL
-X
-
-
-03:35
-05:00
-04:00
-No
-
-
-
-                              
 acetylcysteine
 3rd Dose <=100kg
 X
@@ -10149,7 +13090,7 @@ X
 X
 mg/kg
 4
-75
+100
 
 --- mg / --- mL
 X
@@ -10189,7 +13130,7 @@ X
 X
 mg/kg
 4
-75
+80
 
 --- mg / --- mL
 X
@@ -10229,7 +13170,7 @@ X
 X
 mg/kg
 3
-12
+14
 
 --- mg / --- mL
 X
@@ -10326,29 +13267,91 @@ caffeine citrate
 
 X
 X
-mg/kg
-3
-41
+mg
+1
+1,200
 
 --- mg / --- mL
 X
 
-00:03
-00:08
-02:00
+
+00:10
+06:00
 
 mg/mL
+
+0.01
+10
+
+caffeine citrate
+
+X
+X
+mg/kg
 1
-5
 22
 
+--- mg / --- mL
+X
+
+
+00:10
+06:00
+
+mg/mL
+
+0.01
+10
+
+caffeine/sod benzoa
+
+X
+X
+mg
+50
+501
+1,001
+--- mg / --- mL
+X
+
+00:15
+00:20
+04:00
+01:00
+mg/mL
+
+0.24
+6
+0.22 Filter 
+Needed
+caffeine/sod benzoa
+
+X
+X
+mg/kg
+1
+22
+
+--- mg / --- mL
+X
+
+00:15
+00:20
+04:00
+01:00
+mg/mL
+
+0.24
+6
+0.22 Filter 
+Needed
 ceFAZolin
-pt weight < 40 kg
+.mg, pt weight <40kg
 X
 X
 mg/kg
 9
-50
+55
 
 --- mg / --- mL
 X
@@ -10363,7 +13366,7 @@ mg/mL
 40
 
 ceFAZolin
-pt weight >= 40 kg
+.mg, pt weight>=40kg
 X
 X
 mg
@@ -10382,13 +13385,55 @@ mg/mL
 5
 40
 
+ceFAZolin
+gram, pt wt < 40kg
+X
+X
+gram/kg
+0.009
+0.055
+
+--- gram / --- mL
+X
+
+
+00:20
+01:00
+00:30
+gram/m
+L
+0.001
+0.005
+0.04
+
+ceFAZolin
+gram, pt wt >= 40kg
+X
+X
+gram
+0.5
+2
+
+--- gram / --- mL
+X
+
+
+00:20
+01:00
+00:30
+gram/m
+L
+0.001
+0.005
+0.04
+
 cefepime
-pt weight < 40 kg
+.mg, pt weight <40kg
 X
 X
 mg/kg
 15
-50
+55
 
 --- mg / --- mL
 X
@@ -10403,7 +13448,7 @@ mg/mL
 40
 
 cefepime
-pt weight >= 40 kg
+.mg, pt weight>=40kg
 X
 X
 mg
@@ -10422,13 +13467,55 @@ mg/mL
 5
 40
 
+cefepime
+gram, pt wt < 40kg
+X
+X
+gram/kg
+0.015
+0.055
+
+--- gram / --- mL
+X
+
+
+00:20
+02:00
+00:30
+gram/m
+L
+0.001
+0.005
+0.04
+
+cefepime
+gram, pt wt >= 40kg
+X
+X
+gram
+0.5
+2
+
+--- gram / --- mL
+X
+
+
+00:20
+02:00
+00:30
+gram/m
+L
+0.001
+0.005
+0.04
+
 cefotaxime
-pt weight < 40 kg
+.mg, pt weight <40kg
 X
 X
 mg/kg
-24
-70
+22
+80
 
 --- mg / --- mL
 X
@@ -10443,7 +13530,7 @@ mg/mL
 55
 
 cefotaxime
-pt weight >= 40 kg
+.mg, pt weight>=40kg
 X
 X
 mg
@@ -10462,13 +13549,55 @@ mg/mL
 10
 55
 
+cefotaxime
+gram, pt wt < 40kg
+X
+X
+gram/kg
+0.022
+0.08
+
+--- gram / --- mL
+X
+
+
+00:25
+01:00
+00:30
+gram/m
+L
+0.005
+0.01
+0.055
+
+cefotaxime
+gram, pt wt >= 40kg
+X
+X
+gram
+1
+2
+
+--- gram / --- mL
+X
+
+
+00:25
+01:00
+00:30
+gram/m
+L
+0.005
+0.01
+0.055
+
 cefOXitin
 pt weight < 40 kg
 X
 X
 mg/kg
 20
-50
+55
 
 --- mg / --- mL
 X
@@ -10503,13 +13632,13 @@ mg/mL
 40
 
 cefTAZidime
-pt weight < 40 kg
+.mg, pt weight <40kg
 X
 X
 mg/kg
 25
-50
-75
+67
+135
 --- mg / --- mL
 X
 
@@ -10523,7 +13652,7 @@ mg/mL
 50
 
 cefTAZidime
-pt weight >= 40 kg
+.mg, pt weight>=40kg
 X
 X
 mg
@@ -10542,13 +13671,55 @@ mg/mL
 5
 50
 
+cefTAZidime
+gram, pt wt < 40kg
+X
+X
+gram/kg
+0.025
+0.067
+0.135
+--- gram / --- mL
+X
+
+
+00:25
+01:30
+00:30
+gram/m
+L
+0.001
+0.005
+0.05
+
+cefTAZidime
+gram, pt wt >= 40kg
+X
+X
+gram
+0.25
+2
+
+--- gram / --- mL
+X
+
+
+00:25
+01:30
+00:30
+gram/m
+L
+0.001
+0.005
+0.05
+
 cefTRIAXone
-pt weight < 40 kg
+.mg, pt weight <40kg
 X
 X
 mg/kg
 21
-100
+105
 
 --- mg / --- mL
 X
@@ -10563,7 +13734,7 @@ mg/mL
 50
 
 cefTRIAXone
-pt weight >= 40 kg
+.mg, pt weight>=40kg
 X
 X
 mg
@@ -10582,13 +13753,55 @@ mg/mL
 10
 50
 
+cefTRIAXone
+gram, pt wt < 40kg
+X
+X
+gram/kg
+0.021
+0.105
+
+--- gram / --- mL
+X
+
+
+00:20
+01:30
+00:30
+gram/m
+L
+0.005
+0.01
+0.05
+
+cefTRIAXone
+gram, pt wt >= 40kg
+X
+X
+gram
+1
+2
+
+--- gram / --- mL
+X
+
+
+00:20
+01:30
+00:30
+gram/m
+L
+0.005
+0.01
+0.05
+
 cefuroxime
 pt weight < 40 kg
 X
 X
 mg/kg
 18
-50
+55
 
 --- mg / --- mL
 X
@@ -10638,8 +13851,8 @@ X
 01:30
 
 mg/mL
+0.5
 1
-2.5
 30
 
 chlorothiazide
@@ -10658,8 +13871,8 @@ X
 01:30
 
 mg/mL
+0.5
 1
-2.5
 30
 
 clindamycin
@@ -10818,8 +14031,8 @@ X
 01:00
 00:30
 mg/mL
+0.9
 1
-5
 30
 
 fosphenytoin
@@ -10838,8 +14051,8 @@ X
 01:00
 00:30
 mg/mL
+0.9
 1
-5
 30
 
 gentamicin
@@ -10906,25 +14119,64 @@ mannitol  20%
 
 X
 X
+gram
+1
+101
+
+100 gram / 500 mL (0.2 gram / mL)
+X
+
+
+00:31
+02:00
+
+n/a
+
+
+
+
+mannitol  20%
+
+X
+X
 gram/kg
 0.2
 2
+
+100 gram / 500 mL (0.2 gram / mL)
+X
+
+00:25
+00:31
+02:00
+
+n/a
+
+
+
+In-line filter
+
+
+
+
+
+
 
 --- gram / --- mL
 X
 
 
 00:10
-01:15
+02:00
 
 gram/m
 L
-0.17
-0.18
-0.22
-In-line filter
+
+0.1
+0.5
+                              
 meropenem
-pt weight < 40 kg
+.mg, pt weight <40kg
 X
 X
 mg/kg
@@ -10944,7 +14196,7 @@ mg/mL
 40
 
 meropenem
-pt weight >= 40 kg
+.mg, pt weight>=40kg
 X
 X
 mg
@@ -10963,6 +14215,48 @@ mg/mL
 5
 40
 
+meropenem
+gram, pt wt < 40kg
+X
+X
+gram/kg
+0.01
+0.04
+
+--- gram / --- mL
+X
+
+00:05
+00:25
+02:00
+00:30
+gram/m
+L
+0.001
+0.005
+0.04
+
+meropenem
+gram, pt wt >= 40kg
+X
+X
+gram
+0.5
+2
+
+--- gram / --- mL
+X
+
+00:05
+00:25
+02:00
+00:30
+gram/m
+L
+0.001
+0.005
+0.04
+
 metroNIDAZOLE
 
 X
@@ -10974,16 +14268,15 @@ mg
 250 mg / 50 mL (5 mg / mL)
 X
 
+00:25
 00:30
-00:50
 03:00
 01:00
 n/a
 
 
 
-Protect From 
-Light
+
 
 
 
@@ -10994,33 +14287,14 @@ Light
 500 mg / 100 mL (5 mg / mL)
 X
 
+00:25
 00:30
-00:50
 03:00
 01:00
 n/a
 
 
 
-                              
-
-
-
-
-
-
-
---- mg / --- mL
-X
-
-00:30
-00:50
-03:00
-01:00
-mg/mL
-4
-
-6
                               
 metroNIDAZOLE
 
@@ -11033,16 +14307,15 @@ mg/kg
 --- mg / --- mL
 X
 
+00:25
 00:30
-00:50
 03:00
 01:00
 mg/mL
 4
 
 6
-Protect From 
-Light
+
 micafungin
 pt weight < 40 kg
 X
@@ -11061,7 +14334,7 @@ X
 mg/mL
 0.4
 
-1.7
+4
 
 micafungin
 pt weight >= 40 kg
@@ -11081,7 +14354,7 @@ X
 mg/mL
 0.4
 
-1.7
+4
 
 nafcillin
 pt weight < 40 kg
@@ -11183,6 +14456,26 @@ unit/mL
 0.02
 0.12
 1unit=1million
+pentamidine
+
+X
+X
+mg/kg
+2.9
+
+4.1
+--- mg / --- mL
+X
+
+00:45
+
+04:30
+02:00
+mg/mL
+
+0.6
+30
+
 PHENobarbital
 
 X
@@ -11199,8 +14492,8 @@ X
 02:00
 
 mg/mL
-50
-60
+0.1
+0.5
 135
 High Risk
 phenytoin
@@ -11224,20 +14517,40 @@ mg/mL
 55
 In-line filter
 piperacillin/tazo
+.MG Dosing
+X
+X
+mg/kg
+20
+140
 
+--- mg / --- mL
+X
+
+
+00:20
+05:00
+
+mg/mL
+0.5
+10
+100
+
+piperacillin/tazo
+GM dosing
 X
 X
 gram
-2.25
-4.5
+1
+4.8
 
 2.25 gram / 50 mL (0.045 gram / mL)
 X
 
+
 00:20
-00:25
 05:00
-00:30
+
 n/a
 
 
@@ -11254,10 +14567,10 @@ n/a
 mL)
 X
 
+
 00:20
-00:25
 05:00
-00:30
+
 n/a
 
 
@@ -11274,8 +14587,8 @@ n/a
 mL)
 X
 
+
 00:20
-00:25
 05:00
 
 n/a
@@ -11294,8 +14607,8 @@ n/a
 mL)
 X
 
+
 00:20
-00:25
 05:00
 
 n/a
@@ -11313,8 +14626,8 @@ n/a
 4.5 gram / 50 mL (0.09 gram / mL)
 X
 
+
 00:20
-00:25
 05:00
 
 n/a
@@ -11332,8 +14645,8 @@ n/a
 4.5 gram / 100 mL (0.045 gram / mL)
 X
 
+
 00:20
-00:25
 05:00
 
 n/a
@@ -11341,26 +14654,48 @@ n/a
 
 
                               
-
-
-
-
-
-
+piperacillin/tazo
+GM dosing
+X
+X
+gram/kg
+0.025
+0.14
 
 --- gram / --- mL
 X
 
-00:20
+
 00:25
-02:00
-00:30
+04:30
+
 gram/m
 L
 0.005
 0.01
-0.085
-                              
+0.1
+
+potassium chloride
+
+X
+X
+mEq
+1
+
+41
+--- mEq / --- mL
+X
+
+00:45
+00:50
+06:00
+
+mEq/m
+L
+0.04
+0.05
+0.2
+
 potassium chloride
 
 X
@@ -11372,8 +14707,8 @@ mEq/kg
 --- mEq / --- mL
 X
 
+00:45
 00:50
-01:45
 06:00
 
 mEq/m
@@ -11399,8 +14734,8 @@ X
 
 mmol/m
 L
+0.009
 0.01
-0.05
 0.3
 
 raNITIdine
@@ -11508,6 +14843,28 @@ sodium phosphate
 
 X
 X
+mmol
+1
+
+31
+--- mmol / --- mL
+X
+
+00:45
+01:00
+10:30
+
+mmol/m
+L
+0.009
+0.01
+0.3
+Calcium 
+Precipitate
+sodium phosphate
+
+X
+X
 mmol/kg
 0.04
 0.4
@@ -11515,14 +14872,14 @@ mmol/kg
 --- mmol / --- mL
 X
 
-01:30
-03:00
+00:45
+01:00
 10:30
 
 mmol/m
 L
+0.009
 0.01
-0.05
 0.3
 Calcium 
 Precipitate
@@ -11542,8 +14899,8 @@ X
 01:15
 
 mg/mL
+0.01
 0.1
-0.5
 11
 
 valproate sodium
@@ -11557,7 +14914,7 @@ mg/kg
 --- mg / --- mL
 X
 
-00:40
+
 00:50
 02:00
 
@@ -11622,12 +14979,12 @@ X
 03:00
 01:00
 mg/mL
+0.5
 1
-3
 4
 
 
-2.3.6	Fluids
+2.4.6	Fluids
 Fluids - Pediatrics
 Fluid Name
 Therapy
@@ -11655,6 +15012,51 @@ X
 300
 
 
+.IVF + KCL
+10 mEq/L
+Yes
+X
+
+1
+999
+
+
+.IVF + KCL
+15 mEq/L
+Yes
+X
+
+1
+666
+700
+
+.IVF + KCL
+20 mEq/L
+Yes
+X
+
+1
+500
+550
+
+.IVF + KCL
+30 mEq/L
+Yes
+X
+
+1
+333
+366
+
+.IVF + KCL
+40 mEq/L
+Yes
+X
+
+1
+250
+275
+
 .IVF + KCL 10 mEq/L
 Yes
 X
@@ -11663,14 +15065,6 @@ X
 200
 999
 
-.IVF + KCL 15 mEq/L
-Yes
-X
-
-1
-200
-750
-
 .IVF + KCL 20 mEq/L
 Yes
 X
@@ -11678,14 +15072,6 @@ X
 1
 200
 500
-
-.IVF + KCL 30 mEq/L
-Yes
-X
-
-0.1
-200
-350
 
 .IVF + KCL 40 mEq/L
 Yes
@@ -11719,13 +15105,13 @@ X
 150
 
 Dedicated IV Line
-PPN
+Parenteral Nutrition
 No
 X
 
-0.1
-50
-199
+35
+95
+
 Midline Warning
 PRBCs
 No
@@ -11735,16 +15121,8 @@ X
 150
 
 Dedicated IV Line
-TPN
-No
-X
 
-0.1
-60
-150
-Midline Warning
-
-2.3.7	PCA Drugs
+2.4.7	PCA Drugs
 No drugs exist in this section.
 
 
@@ -11753,6 +15131,8 @@ No drugs exist in this section.
     3.1	PC Unit
 Settings
 Adult
+Infusion 
+Center
 Nursery
 Pediatric
 s
@@ -11760,11 +15140,14 @@ Alarm Audio Profile
 Profile 1
 Profile 1
 Profile 1
+Profile 1
 Minimum Audio Volume
+3
 3
 2
 3
 Default Audio Volume
+4
 4
 3
 4
@@ -11772,7 +15155,9 @@ Anesthesia Mode
 Enabled
 Disabled
 Disabled
+Disabled
 Battery Meter Display
+Enabled
 Enabled
 Enabled
 Enabled
@@ -11780,7 +15165,9 @@ Color Display
 Enabled
 Enabled
 Enabled
+Enabled
 Key Click Audio
+Enabled
 Enabled
 Enabled
 Enabled
@@ -11788,15 +15175,19 @@ Limit Checking
 Always
 Always
 Always
+Always
 Max Patient BSA (m2)
+3
 3
 3
 3
 Max Patient Weight (kg)
 500
+500
 7
 250
 Patient ID Entry
+Disabled
 Disabled
 Disabled
 Disabled
@@ -11805,11 +15196,14 @@ Reminder
 Enabled
 Enabled
 Enabled
+Enabled
 Tamper Resistant
 Enabled
 Enabled
 Enabled
+Enabled
 Authorized User Mode
+Disabled
 Disabled
 Disabled
 Disabled
@@ -11818,6 +15212,8 @@ Disabled
 3.2	Pump Module
 Settings
 Adult
+Infusion 
+Center
 Nursery
 Pediatric
 s
@@ -11825,15 +15221,19 @@ Accumulated Air-In-Line
 Enabled
 Enabled
 Enabled
+Enabled
 Air-In-Line (microliter)
+250
 250
 50
 75
 Auto-Restart Attempts
 9
+9
 1
 9
 KVO Rate Adjust (mL/h)
+20
 20
 2
 5
@@ -11842,20 +15242,25 @@ Max Occlusion Pressure
 525
 525
 525
+525
 Default Pressure (mmHg)
+525
 525
 525
 525
 Maximum Rate (mL/h)
 999
+999
 25
 999
 Maximum VTBI (mL)
 3,000
-100
-1,000
+3,000
+1,200
+2,200
 Pressure Mode Lock 
 Status
+Unlocked
 Unlocked
 Unlocked
 Unlocked
@@ -11863,11 +15268,14 @@ Pressure Mode Selection
 Pump
 Pump
 Pump
+Pump
 Secondary Infusion
 Enabled
 Enabled
 Enabled
+Enabled
 SEC-PRI Audio Alert
+Enabled
 Enabled
 Enabled
 Enabled
@@ -11876,34 +15284,39 @@ Enabled
 3.3	Shared Infusion Settings (Pump and Syringe)
 Settings
 Adult
+Infusion 
+Center
 Nursery
 Pediatric
 s
 Delay Start Options
-Enabled
-Enabled
-Enabled
+Disabled
+Disabled
+Disabled
+Disabled
 Delay Start Callback
-BeforeAn
-dAfter
-BeforeAn
-dAfter
-BeforeAn
-dAfter
+n/a
+n/a
+n/a
+n/a
 Drug Calculation
 Enabled
+Disabled
 Enabled
 Enabled
 Drug Calculation Bolus 
 Dose
 Enabled
+n/a
 Enabled
 Enabled
 Multidose
 Disabled
 Disabled
 Disabled
+Disabled
 Multidose Callback
+n/a
 n/a
 n/a
 n/a
@@ -11912,7 +15325,9 @@ Display
 Enabled
 Enabled
 Enabled
+Enabled
 Volume/Duration
+Enabled
 Enabled
 Enabled
 Enabled
@@ -11921,6 +15336,8 @@ Enabled
 3.4	PCA Module
 Settings
 Adult
+Infusion 
+Center
 Nursery
 Pediatric
 s
@@ -11929,8 +15346,10 @@ Bolus Delivery Rate
 150
 150
 150
+150
 Dose Request Cord 
 (Profile)
+2
 2
 2
 2
@@ -11938,9 +15357,11 @@ Max Dose Limit
 Enabled
 Enabled
 Enabled
+Enabled
 Max Dose Limit Time 
 Window (h)
 1
+4
 4
 1
 Module Location 
@@ -11948,16 +15369,20 @@ Enforcement
 Enabled
 Enabled
 Enabled
+Enabled
 Near End of Infusion
 Enabled
+Disabled
 Disabled
 Enabled
 Near End 0f Infusion 
 Alert Time (%)
 5
 n/a
+n/a
 5
 Pressure Limit
+High
 High
 High
 High
@@ -11965,11 +15390,14 @@ Priming
 Enabled
 Enabled
 Enabled
+Enabled
 Security Access Level
 1
 1
 1
+1
 Security Code
+n/a
 n/a
 n/a
 n/a
@@ -11978,6 +15406,8 @@ n/a
 3.5	Shared Infusion Settings (PCA and Syringe)
 Settings
 Adult
+Infusion 
+Center
 Nursery
 Pediatric
 s
@@ -11985,7 +15415,9 @@ Maximum Rate (mL/h)
 999
 999
 999
+999
 NEOI Snooze
+Disabled
 Disabled
 Disabled
 Disabled
@@ -11994,11 +15426,14 @@ NEOI Snooze Time
 n/a
 n/a
 n/a
+n/a
     
 
 3.6	SpO2 Module
 Settings
 Adult
+Infusion 
+Center
 Nursery
 Pediatric
 s
@@ -12006,11 +15441,14 @@ SpO2 Module Type
 Both
 Both
 Both
+Both
 Pulse Beep Volume
 1
 1
 1
+1
 SatSeconds Limits:
+25
 25
 25
 25
@@ -12019,7 +15457,9 @@ Sat. Averaging Time
 8
 8
 8
+8
 Alarm Limit Type
+Adult
 Adult
 Adult
 Adult
@@ -12027,11 +15467,14 @@ Adult
 Disabled
 Disabled
 Disabled
+Disabled
 %SpO2 High
 n/a
 n/a
 n/a
+n/a
 %SpO2 Low
+90
 90
 90
 90
@@ -12040,8 +15483,10 @@ Pulse Rate High
 120
 120
 120
+120
 Pulse Rate Low 
 (beats/min)
+50
 50
 50
 50
@@ -12050,6 +15495,8 @@ Pulse Rate Low
 3.7	EtCO2 Module
 Settings
 Adult
+Infusion 
+Center
 Nursery
 Pediatric
 s
@@ -12057,11 +15504,14 @@ Alarm Limit Type
 Adult
 Adult
 Adult
+Adult
 EtCO2 High (mmHg)
 60
 60
 60
+60
 EtCO2 Low (mmHg)
+10
 10
 10
 10
@@ -12070,9 +15520,11 @@ Respiratory Rate High
 35
 35
 35
+35
 Respiratory Rate Low 
 (bpm)
 7
+6
 6
 6
 No Breath Alarm 
@@ -12080,12 +15532,15 @@ No Breath Alarm
 30
 30
 30
+30
 FiCO2 High (mmHg)
+8
 8
 8
 8
 Waveform Time Scale 
 (Seconds)
+10
 10
 10
 10
@@ -12125,7 +15580,5065 @@ Resp. Rate Initial Value
 4.	 Channel Labels
 Channel labels are not used
 Appendices
-Appendix A	PCA Syringe Favorites List
+Appendix A	Master List
+
+Appendix A.1	Master Drugs List
+Master Drugs
+Drug Name
+Concentrations
+Used As
+Aliases
+abatacept
+500 mg / 100 mL (5 mg / mL)
+
+
+abatacept
+750 mg / 100 mL (7.5 mg / mL)
+
+
+abatacept
+1,000 mg / 100 mL (10 mg / mL)
+
+
+abciximab
+7.2 mg / 250 mL (0.0288 mg / mL)
+
+
+abciximab
+7.4 mg / 250 mL (0.0296 mg / mL)
+
+
+abciximab
+9 mg / 250 mL (0.036 mg / mL)
+
+
+abciximab
+--- mg / --- mL
+
+
+Abraxane
+--- mg / --- mL
+
+
+acetaminophen
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+2748022I
+acetaminophen
+--- mg / --- mL
+Intermittent
+2748022I
+acetaminophen
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+2748022I
+acetaZOLAMIDE
+500 mg / 50 mL (10 mg / mL)
+Intermittent
+2748400I
+acetaZOLAMIDE
+--- mg / --- mL
+Intermittent
+2748400I
+acetylcysteine
+5,000 mg / 525 mL (9.5238 mg / mL)
+Intermittent
+2748462I
+acetylcysteine
+10,000 mg / 1,050 mL (9.5238 mg / 
+mL)
+Intermittent
+2748462I
+acetylcysteine
+15,000 mg / 275 mL (54.5455 mg / mL)
+Intermittent
+2748462I
+acetylcysteine
+--- mg / --- mL
+Intermittent
+2748462I
+acyclovir
+--- mg / --- mL
+Intermittent
+2748487I
+adenosine (CATH LAB)
+60 mg / 50 mL (1.2 mg / mL)
+
+
+adenosine (CATH LAB)
+90 mg / 90 mL (1 mg / mL)
+
+
+ado-trastuzumab
+--- mg / --- mL
+
+
+aflibercept
+--- mg / --- mL
+
+
+agalsidase beta
+--- mg / --- mL
+
+
+albumin 25%
+12.5 gram / 50 mL (0.25 gram / mL)
+Intermittent
+2748593I
+albumin 25%
+25 gram / 100 mL (0.25 gram / mL)
+Intermittent
+2748593I
+albumin 25%
+--- gram / --- mL
+Intermittent
+2748593I
+albumin 5%
+12.5 gram / 250 mL (0.05 gram / mL)
+
+
+albumin 5%
+25 gram / 500 mL (0.05 gram / mL)
+
+
+albumin 5%
+--- gram / --- mL
+
+
+aldesleukin
+--- unit / --- mL
+
+
+alemtuzumab
+--- mg / --- mL
+
+
+alfentanil
+--- mcg / --- mL
+
+
+alglucosidase alfa
+--- mg / --- mL
+
+
+allopurinol
+--- mg / --- mL
+
+
+alpha-1-proteinase
+--- mg / --- mL
+
+
+alprostadil
+500 mcg / 250 mL (2 mcg / mL)
+Cont/Bolus or PCA
+2748821C
+alprostadil
+--- mcg / --- mL
+Cont/Bolus or PCA
+2748821C
+alteplase
+81 mg / 81 mL (1 mg / mL)
+
+
+alteplase
+90 mg / 90 mL (1 mg / mL)
+
+
+alteplase
+100 mg / 100 mL (1 mg / mL)
+
+
+alteplase
+--- mg / --- mL
+
+
+alteplase -stroke
+81 mg / 81 mL (1 mg / mL)
+Cont/Bolus or PCA
+2748851C
+alteplase -stroke
+90 mg / 90 mL (1 mg / mL)
+Cont/Bolus or PCA
+2748851C
+alteplase -stroke
+100 mg / 100 mL (1 mg / mL)
+Cont/Bolus or PCA
+2748851C
+alteplase -stroke
+--- mg / --- mL
+Cont/Bolus or PCA
+2748851C
+alteplase-non-stroke
+2 mg / 50 mL (0.04 mg / mL)
+Intermittent
+2748851I
+alteplase-non-stroke
+2 mg / 100 mL (0.02 mg / mL)
+Intermittent
+2748851I
+alteplase-non-stroke
+100 mg / 100 mL (1 mg / mL)
+Intermittent
+2748851I
+alteplase-non-stroke
+--- mg / --- mL
+Intermittent
+2748851I
+amifostine
+--- mg / --- mL
+
+
+amikacin
+250 mg / 250 mL (1 mg / mL)
+Intermittent
+2748946I
+amikacin
+--- mg / --- mL
+Intermittent
+2748946I
+aminocaproic acid
+--- mg / --- mL
+Intermittent
+2748973I
+aminocaproic acid
+5 gram / 250 mL (0.02 gram / mL)
+Intermittent
+2748973I
+aminocaproic acid
+--- gram / --- mL
+Intermittent
+2748973I
+aminophylline
+250 mg / 250 mL (1 mg / mL)
+Cont/Bolus or PCA
+2748995C
+aminophylline
+500 mg / 500 mL (1 mg / mL)
+Cont/Bolus or PCA
+2748995C
+aminophylline
+1,000 mg / 500 mL (2 mg / mL)
+Cont/Bolus or PCA
+2748995C
+aminophylline
+--- mg / --- mL
+Cont/Bolus or PCA
+2748995C
+amiodarone
+2 mg / 1 mL (2 mg / mL)
+
+
+amiodarone
+6 mg / 1 mL (6 mg / mL)
+
+
+amiodarone
+90 mg / 50 mL (1.8 mg / mL)
+
+
+amiodarone
+150 mg / 100 mL (1.5 mg / mL)
+
+
+amiodarone
+360 mg / 100 mL (3.6 mg / mL)
+
+
+amiodarone
+360 mg / 200 mL (1.8 mg / mL)
+
+
+amiodarone
+450 mg / 250 mL (1.8 mg / mL)
+
+
+amiodarone
+900 mg / 500 mL (1.8 mg / mL)
+
+
+amiodarone
+--- mg / --- mL
+
+
+amiodarone *Loading*
+150 mg / 100 mL (1.5 mg / mL)
+Intermittent
+2749009I
+amiodarone *Loading*
+150 mg / 103 mL (1.4563 mg / mL)
+Intermittent
+2749009I
+amiodarone Drip
+360 mg / 200 mL (1.8 mg / mL)
+Cont/Bolus or PCA
+2749009C
+amiodarone Drip
+450 mg / 250 mL (1.8 mg / mL)
+Cont/Bolus or PCA
+2749009C
+amiodarone Drip
+900 mg / 500 mL (1.8 mg / mL)
+Cont/Bolus or PCA
+2749009C
+ammonium chloride
+--- mEq / --- mL
+
+
+ampho B (LIPID)
+--- mg / --- mL
+
+
+ampho B (liposomal)
+--- mg / --- mL
+Intermittent
+2749278I
+ampho B cholesteryl
+--- mg / --- mL
+
+
+amphotericin B
+--- mg / --- mL
+Intermittent
+2749258I
+ampicillin
+250 mg / 50 mL (5 mg / mL)
+Intermittent
+2749283I
+ampicillin
+500 mg / 50 mL (10 mg / mL)
+Intermittent
+2749283I
+ampicillin
+500 mg / 100 mL (5 mg / mL)
+Intermittent
+2749283I
+ampicillin
+1,000 mg / 50 mL (20 mg / mL)
+Intermittent
+2749283I
+ampicillin
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+2749283I
+ampicillin
+2,000 mg / 100 mL (20 mg / mL)
+Intermittent
+2749283I
+ampicillin
+--- mg / --- mL
+Intermittent
+2749283I
+ampicillin
+0.5 gram / 50 mL (0.01 gram / mL)
+Intermittent
+2749283I
+ampicillin
+0.5 gram / 100 mL (0.005 gram / mL)
+Intermittent
+2749283I
+ampicillin
+1 gram / 50 mL (0.02 gram / mL)
+Intermittent
+2749283I
+ampicillin
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+2749283I
+ampicillin
+2 gram / 100 mL (0.02 gram / mL)
+Intermittent
+2749283I
+ampicillin
+--- gram / --- mL
+Intermittent
+2749283I
+ampicillin/sulbact
+1,500 mg / 50 mL (30 mg / mL)
+Intermittent
+2749313I
+ampicillin/sulbact
+1,500 mg / 100 mL (15 mg / mL)
+Intermittent
+2749313I
+ampicillin/sulbact
+3,000 mg / 100 mL (30 mg / mL)
+Intermittent
+2749313I
+ampicillin/sulbact
+--- mg / --- mL
+Intermittent
+2749313I
+ampicillin/sulbact
+1.5 gram / 50 mL (0.03 gram / mL)
+Intermittent
+2749313I
+ampicillin/sulbact
+1.5 gram / 100 mL (0.015 gram / mL)
+Intermittent
+2749313I
+ampicillin/sulbact
+3 gram / 100 mL (0.03 gram / mL)
+Intermittent
+2749313I
+andulafungin
+--- mg / --- mL
+Intermittent
+4144679I
+antithymocyte EQUIN
+--- mg / --- mL
+
+
+antithymocyte RABBI
+--- mg / --- mL
+
+
+aprepitant
+100 mg / 100 mL (1 mg / mL)
+Intermittent
+
+aprepitant
+130 mg / 100 mL (1.3 mg / mL)
+Intermittent
+
+argatroban
+250 mg / 250 mL (1 mg / mL)
+Cont/Bolus or PCA
+2749866C
+argatroban
+500 mg / 500 mL (1 mg / mL)
+Cont/Bolus or PCA
+2749866C
+arsenic trioxide
+--- mg / --- mL
+
+
+asparaginase
+--- unit / --- mL
+
+
+atezolizumab
+800 mg / 250 mL (3.2 mg / mL)
+Intermittent
+
+atezolizumab
+840 mg / 250 mL (3.36 mg / mL)
+Intermittent
+
+atezolizumab
+1,200 mg / 250 mL (4.8 mg / mL)
+Intermittent
+
+atezolizumab
+1,680 mg / 250 mL (6.72 mg / mL)
+Intermittent
+
+Atgam-lymph horse lg
+--- mg / --- mL
+
+
+atracurium
+50 mg / 250 mL (0.2 mg / mL)
+Cont/Bolus or PCA
+2750296C
+atracurium
+--- mg / --- mL
+Cont/Bolus or PCA
+2750296C
+azaCITIDine
+--- mg / --- mL
+
+
+azaTHIOprine
+--- mg / --- mL
+
+
+azithromycin
+250 mg / 250 mL (1 mg / mL)
+Intermittent
+2750452I
+azithromycin
+500 mg / 250 mL (2 mg / mL)
+Intermittent
+2750452I
+azithromycin
+--- mg / --- mL
+Intermittent
+2750452I
+aztreonam
+1,000 mg / 50 mL (20 mg / mL)
+Intermittent
+2750475I
+aztreonam
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+2750475I
+aztreonam
+2,000 mg / 50 mL (40 mg / mL)
+Intermittent
+2750475I
+aztreonam
+2,000 mg / 100 mL (20 mg / mL)
+Intermittent
+2750475I
+aztreonam
+--- mg / --- mL
+Intermittent
+2750475I
+aztreonam
+1 gram / 50 mL (0.02 gram / mL)
+Intermittent
+2750475I
+aztreonam
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+2750475I
+aztreonam
+2 gram / 50 mL (0.04 gram / mL)
+Intermittent
+2750475I
+aztreonam
+2 gram / 100 mL (0.02 gram / mL)
+Intermittent
+2750475I
+basiliximab
+20 mg / 50 mL (0.4 mg / mL)
+
+
+basiliximab
+--- mg / --- mL
+
+
+belinostat
+--- mg / --- mL
+
+
+Bendamusti (Bendeka)
+--- mg / --- mL
+Intermittent
+
+Bendamusti (Treanda)
+--- mg / --- mL
+Intermittent
+
+bendamustine HCl
+--- mg / --- mL
+
+
+bevacizumab
+--- mg / --- mL
+Intermittent
+
+bivalirudin
+250 mg / 50 mL (5 mg / mL)
+Cont/Bolus or PCA
+2751435C
+bivalirudin
+250 mg / 500 mL (0.5 mg / mL)
+Cont/Bolus or PCA
+2751435C
+bivalirudin
+500 mg / 100 mL (5 mg / mL)
+Cont/Bolus or PCA
+2751435C
+bivalirudin
+1,000 mg / 250 mL (4 mg / mL)
+Cont/Bolus or PCA
+2751435C
+bivalirudin
+1,250 mg / 250 mL (5 mg / mL)
+Cont/Bolus or PCA
+2751435C
+bleomycin
+--- unit / --- mL
+Intermittent
+
+bortezomib
+--- mg / --- mL
+
+
+brentuximab
+--- mg / --- mL
+Intermittent
+
+bretylium
+1,000 mg / 250 mL (4 mg / mL)
+
+
+bretylium
+2,000 mg / 250 mL (8 mg / mL)
+
+
+bretylium
+2,000 mg / 500 mL (4 mg / mL)
+
+
+bumetanide
+10 mg / 100 mL (0.1 mg / mL)
+
+
+bumetanide
+12.5 mg / 50 mL (0.25 mg / mL)
+
+
+bumetanide
+12.5 mg / 250 mL (0.05 mg / mL)
+
+
+bumetanide
+25 mg / 100 mL (0.25 mg / mL)
+
+
+bumetanide
+--- mg / --- mL
+
+
+bumetanide continuos
+--- mg / --- mL
+Cont/Bolus or PCA
+2751668C
+bupivacaine
+--- mg / --- mL
+
+
+busulfan
+--- mg / --- mL
+
+
+cabazitaxel
+--- mg / --- mL
+Intermittent
+
+caffeine citrate
+--- mg / --- mL
+Intermittent
+2751845I
+caffeine/sod benzoa
+500 mg / 1,000 mL (0.5 mg / mL)
+Intermittent
+2751881I
+caffeine/sod benzoa
+--- mg / --- mL
+Intermittent
+2751881I
+calcium chlor PEDS
+--- mg / --- mL
+
+
+calcium chlor PEDS
+--- mEq / --- mL
+
+
+calcium chloride
+1,000 mg / 60 mL (16.6667 mg / mL)
+Intermittent
+2752076I
+calcium chloride
+1,000 mg / 110 mL (9.0909 mg / mL)
+Intermittent
+2752076I
+calcium chloride
+2,000 mg / 120 mL (16.6667 mg / mL)
+Intermittent
+2752076I
+calcium chloride
+--- mg / --- mL
+Intermittent
+2752076I
+calcium chloride
+1 gram / 60 mL (0.0167 gram / mL)
+Intermittent
+2752076I
+calcium chloride
+1 gram / 110 mL (0.0091 gram / mL)
+Intermittent
+2752076I
+calcium chloride
+2 gram / 120 mL (0.0167 gram / mL)
+Intermittent
+2752076I
+calcium chloride
+--- gram / --- mL
+Intermittent
+2752076I
+calcium chloride
+--- mEq / --- mL
+Intermittent
+
+calcium gluconate
+1,000 mg / 50 mL (20 mg / mL)
+Intermittent
+2752096I
+calcium gluconate
+1,000 mg / 60 mL (16.6667 mg / mL)
+Intermittent
+2752096I
+calcium gluconate
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+2752096I
+calcium gluconate
+1,000 mg / 110 mL (9.0909 mg / mL)
+Intermittent
+2752096I
+calcium gluconate
+2,000 mg / 50 mL (40 mg / mL)
+Intermittent
+2752096I
+calcium gluconate
+2,000 mg / 70 mL (28.5714 mg / mL)
+Intermittent
+2752096I
+calcium gluconate
+2,000 mg / 100 mL (20 mg / mL)
+Intermittent
+2752096I
+calcium gluconate
+2,000 mg / 120 mL (16.6667 mg / mL)
+Intermittent
+2752096I
+calcium gluconate
+--- mg / --- mL
+Intermittent
+2752096I
+calcium gluconate
+1 gram / 50 mL (0.02 gram / mL)
+Intermittent
+2752096I
+calcium gluconate
+1 gram / 60 mL (0.0167 gram / mL)
+Intermittent
+2752096I
+calcium gluconate
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+2752096I
+calcium gluconate
+1 gram / 110 mL (0.0091 gram / mL)
+Intermittent
+2752096I
+calcium gluconate
+2 gram / 50 mL (0.04 gram / mL)
+Intermittent
+2752096I
+calcium gluconate
+2 gram / 70 mL (0.0286 gram / mL)
+Intermittent
+2752096I
+calcium gluconate
+2 gram / 100 mL (0.02 gram / mL)
+Intermittent
+2752096I
+calcium gluconate
+2 gram / 120 mL (0.0167 gram / mL)
+Intermittent
+2752096I
+calcium gluconate
+--- gram / --- mL
+Intermittent
+2752096I
+calcium gluconate
+--- mEq / --- mL
+Intermittent
+
+cangrelor
+50 mg / 250 mL (0.2 mg / mL)
+Cont/Bolus or PCA
+273246945C
+carbenicillin
+--- mg / --- mL
+
+
+CARBOplatin
+--- mg / --- mL
+Intermittent
+
+carfilzomib
+--- mg / --- mL
+Intermittent
+
+carmustine
+--- mg / --- mL
+
+
+caspofungin
+35 mg / 100 mL (0.35 mg / mL)
+Intermittent
+2752634I
+caspofungin
+50 mg / 100 mL (0.5 mg / mL)
+Intermittent
+2752634I
+caspofungin
+50 mg / 250 mL (0.2 mg / mL)
+Intermittent
+2752634I
+caspofungin
+70 mg / 250 mL (0.28 mg / mL)
+Intermittent
+2752634I
+caspofungin
+--- mg / --- mL
+Intermittent
+2752634I
+cefamandole
+--- mg / --- mL
+
+
+ceFAZolin
+500 mg / 50 mL (10 mg / mL)
+Intermittent
+2752689I
+ceFAZolin
+1,000 mg / 50 mL (20 mg / mL)
+Intermittent
+2752689I
+ceFAZolin
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+2752689I
+ceFAZolin
+2,000 mg / 50 mL (40 mg / mL)
+Intermittent
+2752689I
+ceFAZolin
+2,000 mg / 100 mL (20 mg / mL)
+Intermittent
+2752689I
+ceFAZolin
+--- mg / --- mL
+Intermittent
+2752689I
+ceFAZolin
+1 gram / 50 mL (0.02 gram / mL)
+Intermittent
+2752689I
+ceFAZolin
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+2752689I
+ceFAZolin
+1.5 gram / 50 mL (0.03 gram / mL)
+Intermittent
+2752689I
+ceFAZolin
+1.5 gram / 100 mL (0.015 gram / mL)
+Intermittent
+2752689I
+ceFAZolin
+2 gram / 50 mL (0.04 gram / mL)
+Intermittent
+2752689I
+ceFAZolin
+2 gram / 100 mL (0.02 gram / mL)
+Intermittent
+2752689I
+ceFAZolin
+--- gram / --- mL
+Intermittent
+2752689I
+cefepime
+500 mg / 50 mL (10 mg / mL)
+Intermittent
+2752723I
+cefepime
+500 mg / 100 mL (5 mg / mL)
+Intermittent
+2752723I
+cefepime
+1,000 mg / 50 mL (20 mg / mL)
+Intermittent
+2752723I
+cefepime
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+2752723I
+cefepime
+2,000 mg / 50 mL (40 mg / mL)
+Intermittent
+2752723I
+cefepime
+2,000 mg / 100 mL (20 mg / mL)
+Intermittent
+2752723I
+cefepime
+--- mg / --- mL
+Intermittent
+2752723I
+cefepime
+1 gram / 50 mL (0.02 gram / mL)
+Intermittent
+2752723I
+cefepime
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+2752723I
+cefepime
+2 gram / 50 mL (0.04 gram / mL)
+Intermittent
+2752723I
+cefepime
+2 gram / 100 mL (0.02 gram / mL)
+Intermittent
+2752723I
+cefepime
+--- gram / --- mL
+Intermittent
+2752723I
+cefoperazone
+--- mg / --- mL
+
+
+cefotaxime
+1,000 mg / 50 mL (20 mg / mL)
+Intermittent
+2752732I
+cefotaxime
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+2752732I
+cefotaxime
+2,000 mg / 50 mL (40 mg / mL)
+Intermittent
+2752732I
+cefotaxime
+2,000 mg / 100 mL (20 mg / mL)
+Intermittent
+2752732I
+cefotaxime
+--- mg / --- mL
+Intermittent
+2752732I
+cefotaxime
+1 gram / 50 mL (0.02 gram / mL)
+Intermittent
+2752732I
+cefotaxime
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+2752732I
+cefotaxime
+2 gram / 50 mL (0.04 gram / mL)
+Intermittent
+2752732I
+cefotaxime
+2 gram / 100 mL (0.02 gram / mL)
+Intermittent
+2752732I
+cefotaxime
+--- gram / --- mL
+Intermittent
+2752732I
+cefoTEtan
+1,000 mg / 50 mL (20 mg / mL)
+Intermittent
+2752747I
+cefoTEtan
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+2752747I
+cefoTEtan
+2,000 mg / 50 mL (40 mg / mL)
+Intermittent
+2752747I
+cefoTEtan
+2,000 mg / 100 mL (20 mg / mL)
+Intermittent
+2752747I
+cefoTEtan
+--- mg / --- mL
+Intermittent
+2752747I
+cefoTEtan
+1 gram / 50 mL (0.02 gram / mL)
+Intermittent
+2752747I
+cefoTEtan
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+2752747I
+cefoTEtan
+2 gram / 50 mL (0.04 gram / mL)
+Intermittent
+2752747I
+cefoTEtan
+2 gram / 100 mL (0.02 gram / mL)
+Intermittent
+2752747I
+cefoTEtan
+--- gram / --- mL
+Intermittent
+2752747I
+cefOXitin
+1,000 mg / 50 mL (20 mg / mL)
+Intermittent
+2752760I
+cefOXitin
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+2752760I
+cefOXitin
+2,000 mg / 50 mL (40 mg / mL)
+Intermittent
+2752760I
+cefOXitin
+2,000 mg / 100 mL (20 mg / mL)
+Intermittent
+2752760I
+cefOXitin
+--- mg / --- mL
+Intermittent
+2752760I
+cefOXitin
+1 gram / 50 mL (0.02 gram / mL)
+Intermittent
+2752760I
+cefOXitin
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+2752760I
+cefOXitin
+2 gram / 50 mL (0.04 gram / mL)
+Intermittent
+2752760I
+cefOXitin
+2 gram / 100 mL (0.02 gram / mL)
+Intermittent
+2752760I
+cefOXitin
+--- gram / --- mL
+Intermittent
+2752760I
+ceftaroline
+200 mg / 50 mL (4 mg / mL)
+Intermittent
+19950738I
+ceftaroline
+200 mg / 100 mL (2 mg / mL)
+Intermittent
+19950738I
+ceftaroline
+200 mg / 250 mL (0.8 mg / mL)
+Intermittent
+19950738I
+ceftaroline
+300 mg / 50 mL (6 mg / mL)
+Intermittent
+19950738I
+ceftaroline
+300 mg / 100 mL (3 mg / mL)
+Intermittent
+19950738I
+ceftaroline
+300 mg / 250 mL (1.2 mg / mL)
+Intermittent
+19950738I
+ceftaroline
+400 mg / 50 mL (8 mg / mL)
+Intermittent
+19950738I
+ceftaroline
+400 mg / 100 mL (4 mg / mL)
+Intermittent
+19950738I
+ceftaroline
+400 mg / 250 mL (1.6 mg / mL)
+Intermittent
+19950738I
+ceftaroline
+600 mg / 50 mL (12 mg / mL)
+Intermittent
+19950738I
+ceftaroline
+600 mg / 100 mL (6 mg / mL)
+Intermittent
+19950738I
+ceftaroline
+600 mg / 250 mL (2.4 mg / mL)
+Intermittent
+19950738I
+ceftaroline
+--- mg / --- mL
+Intermittent
+19950738I
+cefTAZidime
+500 mg / 50 mL (10 mg / mL)
+Intermittent
+2752795I
+cefTAZidime
+500 mg / 100 mL (5 mg / mL)
+Intermittent
+2752795I
+cefTAZidime
+1,000 mg / 50 mL (20 mg / mL)
+Intermittent
+2752795I
+cefTAZidime
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+2752795I
+cefTAZidime
+2,000 mg / 50 mL (40 mg / mL)
+Intermittent
+2752795I
+cefTAZidime
+2,000 mg / 100 mL (20 mg / mL)
+Intermittent
+2752795I
+cefTAZidime
+--- mg / --- mL
+Intermittent
+2752795I
+cefTAZidime
+1 gram / 50 mL (0.02 gram / mL)
+Intermittent
+2752795I
+cefTAZidime
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+2752795I
+cefTAZidime
+1.5 gram / 50 mL (0.03 gram / mL)
+Intermittent
+2752795I
+cefTAZidime
+1.5 gram / 100 mL (0.015 gram / mL)
+Intermittent
+2752795I
+cefTAZidime
+2 gram / 50 mL (0.04 gram / mL)
+Intermittent
+2752795I
+cefTAZidime
+2 gram / 100 mL (0.02 gram / mL)
+Intermittent
+2752795I
+cefTAZidime
+--- gram / --- mL
+Intermittent
+2752795I
+ceftazidime/avibacta
+--- gram / --- mL
+Intermittent
+271758255I
+ceftizoxime
+1,000 mg / 50 mL (20 mg / mL)
+
+
+ceftizoxime
+2,000 mg / 50 mL (40 mg / mL)
+
+
+ceftizoxime
+--- mg / --- mL
+
+
+ceftizoxime
+1 gram / 50 mL (0.02 gram / mL)
+
+
+ceftizoxime
+2 gram / 50 mL (0.04 gram / mL)
+
+
+ceftizoxime
+--- gram / --- mL
+
+
+ceftolozane/tazo
+150 mg / 100 mL (1.5 mg / mL)
+Intermittent
+202016343I
+ceftolozane/tazo
+375 mg / 100 mL (3.75 mg / mL)
+Intermittent
+202016343I
+ceftolozane/tazo
+750 mg / 100 mL (7.5 mg / mL)
+Intermittent
+202016343I
+ceftolozane/tazo
+--- mg / --- mL
+Intermittent
+202016343I
+ceftolozane/tazo
+1.5 gram / 100 mL (0.015 gram / mL)
+Intermittent
+202016343I
+ceftolozane/tazo
+--- gram / --- mL
+Intermittent
+202016343I
+cefTRIAXone
+1,000 mg / 50 mL (20 mg / mL)
+Intermittent
+2752847I
+cefTRIAXone
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+2752847I
+cefTRIAXone
+2,000 mg / 50 mL (40 mg / mL)
+Intermittent
+2752847I
+cefTRIAXone
+2,000 mg / 100 mL (20 mg / mL)
+Intermittent
+2752847I
+cefTRIAXone
+--- mg / --- mL
+Intermittent
+2752847I
+cefTRIAXone
+1 gram / 50 mL (0.02 gram / mL)
+Intermittent
+2752847I
+cefTRIAXone
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+2752847I
+cefTRIAXone
+2 gram / 50 mL (0.04 gram / mL)
+Intermittent
+2752847I
+cefTRIAXone
+2 gram / 100 mL (0.02 gram / mL)
+Intermittent
+2752847I
+cefTRIAXone
+--- gram / --- mL
+Intermittent
+2752847I
+cefuroxime
+750 mg / 50 mL (15 mg / mL)
+Intermittent
+2752869I
+cefuroxime
+750 mg / 100 mL (7.5 mg / mL)
+Intermittent
+2752869I
+cefuroxime
+1,500 mg / 50 mL (30 mg / mL)
+Intermittent
+2752869I
+cefuroxime
+1,500 mg / 100 mL (15 mg / mL)
+Intermittent
+2752869I
+cefuroxime
+--- mg / --- mL
+Intermittent
+2752869I
+cefuroxime
+0.75 gram / 50 mL (0.015 gram / mL)
+Intermittent
+2752869I
+cefuroxime
+0.75 gram / 100 mL (0.0075 gram / 
+mL)
+Intermittent
+2752869I
+cefuroxime
+1.5 gram / 50 mL (0.03 gram / mL)
+Intermittent
+2752869I
+cefuroxime
+1.5 gram / 100 mL (0.015 gram / mL)
+Intermittent
+2752869I
+cefuroxime
+--- gram / --- mL
+Intermittent
+2752869I
+cemiplimab
+--- mg / --- mL
+Intermittent
+
+cetuximab
+--- mg / --- mL
+Intermittent
+
+chloramphenicol
+--- mg / --- mL
+Intermittent
+2753038I
+chlorothiazide
+--- mg / --- mL
+Intermittent
+2753128I
+chlorproMAZINE
+--- mg / --- mL
+Intermittent
+2753638I
+cidofovir
+--- mg / --- mL
+
+
+cimetidine
+300 mg / 50 mL (6 mg / mL)
+
+
+cimetidine
+--- mg / --- mL
+
+
+ciprofloxacin
+200 mg / 100 mL (2 mg / mL)
+Intermittent
+2753846I
+ciprofloxacin
+400 mg / 200 mL (2 mg / mL)
+Intermittent
+2753846I
+ciprofloxacin
+--- mg / --- mL
+Intermittent
+2753846I
+cisatracurium
+100 mg / 100 mL (1 mg / mL)
+Cont/Bolus or PCA
+2753896C
+cisatracurium
+100 mg / 250 mL (0.4 mg / mL)
+Cont/Bolus or PCA
+2753896C
+cisatracurium
+200 mg / 200 mL (1 mg / mL)
+Cont/Bolus or PCA
+2753896C
+cisatracurium
+200 mg / 250 mL (0.8 mg / mL)
+Cont/Bolus or PCA
+2753896C
+cisatracurium
+--- mg / --- mL
+Cont/Bolus or PCA
+2753896C
+CISplatin
+--- mg / --- mL
+Intermittent
+
+cladribine
+--- mg / --- mL
+
+
+clindamycin
+300 mg / 50 mL (6 mg / mL)
+Intermittent
+2753995I
+clindamycin
+300 mg / 100 mL (3 mg / mL)
+Intermittent
+2753995I
+clindamycin
+600 mg / 50 mL (12 mg / mL)
+Intermittent
+2753995I
+clindamycin
+600 mg / 100 mL (6 mg / mL)
+Intermittent
+2753995I
+clindamycin
+900 mg / 50 mL (18 mg / mL)
+Intermittent
+2753995I
+clindamycin
+900 mg / 100 mL (9 mg / mL)
+Intermittent
+2753995I
+clindamycin
+--- mg / --- mL
+Intermittent
+2753995I
+clodronate
+--- mg / --- mL
+
+
+clofarabine
+--- mg / --- mL
+
+
+cloxacillin
+--- mg / --- mL
+
+
+CMV immunoglobulin
+--- mg / --- mL
+
+
+colistimethate
+--- mg / --- mL
+Intermittent
+2754536I
+conivaptan
+20 mg / 100 mL (0.2 mg / mL)
+Cont/Bolus or PCA
+4145032C
+conivaptan
+20 mg / 250 mL (0.08 mg / mL)
+Cont/Bolus or PCA
+4145032C
+conivaptan
+--- mg / --- mL
+Cont/Bolus or PCA
+4145032C
+conivaptan Loading
+20 mg / 100 mL (0.2 mg / mL)
+Intermittent
+4145032I
+cotrimoxazole
+--- mg / --- mL
+
+
+Crotalidae (Crofab)
+--- unit / --- mL
+Intermittent
+2749465I
+cyclophosphamide
+--- mg / --- mL
+Intermittent
+
+cycloSPORINE
+--- mg / --- mL
+
+
+cycloSPORINE cont
+--- mg / --- mL
+
+
+cytarabine
+--- mg / --- mL
+
+
+dacarbazine
+--- mg / --- mL
+Intermittent
+
+daclizumab
+--- mg / --- mL
+
+
+DACTINomycin
+--- mcg / --- mL
+
+
+danaparoid
+--- unit / --- mL
+
+
+dantrolene
+--- mg / --- mL
+Intermittent
+2754894I
+DAPTOmycin
+--- mg / --- mL
+Intermittent
+2754915I
+daratumumab
+--- mg / --- mL
+Intermittent
+
+DAUNOrubicin
+--- mg / --- mL
+
+
+DAUNOrubicin liposo
+--- mg / --- mL
+
+
+decitabine
+--- mg / --- mL
+
+
+deferoxamine
+--- mg / --- mL
+Intermittent
+2754950I
+denileukin
+--- mcg / --- mL
+
+
+desferoxamine
+--- mg / --- mL
+
+
+desmopressin
+--- mcg / --- mL
+Intermittent
+2755032I
+dexamethasone
+--- mg / --- mL
+Intermittent
+2755093I
+dexmedetomidine
+200 mcg / 50 mL (4 mcg / mL)
+Cont/Bolus or PCA
+2755261C
+dexmedetomidine
+200 mcg / 100 mL (2 mcg / mL)
+Cont/Bolus or PCA
+2755261C
+dexmedetomidine
+400 mcg / 100 mL (4 mcg / mL)
+Cont/Bolus or PCA
+2755261C
+dexmedetomidine
+--- mcg / --- mL
+Cont/Bolus or PCA
+2755261C
+dexrazoxane
+--- mg / --- mL
+
+
+dextran 40
+50 gram / 500 mL (0.1 gram / mL)
+
+
+dextran 40
+--- gram / --- mL
+
+
+diazePAM
+50 mg / 50 mL (1 mg / mL)
+
+
+diazePAM
+--- mg / --- mL
+
+
+digoxin
+--- mcg / --- mL
+
+
+digoxin immune fab
+--- mg / --- mL
+Intermittent
+2755888I
+dihydroergotamine
+--- mg / --- mL
+
+
+dilTIAZem
+100 mg / 100 mL (1 mg / mL)
+Cont/Bolus or PCA
+2755935C
+dilTIAZem
+125 mg / 125 mL (1 mg / mL)
+Cont/Bolus or PCA
+2755935C
+dilTIAZem
+--- mg / --- mL
+Cont/Bolus or PCA
+2755935C
+dimenhyDRINATE
+--- mg / --- mL
+
+
+diphenhydrAMINE
+--- mg / --- mL
+
+
+dipyridamole
+--- mg / --- mL
+
+
+DOBUTamine
+250 mg / 250 mL (1 mg / mL)
+Cont/Bolus or PCA
+2756310C
+DOBUTamine
+500 mg / 250 mL (2 mg / mL)
+Cont/Bolus or PCA
+2756310C
+DOBUTamine
+500 mg / 500 mL (1 mg / mL)
+Cont/Bolus or PCA
+2756310C
+DOBUTamine
+1,000 mg / 250 mL (4 mg / mL)
+Cont/Bolus or PCA
+2756310C
+DOBUTamine
+1,000 mg / 500 mL (2 mg / mL)
+Cont/Bolus or PCA
+2756310C
+DOBUTamine
+--- mg / --- mL
+Cont/Bolus or PCA
+2756310C, 
+2756310I
+DOCEtaxel
+--- mg / --- mL
+Intermittent
+
+dolasetron
+--- mg / --- mL
+
+
+DOPamine
+400 mg / 250 mL (1.6 mg / mL)
+Cont/Bolus or PCA
+2756465C
+DOPamine
+800 mg / 250 mL (3.2 mg / mL)
+Cont/Bolus or PCA
+2756465C
+DOPamine
+--- mg / --- mL
+Cont/Bolus or PCA
+2756465C
+doripenem
+250 mg / 50 mL (5 mg / mL)
+Intermittent
+4316756I
+doripenem
+250 mg / 100 mL (2.5 mg / mL)
+Intermittent
+4316756I
+doripenem
+500 mg / 100 mL (5 mg / mL)
+Intermittent
+4316756I
+doxaCURIUM
+--- mg / --- mL
+
+
+doxapram
+250 mg / 250 mL (1 mg / mL)
+Cont/Bolus or PCA
+2756493C
+doxapram
+--- mg / --- mL
+Cont/Bolus or PCA
+2756493C
+DOXOrubicin
+--- mg / --- mL
+Intermittent
+
+DOXOrubicin, liposo
+--- mg / --- mL
+Intermittent
+
+doxycycline
+100 mg / 100 mL (1 mg / mL)
+Intermittent
+2756557I
+doxycycline
+200 mg / 250 mL (0.8 mg / mL)
+Intermittent
+2756557I
+doxycycline
+--- mg / --- mL
+Intermittent
+2756557I
+droperidol
+--- mg / --- mL
+
+
+drotrecogin
+--- mg / --- mL
+
+
+eculizumab
+300 mg / 60 mL (5 mg / mL)
+
+
+eculizumab
+600 mg / 120 mL (5 mg / mL)
+
+
+eculizumab
+900 mg / 180 mL (5 mg / mL)
+
+
+eculizumab
+1,200 mg / 240 mL (5 mg / mL)
+
+
+eculizumab
+--- mg / --- mL
+
+
+EDTA
+--- mg / --- mL
+
+
+enalaprilat
+--- mcg / --- mL
+
+
+EPINEPHrine
+4 mg / 250 mL (0.016 mg / mL)
+Cont/Bolus or PCA
+2757140C
+EPINEPHrine
+5 mg / 250 mL (0.02 mg / mL)
+Cont/Bolus or PCA
+2757140C
+EPINEPHrine
+8 mg / 250 mL (0.032 mg / mL)
+Cont/Bolus or PCA
+2757140C
+EPINEPHrine
+10 mg / 500 mL (0.02 mg / mL)
+Cont/Bolus or PCA
+2757140C
+EPINEPHrine
+16 mg / 250 mL (0.064 mg / mL)
+Cont/Bolus or PCA
+2757140C
+EPINEPHrine
+30 mg / 250 mL (0.12 mg / mL)
+Cont/Bolus or PCA
+2757140C
+EPINEPHrine
+--- mg / --- mL
+Cont/Bolus or PCA
+2757140C
+epiRUBicin
+--- mg / --- mL
+
+
+epoprostenol
+500 mcg / 100 mL (5 mcg / mL)
+Cont/Bolus or PCA
+2757252C
+epoprostenol
+1,000 mcg / 100 mL (10 mcg / mL)
+Cont/Bolus or PCA
+2757252C
+epoprostenol
+3,000 mcg / 100 mL (30 mcg / mL)
+Cont/Bolus or PCA
+2757252C
+epoprostenol
+--- mcg / --- mL
+Cont/Bolus or PCA
+2757252C
+eptifibatide
+75 mg / 100 mL (0.75 mg / mL)
+Cont/Bolus or PCA
+2757273C
+eptifibatide
+200 mg / 100 mL (2 mg / mL)
+Cont/Bolus or PCA
+2757273C
+erBULin
+--- mg / --- mL
+
+
+eriBULin
+--- mg / --- mL
+Intermittent
+
+ertapenem
+500 mg / 50 mL (10 mg / mL)
+Intermittent
+2757309I
+ertapenem
+500 mg / 100 mL (5 mg / mL)
+Intermittent
+2757309I
+ertapenem
+1,000 mg / 50 mL (20 mg / mL)
+Intermittent
+2757309I
+ertapenem
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+2757309I
+ertapenem
+0.5 gram / 50 mL (0.01 gram / mL)
+Intermittent
+2757309I
+ertapenem
+0.5 gram / 100 mL (0.005 gram / mL)
+Intermittent
+2757309I
+ertapenem
+1 gram / 50 mL (0.02 gram / mL)
+Intermittent
+2757309I
+ertapenem
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+2757309I
+erythromycin
+250 mg / 100 mL (2.5 mg / mL)
+Intermittent
+2757314I
+erythromycin
+500 mg / 100 mL (5 mg / mL)
+Intermittent
+2757314I
+erythromycin
+1,000 mg / 250 mL (4 mg / mL)
+Intermittent
+2757314I
+erythromycin
+--- mg / --- mL
+Intermittent
+2757314I
+erythromycin
+--- gram / --- mL
+Intermittent
+2757314I
+esmolol
+2,500 mg / 250 mL (10 mg / mL)
+Cont/Bolus or PCA
+2757437C
+esmolol
+5,000 mg / 250 mL (20 mg / mL)
+Cont/Bolus or PCA
+2757437C
+esmolol
+--- mg / --- mL
+Cont/Bolus or PCA
+2757437C
+esomeprazole
+--- mg / --- mL
+
+
+ethanol 10%
+--- gram / --- mL
+
+
+ethanol 5%
+--- gram / --- mL
+
+
+etidronate
+--- mg / --- mL
+
+
+etomidate
+--- mg / --- mL
+
+
+etoposide
+--- mg / --- mL
+Intermittent
+
+factor IX
+--- unit / --- mL
+
+
+factor VIII
+--- unit / --- mL
+
+
+factor VIIIa
+--- unit / --- mL
+
+
+famotidine
+20 mg / 50 mL (0.4 mg / mL)
+Intermittent
+2757966I
+famotidine
+--- mg / --- mL
+Intermittent
+2757966I
+fat emulsion 10%
+10 gram / 100 mL (0.1 gram / mL)
+
+
+fat emulsion 20%
+20 gram / 100 mL (0.2 gram / mL)
+Intermittent
+2757989I
+fat emulsion 20%
+50 gram / 250 mL (0.2 gram / mL)
+Intermittent
+2757989I
+fat emulsion 30%
+30 gram / 100 mL (0.3 gram / mL)
+
+
+fenoldopam
+10 mg / 250 mL (0.04 mg / mL)
+Cont/Bolus or PCA
+2758046C
+fentaNYL
+10 mcg / 1 mL (10 mcg / mL)
+
+
+fentaNYL
+25 mcg / 1 mL (25 mcg / mL)
+
+
+fentaNYL
+50 mcg / 1 mL (50 mcg / mL)
+
+
+fentaNYL
+100 mcg / 10 mL (10 mcg / mL)
+
+
+fentaNYL
+150 mcg / 15 mL (10 mcg / mL)
+
+
+fentaNYL
+250 mcg / 50 mL (5 mcg / mL)
+
+
+fentaNYL
+500 mcg / 50 mL (10 mcg / mL)
+
+
+fentaNYL
+1,000 mcg / 50 mL (20 mcg / mL)
+
+
+fentaNYL
+1,000 mcg / 100 mL (10 mcg / mL)
+
+
+fentaNYL
+1,250 mcg / 25 mL (50 mcg / mL)
+
+
+fentaNYL
+2,500 mcg / 250 mL (10 mcg / mL)
+
+
+fentaNYL
+--- mcg / --- mL
+
+
+ferric carboxymaltos
+--- mg / --- mL
+Intermittent
+24606832I
+ferric gluconate Na
+125 mg / 100 mL (1.25 mg / mL)
+
+
+ferric gluconate Na
+--- mg / --- mL
+
+
+filgrastim
+--- mcg / --- mL
+
+
+floxuridine
+--- mg / --- mL
+
+
+fluconazole
+100 mg / 50 mL (2 mg / mL)
+Intermittent
+2758256I
+fluconazole
+200 mg / 100 mL (2 mg / mL)
+Intermittent
+2758256I
+fluconazole
+400 mg / 200 mL (2 mg / mL)
+Intermittent
+2758256I
+fluconazole
+--- mg / --- mL
+Intermittent
+2758256I
+fludarabine
+--- mg / --- mL
+
+
+fluorouracil
+--- mg / --- mL
+Intermittent
+
+folic acid
+--- mg / --- mL
+Intermittent
+2758687I
+fomepizole
+--- mg / --- mL
+Intermittent
+2758716I
+fosaprepitant
+150 mg / 150 mL (1 mg / mL)
+Intermittent
+
+fosaprepitant_EMEND
+115 mg / 115 mL (1 mg / mL)
+
+
+foscarnet
+100 mg / 50 mL (2 mg / mL)
+
+
+foscarnet
+--- mg / --- mL
+
+
+fosphenytoin
+--- mg / --- mL
+Intermittent
+2758779I
+furosemide
+100 mg / 100 mL (1 mg / mL)
+Cont/Bolus or PCA
+2758798C
+furosemide
+250 mg / 250 mL (1 mg / mL)
+Cont/Bolus or PCA
+2758798C
+furosemide
+300 mg / 30 mL (10 mg / mL)
+Cont/Bolus or PCA
+2758798C
+furosemide
+500 mg / 100 mL (5 mg / mL)
+Cont/Bolus or PCA
+2758798C
+furosemide
+--- mg / --- mL
+Cont/Bolus or PCA
+2758798C
+FUROsemide Bolus
+--- mg / --- mL
+
+
+ganciclovir
+--- mg / --- mL
+Intermittent
+2758863I
+gancyclovir
+--- mg / --- mL
+
+
+ganisetron
+--- mcg / --- mL
+
+
+gatifloxacin
+200 mg / 100 mL (2 mg / mL)
+
+
+gatifloxacin
+400 mg / 200 mL (2 mg / mL)
+
+
+gatifloxacin
+--- mg / --- mL
+
+
+gemcitabine
+--- mg / --- mL
+Intermittent
+
+gemtuzumab
+--- mg / --- mL
+
+
+gentamicin
+80 mg / 100 mL (0.8 mg / mL)
+Intermittent
+2758928I
+gentamicin
+120 mg / 100 mL (1.2 mg / mL)
+Intermittent
+2758928I
+gentamicin
+--- mg / --- mL
+Intermittent
+2758928I
+glucagon
+--- mg / --- mL
+
+
+granisetron
+--- mg / --- mL
+
+
+haloperidol
+--- mg / --- mL
+
+
+heparin
+100 unit / 1 mL (100 unit / mL)
+Cont/Bolus or PCA
+2759747C
+heparin
+1,250 unit / 50 mL (25 unit / mL)
+Cont/Bolus or PCA
+2759747C
+heparin
+2,500 unit / 25 mL (100 unit / mL)
+Cont/Bolus or PCA
+2759747C
+heparin
+2,500 unit / 50 mL (50 unit / mL)
+Cont/Bolus or PCA
+2759747C
+heparin
+5,000 unit / 50 mL (100 unit / mL)
+Cont/Bolus or PCA
+2759747C
+heparin
+5,000 unit / 100 mL (50 unit / mL)
+Cont/Bolus or PCA
+2759747C
+heparin
+25,000 unit / 250 mL (100 unit / mL)
+Cont/Bolus or PCA
+2759747C
+heparin
+25,000 unit / 500 mL (50 unit / mL)
+Cont/Bolus or PCA
+2759747C
+heparin
+--- unit / --- mL
+Cont/Bolus or PCA
+2759747C
+hetastarch 6%
+30 gram / 500 mL (0.06 gram / mL)
+Intermittent
+2759815C, 
+2759815I
+hydrALAZINE
+--- mg / --- mL
+
+
+hydrochloric acid
+0.1 mEq / 1 mL (0.1 mEq / mL)
+
+
+hydrochloric acid
+0.2 mEq / 1 mL (0.2 mEq / mL)
+
+
+hydrochloric acid
+--- mEq / --- mL
+
+
+hydrocortisone
+--- mg / --- mL
+Intermittent
+2760102I
+HYDROmorphone
+0.2 mg / 1 mL (0.2 mg / mL)
+
+
+HYDROmorphone
+1 mg / 1 mL (1 mg / mL)
+
+
+HYDROmorphone
+20 mg / 100 mL (0.2 mg / mL)
+
+
+HYDROmorphone
+--- mg / --- mL
+
+
+HYDROmorphone 1MG/ML
+1 mg / 1 mL (1 mg / mL)
+
+
+HYDROmorphone 1MG/ML
+30 mg / 30 mL (1 mg / mL)
+
+
+HYDROmorphone 1MG/ML
+--- mg / --- mL
+
+
+ibuprofen lysine
+--- mg / --- mL
+
+
+ibutilide
+0.5 mg / 50 mL (0.01 mg / mL)
+Intermittent
+2760741I
+ibutilide
+0.5 mg / 100 mL (0.005 mg / mL)
+Intermittent
+2760741I
+ibutilide
+1 mg / 50 mL (0.02 mg / mL)
+Intermittent
+2760741I
+ibutilide
+1 mg / 60 mL (0.0167 mg / mL)
+Intermittent
+2760741I
+ibutilide
+1 mg / 100 mL (0.01 mg / mL)
+Intermittent
+2760741I
+ibutilide
+--- mg / --- mL
+Intermittent
+2760741I
+IDArubicin
+--- mg / --- mL
+
+
+Ifex / Mesna
+--- mg / --- mL
+
+
+Ifex / Mesna
+--- gram / --- mL
+
+
+ifosfamide
+--- mg / --- mL
+Intermittent
+
+ifosfamide
+--- gram / --- mL
+Intermittent
+
+iloprost
+--- mcg / --- mL
+
+
+imiglucerase
+--- unit / --- mL
+
+
+imipenem/cilastatin
+250 mg / 100 mL (2.5 mg / mL)
+Intermittent
+2760792I
+imipenem/cilastatin
+500 mg / 100 mL (5 mg / mL)
+Intermittent
+2760792I
+imipenem/cilastatin
+750 mg / 250 mL (3 mg / mL)
+Intermittent
+2760792I
+imipenem/cilastatin
+1,000 mg / 250 mL (4 mg / mL)
+Intermittent
+2760792I
+imipenem/cilastatin
+--- mg / --- mL
+Intermittent
+2760792I
+imipenem/cilastatin
+0.5 gram / 100 mL (0.005 gram / mL)
+Intermittent
+2760792I
+imipenem/cilastatin
+1 gram / 250 mL (0.004 gram / mL)
+Intermittent
+2760792I
+imipenem/cilastatin
+--- gram / --- mL
+Intermittent
+2760792I
+immune glob (IVIG)
+5 gram / 50 mL (0.1 gram / mL)
+Intermittent
+2760832I
+immune glob (IVIG)
+5 gram / 100 mL (0.05 gram / mL)
+Intermittent
+2760832I
+immune glob (IVIG)
+10 gram / 100 mL (0.1 gram / mL)
+Intermittent
+2760832I
+immune glob (IVIG)
+10 gram / 200 mL (0.05 gram / mL)
+Intermittent
+2760832I
+immune glob (IVIG)
+20 gram / 200 mL (0.1 gram / mL)
+Intermittent
+2760832I
+immune glob (IVIG)
+--- gram / --- mL
+Intermittent
+2760832I
+immune globulin Rho
+--- gram / --- mL
+
+
+inamrinone
+100 mg / 100 mL (1 mg / mL)
+
+
+inamrinone
+300 mg / 60 mL (5 mg / mL)
+
+
+indomethacin
+--- mg / --- mL
+
+
+inFLIXimab
+--- mg / --- mL
+Intermittent
+2760925I
+insulin
+10 unit / 1,000 mL (0.01 unit / mL)
+Cont/Bolus or PCA
+2761029C
+insulin
+100 unit / 100 mL (1 unit / mL)
+Cont/Bolus or PCA
+2761029C
+insulin
+250 unit / 250 mL (1 unit / mL)
+Cont/Bolus or PCA
+2761029C
+insulin
+--- unit / --- mL
+Cont/Bolus or PCA
+2761029C
+interferon alpha-2b
+--- unit / --- mL
+
+
+ipilimumab
+--- mg / --- mL
+Intermittent
+
+irinotecan
+--- mg / --- mL
+Intermittent
+
+irinotecan liposomal
+--- mg / --- mL
+Intermittent
+
+iron dextran
+25 mg / 50 mL (0.5 mg / mL)
+
+
+iron dextran
+--- mg / --- mL
+
+
+iron sucrose
+200 mg / 110 mL (1.8182 mg / mL)
+Intermittent
+2761376I
+iron sucrose
+500 mg / 275 mL (1.8182 mg / mL)
+Intermittent
+2761376I
+iron sucrose
+--- mg / --- mL
+Intermittent
+2761376I
+isoproterenol
+1 mg / 250 mL (0.004 mg / mL)
+Cont/Bolus or PCA
+2761419C
+isoproterenol
+2 mg / 250 mL (0.008 mg / mL)
+Cont/Bolus or PCA
+2761419C
+isoproterenol
+2 mg / 500 mL (0.004 mg / mL)
+Cont/Bolus or PCA
+2761419C
+isoproterenol
+--- mg / --- mL
+Cont/Bolus or PCA
+2761419C
+itraconazole
+200 mg / 60 mL (3.3333 mg / mL)
+Intermittent
+2761517I
+itraconazole
+--- mg / --- mL
+Intermittent
+2761517I
+ixabepilone
+--- mg / --- mL
+
+
+Kcentra (Factor IX)
+--- unit / --- mL
+Intermittent
+24608305I
+ketamine
+--- mg / --- mL
+
+
+ketamine ANES
+50 mg / 50 mL (1 mg / mL)
+Cont/Bolus or PCA
+
+ketamine ANES
+100 mg / 100 mL (1 mg / mL)
+Cont/Bolus or PCA
+
+ketamine ANES
+--- mg / --- mL
+Cont/Bolus or PCA
+
+Kinevac (sincalide)
+--- mcg / --- mL
+Intermittent
+2768854I
+Kinevac (sincalide)
+--- mg / --- mL
+Intermittent
+2768854I
+labetalol
+200 mg / 200 mL (1 mg / mL)
+Cont/Bolus or PCA
+2761620C
+labetalol
+250 mg / 250 mL (1 mg / mL)
+Cont/Bolus or PCA
+2761620C
+labetalol
+500 mg / 250 mL (2 mg / mL)
+Cont/Bolus or PCA
+2761620C
+labetalol
+--- mg / --- mL
+Cont/Bolus or PCA
+2761620C
+lacosamide
+--- mg / --- mL
+Intermittent
+19952919I
+lepirudin
+100 mg / 250 mL (0.4 mg / mL)
+
+
+lepirudin
+--- mg / --- mL
+
+
+leucovorin
+--- mg / --- mL
+Intermittent
+
+levETIRAcetam
+500 mg / 100 mL (5 mg / mL)
+Intermittent
+2761878I
+levETIRAcetam
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+2761878I
+levETIRAcetam
+1,500 mg / 100 mL (15 mg / mL)
+Intermittent
+2761878I
+levETIRAcetam
+--- mg / --- mL
+Intermittent
+2761878I
+levETIRAcetam
+--- gram / --- mL
+Intermittent
+2761878I
+levobupivicaine
+--- mg / --- mL
+
+
+levOCARNitine
+--- mg / --- mL
+
+
+levoFLOXacin
+250 mg / 50 mL (5 mg / mL)
+Intermittent
+2761938I
+levoFLOXacin
+500 mg / 100 mL (5 mg / mL)
+Intermittent
+2761938I
+levoFLOXacin
+750 mg / 150 mL (5 mg / mL)
+Intermittent
+2761938I
+levoFLOXacin
+--- mg / --- mL
+Intermittent
+2761938I
+LEVOleucovorin
+--- mg / --- mL
+
+
+levothyroxine
+--- mcg / --- mL
+
+
+lidocaine
+1,000 mg / 250 mL (4 mg / mL)
+Cont/Bolus or PCA
+2762076C
+lidocaine
+2,000 mg / 500 mL (4 mg / mL)
+Cont/Bolus or PCA
+2762076C
+lidocaine
+--- mg / --- mL
+Cont/Bolus or PCA
+2762076C
+linezolid
+200 mg / 100 mL (2 mg / mL)
+Intermittent
+2762196I
+linezolid
+600 mg / 300 mL (2 mg / mL)
+Intermittent
+2762196I
+linezolid
+--- mg / --- mL
+Intermittent
+2762196I
+liothyronine
+--- mcg / --- mL
+
+
+LORazepam
+12 mg / 60 mL (0.2 mg / mL)
+
+
+LORazepam
+20 mg / 100 mL (0.2 mg / mL)
+
+
+LORazepam
+40 mg / 100 mL (0.4 mg / mL)
+
+
+LORazepam
+100 mg / 100 mL (1 mg / mL)
+
+
+LORazepam
+120 mg / 60 mL (2 mg / mL)
+
+
+LORazepam
+--- mg / --- mL
+
+
+mag OB load
+4 gram / 100 mL (0.04 gram / mL)
+
+
+mag OB maintenance
+20 gram / 500 mL (0.04 gram / mL)
+Cont/Bolus or PCA
+2762580C
+mag sulfate
+1 gram / 50 mL (0.02 gram / mL)
+Intermittent
+2762580I
+mag sulfate
+2 gram / 50 mL (0.04 gram / mL)
+Intermittent
+2762580I
+mag sulfate
+4 gram / 100 mL (0.04 gram / mL)
+Intermittent
+2762580I
+mag sulfate
+--- gram / --- mL
+Intermittent
+2762580I
+mag sulfate IVPB
+--- mg / --- mL
+
+
+mag sulfate IVPB
+1 gram / 50 mL (0.02 gram / mL)
+
+
+mag sulfate IVPB
+1 gram / 100 mL (0.01 gram / mL)
+
+
+mag sulfate IVPB
+2 gram / 50 mL (0.04 gram / mL)
+
+
+mag sulfate IVPB
+4 gram / 100 mL (0.04 gram / mL)
+
+
+mag sulfate IVPB
+40 gram / 500 mL (0.08 gram / mL)
+
+
+mag sulfate IVPB
+--- gram / --- mL
+
+
+magnesium sulfate
+--- mg / --- mL
+Intermittent
+
+magnesium sulfate
+1 gram / 50 mL (0.02 gram / mL)
+Intermittent
+
+magnesium sulfate
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+
+magnesium sulfate
+2 gram / 50 mL (0.04 gram / mL)
+Intermittent
+
+magnesium sulfate
+4 gram / 100 mL (0.04 gram / mL)
+Intermittent
+
+magnesium sulfate
+40 gram / 500 mL (0.08 gram / mL)
+Intermittent
+
+magnesium sulfate
+--- gram / --- mL
+Intermittent
+
+mannitol  20%
+50 gram / 250 mL (0.2 gram / mL)
+Intermittent
+2762620I
+mannitol  20%
+100 gram / 500 mL (0.2 gram / mL)
+Intermittent
+2762620I
+mannitol  20%
+--- gram / --- mL
+Intermittent
+2762620I
+mannitol 10%
+100 gram / 1,000 mL (0.1 gram / mL)
+
+
+mannitol 10%
+--- gram / --- mL
+
+
+mannitol 15%
+75 gram / 500 mL (0.15 gram / mL)
+
+
+mannitol 15%
+--- gram / --- mL
+
+
+mannitol 20%
+50 gram / 250 mL (0.2 gram / mL)
+
+
+mannitol 20%
+100 gram / 500 mL (0.2 gram / mL)
+
+
+mannitol 20%
+--- gram / --- mL
+
+
+mannitol 25%
+12.5 gram / 50 mL (0.25 gram / mL)
+
+
+mannitol 25%
+--- gram / --- mL
+
+
+mannitol 5%
+50 gram / 1,000 mL (0.05 gram / mL)
+
+
+mannitol 5%
+--- gram / --- mL
+
+
+mannitol Bolus
+12.5 gram / 50 mL (0.25 gram / mL)
+
+
+mannitol Bolus
+--- gram / --- mL
+
+
+mechlorethamine
+--- mg / --- mL
+
+
+melphalan
+--- mg / --- mL
+
+
+meperidine
+10 mg / 1 mL (10 mg / mL)
+
+
+meperidine
+500 mg / 50 mL (10 mg / mL)
+
+
+meperidine
+--- mg / --- mL
+
+
+meropenem
+500 mg / 50 mL (10 mg / mL)
+Intermittent
+2762894I
+meropenem
+500 mg / 100 mL (5 mg / mL)
+Intermittent
+2762894I
+meropenem
+1,000 mg / 50 mL (20 mg / mL)
+Intermittent
+2762894I
+meropenem
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+2762894I
+meropenem
+2,000 mg / 50 mL (40 mg / mL)
+Intermittent
+2762894I
+meropenem
+2,000 mg / 100 mL (20 mg / mL)
+Intermittent
+2762894I
+meropenem
+--- mg / --- mL
+Intermittent
+2762894I
+meropenem
+0.5 gram / 50 mL (0.01 gram / mL)
+Intermittent
+2762894I
+meropenem
+0.5 gram / 100 mL (0.005 gram / mL)
+Intermittent
+2762894I
+meropenem
+1 gram / 50 mL (0.02 gram / mL)
+Intermittent
+2762894I
+meropenem
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+2762894I
+meropenem
+2 gram / 50 mL (0.04 gram / mL)
+Intermittent
+2762894I
+meropenem
+2 gram / 100 mL (0.02 gram / mL)
+Intermittent
+2762894I
+meropenem
+--- gram / --- mL
+Intermittent
+2762894I
+mesna
+--- mg / --- mL
+Intermittent
+
+methadone
+--- mg / --- mL
+
+
+methocarbamol
+--- mg / --- mL
+
+
+methohexitol
+--- mg / --- mL
+
+
+methotrexate
+--- mg / --- mL
+
+
+methotrexate
+--- gram / --- mL
+
+
+methyldopa
+--- mg / --- mL
+
+
+methylpred BOLUS
+--- mg / --- mL
+
+
+methylpred spinal
+--- mg / --- mL
+
+
+methylpred SpinMain
+--- mg / --- mL
+
+
+methylPREDNISolone
+500 mg / 100 mL (5 mg / mL)
+Intermittent
+2763323I
+methylPREDNISolone
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+2763323I
+methylPREDNISolone
+--- mg / --- mL
+Intermittent
+2763323I
+metoclopramide
+--- mg / --- mL
+
+
+metoprolol
+--- mg / --- mL
+
+
+metroNIDAZOLE
+250 mg / 50 mL (5 mg / mL)
+Intermittent
+2763443I
+metroNIDAZOLE
+500 mg / 100 mL (5 mg / mL)
+Intermittent
+2763443I
+metroNIDAZOLE
+--- mg / --- mL
+Intermittent
+2763443I
+mezlocillin
+--- mg / --- mL
+
+
+micafungin
+50 mg / 100 mL (0.5 mg / mL)
+Intermittent
+3830619I
+micafungin
+100 mg / 100 mL (1 mg / mL)
+Intermittent
+3830619I
+micafungin
+150 mg / 100 mL (1.5 mg / mL)
+Intermittent
+3830619I
+micafungin
+--- mg / --- mL
+Intermittent
+3830619I
+miconazole
+--- mg / --- mL
+
+
+midazolam
+0.1 mg / 1 mL (0.1 mg / mL)
+
+
+midazolam
+0.5 mg / 1 mL (0.5 mg / mL)
+
+
+midazolam
+1 mg / 1 mL (1 mg / mL)
+
+
+midazolam
+1.5 mg / 50 mL (0.03 mg / mL)
+
+
+midazolam
+2 mg / 1 mL (2 mg / mL)
+
+
+midazolam
+3.5 mg / 50 mL (0.07 mg / mL)
+
+
+midazolam
+5 mg / 50 mL (0.1 mg / mL)
+
+
+midazolam
+50 mg / 50 mL (1 mg / mL)
+
+
+midazolam
+50 mg / 100 mL (0.5 mg / mL)
+
+
+midazolam
+100 mg / 100 mL (1 mg / mL)
+
+
+midazolam
+125 mg / 125 mL (1 mg / mL)
+
+
+midazolam
+--- mg / --- mL
+
+
+milrinone
+20 mg / 100 mL (0.2 mg / mL)
+Cont/Bolus or PCA
+2763605C
+milrinone
+40 mg / 200 mL (0.2 mg / mL)
+Cont/Bolus or PCA
+2763605C
+milrinone
+--- mg / --- mL
+Cont/Bolus or PCA
+2763605C
+minocycline
+--- mg / --- mL
+
+
+mitoMYcin
+--- mg / --- mL
+Intermittent
+
+mitoXANTRONE
+--- mg / --- mL
+
+
+morphine
+1 mg / 1 mL (1 mg / mL)
+
+
+morphine
+5 mg / 1 mL (5 mg / mL)
+
+
+morphine
+30 mg / 30 mL (1 mg / mL)
+
+
+morphine
+50 mg / 50 mL (1 mg / mL)
+
+
+morphine
+100 mg / 100 mL (1 mg / mL)
+
+
+morphine
+--- mg / --- mL
+
+
+morphine 5 MG/ML
+5 mg / 1 mL (5 mg / mL)
+
+
+morphine 5 MG/ML
+150 mg / 30 mL (5 mg / mL)
+
+
+morphine 5 MG/ML
+--- mg / --- mL
+
+
+morphine BOLUS
+1 mg / 1 mL (1 mg / mL)
+
+
+morphine BOLUS
+30 mg / 30 mL (1 mg / mL)
+
+
+morphine BOLUS
+50 mg / 50 mL (1 mg / mL)
+
+
+morphine BOLUS
+100 mg / 100 mL (1 mg / mL)
+
+
+morphine BOLUS
+--- mg / --- mL
+
+
+moxifloxacin
+400 mg / 250 mL (1.6 mg / mL)
+
+
+moxifloxacin
+--- mg / --- mL
+
+
+muromonab
+--- mg / --- mL
+
+
+mycophenolate
+--- mg / --- mL
+
+
+nafcillin
+500 mg / 50 mL (10 mg / mL)
+Intermittent
+2764713I
+nafcillin
+500 mg / 100 mL (5 mg / mL)
+Intermittent
+2764713I
+nafcillin
+1,000 mg / 50 mL (20 mg / mL)
+Intermittent
+2764713I
+nafcillin
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+2764713I
+nafcillin
+2,000 mg / 50 mL (40 mg / mL)
+Intermittent
+2764713I
+nafcillin
+2,000 mg / 100 mL (20 mg / mL)
+Intermittent
+2764713I
+nafcillin
+--- mg / --- mL
+Intermittent
+2764713I
+nafcillin
+0.5 gram / 50 mL (0.01 gram / mL)
+Intermittent
+2764713I
+nafcillin
+0.5 gram / 100 mL (0.005 gram / mL)
+Intermittent
+2764713I
+nafcillin
+1 gram / 50 mL (0.02 gram / mL)
+Intermittent
+2764713I
+nafcillin
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+2764713I
+nafcillin
+2 gram / 50 mL (0.04 gram / mL)
+Intermittent
+2764713I
+nafcillin
+2 gram / 100 mL (0.02 gram / mL)
+Intermittent
+2764713I
+nafcillin
+--- gram / --- mL
+Intermittent
+2764713I
+nalbuphine
+--- mg / --- mL
+
+
+naloxone
+2 mg / 500 mL (0.004 mg / mL)
+Cont/Bolus or PCA
+2764760C
+naloxone
+--- mg / --- mL
+Cont/Bolus or PCA
+2764760C
+nelarabine
+--- mg / --- mL
+
+
+nesiritide
+1.5 mg / 250 mL (0.006 mg / mL)
+Cont/Bolus or PCA
+2764982C
+niCARdipine
+20 mg / 200 mL (0.1 mg / mL)
+Cont/Bolus or PCA
+2765030C
+niCARdipine
+25 mg / 250 mL (0.1 mg / mL)
+Cont/Bolus or PCA
+2765030C
+niCARdipine
+40 mg / 200 mL (0.2 mg / mL)
+Cont/Bolus or PCA
+2765030C
+niCARdipine
+50 mg / 500 mL (0.1 mg / mL)
+Cont/Bolus or PCA
+2765030C
+niCARdipine
+--- mg / --- mL
+Cont/Bolus or PCA
+2765030C
+nitroglycerin
+25 mg / 250 mL (0.1 mg / mL)
+Cont/Bolus or PCA
+2765191C
+nitroglycerin
+50 mg / 250 mL (0.2 mg / mL)
+Cont/Bolus or PCA
+2765191C
+nitroglycerin
+--- mg / --- mL
+Cont/Bolus or PCA
+2765191C
+nitroglycerin ANES
+0.4 mg / 1 mL (0.4 mg / mL)
+
+
+nitroglycerin ANES
+1 mg / 1 mL (1 mg / mL)
+
+
+nitroglycerin ANES
+10 mg / 50 mL (0.2 mg / mL)
+
+
+nitroglycerin ANES
+20 mg / 50 mL (0.4 mg / mL)
+
+
+nitroglycerin ANES
+25 mg / 250 mL (0.1 mg / mL)
+
+
+nitroglycerin ANES
+50 mg / 250 mL (0.2 mg / mL)
+
+
+nitroglycerin ANES
+--- mg / --- mL
+
+
+nitroprusside
+50 mg / 250 mL (0.2 mg / mL)
+Cont/Bolus or PCA
+2765267C
+nitroprusside
+50 mg / 500 mL (0.1 mg / mL)
+Cont/Bolus or PCA
+2765267C
+nitroprusside
+100 mg / 250 mL (0.4 mg / mL)
+Cont/Bolus or PCA
+2765267C
+nitroprusside
+--- mg / --- mL
+Cont/Bolus or PCA
+2765267C
+nivolumab
+240 mg / 100 mL (2.4 mg / mL)
+Intermittent
+
+nivolumab
+480 mg / 100 mL (4.8 mg / mL)
+Intermittent
+
+nivolumab
+--- mg / --- mL
+Intermittent
+
+norepinephrine
+4 mg / 250 mL (0.016 mg / mL)
+Cont/Bolus or PCA
+2765336C
+norepinephrine
+8 mg / 250 mL (0.032 mg / mL)
+Cont/Bolus or PCA
+2765336C
+norepinephrine
+8 mg / 500 mL (0.016 mg / mL)
+Cont/Bolus or PCA
+2765336C
+norepinephrine
+16 mg / 250 mL (0.064 mg / mL)
+Cont/Bolus or PCA
+2765336C
+norepinephrine
+16 mg / 500 mL (0.032 mg / mL)
+Cont/Bolus or PCA
+2765336C
+norepinephrine
+--- mg / --- mL
+Cont/Bolus or PCA
+2765336C
+obinutuzumab
+100 mg / 100 mL (1 mg / mL)
+Intermittent
+
+obinutuzumab
+100 mg / 104 mL (0.9615 mg / mL)
+Intermittent
+
+obinutuzumab
+900 mg / 250 mL (3.6 mg / mL)
+Intermittent
+
+obinutuzumab
+900 mg / 286 mL (3.1469 mg / mL)
+Intermittent
+
+obinutuzumab
+1,000 mg / 250 mL (4 mg / mL)
+Intermittent
+
+obinutuzumab
+1,000 mg / 290 mL (3.4483 mg / mL)
+Intermittent
+
+obinutuzumab
+--- mg / --- mL
+Intermittent
+
+octreotide
+500 mcg / 100 mL (5 mcg / mL)
+Cont/Bolus or PCA
+2765439C
+octreotide
+600 mcg / 240 mL (2.5 mcg / mL)
+Cont/Bolus or PCA
+2765439C
+octreotide
+1,000 mcg / 250 mL (4 mcg / mL)
+Cont/Bolus or PCA
+2765439C
+octreotide
+1,250 mcg / 250 mL (5 mcg / mL)
+Cont/Bolus or PCA
+2765439C
+octreotide
+--- mcg / --- mL
+Cont/Bolus or PCA
+2765439C
+ofatumumab
+--- mg / --- mL
+
+
+ondansetron
+4 mg / 50 mL (0.08 mg / mL)
+Intermittent
+2765642I
+ondansetron
+8 mg / 50 mL (0.16 mg / mL)
+Intermittent
+2765642I
+ondansetron
+8 mg / 54 mL (0.1481 mg / mL)
+Intermittent
+
+ondansetron
+32 mg / 50 mL (0.64 mg / mL)
+Intermittent
+2765642I
+ondansetron
+--- mg / --- mL
+Intermittent
+2765642I
+oritavacin
+1,200 mg / 1,000 mL (1.2 mg / mL)
+
+
+oxacillin
+1,000 mg / 50 mL (20 mg / mL)
+Intermittent
+2765734I
+oxacillin
+2,000 mg / 100 mL (20 mg / mL)
+Intermittent
+2765734I
+oxacillin
+--- mg / --- mL
+Intermittent
+2765734I
+oxacillin
+1 gram / 50 mL (0.02 gram / mL)
+Intermittent
+2765734I
+oxacillin
+2 gram / 100 mL (0.02 gram / mL)
+Intermittent
+2765734I
+oxaliplatin
+--- mg / --- mL
+Intermittent
+
+oxytocin
+10 unit / 1,000 mL (0.01 unit / mL)
+Cont/Bolus or PCA
+2765930C
+oxytocin
+20 unit / 1,000 mL (0.02 unit / mL)
+Cont/Bolus or PCA
+2765930C
+oxytocin
+30 unit / 500 mL (0.06 unit / mL)
+Cont/Bolus or PCA
+2765930C
+oxytocin
+30 unit / 1,000 mL (0.03 unit / mL)
+Cont/Bolus or PCA
+2765930C
+oxytocin
+40 unit / 1,000 mL (0.04 unit / mL)
+Cont/Bolus or PCA
+2765930C
+oxytocin
+--- unit / --- mL
+Cont/Bolus or PCA
+2765930C
+PACLitaxel
+--- mg / --- mL
+Intermittent
+
+PACLitaxel - Albumin
+--- mg / --- mL
+
+
+PACLitaxel protein-b
+--- mg / --- mL
+Intermittent
+
+pamidronate
+90 mg / 250 mL (0.36 mg / mL)
+Intermittent
+2765957I
+pamidronate
+--- mg / --- mL
+Intermittent
+2765957I
+pancuronium
+--- mg / --- mL
+Cont/Bolus or PCA
+2766061C
+panitumumab
+--- mg / --- mL
+Intermittent
+
+pantoprazole
+40 mg / 100 mL (0.4 mg / mL)
+
+
+pantoprazole
+80 mg / 100 mL (0.8 mg / mL)
+
+
+pantoprazole
+96 mg / 240 mL (0.4 mg / mL)
+
+
+pantoprazole
+--- mg / --- mL
+
+
+pantoprazole gtt
+96 mg / 240 mL (0.4 mg / mL)
+Cont/Bolus or PCA
+2766068C
+pantoprazole gtt
+--- mg / --- mL
+Cont/Bolus or PCA
+2766068C
+pantoprazole ivpb
+40 mg / 100 mL (0.4 mg / mL)
+Intermittent
+2766068I
+pantoprazole ivpb
+80 mg / 100 mL (0.8 mg / mL)
+Intermittent
+2766068I
+papaverine
+300 mg / 300 mL (1 mg / mL)
+
+
+papaverine
+--- mg / --- mL
+
+
+pegaspargase
+--- unit / --- mL
+
+
+pembrolizumab
+200 mg / 100 mL (2 mg / mL)
+Intermittent
+
+pembrolizumab
+--- mg / --- mL
+Intermittent
+
+PEMEtrexed
+--- mg / --- mL
+Intermittent
+
+penG 2.5 Mill Units
+2.5 unit / 50 mL (0.05 unit / mL)
+Intermittent
+
+penG 2.5 Mill Units
+2.5 unit / 100 mL (0.025 unit / mL)
+Intermittent
+
+penG 5 Million Units
+5 unit / 50 mL (0.1 unit / mL)
+Intermittent
+
+penG 5 Million Units
+5 unit / 100 mL (0.05 unit / mL)
+Intermittent
+
+penG x Million Units
+--- unit / --- mL
+Intermittent
+
+penicillin G
+--- unit / --- mL
+
+
+pentamidine
+--- mg / --- mL
+Intermittent
+2766284I
+PENTobarbital
+2,500 mg / 500 mL (5 mg / mL)
+
+
+PENTobarbital
+--- mg / --- mL
+
+
+pentostatin
+--- mg / --- mL
+
+
+pertuzumab
+240 mg / 250 mL (0.96 mg / mL)
+Intermittent
+
+pertuzumab
+420 mg / 250 mL (1.68 mg / mL)
+Intermittent
+
+pertuzumab
+420 mg / 264 mL (1.5909 mg / mL)
+Intermittent
+
+pertuzumab
+840 mg / 250 mL (3.36 mg / mL)
+Intermittent
+
+pertuzumab
+840 mg / 278 mL (3.0216 mg / mL)
+Intermittent
+
+PHENobarbital
+--- mg / --- mL
+Intermittent
+2766460I
+phentolamine
+--- mg / --- mL
+
+
+phenylephrine
+10 mg / 250 mL (0.04 mg / mL)
+Cont/Bolus or PCA
+2766541C
+phenylephrine
+10 mg / 251 mL (0.0398 mg / mL)
+Cont/Bolus or PCA
+2766541C
+phenylephrine
+20 mg / 250 mL (0.08 mg / mL)
+Cont/Bolus or PCA
+2766541C
+phenylephrine
+20 mg / 500 mL (0.04 mg / mL)
+Cont/Bolus or PCA
+2766541C
+phenylephrine
+20 mg / 502 mL (0.0398 mg / mL)
+Cont/Bolus or PCA
+2766541C
+phenylephrine
+40 mg / 250 mL (0.16 mg / mL)
+Cont/Bolus or PCA
+2766541C
+phenylephrine
+--- mg / --- mL
+Cont/Bolus or PCA
+2766541C
+phenylephrine ANES
+10 mg / 100 mL (0.1 mg / mL)
+Cont/Bolus or PCA
+
+phenylephrine ANES
+10 mg / 101 mL (0.099 mg / mL)
+Cont/Bolus or PCA
+
+phenylephrine ANES
+10 mg / 250 mL (0.04 mg / mL)
+Cont/Bolus or PCA
+
+phenylephrine ANES
+10 mg / 251 mL (0.0398 mg / mL)
+Cont/Bolus or PCA
+
+phenylephrine ANES
+--- mg / --- mL
+Cont/Bolus or PCA
+
+phenytoin
+1,000 mg / 250 mL (4 mg / mL)
+Intermittent
+2766638I
+phenytoin
+--- mg / --- mL
+Intermittent
+2766638I
+phytonadione
+--- mg / --- mL
+Intermittent
+2766694I
+piperacillin
+2.25 gram / 50 mL (0.045 gram / mL)
+
+
+piperacillin
+3.37 gram / 50 mL (0.0674 gram / mL)
+
+
+piperacillin
+4.5 gram / 50 mL (0.09 gram / mL)
+
+
+piperacillin/tazo
+--- mg / --- mL
+Intermittent
+2766819I
+piperacillin/tazo
+2.25 gram / 50 mL (0.045 gram / mL)
+Intermittent
+2766819I
+piperacillin/tazo
+2.25 gram / 100 mL (0.0225 gram / 
+mL)
+Intermittent
+2766819I
+piperacillin/tazo
+3.375 gram / 50 mL (0.0675 gram / 
+mL)
+Intermittent
+2766819I
+piperacillin/tazo
+3.375 gram / 100 mL (0.0338 gram / 
+mL)
+Intermittent
+2766819I
+piperacillin/tazo
+4.5 gram / 50 mL (0.09 gram / mL)
+Intermittent
+2766819I
+piperacillin/tazo
+4.5 gram / 100 mL (0.045 gram / mL)
+Intermittent
+2766819I
+piperacillin/tazo
+--- gram / --- mL
+Intermittent
+2766819I
+plicamycin
+--- mcg / --- mL
+
+
+porfirmer
+--- mg / --- mL
+
+
+potassium acetate
+10 mEq / 100 mL (0.1 mEq / mL)
+Intermittent
+2767012I
+potassium acetate
+20 mEq / 100 mL (0.2 mEq / mL)
+Intermittent
+2767012I
+potassium acetate
+30 mEq / 100 mL (0.3 mEq / mL)
+Intermittent
+2767012I
+potassium acetate
+40 mEq / 100 mL (0.4 mEq / mL)
+Intermittent
+2767012I
+potassium acetate
+40 mEq / 520 mL (0.0769 mEq / mL)
+Intermittent
+2767012I
+potassium acetate
+--- mEq / --- mL
+Intermittent
+2767012I
+potassium chlor_CENT
+10 mEq / 50 mL (0.2 mEq / mL)
+
+
+potassium chlor_CENT
+10 mEq / 100 mL (0.1 mEq / mL)
+
+
+potassium chlor_CENT
+20 mEq / 100 mL (0.2 mEq / mL)
+
+
+potassium chlor_CENT
+40 mEq / 100 mL (0.4 mEq / mL)
+
+
+potassium chlor_CENT
+40 mEq / 250 mL (0.16 mEq / mL)
+
+
+potassium chlor_CENT
+--- mEq / --- mL
+
+
+potassium chlor_PERI
+10 mEq / 50 mL (0.2 mEq / mL)
+
+
+potassium chlor_PERI
+10 mEq / 100 mL (0.1 mEq / mL)
+
+
+potassium chlor_PERI
+20 mEq / 100 mL (0.2 mEq / mL)
+
+
+potassium chlor_PERI
+40 mEq / 100 mL (0.4 mEq / mL)
+
+
+potassium chlor_PERI
+40 mEq / 250 mL (0.16 mEq / mL)
+
+
+potassium chlor_PERI
+--- mEq / --- mL
+
+
+potassium chloride
+10 mEq / 50 mL (0.2 mEq / mL)
+Intermittent
+1000000100I
+potassium chloride
+10 mEq / 100 mL (0.1 mEq / mL)
+Intermittent
+1000000100I
+potassium chloride
+20 mEq / 100 mL (0.2 mEq / mL)
+Intermittent
+1000000100I
+potassium chloride
+40 mEq / 100 mL (0.4 mEq / mL)
+Intermittent
+1000000100I
+potassium chloride
+40 mEq / 520 mL (0.0769 mEq / mL)
+Intermittent
+1000000100I
+potassium chloride
+--- mEq / --- mL
+Intermittent
+1000000100I
+potassium phos_CENT
+--- mEq / --- mL
+
+
+potassium phos_CENT
+15 mmol / 100 mL (0.15 mmol / mL)
+
+
+potassium phos_CENT
+24 mmol / 100 mL (0.24 mmol / mL)
+
+
+potassium phos_CENT
+30 mmol / 250 mL (0.12 mmol / mL)
+
+
+potassium phos_CENT
+40 mmol / 500 mL (0.08 mmol / mL)
+
+
+potassium phos_CENT
+--- mmol / --- mL
+
+
+potassium phos_PERI
+--- mEq / --- mL
+
+
+potassium phos_PERI
+15 mmol / 100 mL (0.15 mmol / mL)
+
+
+potassium phos_PERI
+24 mmol / 100 mL (0.24 mmol / mL)
+
+
+potassium phos_PERI
+30 mmol / 250 mL (0.12 mmol / mL)
+
+
+potassium phos_PERI
+40 mmol / 500 mL (0.08 mmol / mL)
+
+
+potassium phos_PERI
+--- mmol / --- mL
+
+
+potassium phosphate
+--- mEq / --- mL
+Intermittent
+
+potassium phosphate
+--- mmol / --- mL
+Intermittent
+2767185I
+pralidoxime
+--- mg / --- mL
+Intermittent
+2767273I
+pralidoxime
+--- gram / --- mL
+Intermittent
+2767273I
+procainamide
+1,000 mg / 50 mL (20 mg / mL)
+Cont/Bolus or PCA
+2767500C
+procainamide
+1,000 mg / 250 mL (4 mg / mL)
+Cont/Bolus or PCA
+2767500C
+procainamide
+2,000 mg / 250 mL (8 mg / mL)
+Cont/Bolus or PCA
+2767500C
+procainamide
+2,000 mg / 500 mL (4 mg / mL)
+Cont/Bolus or PCA
+2767500C
+prochlorperazine
+--- mg / --- mL
+
+
+promethazine
+--- mg / --- mL
+Intermittent
+2767590I
+propofol
+500 mg / 50 mL (10 mg / mL)
+Cont/Bolus or PCA
+2767660C
+propofol
+1,000 mg / 100 mL (10 mg / mL)
+Cont/Bolus or PCA
+2767660C
+propofol
+--- mg / --- mL
+Cont/Bolus or PCA
+2767660C
+propofol ANES
+10 mg / 1 mL (10 mg / mL)
+Cont/Bolus or PCA
+
+propofol ANES
+500 mg / 50 mL (10 mg / mL)
+Cont/Bolus or PCA
+
+propofol ANES
+1,000 mg / 100 mL (10 mg / mL)
+Cont/Bolus or PCA
+
+propofol ANES
+--- mg / --- mL
+Cont/Bolus or PCA
+
+propofol ANESTHESIA
+10 mg / 1 mL (10 mg / mL)
+
+
+propofol ANESTHESIA
+500 mg / 50 mL (10 mg / mL)
+
+
+propofol ANESTHESIA
+1,000 mg / 100 mL (10 mg / mL)
+
+
+propofol ANESTHESIA
+--- mg / --- mL
+
+
+propofol STANDARD
+10 mg / 1 mL (10 mg / mL)
+
+
+propofol STANDARD
+500 mg / 50 mL (10 mg / mL)
+
+
+propofol STANDARD
+1,000 mg / 100 mL (10 mg / mL)
+
+
+propofol STANDARD
+--- mg / --- mL
+
+
+protamine sulfate
+--- mg / --- mL
+
+
+quiNIDine
+--- mg / --- mL
+
+
+ramucirumab
+--- mg / --- mL
+Intermittent
+
+raNITIdine
+50 mg / 50 mL (1 mg / mL)
+Intermittent
+2768055I
+raNITIdine
+50 mg / 100 mL (0.5 mg / mL)
+Intermittent
+2768055I
+raNITIdine
+50 mg / 102 mL (0.4902 mg / mL)
+Intermittent
+2768055I
+raNITIdine
+150 mg / 250 mL (0.6 mg / mL)
+Intermittent
+2768055I
+raNITIdine
+250 mg / 250 mL (1 mg / mL)
+Intermittent
+2768055I
+raNITIdine
+--- mg / --- mL
+Intermittent
+2768055I
+rasburicase
+--- mg / --- mL
+
+
+remifentanil
+50 mcg / 1 mL (50 mcg / mL)
+
+
+remifentanil
+--- mcg / --- mL
+
+
+remifentanil ANES
+50 mcg / 1 mL (50 mcg / mL)
+Cont/Bolus or PCA
+
+remifentanil ANES
+1,000 mcg / 40 mL (25 mcg / mL)
+Cont/Bolus or PCA
+
+remifentanil ANES
+2,000 mcg / 80 mL (25 mcg / mL)
+Cont/Bolus or PCA
+
+remifentanil ANES
+--- mcg / --- mL
+Cont/Bolus or PCA
+
+reteplase
+--- unit / --- mL
+
+
+rifAMPin
+300 mg / 250 mL (1.2 mg / mL)
+Intermittent
+2768179I
+rifAMPin
+600 mg / 500 mL (1.2 mg / mL)
+Intermittent
+2768179I
+rifAMPin
+--- mg / --- mL
+Intermittent
+2768179I
+ritodrine
+--- mg / --- mL
+
+
+riTUXimab
+500 mg / 250 mL (2 mg / mL)
+Intermittent
+2768259I
+riTUXimab
+1,000 mg / 500 mL (2 mg / mL)
+Intermittent
+2768259I
+riTUXimab
+--- mg / --- mL
+Intermittent
+2768259I
+rocuronium
+500 mg / 500 mL (1 mg / mL)
+Cont/Bolus or PCA
+2768289C
+rocuronium
+--- mg / --- mL
+Cont/Bolus or PCA
+2768289C
+rocuronium ANES
+500 mg / 500 mL (1 mg / mL)
+Cont/Bolus or PCA
+
+rocuronium ANES
+--- mg / --- mL
+Cont/Bolus or PCA
+
+romDEPsin
+--- mg / --- mL
+
+
+ropivacaine
+200 mg / 100 mL (2 mg / mL)
+
+
+ropivacaine
+400 mg / 200 mL (2 mg / mL)
+
+
+ropivacaine
+--- mg / --- mL
+
+
+salbutamol
+--- mg / --- mL
+
+
+sargramostim
+--- mcg / --- mL
+
+
+siltuximab
+--- mg / --- mL
+
+
+SMX/TMP
+--- mg / --- mL
+Intermittent
+2769391I
+sodium bicarb BOLUS
+--- mEq / --- mL
+
+
+sodium bicarb DRIP
+0.5 mEq / 1 mL (0.5 mEq / mL)
+
+
+sodium bicarb DRIP
+1 mEq / 1 mL (1 mEq / mL)
+
+
+sodium bicarb DRIP
+10 mEq / 20 mL (0.5 mEq / mL)
+
+
+sodium bicarb DRIP
+25 mEq / 50 mL (0.5 mEq / mL)
+
+
+sodium bicarb DRIP
+--- mEq / --- mL
+
+
+sodium bicarbonate
+--- mEq / --- mL
+
+
+sodium chloride 3%
+256.6 mEq / 500 mL (0.5132 mEq / 
+mL)
+
+
+sodium chloride 5%
+427.5 mEq / 500 mL (0.855 mEq / mL)
+
+
+sodium phosphate
+--- mmol / --- mL
+Intermittent
+2769071I
+streptozocin
+--- mg / --- mL
+
+
+succinylcholine
+--- mg / --- mL
+
+
+SUFentanil
+--- mcg / --- mL
+
+
+SUFentanil ANES
+100 mcg / 100 mL (1 mcg / mL)
+Cont/Bolus or PCA
+
+SUFentanil ANES
+--- mcg / --- mL
+Cont/Bolus or PCA
+
+tacrolimus
+--- mg / --- mL
+
+
+tedizolid phosphate
+200 mg / 250 mL (0.8 mg / mL)
+Intermittent
+45868623I
+temozolomide
+--- mg / --- mL
+Intermittent
+
+temsirolimus
+--- mg / --- mL
+
+
+teniposide
+--- mg / --- mL
+
+
+terbutaline
+--- mg / --- mL
+
+
+theophylline
+400 mg / 500 mL (0.8 mg / mL)
+
+
+theophylline
+800 mg / 500 mL (1.6 mg / mL)
+
+
+theophylline
+--- mg / --- mL
+
+
+thiamine
+100 mg / 50 mL (2 mg / mL)
+Intermittent
+2769929I
+thiamine
+100 mg / 100 mL (1 mg / mL)
+Intermittent
+2769929I
+thiamine
+--- mg / --- mL
+Intermittent
+2769929I
+thiopental
+--- mg / --- mL
+
+
+thiotepa
+--- mg / --- mL
+
+
+Thymogolbln (rabbit)
+--- mg / --- mL
+
+
+ticarcillin
+3.1 gram / 100 mL (0.031 gram / mL)
+
+
+ticarcillin/clav
+--- mg / --- mL
+Intermittent
+2770103I
+ticarcillin/clav
+2 gram / 50 mL (0.04 gram / mL)
+Intermittent
+2770103I
+ticarcillin/clav
+2 gram / 100 mL (0.02 gram / mL)
+Intermittent
+2770103I
+ticarcillin/clav
+3.1 gram / 50 mL (0.062 gram / mL)
+Intermittent
+2770103I
+ticarcillin/clav
+3.1 gram / 100 mL (0.031 gram / mL)
+Intermittent
+2770103I
+tigecycline
+50 mg / 50 mL (1 mg / mL)
+Intermittent
+3831121I
+tigecycline
+50 mg / 100 mL (0.5 mg / mL)
+Intermittent
+3831121I
+tigecycline
+100 mg / 100 mL (1 mg / mL)
+Intermittent
+3831121I
+tirofiban
+12.5 mg / 250 mL (0.05 mg / mL)
+Cont/Bolus or PCA
+2770172C
+tirofiban NON-STEMI
+12.5 mg / 250 mL (0.05 mg / mL)
+
+
+tirofiban STEMI-PCI
+12.5 mg / 250 mL (0.05 mg / mL)
+
+
+tobramycin
+80 mg / 50 mL (1.6 mg / mL)
+Intermittent
+2770186I
+tobramycin
+80 mg / 100 mL (0.8 mg / mL)
+Intermittent
+2770186I
+tobramycin
+120 mg / 100 mL (1.2 mg / mL)
+Intermittent
+2770186I
+tobramycin
+--- mg / --- mL
+Intermittent
+2770186I
+tocilizumab
+--- mg / --- mL
+
+
+tolazoline
+--- mg / --- mL
+
+
+topotecan
+--- mg / --- mL
+Intermittent
+
+torsemide
+--- mg / --- mL
+
+
+tranexamic acid
+--- gram / --- mL
+
+
+tranexamic BOLUS
+--- mg / --- mL
+Intermittent
+2770412I
+trastuzumab
+--- mg / --- mL
+Intermittent
+
+trimetrexate
+--- mg / --- mL
+
+
+tromethamine
+--- mEq / --- mL
+
+
+urokinase
+--- unit / --- mL
+
+
+valproate sodium
+--- mg / --- mL
+Intermittent
+2770918I
+valproic acid
+--- mg / --- mL
+
+
+vancomycin
+500 mg / 100 mL (5 mg / mL)
+Intermittent
+2770944I
+vancomycin
+750 mg / 250 mL (3 mg / mL)
+Intermittent
+2770944I
+vancomycin
+1,000 mg / 200 mL (5 mg / mL)
+Intermittent
+2770944I
+vancomycin
+1,000 mg / 250 mL (4 mg / mL)
+Intermittent
+2770944I
+vancomycin
+1,250 mg / 250 mL (5 mg / mL)
+Intermittent
+2770944I
+vancomycin
+1,500 mg / 500 mL (3 mg / mL)
+Intermittent
+2770944I
+vancomycin
+1,750 mg / 500 mL (3.5 mg / mL)
+Intermittent
+2770944I
+vancomycin
+2,000 mg / 500 mL (4 mg / mL)
+Intermittent
+2770944I
+vancomycin
+--- mg / --- mL
+Intermittent
+2770944I
+vancomycin
+0.5 gram / 100 mL (0.005 gram / mL)
+Intermittent
+2770944I
+vancomycin
+0.75 gram / 250 mL (0.003 gram / mL)
+Intermittent
+2770944I
+vancomycin
+1 gram / 200 mL (0.005 gram / mL)
+Intermittent
+2770944I
+vancomycin
+1 gram / 250 mL (0.004 gram / mL)
+Intermittent
+2770944I
+vancomycin
+1.25 gram / 250 mL (0.005 gram / mL)
+Intermittent
+2770944I
+vancomycin
+1.5 gram / 500 mL (0.003 gram / mL)
+Intermittent
+2770944I
+vancomycin
+1.75 gram / 500 mL (0.0035 gram / 
+mL)
+Intermittent
+2770944I
+vancomycin
+2 gram / 500 mL (0.004 gram / mL)
+Intermittent
+2770944I
+vancomycin
+--- gram / --- mL
+Intermittent
+2770944I
+vasopressin
+0.02 unit / 1 mL (0.02 unit / mL)
+Cont/Bolus or PCA
+2770987C
+vasopressin
+0.04 unit / 1 mL (0.04 unit / mL)
+Cont/Bolus or PCA
+2770987C
+vasopressin
+1 unit / 1 mL (1 unit / mL)
+Cont/Bolus or PCA
+2770987C
+vasopressin
+4 unit / 100 mL (0.04 unit / mL)
+Cont/Bolus or PCA
+2770987C
+vasopressin
+20 unit / 100 mL (0.2 unit / mL)
+Cont/Bolus or PCA
+2770987C
+vasopressin
+40 unit / 100 mL (0.4 unit / mL)
+Cont/Bolus or PCA
+2770987C
+vasopressin
+80 unit / 100 mL (0.8 unit / mL)
+Cont/Bolus or PCA
+2770987C
+vasopressin
+100 unit / 100 mL (1 unit / mL)
+Cont/Bolus or PCA
+2770987C
+vasopressin
+--- unit / --- mL
+Cont/Bolus or PCA
+2770987C
+vecuronium
+1 mg / 1 mL (1 mg / mL)
+Cont/Bolus or PCA
+2770992C
+vecuronium
+2 mg / 1 mL (2 mg / mL)
+Cont/Bolus or PCA
+2770992C
+vecuronium
+20 mg / 50 mL (0.4 mg / mL)
+Cont/Bolus or PCA
+2770992C
+vecuronium
+25 mg / 50 mL (0.5 mg / mL)
+Cont/Bolus or PCA
+2770992C
+vecuronium
+30 mg / 50 mL (0.6 mg / mL)
+Cont/Bolus or PCA
+2770992C
+vecuronium
+50 mg / 50 mL (1 mg / mL)
+Cont/Bolus or PCA
+2770992C
+vecuronium
+50 mg / 100 mL (0.5 mg / mL)
+Cont/Bolus or PCA
+2770992C
+vecuronium
+50 mg / 250 mL (0.2 mg / mL)
+Cont/Bolus or PCA
+2770992C
+vecuronium
+100 mg / 100 mL (1 mg / mL)
+Cont/Bolus or PCA
+2770992C
+vecuronium
+--- mg / --- mL
+Cont/Bolus or PCA
+2770992C
+vecuronium ANES
+1 mg / 1 mL (1 mg / mL)
+
+
+vecuronium ANES
+2 mg / 1 mL (2 mg / mL)
+
+
+vecuronium ANES
+20 mg / 50 mL (0.4 mg / mL)
+
+
+vecuronium ANES
+25 mg / 50 mL (0.5 mg / mL)
+
+
+vecuronium ANES
+30 mg / 50 mL (0.6 mg / mL)
+
+
+vecuronium ANES
+50 mg / 50 mL (1 mg / mL)
+
+
+vecuronium ANES
+50 mg / 100 mL (0.5 mg / mL)
+
+
+vecuronium ANES
+50 mg / 250 mL (0.2 mg / mL)
+
+
+vecuronium ANES
+100 mg / 100 mL (1 mg / mL)
+
+
+vecuronium ANES
+--- mg / --- mL
+
+
+verapamil
+--- mg / --- mL
+
+
+vidarabine
+--- mg / --- mL
+
+
+vinBLAStine
+--- mg / --- mL
+Intermittent
+
+vinCRIStine
+--- mg / --- mL
+Intermittent
+
+vinCRIStine Liposom
+--- mg / --- mL
+
+
+vinorelbine
+--- mg / --- mL
+Intermittent
+
+voriconazole
+200 mg / 50 mL (4 mg / mL)
+Intermittent
+2771180I
+voriconazole
+400 mg / 100 mL (4 mg / mL)
+Intermittent
+2771180I
+voriconazole
+--- mg / --- mL
+Intermittent
+2771180I
+zidovudine
+--- mg / --- mL
+Intermittent
+2771278I
+ziv-aflibercept
+--- mg / --- mL
+Intermittent
+
+zoledronic (RECLAST)
+4 mg / 100 mL (0.04 mg / mL)
+
+
+zoledronic (RECLAST)
+5 mg / 100 mL (0.05 mg / mL)
+
+
+zoledronic (ZOMETA)
+4 mg / 100 mL (0.04 mg / mL)
+Intermittent
+
+zoledronic (ZOMETA)
+5 mg / 100 mL (0.05 mg / mL)
+Intermittent
+
+zoledronic (ZOMETA)
+--- mg / --- mL
+Intermittent
+
+zoledronic acid
+4 mg / 100 mL (0.04 mg / mL)
+Intermittent
+2771383I
+zoledronic acid
+5 mg / 100 mL (0.05 mg / mL)
+Intermittent
+2771383I
+zoledronic acid
+--- mg / --- mL
+Intermittent
+2771383I
+zz amiodarone
+150 mg / 100 mL (1.5 mg / mL)
+Cont/Bolus or PCA
+
+zz amiodarone
+900 mg / 500 mL (1.8 mg / mL)
+Cont/Bolus or PCA
+
+zz DOBUTamine
+2,000 mcg / 1 mL (2,000 mcg / mL)
+Cont/Bolus or PCA
+
+zz DOBUTamine
+250 mg / 250 mL (1 mg / mL)
+Cont/Bolus or PCA
+
+zz DOBUTamine
+500 mg / 250 mL (2 mg / mL)
+Cont/Bolus or PCA
+
+zz DOBUTamine
+1,000 mg / 250 mL (4 mg / mL)
+Cont/Bolus or PCA
+
+zz DOBUTamine
+--- mg / --- mL
+Cont/Bolus or PCA
+
+zz DOPamine
+1,600 mcg / 1 mL (1,600 mcg / mL)
+Cont/Bolus or PCA
+
+zz DOPamine
+400 mg / 250 mL (1.6 mg / mL)
+Cont/Bolus or PCA
+
+zz DOPamine
+800 mg / 250 mL (3.2 mg / mL)
+Cont/Bolus or PCA
+
+zz DOPamine
+--- mg / --- mL
+Cont/Bolus or PCA
+
+zz EPINEPHrine
+10 mcg / 1 mL (10 mcg / mL)
+Cont/Bolus or PCA
+
+zz EPINEPHrine
+4 mg / 250 mL (0.016 mg / mL)
+Cont/Bolus or PCA
+
+zz EPINEPHrine
+5 mg / 250 mL (0.02 mg / mL)
+Cont/Bolus or PCA
+
+zz EPINEPHrine
+8 mg / 250 mL (0.032 mg / mL)
+Cont/Bolus or PCA
+
+zz EPINEPHrine
+10 mg / 100 mL (0.1 mg / mL)
+Cont/Bolus or PCA
+
+zz EPINEPHrine
+10 mg / 500 mL (0.02 mg / mL)
+Cont/Bolus or PCA
+
+zz EPINEPHrine
+16 mg / 250 mL (0.064 mg / mL)
+Cont/Bolus or PCA
+
+zz lidocaine
+8 mg / 1 mL (8 mg / mL)
+Cont/Bolus or PCA
+
+zz lidocaine
+1,000 mg / 250 mL (4 mg / mL)
+Cont/Bolus or PCA
+
+zz lidocaine
+2,000 mg / 500 mL (4 mg / mL)
+Cont/Bolus or PCA
+
+zz lidocaine
+--- mg / --- mL
+Cont/Bolus or PCA
+
+zz lidocaine
+2 gram / 500 mL (0.004 gram / mL)
+Cont/Bolus or PCA
+
+zz mag sulfate
+--- mg / --- mL
+Intermittent
+
+zz mag sulfate
+1 gram / 50 mL (0.02 gram / mL)
+Intermittent
+
+zz mag sulfate
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+
+zz mag sulfate
+2 gram / 50 mL (0.04 gram / mL)
+Intermittent
+
+zz mag sulfate
+4 gram / 100 mL (0.04 gram / mL)
+Intermittent
+
+zz mag sulfate
+40 gram / 500 mL (0.08 gram / mL)
+Intermittent
+
+zz mag sulfate
+--- gram / --- mL
+Intermittent
+
+zz nitroglycerin
+25 mg / 250 mL (0.1 mg / mL)
+Cont/Bolus or PCA
+
+zz nitroglycerin
+50 mg / 250 mL (0.2 mg / mL)
+Cont/Bolus or PCA
+
+zz nitroglycerin
+--- mg / --- mL
+Cont/Bolus or PCA
+
+zz nitroprusside
+50 mg / 250 mL (0.2 mg / mL)
+Cont/Bolus or PCA
+
+zz nitroprusside
+100 mg / 250 mL (0.4 mg / mL)
+Cont/Bolus or PCA
+
+zz nitroprusside
+--- mg / --- mL
+Cont/Bolus or PCA
+
+zz norepinephrine
+16 mcg / 1 mL (16 mcg / mL)
+Cont/Bolus or PCA
+
+zz norepinephrine
+4 mg / 250 mL (0.016 mg / mL)
+Cont/Bolus or PCA
+
+zz norepinephrine
+8 mg / 250 mL (0.032 mg / mL)
+Cont/Bolus or PCA
+
+zz norepinephrine
+8 mg / 500 mL (0.016 mg / mL)
+Cont/Bolus or PCA
+
+zz norepinephrine
+16 mg / 250 mL (0.064 mg / mL)
+Cont/Bolus or PCA
+
+zz norepinephrine
+16 mg / 500 mL (0.032 mg / mL)
+Cont/Bolus or PCA
+
+zz norepinephrine
+--- mg / --- mL
+Cont/Bolus or PCA
+
+zz phenylephrine
+10 mg / 250 mL (0.04 mg / mL)
+Cont/Bolus or PCA
+
+zz phenylephrine
+20 mg / 250 mL (0.08 mg / mL)
+Cont/Bolus or PCA
+
+zz phenylephrine
+40 mg / 250 mL (0.16 mg / mL)
+Cont/Bolus or PCA
+
+zz phenylephrine
+50 mg / 100 mL (0.5 mg / mL)
+Cont/Bolus or PCA
+
+zz phenylephrine
+--- mg / --- mL
+Cont/Bolus or PCA
+
+
+
+
+Appendix A.2	Master Fluids List
+Master Fluids
+Fluid
+Supports Secondary
+Aliases
+..IVF Maintenance
+Yes
+1000000000F,100
+0000000I
+.Bolus IVF
+Yes
+
+.IVF + KCL
+Yes
+1000000100F
+.IVF + KCL 10 mEq/L
+Yes
+1000000010F
+.IVF + KCL 20 mEq/L
+Yes
+1000000020F
+.IVF + KCL 30 mEq/L
+Yes
+
+.IVF + KCL 40 mEq/L
+Yes
+1000000040F
+.IVF + Oxytocin
+Yes
+
+.IVF + Vitamins
+Yes
+
+.Maint IVF + KCL
+Yes
+
+.Maint IVF+Additives
+Yes
+
+0.45%NS+KCL10 mEq/L
+Yes
+
+0.45%NS+KCL20 mEq/L
+Yes
+
+0.45%NS+KCL30 mEq/L
+Yes
+
+0.45%NS+KCL40 mEq/L
+Yes
+
+0.9% Normal Saline
+Yes
+
+0.9%NS+KCL 10mEq/L
+Yes
+
+0.9%NS+KCL 20mEq/L
+Yes
+
+0.9%NS+KCL 30mEq/L
+Yes
+
+0.9%NS+KCL 40mEq/L
+Yes
+
+1/2NS Hep 0.5unit/mL
+Yes
+
+1/4NS Hep 0.5unit/mL
+Yes
+
+3% Sodium Chloride
+Yes
+2778727F,277872
+7I
+Bicarb Drip
+Yes
+2768888F,276888
+8I
+Blood (RBCs)
+No
+
+Blood (whole)
+No
+
+Blood Reinfusion
+No
+
+Cryoprecipitate
+No
+
+D10W 1/4NS
+Yes
+
+D10W 1/4NS Hep 0.5un
+Yes
+
+D10W Hep 0.5units/mL
+Yes
+
+D5 + Normal Saline
+Yes
+
+D5 1/2Normal Saline
+Yes
+
+D5 1/2NS+KCL10mEq/L
+Yes
+
+D5 1/2NS+KCL20mEq/L
+Yes
+
+D5 1/2NS+KCL30mEq/L
+Yes
+
+D5 1/2NS+KCL40mEq/L
+Yes
+
+D5 1/3Normal Saline
+Yes
+
+D5 1/3NS+KCL10mEq/L
+Yes
+
+D5 1/3NS+KCL20mEq/L
+Yes
+
+D5 1/3NS+KCL30mEq/L
+Yes
+
+D5 1/3NS+KCL40mEq/L
+Yes
+
+D5 1/4Normal Saline
+Yes
+
+D5 1/4NS Hep 0.5unit
+Yes
+
+D5 1/4NS+KCL10mEq/L
+Yes
+
+D5 1/4NS+KCL20mEq/L
+Yes
+
+D5 1/4NS+KCL30mEq/L
+Yes
+
+D5 1/4NS+KCL40mEq/L
+Yes
+
+D5 Lactated Ringers
+Yes
+
+D5NS+KCL 10 mEq/L
+Yes
+
+D5NS+KCL 20 mEq/L
+Yes
+
+D5NS+KCL 30 mEq/L
+Yes
+
+D5NS+KCL 40 mEq/L
+Yes
+
+D5W
+Yes
+
+D5W Hep 0.5units/mL
+Yes
+
+D5W+KCL 10 mEq/L
+Yes
+
+D5W+KCL 20 mEq/L
+Yes
+
+D5W+KCL 30 mEq/L
+Yes
+
+D5W+KCL 40 mEq/L
+Yes
+
+Dextrose 10%
+Yes
+2778755F,277875
+5I
+Dextrose in Ringers
+Yes
+
+FLUSH
+Yes
+
+Fresh Frozen Plasma
+No
+
+Hetastarch 6% NS
+Yes
+
+Infliximab(Remicade)
+Yes
+
+Insulin Maternity
+Yes
+2761029F
+IVF +Hep 0.5units/mL
+Yes
+
+Lactated Ringers
+Yes
+
+Lipids 20%
+No
+
+Mannitol
+No
+
+MVI Only
+Yes
+1000000003F,100
+0000003I
+MVI+Folate+Thiamine
+Yes
+1000000002F,100
+0000002I
+NS w Hep 0.5units/mL
+Yes
+
+Parenteral Nutrition
+No
+1000000001F,100
+0000001I
+Platelets
+No
+
+PPN
+No
+
+PRBCs
+No
+
+Replacement Fluid
+Yes
+
+Rituximab (Rituxan)
+Yes
+
+TPN
+No
+
+UAC
+No
+
+UVC
+No
+
+
+Appendix B	Master Therapies List
+Therapy
+..Less than 3 kg
+..Standard
+..Std. Cardiac/PVD
+.Double Concentrated
+.Induction
+.INR 2 to <  4
+.INR 4  -  6
+.MG Dosing
+.mg, pt weight <40kg
+.mg, pt weight>=40kg
+.Standard & wt>121kg
+.Standard Dose
+.Standard NON STEMI
+.STANDARD STEMI PCI
+.Std Cardiac or PVD
+.Test Dose
+.VTE (DVT, PE)
+.VTE/DVT/PE
+.wt less than 100kg
+0.2 mg / 1 mL
+1 mg/1mL
+1 mg/mL *HIGH CONC*
+10 mEq/L
+15 mEq/L
+1st Dose <=100kg
+1st Dose >100kg
+20 mEq/L
+2nd Dose <=100kg
+2nd Dose >100kg
+3  - 9.9 kg
+30 mEq/L
+3rd Dose <=100kg
+3rd Dose >100kg
+40 mEq/L
+5 mg/1mL *HIGH CONC*
+Anesthesia
+AUC 2-3 q week
+AUC 3-7.5 q3weeks
+Based on AUC
+Based on BSA
+Bleeding
+Bleeding/Hemophilia
+BSA Based Dose
+Cardiac Arrest
+CENTRAL < 20kg
+CENTRAL >=20kg
+Central IV Occlusion
+Central Line
+Cerebrovascular
+Cycle 1
+Cycle 2
+Cyclic
+Diabetes Insipidus
+DVT / Ischemic Limb
+Echo Stress Test
+Every 2 weeks
+Every 3 weeks
+First Dose
+GI Bleed
+GM dosing
+gram, pt wt < 40kg
+gram, pt wt >= 40kg
+Hepatic Dose
+HiDose & CrCl < 60
+HiDose & CrCl >= 60
+High Dose
+High Dose - GRAMS
+Induction
+INR  >   6
+Insulin Maternity
+Load <67kg WtBasedGM
+Load <67kg WtBasedMG
+Load >67kg WtBasedGM
+Load >67kg WtBasedMG
+Load NonWtBased MG
+Load NonWtBasedGM
+Loading Dose
+LoDose & >= 153 kg
+LoDose & CrCl < 30
+LoDose & CrCl >= 30
+LoDose,Renal&>=153kg
+Maintenance Dose
+Maintenance Dose GM
+Maintenance Dose MG
+Non-Anesthesia
+Non-Based Based Dose
+OB/L&D
+PERIPH < 20kg
+PERIPH >=20kg
+Peripheral Line
+Postpartum
+pt age < = 12 years
+pt age > = 12 years
+pt BSA < 1 m2
+pt BSA >=1
+pt weight < 20 kg
+pt weight < 30 kg
+pt weight < 40 kg
+pt weight < 50 kg
+pt weight < 60 kg
+pt weight >= 20 kg
+pt weight >= 30 kg
+pt weight >= 40 kg
+pt weight >= 50 kg
+pt weight >= 60 kg
+Pulmonary Embolism
+Renal Dose
+Renal Dose ClCr < 30
+Renal Dose wt >121kg
+Renal NON STEMI
+Renal STEMI PCI
+Rheumatoid Arthritis
+Second Dose
+Shock
+Spinal bolus
+Stress Test
+Stroke < 101 kg
+Stroke 101kg or more
+Subsequent Doses
+Third Dose
+Undergoing PCI
+Weekly
+Weight above 110kg
+Weight Based
+Weight over 80kg
+wt < or = 1.5 kg
+WT = 10 - 19.9 kg
+WT = 20 - 39.9 kg
+WT = 40 kg and over
+wt 1.5 - 2.5 kg
+wt above 2.5 kg
+wt more  than 100kg
+
+Appendix C	PCA Syringe Favorites List
 PCA Syringe Favorites
 Syringe Type
 Included?
@@ -12150,42 +20663,70 @@ X
 IMS 30 mL Prefill
 X
 
-Appendix B	Clinical Advisories List
-Clinical Advisories
+Appendix D	Master Clinical Advisories List
+Master Clinical Advisories
 Advisory Name
 Clinical Advisory Text
+0.22 Filter Needed
+Use a 0.22 micron in-line filter when administering this product.
+12 Hour Tubing
+Tubing must be changed every 12 hours
 1unit=1million
 1 unit = 1 million units
 2nd RN to verify
 2 RNs to verify and document concentration and programming prior to infusion.
 48 Hour Tubing
 Change tubing every 48 hours.
+Alaris Unit
+1 Unit = 1 million ex. 0.6units = 600,000 units
+Allergic Reaction
+Infuse slowly for the first 10 minutes (25-50 mL/hr) to watch for allergic reaction, if none, rate may be increased to 250 mL/hr.
 Alteplase wt based
 Dose and volume to be infused need to be set according to weight based protocol to avoid potential over infusion of entire contents of 
 bag.
 AmBisome
 Existing IV lines must be flushed with D5w prior to infusion. If unable, must start a new line. ***Infusion requires the use of an in-line 
 filter.
+Anaphylaxis Warning
+Observe patient for 1 hour after starting infusion for signs and symptoms of anaphylaxis.
 Bleeding Precautions
 Monitor for signs of bleeding.
 Calcium Precipitate
 Do not infuse Calcium and Phosphate though the same line.
 Central Line Only
 Run through a CENTRAL line only.
+Cerebyx
+Not to be infused faster than 150 mgPE / min, due to risk of hypotension.
+Check Concentration
+*CHECK CONCENTRATION* 2nd RN to verify and document concentration and programming prior to starting infusion.
 Code only drugs
 This selection is reserved for use during Code Blue, ACLS events. DO NOT USE for routine infusions!
 Crofab
 1 unit = 1 vial Infuse over 25-50 mL/hr for the first 10 minutes, if no allergic reaction, may increase rate.
 Dedicated IV Line
 Do not infuse any other drugs through this line.
+DEHP
+This medication must be infused using DEHP FREE tubing.
 Double Concentrated
 ****DOUBLE CONCENTRATED DRIP**** Double-check bag concentration and pump settings.
+EKG Required
+EKG Montoring required for infusions greater than 10mEq per hour.
+Filter and DEHP Free
+Requires Low protein binding 0.2 micron filter and DEHP free bag
+Fluid Bolus
+Administer a fluid bolus prior to starting the cidofovir infusion.
+Flush Before/After
+Flush line before and after administration. Can be given on same line as sodium chloride 0.9%.
 Heparin
 Monitor PTT. Do not administer other drugs through same IV line.
 High Risk
 This is a HIGH RISK medication. 2nd RN to verify prior to initiating therapy.
+High Risk Central
+This is a HIGH RISK medication that should be infused via a CENTRAL LINE. 2nd RN to verify prior to initiating therapy.
 Hypersensitivity
 Risk of hypersensitivity. Check vital signs frequently during infusion.
+IFEX
+Dose is based on Ifosfamide (IFEX) content
 In-line filter
 Infusion requires the use of an in-line filter.
 INR > 6
@@ -12194,12 +20735,39 @@ INR 2-4
 INR 2 - 4 ** Max dose of Kcentra should not exceed 2500 units **
 INR 4-6
 INR 4 - 6 ** Max dose of Kcentra should not exceed 3500 units **
+Insulin Maternity
+75 ml/hr = 0.75 u/hr 100 ml/hr = 1 u/hr 125 ml/hr = 1.25 u/hr 150 ml/hr = 1.5 u/hr
+Levophed
+*****Must have physician order for rates greater than 60 mcg/min*****
+Low Binding Filter
+This medication must be infused using a 0.2- micron, low protein binding filter.
+Low Binding Tubing
+* Use Low Binding Tubing *
+MAX DOSE 180 mg
+MAXIMUM dose of brentuximab is 180 mg.
 Midline Warning
 Do NOT infuse through a midline catheter.
+Monitoring required
+Monitoring module required.
 MVI
 1 unit = 1 dose
 Neuromuscular BA
 *Train of Four Required* Mechanical Ventilation and concurrent Sedation is mandatory.
+No Dextrose
+Do NOT administer through lines containing dextrose.
+NO FILTER
+Do NOT use an in-line filter for administration.
+Non-PVC
+This medication must be infused using Non-PVC tubing.
+NS only
+Do not dilute with D5W Dilute with NS 0.9% only
+oritavacin
+Contraindicated to run ****Heparin**** within 48 hours of Oritavacin administration. May increase risk of bleeding with oral 
+anticoagulant therapy.
+Patient Lie Down
+Advise patient to lie down during and 30 minutes after infusion to prevent hypotension.
+Phenylephrine
+*****Must have physician order for rates greater than 300 mcg/min*****
 Premedicate
 Premedicate before each infusion.
 Protect From Light
@@ -12208,10 +20776,20 @@ SCr 2.0-4.0
 SCr 2.0 - 4.0
 SCr<2.0
 SCr < 2.0
+Siltuximab
+Use PVC with DEHP or PU containing administration set containing a 0.2 micron filter.
+Stress Test
+For STRESS TEST only.
+Vesicant
+Drug is a vesicant. Check blood return.
+Vesicant No Filter
+Drug is a vesicant. Check blood return. Do not use an in-line filter.
+Vincristine Lipo
+Use dedicated line. Do not filter.
 
 
 
-Conway Medical Center - 5/3/2018 13:48														Page 1 of 1
-Conway.2018.v8, 0227dcfa4-A
+Conway Medical Center - 3/19/2020 20:34														Page 1 of 1
+Conway.2020.v13i, 0260693be-R
 
-Reviewed and Approved by __________________________________Date___________(Approval Only)
+

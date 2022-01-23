@@ -4,7 +4,7 @@ Alaris(r) System
 Data Set Report
 APPROVED
 
-Conway.2018.v7
+Conway.2018.v8
 
 
 Conway Medical Center
@@ -35,17 +35,17 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2018.v7
+Conway.2018.v8
  Hospital Name
 Conway Medical Center
  Data Set ID
-0225a9638-A
+0227dcfa4-A
  Data Set Status
 Approved
  Last Changed On
-4/6/2018 20:34
+5/3/2018 13:48
  Filename
-C:\Users\nbauer\Documents\Guardrails Editor\02247f722-R.gre
+C:\Users\nbauer\Documents\Guardrails Editor\0225a9638-R.gre
 
 
 
@@ -545,22 +545,18 @@ X
 n/a
 Continuous
 mg/h
-Bolus Dose
-mg/kg
-Bolus Admin Rate
-mg/kg/min
 0.5
 15
 25
 5
-0.1
-0.36
 
-0.25
-0.1
-0.176
 
-0.125
+
+
+
+
+
+
 
 DOBUTamine
 ..Standard
@@ -1500,12 +1496,12 @@ unit/min
 20
 41
 
-1
-10
+0.9
+30.1
 
 10
 0.1
-0.999
+1.01
 
 0.999
 
@@ -1573,7 +1569,7 @@ mcg/kg/min
 
 Neuromuscular 
 BA
-pantoprazole
+pantoprazole gtt
 
 96 mg / 240 mL (0.4 mg / mL)
 
@@ -6177,7 +6173,7 @@ n/a
 
 
                               
-Folic Acid
+folic acid
 
 X
 X
@@ -7472,6 +7468,84 @@ n/a
 
 
                               
+MVI Folate Thiamine
+
+X
+X
+unit
+0.9
+1.1
+1.11
+1 unit / 500 mL (0.002 unit / mL)
+X
+
+
+00:30
+24:00
+04:00
+n/a
+
+
+
+MVI
+
+
+
+
+
+
+
+1 unit / 1,000 mL (0.001 unit / mL)
+X
+
+
+01:00
+24:00
+08:00
+n/a
+
+
+
+                              
+MVI+Folate+Thiamine
+
+X
+X
+unit
+0.9
+1.1
+1.11
+1 unit / 500 mL (0.002 unit / mL)
+X
+
+
+00:30
+24:00
+04:00
+n/a
+
+
+
+MVI
+
+
+
+
+
+
+
+1 unit / 1,000 mL (0.001 unit / mL)
+X
+
+
+01:00
+24:00
+08:00
+n/a
+
+
+
+                              
 nafcillin
 .MG Dosing
 X
@@ -7932,7 +8006,7 @@ gram
 X
 
 
-00:25
+00:20
 04:30
 00:30
 n/a
@@ -7952,7 +8026,7 @@ mL)
 X
 
 
-00:25
+00:20
 04:30
 00:30
 n/a
@@ -7972,7 +8046,7 @@ mL)
 X
 
 
-00:25
+00:20
 04:15
 04:00
 n/a
@@ -7992,7 +8066,7 @@ mL)
 X
 
 
-00:25
+00:20
 04:15
 04:00
 n/a
@@ -8011,7 +8085,7 @@ n/a
 X
 
 
-00:25
+00:20
 04:15
 04:00
 n/a
@@ -8030,7 +8104,7 @@ n/a
 X
 
 
-00:25
+00:20
 04:15
 04:00
 n/a
@@ -9174,22 +9248,6 @@ X
 1
 250
 275
-
-.IVF + Oxytocin
-Yes
-X
-
-30
-250
-
-
-.IVF + Vitamins
-Yes
-X
-
-1
-
-999
 
 .Maint IVF+Additives
 Yes
@@ -11772,9 +11830,9 @@ Air-In-Line (microliter)
 50
 75
 Auto-Restart Attempts
-5
+9
 1
-4
+9
 KVO Rate Adjust (mL/h)
 20
 2
@@ -12138,6 +12196,8 @@ INR 4-6
 INR 4 - 6 ** Max dose of Kcentra should not exceed 3500 units **
 Midline Warning
 Do NOT infuse through a midline catheter.
+MVI
+1 unit = 1 dose
 Neuromuscular BA
 *Train of Four Required* Mechanical Ventilation and concurrent Sedation is mandatory.
 Premedicate
@@ -12151,7 +12211,7 @@ SCr < 2.0
 
 
 
-Conway Medical Center - 4/6/2018 20:34														Page 1 of 1
-Conway.2018.v7, 0225a9638-A
+Conway Medical Center - 5/3/2018 13:48														Page 1 of 1
+Conway.2018.v8, 0227dcfa4-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

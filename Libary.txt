@@ -4,7 +4,7 @@ Alaris(r) System
 Data Set Report
 APPROVED
 
-Conway.2021.v22is
+Conway.2022.v23is
 
 
 Conway Medical Center
@@ -35,17 +35,17 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2021.v22is
+Conway.2022.v23is
  Hospital Name
 Conway Medical Center
  Data Set ID
-02943f4f3-A
+0298001a9-A
  Data Set Status
 Approved
  Last Changed On
-12/8/2021 22:57
+1/23/2022 12:08
  Filename
-C:\Users\nbauer\Documents\Guardrails Editor\02936a33f-R.gre
+C:\Users\nbauer\Documents\Guardrails Editor\02943f4f3-R.gre
 
 
 
@@ -7384,21 +7384,40 @@ fat emulsion 20%
 X
 X
 gram
-49
+24
 51
+
+25 gram / 125 mL (0.2 gram / mL)
+X
+
+
+11:00
+24:00
+
+n/a
+
+
+
+
+
+
+
+
+
+
 
 50 gram / 250 mL (0.2 gram / mL)
 X
 
 
 11:00
-13:00
-12:00
+24:00
+
 n/a
 
 
 
-
+                              
 ferric carboxymaltos
 
 X
@@ -18325,6 +18344,10 @@ famotidine
 Intermittent
 2757966I
 fat emulsion 20%
+25 gram / 125 mL (0.2 gram / mL)
+Intermittent
+2757989I
+fat emulsion 20%
 50 gram / 250 mL (0.2 gram / mL)
 Intermittent
 2757989I
@@ -19221,6 +19244,14 @@ sodium phosphate
 --- mmol / --- mL
 Intermittent
 2769071I
+sotrovimab
+500 mg / 50 mL (10 mg / mL)
+Intermittent
+4112134745I
+sotrovimab
+500 mg / 100 mL (5 mg / mL)
+Intermittent
+4112134745I
 SUFentanil ANES
 100 mcg / 100 mL (1 mcg / mL)
 Cont/Bolus or PCA
@@ -19651,7 +19682,7 @@ Drug is a vesicant. Check blood return.
 
 
 
-Conway Medical Center - 12/8/2021 22:57														Page 1 of 1
-Conway.2021.v22is, 02943f4f3-A
+Conway Medical Center - 1/23/2022 12:08														Page 1 of 1
+Conway.2022.v23is, 0298001a9-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

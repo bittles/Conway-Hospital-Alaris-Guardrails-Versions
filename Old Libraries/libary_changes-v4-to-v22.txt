@@ -4,7 +4,7 @@ Alaris(r) System
 Data Set Report
 APPROVED
 
-Conway.2020.v14i
+Conway.2020.v15i
 
 
 Conway Medical Center
@@ -35,17 +35,17 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2020.v14i
+Conway.2020.v15i
  Hospital Name
 Conway Medical Center
  Data Set ID
-026839690-A
+027171857-A
  Data Set Status
 Approved
  Last Changed On
-6/22/2020 16:19
+10/12/2020 13:36
  Filename
-C:\Users\nbauer\Documents\Guardrails Editor\0260693be-R.gre
+C:\Users\nbauer\Documents\Guardrails Editor\026839690-R.gre
 
 
 
@@ -302,7 +302,6 @@ BA
 bivalirudin
 .Standard Dose
 250 mg / 50 mL (5 mg / mL)
-250 mg / 500 mL (0.5 mg / mL)
 500 mg / 100 mL (5 mg / mL)
 1,250 mg / 250 mL (5 mg / mL)
 
@@ -310,8 +309,6 @@ bivalirudin
 X
 X
 X
-X
-
 
 
 
@@ -325,12 +322,12 @@ mg/kg
 Bolus Admin Rate
 mg/kg/min
 0.1
-1.76
+1.8
 2
 1.75
 0.3
-0.76
 0.8
+0.81
 0.75
 0.3
 0.76
@@ -338,9 +335,41 @@ mg/kg/min
 0.75
 
 bivalirudin
-Renal Dose
+ESRD
 250 mg / 50 mL (5 mg / mL)
-250 mg / 500 mL (0.5 mg / mL)
+250 mg / 250 mL (1 mg / mL)
+
+
+X
+X
+
+
+
+
+n/a
+Continuous
+mcg/kg/h
+Bolus Dose
+mg/kg
+Bolus Admin Rate
+mg/kg/min
+0.1
+1.2
+1.4
+0.25
+0.3
+0.8
+0.81
+0.75
+0.3
+0.8
+
+0.75
+
+bivalirudin
+Renal Dose CrCl < 30
+250 mg / 50 mL (5 mg / mL)
+250 mg / 250 mL (1 mg / mL)
 500 mg / 100 mL (5 mg / mL)
 
 
@@ -360,15 +389,15 @@ mg/kg
 Bolus Admin Rate
 mg/kg/min
 0.24
-1.1
+1.2
 1.4
 1
 0.3
-0.76
 0.8
+0.81
 0.75
 0.3
-0.76
+0.8
 
 0.75
 
@@ -419,9 +448,9 @@ mcg/kg
 Bolus Admin Rate
 mcg/kg/min
 2
-4
+4.2
 4.6
-
+4
 26
 
 35
@@ -1626,10 +1655,13 @@ Neuromuscular
 BA
 pantoprazole gtt
 
+40 mg / 100 mL (0.4 mg / mL)
 96 mg / 240 mL (0.4 mg / mL)
 
 
 X
+X
+
 
 
 
@@ -1810,7 +1842,7 @@ mcg/kg/min
 Neuromuscular 
 BA
 tirofiban
-HiDose & CrCl < 60
+CrCl <= 60
 12.5 mg / 250 mL (0.05 mg / mL)
 
 
@@ -1840,7 +1872,7 @@ mcg/kg/min
 Bleeding 
 Precautions
 tirofiban
-HiDose & CrCl >= 60
+CrCl > 60
 12.5 mg / 250 mL (0.05 mg / mL)
 
 
@@ -1867,66 +1899,6 @@ mcg/kg/min
 
 6
 5
-Bleeding 
-Precautions
-tirofiban
-LoDose & CrCl < 30
-12.5 mg / 250 mL (0.05 mg / mL)
-
-
-X
-
-
-
-n/a
-Continuous
-mcg/kg/min
-Bolus Dose
-mcg/kg
-Bolus Admin Rate
-mcg/kg/min
-0.04
-0.075
-0.09
-0.05
-10
-
-14
-12
-0.3
-0.44
-
-0.4
-Bleeding 
-Precautions
-tirofiban
-LoDose & CrCl >= 30
-12.5 mg / 250 mL (0.05 mg / mL)
-
-
-X
-
-
-
-n/a
-Continuous
-mcg/kg/min
-Bolus Dose
-mcg/kg
-Bolus Admin Rate
-mcg/kg/min
-0.075
-0.15
-0.17
-0.1
-10
-
-14
-12
-0.3
-0.44
-
-0.4
 Bleeding 
 Precautions
 vasopressin
@@ -6935,15 +6907,15 @@ X
 X
 mg
 50
-401
+801
 
 100 mg / 50 mL (2 mg / mL)
 X
 
 
-00:30
+00:20
 04:00
-01:00
+00:30
 n/a
 
 
@@ -6979,9 +6951,28 @@ n/a
 X
 
 
-00:30
+01:00
 04:00
 02:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+800 mg / 400 mL (2 mg / mL)
+X
+
+
+02:00
+08:00
+04:00
 n/a
 
 
@@ -8680,25 +8671,6 @@ mg
 40
 80
 
-40 mg / 100 mL (0.4 mg / mL)
-X
-
-
-00:10
-01:00
-00:15
-n/a
-
-
-
-
-
-
-
-
-
-
-
 80 mg / 100 mL (0.8 mg / mL)
 X
 
@@ -8710,7 +8682,7 @@ n/a
 
 
 
-                              
+
 penG 2.5 Mill Units
 
 X
@@ -9381,7 +9353,7 @@ mg
 99
 201
 
-100 mg / 250 mL (0.4 mg / mL)
+100 mg / 230 mL (0.4348 mg / mL)
 X
 
 
@@ -9393,6 +9365,44 @@ n/a
 
 
 
+
+
+
+
+
+
+
+100 mg / 250 mL (0.4 mg / mL)
+X
+
+
+00:25
+02:15
+01:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+200 mg / 210 mL (0.9524 mg / mL)
+X
+
+
+00:25
+02:15
+01:00
+n/a
+
+
+
+                              
 
 
 
@@ -9728,25 +9738,84 @@ mg/mL
 10
 
 tranexamic BOLUS
-
+.MG Dosing
 X
 X
 mg
 500
 2,000
 
+1,000 mg / 100 mL (10 mg / mL)
+X
+
+00:09
+
+00:40
+00:15
+n/a
+
+
+
+
+
+
+
+
+
+
+
 --- mg / --- mL
 X
 
-00:15
+00:07
 00:20
 00:40
 00:30
 mg/mL
-0.5
 1
+5
 40
+                              
+tranexamic BOLUS
+GM dosing
+X
+X
+gram
+0.5
+2
 
+1 gram / 100 mL (0.01 gram / mL)
+X
+
+00:10
+
+00:40
+00:15
+n/a
+
+
+
+
+
+
+
+
+
+
+
+--- gram / --- mL
+X
+
+00:07
+00:20
+00:40
+00:30
+gram/m
+L
+0.001
+0.005
+0.04
+                              
 valproate sodium
 
 X
@@ -16110,7 +16179,7 @@ bivalirudin
 Cont/Bolus or PCA
 2751435C
 bivalirudin
-250 mg / 500 mL (0.5 mg / mL)
+250 mg / 250 mL (1 mg / mL)
 Cont/Bolus or PCA
 2751435C
 bivalirudin
@@ -16888,6 +16957,10 @@ fluconazole
 Intermittent
 2758256I
 fluconazole
+800 mg / 400 mL (2 mg / mL)
+Intermittent
+2758256I
+fluconazole
 --- mg / --- mL
 Intermittent
 2758256I
@@ -17353,13 +17426,13 @@ pancuronium
 Cont/Bolus or PCA
 2766061C
 pantoprazole gtt
+40 mg / 100 mL (0.4 mg / mL)
+Cont/Bolus or PCA
+2766068C
+pantoprazole gtt
 96 mg / 240 mL (0.4 mg / mL)
 Cont/Bolus or PCA
 2766068C
-pantoprazole ivpb
-40 mg / 100 mL (0.4 mg / mL)
-Intermittent
-2766068I
 pantoprazole ivpb
 80 mg / 100 mL (0.8 mg / mL)
 Intermittent
@@ -17568,7 +17641,19 @@ tobramycin
 Intermittent
 2770186I
 tranexamic BOLUS
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+2770412I
+tranexamic BOLUS
 --- mg / --- mL
+Intermittent
+2770412I
+tranexamic BOLUS
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+2770412I
+tranexamic BOLUS
+--- gram / --- mL
 Intermittent
 2770412I
 valproate sodium
@@ -17844,7 +17929,7 @@ Drug is a vesicant. Check blood return.
 
 
 
-Conway Medical Center - 6/22/2020 16:19														Page 1 of 1
-Conway.2020.v14i, 026839690-A
+Conway Medical Center - 10/12/2020 13:36														Page 1 of 1
+Conway.2020.v15i, 027171857-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

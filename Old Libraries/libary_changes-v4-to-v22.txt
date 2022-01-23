@@ -4,7 +4,7 @@ Alaris(r) System
 Data Set Report
 APPROVED
 
-Conway.2020.v15i
+Conway.2020.v16i
 
 
 Conway Medical Center
@@ -35,17 +35,17 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2020.v15i
+Conway.2020.v16i
  Hospital Name
 Conway Medical Center
  Data Set ID
-027171857-A
+02744148e-A
  Data Set Status
 Approved
  Last Changed On
-10/12/2020 13:36
+11/15/2020 16:32
  Filename
-C:\Users\nbauer\Documents\Guardrails Editor\026839690-R.gre
+C:\Users\nbauer\Documents\Guardrails Editor\027171857-R.gre
 
 
 
@@ -98,6 +98,31 @@ Hard
 Max
 Initial
 Value
+
+adenosine (CATH LAB)
+
+90 mg / 90 mL (1 mg / mL)
+
+
+X
+
+
+
+n/a
+Continuous
+mcg/kg/min
+135
+145
+
+140
+
+
+
+
+
+
+
+
 
 alteplase -stroke
 Stroke < 101 kg
@@ -3793,6 +3818,27 @@ n/a
 
 
                               
+bamlanivimab
+
+X
+X
+mg
+650
+750
+
+700 mg / 200 mL (3.5 mg / mL)
+X
+
+01:00
+
+10:00
+
+n/a
+
+
+
+Low Binding 
+Filter
 caffeine citrate
 
 X
@@ -15946,6 +15992,10 @@ acyclovir
 --- mg / --- mL
 Intermittent
 2748487I
+adenosine (CATH LAB)
+90 mg / 90 mL (1 mg / mL)
+Cont/Bolus or PCA
+2748529C
 albumin 25%
 12.5 gram / 50 mL (0.25 gram / mL)
 Intermittent
@@ -16174,6 +16224,10 @@ aztreonam
 2 gram / 100 mL (0.02 gram / mL)
 Intermittent
 2750475I
+bamlanivimab
+700 mg / 200 mL (3.5 mg / mL)
+Intermittent
+3749717983I
 bivalirudin
 250 mg / 50 mL (5 mg / mL)
 Cont/Bolus or PCA
@@ -17561,7 +17615,15 @@ raNITIdine
 Intermittent
 2768055I
 remdesivir
+100 mg / 230 mL (0.4348 mg / mL)
+Intermittent
+3520886709I
+remdesivir
 100 mg / 250 mL (0.4 mg / mL)
+Intermittent
+3520886709I
+remdesivir
+200 mg / 210 mL (0.9524 mg / mL)
 Intermittent
 3520886709I
 remdesivir
@@ -17929,7 +17991,7 @@ Drug is a vesicant. Check blood return.
 
 
 
-Conway Medical Center - 10/12/2020 13:36														Page 1 of 1
-Conway.2020.v15i, 027171857-A
+Conway Medical Center - 11/15/2020 16:32														Page 1 of 1
+Conway.2020.v16i, 02744148e-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

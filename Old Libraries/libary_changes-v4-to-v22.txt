@@ -4,7 +4,7 @@ Alaris(r) System
 Data Set Report
 APPROVED
 
-Conway.2018.v4
+Conway.2018.v5
 
 
 Conway Medical Center
@@ -35,17 +35,17 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2018.v4
+Conway.2018.v5
  Hospital Name
 Conway Medical Center
  Data Set ID
-0223554f8-A
+02246ac6d-A
  Data Set Status
 Approved
  Last Changed On
-3/9/2018 14:21
+3/22/2018 18:03
  Filename
-C:\Users\nbauer\Documents\Guardrails Editor\0221f071b-R.gre
+C:\Users\nbauer\Documents\Guardrails Editor\0223554f8-R.gre
 
 
 
@@ -563,19 +563,13 @@ mg/kg/min
 0.125
 
 DOBUTamine
-.Standard
+..Standard
 250 mg / 250 mL (1 mg / mL)
-500 mg / 250 mL (2 mg / mL)
 500 mg / 500 mL (1 mg / mL)
-1,000 mg / 500 mL (2 mg / mL)
 
 
 X
 X
-X
-X
-
-
 
 
 
@@ -587,6 +581,60 @@ mcg/kg/min
 20
 30
 2
+
+
+
+
+
+
+
+
+
+DOBUTamine
+.Double Concentrated
+500 mg / 250 mL (2 mg / mL)
+1,000 mg / 500 mL (2 mg / mL)
+
+
+X
+X
+
+
+
+
+n/a
+Continuous
+mcg/kg/min
+0.5
+20
+30
+2
+
+
+
+
+
+
+
+
+Double 
+Concentrated
+DOBUTamine
+Echo Stress Test
+--- mg / --- mL
+
+
+X
+
+
+
+NO
+Continuous
+mcg/kg/min
+4.9
+50
+
+5
 
 
 
@@ -622,14 +670,11 @@ mcg/kg/min
 
 
 DOPamine
-.Standard
+..Standard
 400 mg / 250 mL (1.6 mg / mL)
-800 mg / 250 mL (3.2 mg / mL)
 
 
 X
-X
-
 
 
 
@@ -649,6 +694,32 @@ mcg/kg/min
 
 
 
+DOPamine
+.Double Concentrated
+800 mg / 250 mL (3.2 mg / mL)
+
+
+X
+
+
+
+n/a
+Continuous
+mcg/kg/min
+2
+20
+30
+2
+
+
+
+
+
+
+
+
+Double 
+Concentrated
 DOPamine
 Renal Dose
 400 mg / 250 mL (1.6 mg / mL)
@@ -703,7 +774,7 @@ mg/min
 
 
 EPINEPHrine
-.Standard
+..Standard
 5 mg / 250 mL (0.02 mg / mL)
 10 mg / 500 mL (0.02 mg / mL)
 
@@ -1302,16 +1373,13 @@ mcg/kg/min
 Protect From 
 Light
 norepinephrine
-
+..Standard
 4 mg / 250 mL (0.016 mg / mL)
 8 mg / 500 mL (0.016 mg / mL)
-16 mg / 500 mL (0.032 mg / mL)
 
 
 X
 X
-X
-
 
 
 
@@ -1332,6 +1400,32 @@ mcg/min
 
 
 
+norepinephrine
+.Double Concentrated
+16 mg / 500 mL (0.032 mg / mL)
+
+
+X
+
+
+
+n/a
+Continuous
+mcg/min
+0.3
+45
+
+
+
+
+
+
+
+
+
+
+Double 
+Concentrated
 octreotide
 
 600 mcg / 240 mL (2.5 mcg / mL)
@@ -1393,13 +1487,16 @@ unit/min
 oxytocin
 Postpartum
 20 unit / 1,000 mL (0.02 unit / mL)
+--- unit / --- mL
 
 
+X
 X
 
 
 
-n/a
+
+YES
 Continuous
 milliunit/min
 1
@@ -1717,14 +1814,36 @@ mcg/min
 Bleeding 
 Precautions
 vasopressin
-
+..Standard
 40 unit / 100 mL (0.4 unit / mL)
+
+
+X
+
+
+
+n/a
+Continuous
+unit/min
+0.01
+0.04
+0.041
+0.04
+
+
+
+
+
+
+
+
+
+vasopressin
+.Double Concentrated
 80 unit / 100 mL (0.8 unit / mL)
 
 
 X
-X
-
 
 
 
@@ -2104,6 +2223,15 @@ mg/mL
 0.5
 1
 10
+oxytocin
+Postpartum
+NonWeightBased
+X
+
+milliunit/mL
+
+0.009
+0.041
 pancuronium
 
 WeightBased
@@ -11868,6 +11996,8 @@ Crofab
 1 unit = 1 vial Infuse over 25-50 mL/hr for the first 10 minutes, if no allergic reaction, may increase rate.
 Dedicated IV Line
 Do not infuse any other drugs through this line.
+Double Concentrated
+****DOUBLE CONCENTRATED DRIP**** Double-check bag concentration and pump settings.
 Heparin
 Monitor PTT. Do not administer other drugs through same IV line.
 High Risk
@@ -11897,7 +12027,7 @@ SCr < 2.0
 
 
 
-Conway Medical Center - 3/9/2018 14:21														Page 1 of 1
-Conway.2018.v4, 0223554f8-A
+Conway Medical Center - 3/22/2018 18:03														Page 1 of 1
+Conway.2018.v5, 02246ac6d-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

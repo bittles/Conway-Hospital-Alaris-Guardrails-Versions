@@ -4,7 +4,7 @@ Alaris(r) System
 Data Set Report
 APPROVED
 
-Conway.2018.v5
+Conway.2018.v7
 
 
 Conway Medical Center
@@ -35,17 +35,17 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2018.v5
+Conway.2018.v7
  Hospital Name
 Conway Medical Center
  Data Set ID
-02246ac6d-A
+0225a9638-A
  Data Set Status
 Approved
  Last Changed On
-3/22/2018 18:03
+4/6/2018 20:34
  Filename
-C:\Users\nbauer\Documents\Guardrails Editor\0223554f8-R.gre
+C:\Users\nbauer\Documents\Guardrails Editor\02247f722-R.gre
 
 
 
@@ -1139,6 +1139,31 @@ mcg/min
 
 
 
+ketamine ANES
+
+--- mg / --- mL
+
+
+X
+
+
+
+YES
+Continuous
+mg/kg/h
+0.05
+0.5
+1
+0.1
+
+
+
+
+
+
+
+
+
 labetalol
 
 200 mg / 200 mL (1 mg / mL)
@@ -1176,7 +1201,7 @@ X
 n/a
 Continuous
 mg/min
-1
+0.5
 4
 4.1
 2
@@ -1486,17 +1511,23 @@ unit/min
 
 oxytocin
 Postpartum
+10 unit / 1,000 mL (0.01 unit / mL)
 20 unit / 1,000 mL (0.02 unit / mL)
---- unit / --- mL
+30 unit / 1,000 mL (0.03 unit / mL)
+40 unit / 1,000 mL (0.04 unit / mL)
 
 
+X
+X
 X
 X
 
 
 
 
-YES
+
+
+n/a
 Continuous
 milliunit/min
 1
@@ -1908,8 +1939,8 @@ X
 n/a
 Continuous
 mg/min
-10
-15
+0.5
+1
 
 
 
@@ -1922,24 +1953,46 @@ mg/min
 
 Code only drugs
 zz DOBUTamine
-
+..Standard
 500 mg / 250 mL (2 mg / mL)
-1,000 mg / 250 mL (4 mg / mL)
 
 
 X
-X
-
 
 
 
 n/a
 Continuous
 mcg/kg/min
-1
+0.5
 20
 
+2
 
+
+
+
+
+
+
+
+Code only drugs
+zz DOBUTamine
+.Double Concentrated
+1,000 mg / 250 mL (4 mg / mL)
+
+
+X
+
+
+
+n/a
+Continuous
+mcg/kg/min
+0.5
+20
+
+2
 
 
 
@@ -1950,24 +2003,46 @@ mcg/kg/min
 
 Code only drugs
 zz DOPamine
-
+..Standard
 400 mg / 250 mL (1.6 mg / mL)
-800 mg / 250 mL (3.2 mg / mL)
 
 
 X
-X
-
 
 
 
 n/a
 Continuous
 mcg/kg/min
-1
+2
 20
 
+2
 
+
+
+
+
+
+
+
+Code only drugs
+zz DOPamine
+.Double Concentrated
+800 mg / 250 mL (3.2 mg / mL)
+
+
+X
+
+
+
+n/a
+Continuous
+mcg/kg/min
+2
+20
+
+2
 
 
 
@@ -1991,9 +2066,9 @@ X
 
 n/a
 Continuous
-mcg/kg/min
-0.01
-0.5
+mcg/min
+0.33
+20
 
 
 
@@ -2017,20 +2092,16 @@ X
 n/a
 Continuous
 mg/min
-Bolus Dose
-mg/kg
-Bolus Admin Rate
-mg/min
 0.5
-5
+4
+
+2
 
 
-0.5
-3
 
-1.5
-10
-50
+
+
+
 
 
 Code only drugs
@@ -2047,9 +2118,9 @@ n/a
 Continuous
 mcg/min
 1
-200
+150
 
-
+5
 
 
 
@@ -2072,7 +2143,35 @@ n/a
 Continuous
 mcg/kg/min
 0.1
-10
+3
+
+0.3
+
+
+
+
+
+
+
+
+Code only drugs
+zz norepinephrine
+..Standard
+4 mg / 250 mL (0.016 mg / mL)
+8 mg / 500 mL (0.016 mg / mL)
+
+
+X
+X
+
+
+
+
+n/a
+Continuous
+mcg/min
+0.3
+45
 
 
 
@@ -2085,25 +2184,19 @@ mcg/kg/min
 
 Code only drugs
 zz norepinephrine
-
-4 mg / 250 mL (0.016 mg / mL)
-8 mg / 500 mL (0.016 mg / mL)
+.Double Concentrated
 16 mg / 500 mL (0.032 mg / mL)
 
 
 X
-X
-X
-
-
 
 
 
 n/a
 Continuous
-mcg/kg/min
-0.01
-2
+mcg/min
+0.3
+45
 
 
 
@@ -2126,11 +2219,11 @@ X
 
 n/a
 Continuous
-mcg/kg/min
-0.1
-9.5
+mcg/min
+10
+120
 
-
+100
 
 
 
@@ -2223,15 +2316,15 @@ mg/mL
 0.5
 1
 10
-oxytocin
-Postpartum
-NonWeightBased
+ketamine ANES
+
+WeightBased
 X
 
-milliunit/mL
+mg/mL
 
-0.009
-0.041
+0.5
+1.5
 pancuronium
 
 WeightBased
@@ -2285,6 +2378,33 @@ Hard
 Max
 Initial
 Value
+ketamine ANES
+
+50 mg / 50 mL (1 mg / mL)
+100 mg / 100 mL (1 mg / mL)
+
+
+X
+X
+
+
+
+
+YES
+Continuous
+mg/kg/h
+0.05
+0.5
+1
+0.1
+
+
+
+
+
+
+
+
 phenylephrine ANES
 
 10 mg / 100 mL (0.1 mg / mL)
@@ -2330,18 +2450,22 @@ X
 n/a
 Continuous
 mcg/kg/min
+Bolus Dose
+mg
+Bolus Admin Rate
+mg/min
 1
 
 300
 5
+19
+71
 
+30
+100
+140
 
-
-
-
-
-
-
+120
 remifentanil ANES
 
 1,000 mcg / 40 mL (25 mcg / mL)
@@ -12027,7 +12151,7 @@ SCr < 2.0
 
 
 
-Conway Medical Center - 3/22/2018 18:03														Page 1 of 1
-Conway.2018.v5, 02246ac6d-A
+Conway Medical Center - 4/6/2018 20:34														Page 1 of 1
+Conway.2018.v7, 0225a9638-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

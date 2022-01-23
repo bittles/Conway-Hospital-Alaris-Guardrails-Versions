@@ -4,7 +4,7 @@ Alaris(r) System
 Data Set Report
 APPROVED
 
-Conway.2021.v19is
+Conway.2021.v20is
 
 
 Conway Medical Center
@@ -35,17 +35,17 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2021.v19is
+Conway.2021.v20is
  Hospital Name
 Conway Medical Center
  Data Set ID
-0289c6329-A
+0293254ab-A
  Data Set Status
 Approved
  Last Changed On
-8/3/2021 20:27
+11/25/2021 14:05
  Filename
-C:\Users\nbauer\Documents\Guardrails Editor\027ee0875-R.gre
+C:\Users\nbauer\Documents\Guardrails Editor\029324f9e-R.gre
 
 
 
@@ -5021,6 +5021,161 @@ L
 0.01
 0.04
                               
+cefiderocol
+.MG Dosing
+X
+X
+mg
+740
+2,050
+2,051
+750 mg / 100 mL (7.5 mg / mL)
+X
+
+02:39
+02:40
+04:00
+03:00
+n/a
+
+
+
+
+
+
+
+
+
+
+
+1,000 mg / 100 mL (10 mg / mL)
+X
+
+02:39
+02:40
+04:00
+03:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+1,500 mg / 100 mL (15 mg / mL)
+X
+
+02:39
+02:40
+04:00
+03:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+2,000 mg / 100 mL (20 mg / mL)
+X
+
+02:39
+02:40
+04:00
+03:00
+n/a
+
+
+
+                              
+cefiderocol
+GM dosing
+X
+X
+gram
+0.74
+2.05
+2.051
+0.75 gram / 100 mL (0.0075 gram / 
+mL)
+X
+
+02:39
+02:40
+04:00
+03:00
+n/a
+
+
+
+
+
+
+
+
+
+
+
+1 gram / 100 mL (0.01 gram / mL)
+X
+
+02:39
+02:40
+04:00
+03:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+1.5 gram / 100 mL (0.015 gram / mL)
+X
+
+02:39
+02:40
+04:00
+03:00
+n/a
+
+
+
+                              
+
+
+
+
+
+
+
+2 gram / 100 mL (0.02 gram / mL)
+X
+
+02:39
+02:40
+04:00
+03:00
+n/a
+
+
+
+                              
 cefotaxime
 .MG Dosing
 X
@@ -9137,6 +9292,26 @@ n/a
 
 
                               
+penG 3 Million Units
+
+X
+X
+unit
+2.8
+3.2
+3.3
+3 unit / 50 mL (0.06 unit / mL)
+X
+
+
+00:25
+01:00
+00:30
+n/a
+
+
+
+1unit=1million
 penG 5 Million Units
 
 X
@@ -11235,6 +11410,26 @@ mg/mL
 
 0.5
 5
+
+zidovudine
+
+X
+X
+mg/kg
+1
+2.2
+3
+--- mg / --- mL
+X
+
+00:49
+00:50
+24:00
+
+mg/mL
+0.001
+0.01
+4.2
 
 zoledronic acid
 
@@ -17435,6 +17630,39 @@ cefepime
 --- gram / --- mL
 Intermittent
 2752723I
+cefiderocol
+750 mg / 100 mL (7.5 mg / mL)
+Intermittent
+3602322021I
+cefiderocol
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+3602322021I
+cefiderocol
+1,500 mg / 100 mL (15 mg / mL)
+Intermittent
+3602322021I
+cefiderocol
+2,000 mg / 100 mL (20 mg / mL)
+Intermittent
+3602322021I
+cefiderocol
+0.75 gram / 100 mL (0.0075 gram / 
+mL)
+Intermittent
+3602322021I
+cefiderocol
+1 gram / 100 mL (0.01 gram / mL)
+Intermittent
+3602322021I
+cefiderocol
+1.5 gram / 100 mL (0.015 gram / mL)
+Intermittent
+3602322021I
+cefiderocol
+2 gram / 100 mL (0.02 gram / mL)
+Intermittent
+3602322021I
 cefotaxime
 1,000 mg / 50 mL (20 mg / mL)
 Intermittent
@@ -18654,9 +18882,13 @@ Intermittent
 penG 2.5 Mill Units
 2.5 unit / 50 mL (0.05 unit / mL)
 Intermittent
-19955177I
+19955177I2.5
 penG 2.5 Mill Units
 2.5 unit / 100 mL (0.025 unit / mL)
+Intermittent
+19955177I2.5
+penG 3 Million Units
+3 unit / 50 mL (0.06 unit / mL)
 Intermittent
 19955177I
 penG 5 Million Units
@@ -19336,7 +19568,7 @@ Drug is a vesicant. Check blood return.
 
 
 
-Conway Medical Center - 8/3/2021 20:27														Page 1 of 1
-Conway.2021.v19is, 0289c6329-A
+Conway Medical Center - 11/25/2021 14:05														Page 1 of 1
+Conway.2021.v20is, 0293254ab-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

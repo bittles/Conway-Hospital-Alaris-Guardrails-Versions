@@ -4,7 +4,7 @@ Alaris(r) System
 Data Set Report
 APPROVED
 
-Conway.2022.v23is
+Conway.2022.v24is
 
 
 Conway Medical Center
@@ -35,15 +35,15 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2022.v23is
+Conway.2022.v24is
  Hospital Name
 Conway Medical Center
  Data Set ID
-0298001a9-A
+0298d43a7-A
  Data Set Status
 Approved
  Last Changed On
-1/23/2022 12:08
+2/2/2022 13:29
  Filename
 C:\Users\nbauer\Documents\Guardrails Editor\02943f4f3-R.gre
 
@@ -669,7 +669,7 @@ X
 
 
 
-NO
+YES
 Continuous
 mcg/kg/min
 4.9
@@ -2390,6 +2390,15 @@ mg/mL
 0.009
 0.01
 0.26
+DOBUTamine
+Echo Stress Test
+WeightBased
+X
+
+mcg/mL
+0.5
+
+4.1
 doxapram
 
 NonWeightBased
@@ -2424,7 +2433,7 @@ WeightBased
 X
 
 mg/mL
-
+0.1
 0.5
 1.5
 pancuronium
@@ -2433,7 +2442,7 @@ WeightBased
 X
 
 mcg/mL
-
+0.9
 10
 1,000
 
@@ -2703,7 +2712,7 @@ NonWeightBased
 X
 
 mcg/mL
-
+10
 38
 110
 remifentanil ANES
@@ -2712,7 +2721,7 @@ WeightBased
 X
 
 mcg/mL
-
+8.9
 9
 250
 rocuronium ANES
@@ -2721,7 +2730,7 @@ WeightBased
 X
 
 mcg/mL
-
+890
 900
 1,100
 SUFentanil ANES
@@ -2730,7 +2739,7 @@ WeightBased
 X
 
 mcg/mL
-
+0.1
 0.2
 4
 vecuronium
@@ -2739,7 +2748,7 @@ WeightBased
 X
 
 mcg/mL
-
+440
 450
 550
 
@@ -14281,7 +14290,7 @@ WeightBased
 X
 
 mcg/mL
-
+0.5
 1
 20
 
@@ -19682,7 +19691,7 @@ Drug is a vesicant. Check blood return.
 
 
 
-Conway Medical Center - 1/23/2022 12:08														Page 1 of 1
-Conway.2022.v23is, 0298001a9-A
+Conway Medical Center - 2/2/2022 13:29														Page 1 of 1
+Conway.2022.v24is, 0298d43a7-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

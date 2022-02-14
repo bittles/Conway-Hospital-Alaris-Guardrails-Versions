@@ -4,7 +4,7 @@ Alaris(r) System
 Data Set Report
 APPROVED
 
-Conway.2022.v24is
+Conway.2022.v25is
 
 
 Conway Medical Center
@@ -35,15 +35,15 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2022.v24is
+Conway.2022.v25is
  Hospital Name
 Conway Medical Center
  Data Set ID
-0298d43a7-A
+0299d37a6-A
  Data Set Status
 Approved
  Last Changed On
-2/2/2022 13:29
+2/14/2022 15:54
  Filename
 C:\Users\nbauer\Documents\Guardrails Editor\02943f4f3-R.gre
 
@@ -1069,6 +1069,35 @@ mcg/kg/min
 
 
 
+fentaNYL
+
+2,500 mcg / 100 mL (25 mcg / mL)
+
+
+X
+
+
+
+n/a
+Continuous
+mcg/h
+Bolus Dose
+mcg
+Bolus Admin Rate
+mcg/min
+0.0001
+250
+750
+
+0.0001
+250
+500
+
+0.0001
+250
+500
+
+
 furosemide
 
 300 mg / 30 mL (10 mg / mL)
@@ -1364,6 +1393,35 @@ gram/h
 
 
 
+
+
+midazolam
+
+100 mg / 100 mL (1 mg / mL)
+
+
+X
+
+
+
+n/a
+Continuous
+mg/h
+Bolus Dose
+mg
+Bolus Admin Rate
+mg/min
+0.0001
+5
+10
+
+0.0001
+1
+5
+
+0.0001
+1
+5
 
 
 milrinone
@@ -18364,6 +18422,10 @@ fenoldopam
 10 mg / 250 mL (0.04 mg / mL)
 Cont/Bolus or PCA
 2758046C
+fentaNYL
+2,500 mcg / 100 mL (25 mcg / mL)
+Cont/Bolus or PCA
+2758060C
 ferric carboxymaltos
 750 mg / 265 mL (2.8302 mg / mL)
 Intermittent
@@ -18774,6 +18836,10 @@ micafungin
 --- mg / --- mL
 Intermittent
 3830619I
+midazolam
+100 mg / 100 mL (1 mg / mL)
+Cont/Bolus or PCA
+2763568C
 milrinone
 20 mg / 100 mL (0.2 mg / mL)
 Cont/Bolus or PCA
@@ -19691,7 +19757,7 @@ Drug is a vesicant. Check blood return.
 
 
 
-Conway Medical Center - 2/2/2022 13:29														Page 1 of 1
-Conway.2022.v24is, 0298d43a7-A
+Conway Medical Center - 2/14/2022 15:54														Page 1 of 1
+Conway.2022.v25is, 0299d37a6-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

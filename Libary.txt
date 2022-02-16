@@ -4,7 +4,7 @@ Alaris(r) System
 Data Set Report
 APPROVED
 
-Conway.2022.v25is
+Conway.2022.v26is
 
 
 Conway Medical Center
@@ -35,17 +35,17 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2022.v25is
+Conway.2022.v26is
  Hospital Name
 Conway Medical Center
  Data Set ID
-0299d37a6-A
+0299fcc51-A
  Data Set Status
 Approved
  Last Changed On
-2/14/2022 15:54
+2/16/2022 14:53
  Filename
-C:\Users\nbauer\Documents\Guardrails Editor\02943f4f3-R.gre
+C:\Users\nbauer\Documents\Guardrails Editor\0299d37a6-R.gre
 
 
 
@@ -2454,7 +2454,7 @@ WeightBased
 X
 
 mcg/mL
-0.5
+1
 
 4.1
 doxapram
@@ -2500,7 +2500,7 @@ WeightBased
 X
 
 mcg/mL
-0.9
+1
 10
 1,000
 
@@ -19757,7 +19757,7 @@ Drug is a vesicant. Check blood return.
 
 
 
-Conway Medical Center - 2/14/2022 15:54														Page 1 of 1
-Conway.2022.v25is, 0299d37a6-A
+Conway Medical Center - 2/16/2022 14:53														Page 1 of 1
+Conway.2022.v26is, 0299fcc51-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

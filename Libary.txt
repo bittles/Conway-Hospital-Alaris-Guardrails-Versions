@@ -1,10 +1,10 @@
-Alaris(r) System
+BD AlarisTM GuardrailsTM Editor
  
 
 Data Set Report
 APPROVED
 
-Conway.2022.v26is
+Conway.2022.v27is
 
 
 Conway Medical Center
@@ -16,13 +16,13 @@ __________________________________	_____________________________________
 (Address)					                          (City, State, Zip)
 
 
-Conway Medical Center acknowledges that Conway Medical Center's unique data sets (Customized Data Set) have been developed by Conway Medical Center in 
-accordance with Conway Medical Center's best practices protocols, for use with Guardrails(r) Safety Software.  Conway Medical Center acknowledges that it is 
-the owner of the Customized Data Set and, as such, is solely responsible for the development, verification and usage of the Customized Data Set in accordance 
-with Conway Medical Center's best practices protocols.
+Conway Medical Center acknowledges that Conway Medical Center's unique data set (Customized Data Set) has been developed by Conway Medical Center in 
+accordance with Conway Medical Center's best practices protocols, for use with BD AlarisTM GuardrailsTM Suite MX Software. Conway Medical Center 
+acknowledges that it is the owner of the Customized Data Set and, as such, is solely responsible for the development, verification and usage of the Customized 
+Data Set in accordance with Conway Medical Center's best practices protocols.
 
-At Conway Medical Center's request, CareFusion personnel may assist Conway Medical Center with the upload of Conway Medical Center's Customized Data 
-Sets pursuant to the ALARIS(r) SMARTServiceSM  Implementation Program or other service agreements.
+At Conway Medical Center's request, BD personnel may assist Conway Medical Center with the upload of Conway Medical Center's Customized Data Set 
+pursuant to the BD AlarisTM SmartServicesSM Implementation Program or other service agreements.
 
 Further, Conway Medical Center acknowledges that the person signing this agreement on behalf of Conway Medical Center is authorized to execute this 
 agreement on behalf of Conway Medical Center.
@@ -35,17 +35,17 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2022.v26is
+Conway.2022.v27is
  Hospital Name
 Conway Medical Center
  Data Set ID
-0299fd4cf-A
+029b25f1c-A
  Data Set Status
 Approved
  Last Changed On
-2/16/2022 15:29
+3/2/2022 17:00
  Filename
-C:\Users\nbauer\Documents\Guardrails Editor\0299fcc51-R.gre
+C:\Users\nbauer\Documents\Guardrails Editor\0299d37a6-R.gre
 
 
 
@@ -108,7 +108,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 135
@@ -159,7 +159,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/h
 71
@@ -190,7 +190,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/min
 0.49
@@ -218,7 +218,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.5
@@ -246,7 +246,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.1
@@ -274,7 +274,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 Bolus Dose
@@ -339,7 +339,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/kg/h
 Bolus Dose
@@ -371,7 +371,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/h
 Bolus Dose
@@ -406,7 +406,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/kg/h
 Bolus Dose
@@ -465,7 +465,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 Bolus Dose
@@ -494,7 +494,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.5
@@ -523,7 +523,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/h
 Bolus Dose
@@ -555,7 +555,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/h
 Bolus Dose
@@ -587,7 +587,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/h
 0.5
@@ -615,7 +615,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.5
@@ -643,7 +643,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.5
@@ -694,7 +694,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 5
@@ -719,7 +719,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.9
@@ -744,7 +744,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.9
@@ -770,7 +770,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.9
@@ -826,7 +826,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/min
 0.33
@@ -852,7 +852,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/min
 0.33
@@ -915,7 +915,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/h
 13
@@ -943,7 +943,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.5
@@ -971,7 +971,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.25
@@ -999,7 +999,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/h
 6
@@ -1024,7 +1024,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 Bolus Dose
@@ -1053,7 +1053,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.03
@@ -1078,7 +1078,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/h
 Bolus Dose
@@ -1139,7 +1139,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/h
 0.1
@@ -1164,7 +1164,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 unit/kg/h
 Bolus Dose
@@ -1193,7 +1193,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 unit/kg/h
 Bolus Dose
@@ -1222,7 +1222,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 unit/kg/h
 1
@@ -1247,7 +1247,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 unit/h
 Bolus Dose
@@ -1279,7 +1279,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/min
 0.15
@@ -1329,7 +1329,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/min
 0.05
@@ -1354,7 +1354,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/min
 0.5
@@ -1379,7 +1379,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 gram/h
 0.5
@@ -1404,7 +1404,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/h
 Bolus Dose
@@ -1433,7 +1433,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 Bolus Dose
@@ -1462,7 +1462,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/h
 0.25
@@ -1487,7 +1487,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.005
@@ -1521,7 +1521,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/h
 1
@@ -1546,7 +1546,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/min
 5
@@ -1571,7 +1571,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.1
@@ -1600,7 +1600,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/min
 0.3
@@ -1625,7 +1625,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/min
 0.3
@@ -1651,7 +1651,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/h
 Bolus Dose
@@ -1680,7 +1680,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 milliunit/min
 Bolus Dose
@@ -1718,7 +1718,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 milliunit/min
 1
@@ -1776,7 +1776,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/h
 7
@@ -1807,7 +1807,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/min
 10
@@ -1835,7 +1835,7 @@ X
 
 
 
-YES
+N/A
 Continuous
 mcg/min
 40
@@ -1860,7 +1860,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/min
 15
@@ -1885,7 +1885,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/kg/min
 0.01
@@ -1910,7 +1910,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 1
@@ -1935,7 +1935,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 4
@@ -1961,7 +1961,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 Bolus Dose
@@ -1991,7 +1991,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 Bolus Dose
@@ -2021,7 +2021,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 unit/min
 0.01
@@ -2046,7 +2046,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 unit/min
 0.01
@@ -2072,7 +2072,7 @@ X
 
 
 
-YES
+N/A
 Continuous
 mcg/kg/min
 Bolus Dose
@@ -2105,7 +2105,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/min
 0.5
@@ -2130,7 +2130,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.5
@@ -2155,7 +2155,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.5
@@ -2180,7 +2180,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 2
@@ -2205,7 +2205,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 2
@@ -2233,7 +2233,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/min
 0.33
@@ -2258,7 +2258,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/min
 0.5
@@ -2283,7 +2283,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/min
 1
@@ -2308,7 +2308,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.1
@@ -2336,7 +2336,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/min
 0.3
@@ -2361,7 +2361,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/min
 0.3
@@ -2386,7 +2386,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/min
 10
@@ -2435,7 +2435,7 @@ atracurium
 WeightBased
 X
 
-mcg/mL
+mcg/mL*
 200
 5,000
 5,100
@@ -2453,7 +2453,7 @@ Echo Stress Test
 WeightBased
 X
 
-mcg/mL
+mcg/mL*
 900
 
 5,000
@@ -2472,7 +2472,7 @@ WeightBased
 X
 
 nanogram/
-mL
+mL*
 2,000
 3,000
 50,000
@@ -2499,11 +2499,12 @@ pancuronium
 WeightBased
 X
 
-mcg/mL
+mcg/mL*
 99
 100
 2,001
 
+* Units Only concentration and Dosing Units have different units of measure.
 2.1.3	Continuous/Bolus - Anesthesia Only Drugs
 Continuous/Bolus - Anesthesia Only Drugs - Adult
 Drug Name
@@ -2559,7 +2560,7 @@ X
 
 
 
-YES
+N/A
 Continuous
 mg/kg/h
 0.05
@@ -2610,7 +2611,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 Bolus Dose
@@ -2769,7 +2770,7 @@ phenylephrine ANES
 NonWeightBased
 X
 
-mcg/mL
+mcg/mL*
 10
 38
 110
@@ -2787,7 +2788,7 @@ rocuronium ANES
 WeightBased
 X
 
-mcg/mL
+mcg/mL*
 890
 900
 1,100
@@ -2805,11 +2806,12 @@ vecuronium
 WeightBased
 X
 
-mcg/mL
+mcg/mL*
 440
 450
 550
 
+* Units Only concentration and Dosing Units have different units of measure.
 2.1.5	Intermittent Drugs
 Intermittent Drugs - Adult
 Drug Name
@@ -3114,7 +3116,7 @@ n/a
 
 
 
-                              
+                                
 alteplase-non-stroke
 Central IV Occlusion
 X
@@ -3153,7 +3155,7 @@ n/a
 
 
 
-                              
+                                
 alteplase-non-stroke
 DVT / Ischemic Limb
 X
@@ -3293,7 +3295,7 @@ n/a
 
 
 
-                              
+                                
 ampho B (liposomal)
 
 X
@@ -3372,7 +3374,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -3391,7 +3393,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -3410,7 +3412,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -3429,7 +3431,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -3448,7 +3450,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -3467,7 +3469,7 @@ mg/mL
 
 1
 30
-                              
+                                
 ampicillin
 GM dosing
 X
@@ -3506,7 +3508,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -3525,7 +3527,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -3544,7 +3546,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -3563,7 +3565,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -3583,7 +3585,7 @@ L
 0.001
 0.002
 0.03
-                              
+                                
 ampicillin/sulbact
 .MG Dosing
 X
@@ -3622,7 +3624,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -3641,7 +3643,7 @@ n/a
 
 
 
-                              
+                                
 ampicillin/sulbact
 GM dosing
 X
@@ -3680,7 +3682,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -3699,7 +3701,7 @@ n/a
 
 
 
-                              
+                                
 andulafungin
 
 X
@@ -3758,7 +3760,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -3777,7 +3779,7 @@ unit/mL
 0.003
 
 0.045
-                              
+                                
 antivenin crotalidae
 Crofab
 X
@@ -3816,7 +3818,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -3835,7 +3837,7 @@ unit/mL
 0.004
 
 0.025
-                              
+                                
 azithromycin
 
 X
@@ -3874,7 +3876,7 @@ n/a
 
 
 
-                              
+                                
 aztreonam
 .MG Dosing
 X
@@ -3913,7 +3915,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -3932,7 +3934,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -3951,7 +3953,7 @@ n/a
 
 
 
-                              
+                                
 aztreonam
 GM dosing
 X
@@ -3990,7 +3992,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4009,7 +4011,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4028,7 +4030,7 @@ n/a
 
 
 
-                              
+                                
 bamlaniv/estesivimab
 .Standard wt >=50 kg
 X
@@ -4067,7 +4069,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4086,7 +4088,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4105,7 +4107,7 @@ n/a
 
 
 
-                              
+                                
 bamlaniv/estesivimab
 Weight < 50 kg
 X
@@ -4144,7 +4146,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4163,7 +4165,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4182,7 +4184,7 @@ n/a
 
 
 
-                              
+                                
 bamlanivimab
 
 X
@@ -4283,7 +4285,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4302,7 +4304,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4321,7 +4323,7 @@ mg/mL
 
 0.1
 20
-                              
+                                
 calcium chloride
 GM dosing
 X
@@ -4360,7 +4362,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4379,7 +4381,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4399,7 +4401,7 @@ L
 
 0.001
 0.04
-                              
+                                
 calcium gluconate
 .MG Dosing
 X
@@ -4438,7 +4440,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4457,7 +4459,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4476,7 +4478,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4495,7 +4497,7 @@ mg/mL
 1
 
 40
-                              
+                                
 calcium gluconate
 GM dosing
 X
@@ -4534,7 +4536,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4553,7 +4555,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4572,7 +4574,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4592,7 +4594,7 @@ L
 0.001
 
 0.04
-                              
+                                
 casirivimab/imdevima
 
 X
@@ -4632,7 +4634,7 @@ No
 
 
 
-                              
+                                
 caspofungin
 
 X
@@ -4672,7 +4674,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4691,7 +4693,7 @@ n/a
 
 
 
-                              
+                                
 ceFAZolin
 .MG Dosing
 X
@@ -4730,7 +4732,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4749,7 +4751,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4768,7 +4770,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4787,7 +4789,7 @@ mg/mL
 5
 10
 40
-                              
+                                
 ceFAZolin
 GM dosing
 X
@@ -4826,7 +4828,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4845,7 +4847,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4864,7 +4866,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4884,7 +4886,7 @@ L
 0.005
 0.01
 0.04
-                              
+                                
 cefepime
 .MG Dosing
 X
@@ -4923,7 +4925,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4942,7 +4944,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4961,7 +4963,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4980,7 +4982,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -4999,7 +5001,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5018,7 +5020,7 @@ mg/mL
 4
 5
 40
-                              
+                                
 cefepime
 GM dosing
 X
@@ -5057,7 +5059,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5076,7 +5078,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5095,7 +5097,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5115,7 +5117,7 @@ L
 0.005
 0.01
 0.04
-                              
+                                
 cefiderocol
 .MG Dosing
 X
@@ -5154,7 +5156,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5173,7 +5175,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5192,7 +5194,7 @@ n/a
 
 
 
-                              
+                                
 cefiderocol
 GM dosing
 X
@@ -5232,7 +5234,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5251,7 +5253,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5270,7 +5272,7 @@ n/a
 
 
 
-                              
+                                
 cefotaxime
 .MG Dosing
 X
@@ -5309,7 +5311,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5328,7 +5330,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5347,7 +5349,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5366,7 +5368,7 @@ mg/mL
 5
 10
 40
-                              
+                                
 cefotaxime
 GM dosing
 X
@@ -5405,7 +5407,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5424,7 +5426,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5443,7 +5445,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5463,7 +5465,7 @@ L
 0.005
 0.01
 0.04
-                              
+                                
 cefoTEtan
 .MG Dosing
 X
@@ -5502,7 +5504,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5521,7 +5523,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5540,7 +5542,7 @@ n/a
 
 
 
-                              
+                                
 cefoTEtan
 GM dosing
 X
@@ -5579,7 +5581,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5598,7 +5600,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5617,7 +5619,7 @@ n/a
 
 
 
-                              
+                                
 cefOXitin
 .MG Dosing
 X
@@ -5656,7 +5658,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5675,7 +5677,7 @@ mg/mL
 5
 10
 20
-                              
+                                
 cefOXitin
 GM dosing
 X
@@ -5714,7 +5716,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5734,7 +5736,7 @@ L
 0.005
 0.01
 0.02
-                              
+                                
 ceftaroline
 
 X
@@ -5773,7 +5775,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5792,7 +5794,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5811,7 +5813,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5830,7 +5832,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5849,7 +5851,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5868,7 +5870,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5887,7 +5889,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5906,7 +5908,7 @@ mg/mL
 
 0.1
 14
-                              
+                                
 cefTAZidime
 .MG Dosing
 X
@@ -5945,7 +5947,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5964,7 +5966,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -5983,7 +5985,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6002,7 +6004,7 @@ mg/mL
 1
 2.5
 40
-                              
+                                
 cefTAZidime
 GM dosing
 X
@@ -6041,7 +6043,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6060,7 +6062,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6079,7 +6081,7 @@ n/a
 
 
 
-                              
+                                
 ceftazidime/avibacta
 
 X
@@ -6139,7 +6141,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6158,7 +6160,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6177,7 +6179,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6196,7 +6198,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6215,7 +6217,7 @@ mg/mL
 1
 1.4
 30.1
-                              
+                                
 ceftolozane/tazo
 GM dosing
 X
@@ -6254,7 +6256,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6274,7 +6276,7 @@ L
 0.001
 
 0.031
-                              
+                                
 cefTRIAXone
 .MG Dosing
 X
@@ -6313,7 +6315,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6332,7 +6334,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6351,7 +6353,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6370,7 +6372,7 @@ mg/mL
 1
 5
 40
-                              
+                                
 cefTRIAXone
 GM dosing
 X
@@ -6409,7 +6411,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6428,7 +6430,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6447,7 +6449,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6467,7 +6469,7 @@ L
 0.001
 0.005
 0.02
-                              
+                                
 cefuroxime
 .MG Dosing
 X
@@ -6506,7 +6508,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6525,7 +6527,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6544,7 +6546,7 @@ n/a
 
 
 
-                              
+                                
 cefuroxime
 GM dosing
 X
@@ -6584,7 +6586,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6603,7 +6605,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6622,7 +6624,7 @@ n/a
 
 
 
-                              
+                                
 chloramphenicol
 
 X
@@ -6722,7 +6724,7 @@ n/a
 
 
 
-                              
+                                
 clindamycin
 
 X
@@ -6761,7 +6763,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6780,7 +6782,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6799,7 +6801,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6818,7 +6820,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -6837,7 +6839,7 @@ n/a
 
 
 
-                              
+                                
 colistimethate
 
 X
@@ -7116,7 +7118,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -7135,7 +7137,7 @@ n/a
 
 
 
-                              
+                                
 doxycycline
 
 X
@@ -7175,7 +7177,7 @@ n/a
 
 
 
-                              
+                                
 ertapenem
 .MG Dosing
 X
@@ -7214,7 +7216,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -7233,7 +7235,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -7252,7 +7254,7 @@ n/a
 
 
 
-                              
+                                
 ertapenem
 GM dosing
 X
@@ -7291,7 +7293,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -7310,7 +7312,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -7329,7 +7331,7 @@ n/a
 
 
 
-                              
+                                
 erythromycin
 
 X
@@ -7368,7 +7370,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -7387,7 +7389,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -7406,7 +7408,7 @@ mg/mL
 0.05
 1
 5
-                              
+                                
 famotidine
 
 X
@@ -7445,7 +7447,7 @@ mg/mL
 0.09
 0.1
 3.5
-                              
+                                
 fat emulsion 20%
 
 X
@@ -7484,7 +7486,7 @@ n/a
 
 
 
-                              
+                                
 ferric carboxymaltos
 
 X
@@ -7524,7 +7526,7 @@ mg/mL
 1.9
 2
 4
-                              
+                                
 ferric carboxymaltos
 
 X
@@ -7564,7 +7566,7 @@ mg/mL
 1.9
 2
 4
-                              
+                                
 fluconazole
 
 X
@@ -7603,7 +7605,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -7622,7 +7624,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -7641,7 +7643,7 @@ n/a
 
 
 
-                              
+                                
 folic acid
 
 X
@@ -7780,7 +7782,7 @@ mg/mL
 0.05
 0.1
 10
-                              
+                                
 gentamicin
 
 X
@@ -7919,7 +7921,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -7938,7 +7940,7 @@ mg/mL
 1
 2
 5
-                              
+                                
 imipenem/cilastatin
 GM dosing
 X
@@ -7977,7 +7979,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -7997,7 +7999,7 @@ L
 0.001
 0.003
 0.006
-                              
+                                
 immune glob (IVIG)
 
 X
@@ -8037,7 +8039,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -8056,7 +8058,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -8075,7 +8077,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -8095,7 +8097,7 @@ L
 0.01
 0.05
 0.1
-                              
+                                
 immune glob (IVIG)
 
 X
@@ -8197,7 +8199,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -8216,7 +8218,7 @@ mg/mL
 0.1
 0.2
 2.1
-                              
+                                
 itraconazole
 
 X
@@ -8255,7 +8257,7 @@ mg/mL
 3.29
 3.3
 3.4
-                              
+                                
 Kcentra (Factor IX)
 .INR 2 to <  4
 X
@@ -8434,7 +8436,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -8453,7 +8455,7 @@ n/a
 
 
 
-                              
+                                
 linezolid
 
 X
@@ -8512,7 +8514,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -8532,7 +8534,7 @@ L
 0.005
 0.01
 0.12
-                              
+                                
 mannitol  20%
 
 X
@@ -8572,7 +8574,7 @@ L
 0.15
 0.18
 0.21
-                              
+                                
 mannitol  20%
 
 X
@@ -8632,7 +8634,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -8651,7 +8653,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -8670,7 +8672,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -8689,7 +8691,7 @@ n/a
 
 
 
-                              
+                                
 meropenem
 GM dosing
 X
@@ -8728,7 +8730,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -8747,7 +8749,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -8766,7 +8768,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -8785,7 +8787,7 @@ n/a
 
 
 
-                              
+                                
 meropenem/vaborbact
 a
 
@@ -8825,7 +8827,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -8844,7 +8846,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -8863,7 +8865,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -8882,7 +8884,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -8901,7 +8903,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -8920,7 +8922,7 @@ n/a
 
 
 
-                              
+                                
 methocarbamol
 
 X
@@ -8959,7 +8961,7 @@ mg/mL
 0.5
 1
 15
-                              
+                                
 methylPREDNISolone
 
 X
@@ -8998,7 +9000,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9017,7 +9019,7 @@ mg/mL
 0.5
 1
 15
-                              
+                                
 metroNIDAZOLE
 
 X
@@ -9056,7 +9058,7 @@ n/a
 
 
 
-                              
+                                
 micafungin
 
 X
@@ -9095,7 +9097,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9114,7 +9116,7 @@ n/a
 
 
 
-                              
+                                
 nafcillin
 .MG Dosing
 X
@@ -9153,7 +9155,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9172,7 +9174,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9191,7 +9193,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9210,7 +9212,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9229,7 +9231,7 @@ n/a
 
 
 
-                              
+                                
 nafcillin
 GM dosing
 X
@@ -9268,7 +9270,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9287,7 +9289,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9306,7 +9308,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9325,7 +9327,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9344,7 +9346,7 @@ n/a
 
 
 
-                              
+                                
 ondansetron
 
 X
@@ -9444,7 +9446,7 @@ n/a
 
 
 
-                              
+                                
 penG 3 Million Units
 
 X
@@ -9503,7 +9505,7 @@ n/a
 
 
 
-                              
+                                
 penG x Million Units
 
 X
@@ -9562,7 +9564,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9581,7 +9583,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9600,7 +9602,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9619,7 +9621,7 @@ No
 
 
 
-                              
+                                
 phenytoin
 
 X
@@ -9699,7 +9701,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9719,7 +9721,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9739,7 +9741,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9758,7 +9760,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9777,7 +9779,7 @@ n/a
 
 
 
-                              
+                                
 potassium acetate
 
 X
@@ -9817,7 +9819,7 @@ L
 
 0.01
 0.46
-                              
+                                
 potassium chloride
 Central Line
 X
@@ -9856,7 +9858,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9875,7 +9877,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9895,7 +9897,7 @@ L
 0.01
 0.02
 0.21
-                              
+                                
 potassium chloride
 Peripheral Line
 X
@@ -9934,7 +9936,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -9954,7 +9956,7 @@ L
 0.01
 0.02
 0.11
-                              
+                                
 potassium phosphate
 
 X
@@ -10222,7 +10224,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -10241,7 +10243,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -10260,7 +10262,7 @@ n/a
 
 
 
-                              
+                                
 rifAMPin
 
 X
@@ -10299,7 +10301,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -10318,7 +10320,7 @@ mg/mL
 0.1
 0.5
 6
-                              
+                                
 riTUXimab
 
 X
@@ -10420,7 +10422,7 @@ n/a
 
 
 
-                              
+                                
 tedizolid phosphate
 
 X
@@ -10499,7 +10501,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -10518,7 +10520,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -10537,7 +10539,7 @@ n/a
 
 
 
-                              
+                                
 tigecycline
 
 X
@@ -10576,7 +10578,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -10595,7 +10597,7 @@ n/a
 
 
 
-                              
+                                
 tobramycin
 
 X
@@ -10654,7 +10656,7 @@ mg/mL
 0.9
 1
 8.1
-                              
+                                
 tocilizumab
 
 X
@@ -10693,7 +10695,7 @@ mg/mL
 0.9
 1
 8.1
-                              
+                                
 tranexamic BOLUS
 .MG Dosing
 X
@@ -10732,7 +10734,7 @@ mg/mL
 1
 5
 40
-                              
+                                
 tranexamic BOLUS
 GM dosing
 X
@@ -10772,7 +10774,7 @@ L
 0.001
 0.005
 0.04
-                              
+                                
 valproate sodium
 
 X
@@ -10851,7 +10853,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -10870,7 +10872,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -10889,7 +10891,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -10908,7 +10910,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -10927,7 +10929,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -10946,7 +10948,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -10965,7 +10967,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -10984,7 +10986,7 @@ mg/mL
 1
 3
 5
-                              
+                                
 vancomycin
 .MG Dosing
 X
@@ -11023,7 +11025,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11042,7 +11044,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11061,7 +11063,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11080,7 +11082,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11099,7 +11101,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11118,7 +11120,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11137,7 +11139,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11156,7 +11158,7 @@ mg/mL
 1
 3
 5
-                              
+                                
 vancomycin
 GM dosing
 X
@@ -11195,7 +11197,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11214,7 +11216,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11233,7 +11235,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11252,7 +11254,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11271,7 +11273,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11291,7 +11293,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11310,7 +11312,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11330,7 +11332,7 @@ L
 0.001
 0.003
 0.006
-                              
+                                
 vancomycin
 GM dosing
 X
@@ -11369,7 +11371,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11388,7 +11390,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11407,7 +11409,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11426,7 +11428,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11445,7 +11447,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11465,7 +11467,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11484,7 +11486,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11504,7 +11506,7 @@ L
 0.001
 0.003
 0.006
-                              
+                                
 voriconazole
 
 X
@@ -11543,7 +11545,7 @@ n/a
 
 
 
-                              
+                                
 voriconazole
 
 X
@@ -11643,7 +11645,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11662,7 +11664,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11681,7 +11683,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -11701,7 +11703,7 @@ L
 0.005
 0.01
 0.08
-                              
+                                
 
 2.1.6	Fluids
 Fluids - Adult
@@ -11949,6 +11951,65 @@ Min
 Soft 
 Max
 
+abatacept
+
+X
+X
+mg
+499
+
+1,001
+500 mg / 100 mL (5 mg / mL)
+X
+
+00:27
+00:28
+01:10
+
+n/a
+
+
+
+Low Binding 
+0.2or1.2
+
+
+
+
+
+
+
+750 mg / 100 mL (7.5 mg / mL)
+X
+
+00:27
+00:28
+01:10
+
+n/a
+
+
+
+                                
+
+
+
+
+
+
+
+1,000 mg / 100 mL (10 mg / mL)
+X
+
+00:27
+00:28
+01:10
+
+n/a
+
+
+
+                                
 aprepitant
 
 X
@@ -11987,7 +12048,7 @@ n/a
 
 
 
-                              
+                                
 atezolizumab
 
 X
@@ -12026,7 +12087,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -12045,7 +12106,7 @@ n/a
 
 
 
-                              
+                                
 Bendamusti (Bendeka)
 
 X
@@ -12674,6 +12735,27 @@ mg/mL
 0.1
 38
 
+golimumab
+
+X
+X
+mg/kg
+1.8
+
+2.2
+--- mg / --- mL
+X
+
+00:27
+00:28
+01:00
+00:30
+mg/mL
+0.49
+0.5
+4
+Low Binding 
+Filter
 ifosfamide
 
 X
@@ -12832,7 +12914,7 @@ No
 
 
 
-                              
+                                
 mesna
 
 X
@@ -12951,7 +13033,7 @@ n/a
 
 
 
-                              
+                                
 nivolumab
 
 X
@@ -12990,7 +13072,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -13009,7 +13091,7 @@ mg/mL
 
 1
 10
-                              
+                                
 obinutuzumab
 First Dose
 X
@@ -13068,7 +13150,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -13087,7 +13169,7 @@ mg/mL
 
 0.9
 3.5
-                              
+                                
 ondansetron
 
 X
@@ -13126,7 +13208,7 @@ mg/mL
 
 0.01
 0.64
-                              
+                                
 oxaliplatin
 
 X
@@ -13247,7 +13329,7 @@ mg/mL
 
 1
 10
-                              
+                                
 PEMEtrexed
 
 X
@@ -14044,7 +14126,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/kg/h
 Bolus Dose
@@ -14073,7 +14155,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.5
@@ -14098,7 +14180,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 2
@@ -14123,7 +14205,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/min
 0.33
@@ -14148,7 +14230,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 unit/h
 Bolus Dose
@@ -14177,7 +14259,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/min
 0.5
@@ -14202,7 +14284,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 Bolus Dose
@@ -14231,7 +14313,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mg/h
 0.25
@@ -14256,7 +14338,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/min
 5
@@ -14281,7 +14363,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/kg/min
 0.1
@@ -14307,7 +14389,7 @@ X
 
 
 
-n/a
+N/A
 Continuous
 mcg/min
 0.3
@@ -14351,6 +14433,7 @@ mcg/mL
 0.5
 1
 20
+
 
 2.4.3	Continuous/Bolus - Anesthesia Only Drugs
 No drugs exist in this section.
@@ -14622,7 +14705,7 @@ n/a
 
 
 
-                              
+                                
 ampicillin
 pt weight < 40 kg
 X
@@ -14781,7 +14864,7 @@ n/a
 
 
 
-                              
+                                
 aztreonam
 pt weight < 40 kg
 X
@@ -15713,7 +15796,7 @@ L
 
 0.1
 0.5
-                              
+                                
 meropenem
 .mg, pt weight <40kg
 X
@@ -15834,7 +15917,7 @@ n/a
 
 
 
-                              
+                                
 metroNIDAZOLE
 
 X
@@ -16114,7 +16197,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -16134,7 +16217,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -16154,7 +16237,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -16173,7 +16256,7 @@ n/a
 
 
 
-                              
+                                
 
 
 
@@ -16192,7 +16275,7 @@ n/a
 
 
 
-                              
+                                
 piperacillin/tazo
 GM dosing
 X
@@ -16746,6 +16829,14 @@ Disabled
 Disabled
 Disabled
 Disabled
+No Guardrails Basic 
+Infusion Clinical Advisory
+Disabled
+Disabled
+Disabled
+Disabled
+Clinical Advisory Message: This infusion selection DOES NOT have Guardrails 
+Protection
     
 
 3.2	Pump Module
@@ -16936,16 +17027,6 @@ Enabled
 n/a
 Enabled
 Enabled
-Multidose
-Disabled
-Disabled
-Disabled
-Disabled
-Multidose Callback
-n/a
-n/a
-n/a
-n/a
 Pressure Dynamic 
 Display
 Enabled
@@ -17055,70 +17136,7 @@ n/a
 n/a
     
 
-3.7	SpO2 Module
-Settings
-Adult
-Infusion 
-Center
-Nursery
-Pediatric
-s
-SpO2 Module Type
-Both
-Both
-Both
-Both
-Pulse Beep Volume
-1
-1
-1
-1
-SatSeconds Limits:
-25
-25
-25
-25
-Sat. Averaging Time 
-(Seconds)
-8
-8
-8
-8
-Alarm Limit Type
-Adult
-Adult
-Adult
-Adult
-%SpO2 High Enable
-Disabled
-Disabled
-Disabled
-Disabled
-%SpO2 High
-n/a
-n/a
-n/a
-n/a
-%SpO2 Low
-90
-90
-90
-90
-Pulse Rate High 
-(beats/min)
-120
-120
-120
-120
-Pulse Rate Low 
-(beats/min)
-50
-50
-50
-50
-    
-
-3.8	EtCO2 Module
+3.7	EtCO2 Module
 Settings
 Adult
 Infusion 
@@ -17172,35 +17190,57 @@ Waveform Time Scale
 10
     
 
-3.9	PCA Pause Protocol
-3.9.1	PCA Pause Protocol Settings
+3.8	PCA Pause Protocol
+3.8.1	PCA Pause Protocol Settings
 Settings
+Adult
+Infusion 
+Center
+Nursery
+Pediatric
+s
 PCA Pause Protocol 
 Enabled
+Enabled
+Disabled
+Disabled
+Disabled
 Available for
+Etco2
+n/a
+n/a
+n/a
 Monitoring Module Attach 
 Enforcement
-PCA Pause Protocol: 
-PCA Infusion has paused 
-due to a decline in 
-respiratory status. Check 
-Patient!
+Disabled
+n/a
+n/a
+n/a
+PCA Pause Protocol: PCA Infusion has paused due to a decline in respiratory status. 
+Check Patient!
 
 
 
-3.9.2	PCA Pause Protocol (SpO2) Settings
+3.8.2	PCA Pause Protocol (EtCO2) Settings
 Settings
-%SpO2 Low Limit
-Initial Value (%)
-
-
-
-3.9.3	PCA Pause Protocol (EtCO2) Settings
-Settings
+Adult
+Infusion 
+Center
+Nursery
+Pediatric
+s
 Resp. Rate Lower Limit 
 (bpm)
+5
+n/a
+n/a
+n/a
 Resp. Rate Initial Value 
 (bpm)
+6
+n/a
+n/a
+n/a
 
 
 4.	 Channel Labels
@@ -17214,6 +17254,18 @@ Drug Name
 Concentrations
 Used As
 Aliases
+abatacept
+500 mg / 100 mL (5 mg / mL)
+Intermittent
+4144595I
+abatacept
+750 mg / 100 mL (7.5 mg / mL)
+Intermittent
+4144595I
+abatacept
+1,000 mg / 100 mL (10 mg / mL)
+Intermittent
+4144595I
 acetaminophen
 1,000 mg / 100 mL (10 mg / mL)
 Intermittent
@@ -18507,6 +18559,10 @@ glucagon
 10 mg / 100 mL (0.1 mg / mL)
 Cont/Bolus or PCA
 2759022C
+golimumab
+--- mg / --- mL
+Intermittent
+19952385I
 heparin
 25,000 unit / 500 mL (50 unit / mL)
 Cont/Bolus or PCA
@@ -19602,7 +19658,7 @@ No
 
 Appendix B	Syringe Favorites List
 Syringe Favorites
-SyringeType
+Syringe Type
 Included?
 BD Plastipak 1 mL
 
@@ -19640,12 +19696,8 @@ Terumo 20 mL
 X
 Terumo 30 mL
 X
-Terumo 50 and 60 mL
+Terumo 60 mL
 X
-AstraZeneca 50 mL
-
-IVAC 50 mL
-
 
 Appendix C	PCA Syringe Favorites List
 PCA Syringe Favorites
@@ -19667,7 +19719,7 @@ Terumo 20 mL
 X
 Terumo 30 mL
 X
-Terumo 50 and 60 mL
+Terumo 60 mL
 X
 IMS 30 mL Prefill
 X
@@ -19726,6 +19778,8 @@ INR 4-6
 INR 4 - 6 ** Max dose of Kcentra should not exceed 3500 units **
 Levophed
 *****Must have physician order for rates greater than 60 mcg/min*****
+Low Binding 0.2or1.2
+This medication must be infused using a 0.2- to 1.2-micron, low protein brinding filter.
 Low Binding Filter
 This medication must be infused using a 0.2- micron, low protein binding filter.
 MAX DOSE 180 mg
@@ -19757,7 +19811,7 @@ Drug is a vesicant. Check blood return.
 
 
 
-Conway Medical Center - 2/16/2022 15:29														Page 1 of 1
-Conway.2022.v26is, 0299fd4cf-A
+Conway Medical Center - 3/2/2022 17:00														Page 1 of 1
+Conway.2022.v27is, 029b25f1c-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

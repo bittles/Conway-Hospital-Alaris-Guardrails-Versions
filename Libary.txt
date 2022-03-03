@@ -4,7 +4,7 @@ BD AlarisTM GuardrailsTM Editor
 Data Set Report
 APPROVED
 
-Conway.2022.v27is
+Conway.2022.v28is
 
 
 Conway Medical Center
@@ -35,17 +35,17 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2022.v27is
+Conway.2022.v28is
  Hospital Name
 Conway Medical Center
  Data Set ID
-029b25f1c-A
+029b3c29f-A
  Data Set Status
 Approved
  Last Changed On
-3/2/2022 17:00
+3/3/2022 18:17
  Filename
-C:\Users\nbauer\Documents\Guardrails Editor\0299d37a6-R.gre
+C:\Users\nbauer\OneDrive\Documents\Guardrails Editor\029b25f1c-R.gre
 
 
 
@@ -16831,10 +16831,10 @@ Disabled
 Disabled
 No Guardrails Basic 
 Infusion Clinical Advisory
-Disabled
-Disabled
-Disabled
-Disabled
+Enabled
+Enabled
+Enabled
+Enabled
 Clinical Advisory Message: This infusion selection DOES NOT have Guardrails 
 Protection
     
@@ -19811,7 +19811,7 @@ Drug is a vesicant. Check blood return.
 
 
 
-Conway Medical Center - 3/2/2022 17:00														Page 1 of 1
-Conway.2022.v27is, 029b25f1c-A
+Conway Medical Center - 3/3/2022 18:17														Page 1 of 1
+Conway.2022.v28is, 029b3c29f-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

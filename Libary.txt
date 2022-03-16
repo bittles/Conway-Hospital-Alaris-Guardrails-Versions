@@ -4,7 +4,7 @@ BD AlarisTM GuardrailsTM Editor
 Data Set Report
 APPROVED
 
-Conway.2022.v28is
+Conway2022v28is
 
 
 Conway Medical Center
@@ -35,17 +35,17 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2022.v28is
+Conway2022v28is
  Hospital Name
 Conway Medical Center
  Data Set ID
-029b3c29f-A
+029b3dd3a-A
  Data Set Status
 Approved
  Last Changed On
-3/3/2022 18:17
+3/3/2022 20:10
  Filename
-C:\Users\nbauer\OneDrive\Documents\Guardrails Editor\029b25f1c-R.gre
+C:\Users\nbauer\OneDrive\Documents\Guardrails Editor\029b3c29f-R.gre
 
 
 
@@ -19811,7 +19811,7 @@ Drug is a vesicant. Check blood return.
 
 
 
-Conway Medical Center - 3/3/2022 18:17														Page 1 of 1
-Conway.2022.v28is, 029b3c29f-A
+Conway Medical Center - 3/3/2022 20:10														Page 1 of 1
+Conway2022v28is, 029b3dd3a-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

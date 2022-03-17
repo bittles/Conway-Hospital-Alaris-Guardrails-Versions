@@ -39,11 +39,11 @@ Conway.2022.v29is
  Hospital Name
 Conway Medical Center
  Data Set ID
-029c4f87d-A
+029c5f67f-A
  Data Set Status
 Approved
  Last Changed On
-3/16/2022 19:35
+3/17/2022 13:39
  Filename
 C:\Users\nbauer\OneDrive\Documents\Guardrails Editor\029b25f1c-R.gre
 
@@ -814,64 +814,6 @@ mg/min
 
 
 
-epidural w/ fentanyl
-
-100 unit / 100 mL (1 unit / mL)
-
-
-X
-
-
-
-N/A
-Continuous
-unit/h
-Bolus Dose
-unit
-Bolus Admin Rate
-unit/min
-0.01
-12
-15
-
-2
-7
-8
-5
-4
-14
-16
-10
-1 unit = 1 mL
-epidural w/o fentany
-
-100 unit / 100 mL (1 unit / mL)
-
-
-X
-
-
-
-N/A
-Continuous
-unit/h
-Bolus Dose
-unit
-Bolus Admin Rate
-unit/min
-0.01
-12
-15
-
-2
-7
-8
-5
-4
-14
-16
-10
-1 unit = 1 mL
 EPINEPHrine
 ..Standard
 5 mg / 250 mL (0.02 mg / mL)
@@ -1598,9 +1540,12 @@ mg/h
 nitroglycerin
 
 25 mg / 250 mL (0.1 mg / mL)
+50 mg / 250 mL (0.2 mg / mL)
 
 
 X
+X
+
 
 
 
@@ -16895,6 +16840,10 @@ Enabled
 Enabled
 Clinical Advisory Message: This infusion selection DOES NOT have Guardrails 
 Protection
+ 
+ 
+ 
+ 
     
 
 3.2	Pump Module
@@ -17276,6 +17225,10 @@ n/a
 n/a
 PCA Pause Protocol: PCA Infusion has paused due to a decline in respiratory status. 
 Check Patient!
+ 
+ 
+ 
+ 
 
 
 
@@ -19046,6 +18999,10 @@ nitroglycerin
 25 mg / 250 mL (0.1 mg / mL)
 Cont/Bolus or PCA
 2765191C
+nitroglycerin
+50 mg / 250 mL (0.2 mg / mL)
+Cont/Bolus or PCA
+2765191C
 nitroprusside
 50 mg / 500 mL (0.1 mg / mL)
 Cont/Bolus or PCA
@@ -19788,8 +19745,6 @@ Advisory Name
 Clinical Advisory Text
 0.22 Filter Needed
 Use a 0.22 micron in-line filter when administering this product.
-1 unit = 1 mL
-1 unit = 1 mL
 1unit=1million
 1 unit = 1 million units
 2nd RN to verify
@@ -19871,7 +19826,7 @@ Drug is a vesicant. Check blood return.
 
 
 
-Conway Medical Center - 3/16/2022 19:35														Page 1 of 1
-Conway.2022.v29is, 029c4f87d-A
+Conway Medical Center - 3/17/2022 13:39														Page 1 of 1
+Conway.2022.v29is, 029c5f67f-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

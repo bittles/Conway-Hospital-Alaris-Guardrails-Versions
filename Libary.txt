@@ -4,7 +4,7 @@ BD AlarisTM GuardrailsTM Editor
 Data Set Report
 APPROVED
 
-Conway2022v28is
+Conway.2022.v29is
 
 
 Conway Medical Center
@@ -35,17 +35,17 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway2022v28is
+Conway.2022.v29is
  Hospital Name
 Conway Medical Center
  Data Set ID
-029b3dd3a-A
+029c4f87d-A
  Data Set Status
 Approved
  Last Changed On
-3/3/2022 20:10
+3/16/2022 19:35
  Filename
-C:\Users\nbauer\OneDrive\Documents\Guardrails Editor\029b3c29f-R.gre
+C:\Users\nbauer\OneDrive\Documents\Guardrails Editor\029b25f1c-R.gre
 
 
 
@@ -814,6 +814,64 @@ mg/min
 
 
 
+epidural w/ fentanyl
+
+100 unit / 100 mL (1 unit / mL)
+
+
+X
+
+
+
+N/A
+Continuous
+unit/h
+Bolus Dose
+unit
+Bolus Admin Rate
+unit/min
+0.01
+12
+15
+
+2
+7
+8
+5
+4
+14
+16
+10
+1 unit = 1 mL
+epidural w/o fentany
+
+100 unit / 100 mL (1 unit / mL)
+
+
+X
+
+
+
+N/A
+Continuous
+unit/h
+Bolus Dose
+unit
+Bolus Admin Rate
+unit/min
+0.01
+12
+15
+
+2
+7
+8
+5
+4
+14
+16
+10
+1 unit = 1 mL
 EPINEPHrine
 ..Standard
 5 mg / 250 mL (0.02 mg / mL)
@@ -19730,6 +19788,8 @@ Advisory Name
 Clinical Advisory Text
 0.22 Filter Needed
 Use a 0.22 micron in-line filter when administering this product.
+1 unit = 1 mL
+1 unit = 1 mL
 1unit=1million
 1 unit = 1 million units
 2nd RN to verify
@@ -19811,7 +19871,7 @@ Drug is a vesicant. Check blood return.
 
 
 
-Conway Medical Center - 3/3/2022 20:10														Page 1 of 1
-Conway2022v28is, 029b3dd3a-A
+Conway Medical Center - 3/16/2022 19:35														Page 1 of 1
+Conway.2022.v29is, 029c4f87d-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

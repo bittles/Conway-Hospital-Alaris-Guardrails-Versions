@@ -1,5 +1,35 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
+## 29is:
+	add 50 mg/250 ml nitro
+
+## 28is:
+	update module settings with basic infusion warning enabled, approved and released v28 and enumerated v29
+
+## 27is:
+	mg and mcg fixes for pancuronium and dobutamine. v27 convert to new guardrails editor version
+	add abatacept and golimumab
+
+## 26is:
+	fix hard mins for pancuronium and dobutamine echo stress being below allowed lower limits
+
+## 25is:
+	add fentanyl and versed to continuous due to cadd casette backorders
+
+## 24is:
+	added any required missing hard min conc. limits for server upgrade
+	DOBUTamine / Echo Stress Test / Weight based
+	ketamine ANES / Weight based
+	pancuronium / Weight based
+	phenylephrine ANES / Non-weight based
+	remifentanil ANES / Weight based
+	rocuronium ANES / Weight based
+	SUFentanil ANES / Weight based
+	vecuronium / Weight based
+
+	Peditatrics
+	alprostadil / Weight based
+
 ## 23is:
 	add 25 g/125 mL fat emulsion and extend soft max for fats from 13 to 24 hr
 	add sotrovimab catalog code

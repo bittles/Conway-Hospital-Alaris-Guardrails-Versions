@@ -4,7 +4,7 @@ BD AlarisTM GuardrailsTM Editor
 Data Set Report
 APPROVED
 
-Conway.2022.v29is
+Conway.2022.v30is
 
 
 Conway Medical Center
@@ -35,17 +35,17 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2022.v29is
+Conway.2022.v30is
  Hospital Name
 Conway Medical Center
  Data Set ID
-029c5f67f-A
+029d4795a-A
  Data Set Status
 Approved
  Last Changed On
-3/17/2022 13:39
+3/28/2022 13:49
  Filename
-C:\Users\nbauer\OneDrive\Documents\Guardrails Editor\029b25f1c-R.gre
+C:\Users\nbauer\OneDrive\Documents\Guardrails Editor\029c5f67f-R.gre
 
 
 
@@ -814,6 +814,64 @@ mg/min
 
 
 
+epidural w/ fentanyl
+
+100 unit / 100 mL (1 unit / mL)
+
+
+X
+
+
+
+N/A
+Continuous
+unit/h
+Bolus Dose
+unit
+Bolus Admin Rate
+unit/min
+0.01
+12
+15
+
+2
+7
+8
+5
+4
+14
+16
+10
+1 unit = 1 mL
+epidural w/o fentany
+
+100 unit / 100 mL (1 unit / mL)
+
+
+X
+
+
+
+N/A
+Continuous
+unit/h
+Bolus Dose
+unit
+Bolus Admin Rate
+unit/min
+0.01
+12
+15
+
+2
+7
+8
+5
+4
+14
+16
+10
+1 unit = 1 mL
 EPINEPHrine
 ..Standard
 5 mg / 250 mL (0.02 mg / mL)
@@ -16840,10 +16898,6 @@ Enabled
 Enabled
 Clinical Advisory Message: This infusion selection DOES NOT have Guardrails 
 Protection
- 
- 
- 
- 
     
 
 3.2	Pump Module
@@ -17225,10 +17279,6 @@ n/a
 n/a
 PCA Pause Protocol: PCA Infusion has paused due to a decline in respiratory status. 
 Check Patient!
- 
- 
- 
- 
 
 
 
@@ -18369,6 +18419,14 @@ doxycycline
 200 mg / 250 mL (0.8 mg / mL)
 Intermittent
 2756557I
+epidural w/ fentanyl
+100 unit / 100 mL (1 unit / mL)
+Cont/Bolus or PCA
+epiduralfent
+epidural w/o fentany
+100 unit / 100 mL (1 unit / mL)
+Cont/Bolus or PCA
+epidnofent
 EPINEPHrine
 5 mg / 250 mL (0.02 mg / mL)
 Cont/Bolus or PCA
@@ -19745,6 +19803,8 @@ Advisory Name
 Clinical Advisory Text
 0.22 Filter Needed
 Use a 0.22 micron in-line filter when administering this product.
+1 unit = 1 mL
+1 unit = 1 mL
 1unit=1million
 1 unit = 1 million units
 2nd RN to verify
@@ -19826,7 +19886,7 @@ Drug is a vesicant. Check blood return.
 
 
 
-Conway Medical Center - 3/17/2022 13:39														Page 1 of 1
-Conway.2022.v29is, 029c5f67f-A
+Conway Medical Center - 3/28/2022 13:49														Page 1 of 1
+Conway.2022.v30is, 029d4795a-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

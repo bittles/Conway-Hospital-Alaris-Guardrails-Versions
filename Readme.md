@@ -1,5 +1,8 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
+## 30is:
+	add ob epidural w/ and w/o fentanyl
+
 ## 29is:
 	add 50 mg/250 ml nitro
 

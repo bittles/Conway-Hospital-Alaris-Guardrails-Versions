@@ -1,5 +1,8 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
+## 32is:
+	split infusion center profile into onc and outpt, onc left the same, outpt profile removed drugs they requested and added drugs they requested
+
 ## 31is:
 	add missing vanc premix concentrations
 

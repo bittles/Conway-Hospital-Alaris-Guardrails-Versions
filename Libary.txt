@@ -4,7 +4,7 @@ BD AlarisTM GuardrailsTM Editor
 Data Set Report
 APPROVED
 
-Conway.2022.v30is
+Conway.2022.v31is
 
 
 Conway Medical Center
@@ -35,17 +35,17 @@ Signature			                     Name                                       Titl
 
 
  Data Set Name
-Conway.2022.v30is
+Conway.2022.v31is
  Hospital Name
 Conway Medical Center
  Data Set ID
-029d4795a-A
+029d4f4de-A
  Data Set Status
 Approved
  Last Changed On
-3/28/2022 13:49
+3/28/2022 22:36
  Filename
-C:\Users\nbauer\OneDrive\Documents\Guardrails Editor\029c5f67f-R.gre
+C:\Users\nbauer\OneDrive\Documents\Guardrails Editor\029d4795a-R.gre
 
 
 
@@ -10903,6 +10903,25 @@ n/a
 
 
 
+750 mg / 150 mL (5 mg / mL)
+X
+
+00:40
+
+04:00
+01:00
+n/a
+
+
+
+                                
+
+
+
+
+
+
+
 750 mg / 250 mL (3 mg / mL)
 X
 
@@ -10979,6 +10998,25 @@ n/a
 
 
 
+1,500 mg / 300 mL (5 mg / mL)
+X
+
+01:20
+
+05:00
+01:30
+n/a
+
+
+
+                                
+
+
+
+
+
+
+
 1,500 mg / 500 mL (3 mg / mL)
 X
 
@@ -10998,7 +11036,45 @@ n/a
 
 
 
+1,750 mg / 350 mL (5 mg / mL)
+X
+
+01:45
+
+06:00
+02:00
+n/a
+
+
+
+                                
+
+
+
+
+
+
+
 1,750 mg / 500 mL (3.5 mg / mL)
+X
+
+01:45
+
+06:00
+02:00
+n/a
+
+
+
+                                
+
+
+
+
+
+
+
+2,000 mg / 400 mL (5 mg / mL)
 X
 
 01:45
@@ -11075,6 +11151,25 @@ n/a
 
 
 
+750 mg / 150 mL (5 mg / mL)
+X
+
+00:40
+
+04:00
+01:00
+n/a
+
+
+
+                                
+
+
+
+
+
+
+
 750 mg / 250 mL (3 mg / mL)
 X
 
@@ -11151,6 +11246,25 @@ n/a
 
 
 
+1,500 mg / 300 mL (5 mg / mL)
+X
+
+01:20
+
+05:00
+01:30
+n/a
+
+
+
+                                
+
+
+
+
+
+
+
 1,500 mg / 500 mL (3 mg / mL)
 X
 
@@ -11170,7 +11284,45 @@ n/a
 
 
 
+1,750 mg / 350 mL (5 mg / mL)
+X
+
+01:45
+
+06:00
+02:00
+n/a
+
+
+
+                                
+
+
+
+
+
+
+
 1,750 mg / 500 mL (3.5 mg / mL)
+X
+
+01:45
+
+06:00
+02:00
+n/a
+
+
+
+                                
+
+
+
+
+
+
+
+2,000 mg / 400 mL (5 mg / mL)
 X
 
 01:45
@@ -11247,6 +11399,25 @@ n/a
 
 
 
+0.75 gram / 150 mL (0.005 gram / mL)
+X
+
+00:40
+
+04:00
+01:00
+n/a
+
+
+
+                                
+
+
+
+
+
+
+
 0.75 gram / 250 mL (0.003 gram / mL)
 X
 
@@ -11323,6 +11494,25 @@ n/a
 
 
 
+1.5 gram / 300 mL (0.005 gram / mL)
+X
+
+01:15
+
+05:00
+01:30
+n/a
+
+
+
+                                
+
+
+
+
+
+
+
 1.5 gram / 500 mL (0.003 gram / mL)
 X
 
@@ -11342,11 +11532,49 @@ n/a
 
 
 
+1.75 gram / 350 mL (0.005 gram / mL)
+X
+
+01:35
+
+06:00
+02:00
+n/a
+
+
+
+                                
+
+
+
+
+
+
+
 1.75 gram / 500 mL (0.0035 gram / 
 mL)
 X
 
 01:35
+
+06:00
+02:00
+n/a
+
+
+
+                                
+
+
+
+
+
+
+
+2 gram / 400 mL (0.005 gram / mL)
+X
+
+01:50
 
 06:00
 02:00
@@ -11421,6 +11649,25 @@ n/a
 
 
 
+0.75 gram / 150 mL (0.005 gram / mL)
+X
+
+00:40
+
+06:00
+01:00
+n/a
+
+
+
+                                
+
+
+
+
+
+
+
 0.75 gram / 250 mL (0.003 gram / mL)
 X
 
@@ -11497,6 +11744,25 @@ n/a
 
 
 
+1.5 gram / 300 mL (0.005 gram / mL)
+X
+
+01:10
+
+06:00
+01:30
+n/a
+
+
+
+                                
+
+
+
+
+
+
+
 1.5 gram / 500 mL (0.003 gram / mL)
 X
 
@@ -11516,11 +11782,49 @@ n/a
 
 
 
+1.75 gram / 350 mL (0.005 gram / mL)
+X
+
+01:35
+
+06:00
+02:00
+n/a
+
+
+
+                                
+
+
+
+
+
+
+
 1.75 gram / 500 mL (0.0035 gram / 
 mL)
 X
 
 01:35
+
+06:00
+02:00
+n/a
+
+
+
+                                
+
+
+
+
+
+
+
+2 gram / 400 mL (0.005 gram / mL)
+X
+
+01:45
 
 06:00
 02:00
@@ -16898,6 +17202,10 @@ Enabled
 Enabled
 Clinical Advisory Message: This infusion selection DOES NOT have Guardrails 
 Protection
+ 
+ 
+ 
+ 
     
 
 3.2	Pump Module
@@ -17279,6 +17587,10 @@ n/a
 n/a
 PCA Pause Protocol: PCA Infusion has paused due to a decline in respiratory status. 
 Check Patient!
+ 
+ 
+ 
+ 
 
 
 
@@ -19553,6 +19865,10 @@ vancomycin
 Intermittent
 2770944I
 vancomycin
+750 mg / 150 mL (5 mg / mL)
+Intermittent
+2770944I
+vancomycin
 750 mg / 250 mL (3 mg / mL)
 Intermittent
 2770944I
@@ -19569,11 +19885,23 @@ vancomycin
 Intermittent
 2770944I
 vancomycin
+1,500 mg / 300 mL (5 mg / mL)
+Intermittent
+2770944I
+vancomycin
 1,500 mg / 500 mL (3 mg / mL)
 Intermittent
 2770944I
 vancomycin
+1,750 mg / 350 mL (5 mg / mL)
+Intermittent
+2770944I
+vancomycin
 1,750 mg / 500 mL (3.5 mg / mL)
+Intermittent
+2770944I
+vancomycin
+2,000 mg / 400 mL (5 mg / mL)
 Intermittent
 2770944I
 vancomycin
@@ -19586,6 +19914,10 @@ Intermittent
 2770944I
 vancomycin
 0.5 gram / 100 mL (0.005 gram / mL)
+Intermittent
+2770944I
+vancomycin
+0.75 gram / 150 mL (0.005 gram / mL)
 Intermittent
 2770944I
 vancomycin
@@ -19605,12 +19937,24 @@ vancomycin
 Intermittent
 2770944I
 vancomycin
+1.5 gram / 300 mL (0.005 gram / mL)
+Intermittent
+2770944I
+vancomycin
 1.5 gram / 500 mL (0.003 gram / mL)
+Intermittent
+2770944I
+vancomycin
+1.75 gram / 350 mL (0.005 gram / mL)
 Intermittent
 2770944I
 vancomycin
 1.75 gram / 500 mL (0.0035 gram / 
 mL)
+Intermittent
+2770944I
+vancomycin
+2 gram / 400 mL (0.005 gram / mL)
 Intermittent
 2770944I
 vancomycin
@@ -19886,7 +20230,7 @@ Drug is a vesicant. Check blood return.
 
 
 
-Conway Medical Center - 3/28/2022 13:49														Page 1 of 1
-Conway.2022.v30is, 029d4795a-A
+Conway Medical Center - 3/28/2022 22:36														Page 1 of 1
+Conway.2022.v31is, 029d4f4de-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)

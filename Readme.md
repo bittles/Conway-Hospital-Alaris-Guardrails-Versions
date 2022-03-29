@@ -1,5 +1,8 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
+## 31is:
+	add missing vanc premix concentrations
+
 ## 30is:
 	add ob epidural w/ and w/o fentanyl
 

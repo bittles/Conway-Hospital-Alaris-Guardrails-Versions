@@ -1,5 +1,8 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
+## 35is:
+	add Bezlotoxumab to infusion center
+
 ## 34is:
 	add Teprotumumab and Ocrelizumab to infusion center
 

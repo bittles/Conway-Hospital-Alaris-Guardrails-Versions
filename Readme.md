@@ -1,5 +1,13 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
+## 37is:
+    add zz code drugs to peds library
+
+## 36is:
+	change mvi from a fluid to an intermittent
+	add propofol to peds
+	make seperate therapies for std and dbl conc nitroglycerin
+
 ## 35is:
 	add Bezlotoxumab to infusion center
 

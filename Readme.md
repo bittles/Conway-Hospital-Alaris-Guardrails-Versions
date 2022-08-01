@@ -1,7 +1,9 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
 ## 37is:
-    add zz code drugs to peds library
+    add zz code drugs to peds library (not done in activated set, changes in 37is for review)
+	add adenosine double concentrated drip and therapy for pt above 115 kg for FFR in cath lab
+	change some soft min stops and catches for IV potassium
 
 ## 36is:
 	change mvi from a fluid to an intermittent

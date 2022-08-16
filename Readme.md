@@ -1,5 +1,11 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
+## 38is:
+	add nicardipine to pediatrics library, all dosing in mcg/kg/min with bolus.
+		based on lexicomp dosing:
+			Dosing: Pediatric
+			Hypertension: Note: Use should be reserved for acute severe hypertension: Limited data available: Infants, Children, and Adolescents: Continuous IV infusion: Bolus dose (optional): Initial: 30 mcg/kg, maximum dose: 2 mg/dose; followed by continuous infusion: Initial: 0.5 to 1 mcg/kg/minute; titrate dose according to blood pressure; rate of infusion may be increased every 15 to 30 minutes; maximum dose: 4 to 5 mcg/kg/minute (AAP [Flynn 2017]; Flynn 2000; Flynn 2001). In a retrospective analysis (n=29; mean age: 7.8 ± 6 years [range: 2 days to 17.9 years]), the mean initial dose was 0.8 ± 0.3 mcg/kg/minute (range: 0.2 to 1.3 mcg/kg/minute), the mean effective dose was 1.8 ± 1 mcg/kg/minute (range: 0.3 to 4 mcg/kg/minute); blood pressure was controlled within 2.7 ± 2.1 hours (range: 0.5 to 9 hours) after starting nicardipine continuous infusion (Flynn 2001).
+
 ## 37is:
     add zz code drugs to peds library (not done in activated set, changes in 37is for review)
 	add adenosine double concentrated drip and therapy for pt above 115 kg for FFR in cath lab

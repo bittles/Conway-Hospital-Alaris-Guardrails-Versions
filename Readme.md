@@ -1,56 +1,62 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
-## 38is:
+## 40is x/x/xx:
+	
+
+## 39is 8/15/22:
+	change max peds nicardipine bolus from 2000 mcg/kg to 50 mcg/kg.  basing this upon max peds weight being 40 kg
+
+## 38is 8/15/22:
 	add nicardipine to pediatrics library, all dosing in mcg/kg/min with bolus.
 		based on lexicomp dosing:
 			Dosing: Pediatric
 			Hypertension: Note: Use should be reserved for acute severe hypertension: Limited data available: Infants, Children, and Adolescents: Continuous IV infusion: Bolus dose (optional): Initial: 30 mcg/kg, maximum dose: 2 mg/dose; followed by continuous infusion: Initial: 0.5 to 1 mcg/kg/minute; titrate dose according to blood pressure; rate of infusion may be increased every 15 to 30 minutes; maximum dose: 4 to 5 mcg/kg/minute (AAP [Flynn 2017]; Flynn 2000; Flynn 2001). In a retrospective analysis (n=29; mean age: 7.8 ± 6 years [range: 2 days to 17.9 years]), the mean initial dose was 0.8 ± 0.3 mcg/kg/minute (range: 0.2 to 1.3 mcg/kg/minute), the mean effective dose was 1.8 ± 1 mcg/kg/minute (range: 0.3 to 4 mcg/kg/minute); blood pressure was controlled within 2.7 ± 2.1 hours (range: 0.5 to 9 hours) after starting nicardipine continuous infusion (Flynn 2001).
 
-## 37is:
+## 37is 8/01/22:
     add zz code drugs to peds library (not done in activated set, changes in 37is for review)
 	add adenosine double concentrated drip and therapy for pt above 115 kg for FFR in cath lab
 	change some soft min stops and catches for IV potassium
 
-## 36is:
+## 36is 6/26/22:
 	change mvi from a fluid to an intermittent
 	add propofol to peds
 	make seperate therapies for std and dbl conc nitroglycerin
 
-## 35is:
+## 35is 5/09/22:
 	add Bezlotoxumab to infusion center
 
-## 34is:
+## 34is 4/28/22:
 	add Teprotumumab and Ocrelizumab to infusion center
 
 ## 33is:
 	fix data set and file names to remove non-alphanumeric characters
 
-## 32is:
+## 32is 3/29/22:
 	split infusion center profile into onc and outpt, onc left the same, outpt profile removed drugs they requested and added drugs they requested
 
-## 31is:
+## 31is 3/28/22:
 	add missing vanc premix concentrations
 
-## 30is:
+## 30is 3/28/22:
 	add ob epidural w/ and w/o fentanyl
 
-## 29is:
+## 29is 3/17/22:
 	add 50 mg/250 ml nitro
 
-## 28is:
+## 28is 3/3/22:
 	update module settings with basic infusion warning enabled, approved and released v28 and enumerated v29
 
-## 27is:
+## 27is 3/2/22:
 	mg and mcg fixes for pancuronium and dobutamine. v27 convert to new guardrails editor version
 	add abatacept and golimumab
 
-## 26is:
+## 26is 2/16/22:
 	fix hard mins for pancuronium and dobutamine echo stress being below allowed lower limits
 
-## 25is:
+## 25is 2/14/22:
 	add fentanyl and versed to continuous due to cadd casette backorders
 
-## 24is:
+## 24is 2/2/22:
 	added any required missing hard min conc. limits for server upgrade
 	DOBUTamine / Echo Stress Test / Weight based
 	ketamine ANES / Weight based
@@ -64,18 +70,18 @@
 	Peditatrics
 	alprostadil / Weight based
 
-## 23is:
+## 23is 1/23/22:
 	add 25 g/125 mL fat emulsion and extend soft max for fats from 13 to 24 hr
 	add sotrovimab catalog code
 	add Libary.txt which is just plain text formatted report from Guardrails to more easily track changes to library between commits
 
-## 22is:
+## 22is 12/8/21:
 	add robaxin IV
 
-## 21is:
+## 21is 11/28/21:
 	add glucagon drip
 	
-## 20is:
+## 20is 11/25/21:
 	increase hard max for propofol for seizures
 		100 to 200 mcg/kg/min
 	phenobarb
@@ -89,7 +95,7 @@
 	seperate therapy for propofol for seizures and sedation?
 	check what plan with versed is, baxter or alaris pumps
 
-## 19is:
+## 19is 8/3/21:
 	added phenobarbital
 	add new premix vancomycin concentrations
 	double check phenobarbital
@@ -106,7 +112,7 @@
 	add anticonvulsant protocol
 	add valproate grams?
 
-## 18is:
+## 18is 7/7/21:
 	added regeneron catalog code to casirivimab/imdevimab
 	removed imdevimab/casirivimab
 	add 1200mg/260mL concentration and wildcard concentration for different volume bags now possible to regeneron
@@ -130,11 +136,11 @@
 	increased soft max for zerbaxa, had added 3 gm for PNA but never increased soft max
 	changed bamlanivimab volume from 200 ml to 270 ml for updated label
 
-## 16i:
+## 16i 11/15/20:
 	add adenosine drip for cath lab
 	add bamlanivimab in preparation for EUA
 
-## 15i:
+## 15i 10/12/20:
 	add protonix drip 40 mg/100 ml contiunous
 	disabled 40 mg/100 ml intermittent to prevent confusion
 	add initial infusion default rate to cangrelor for cath lab
@@ -146,7 +152,7 @@
 	add gm and mg therapies to TXA, change hard min infusion to 7 min
 	add 1 g/100 ml conc to TXA, hard min 10 min.  remove volume in calculation of total volume for TXA vial in formulary manager
 
-## 14i:
+## 14i 6/22/20:
 	change heparin standard/cardiac/PVD from 15 unit/kg/h to 12 unit/kg/h
 	cleaned up continuous heparin; removed non weight based therapy; made sure all had heparin advisory
 	added actual choices for 3g zerbaxa in guardrails to more easily select it instead of manually putting in strength/volume if not using interop
@@ -171,7 +177,7 @@
 	added buffer to max dose of weight based acyclovir (10 to 10.5 mg/kg)
 	added non weight based daptomycin for interop use for when osmanzai decides to not order a weight based dose
 
-## 13i:
+## 13i 3/31/20:
 	"enabled" cardene concentration; was previously created but not active
 
 ## 12i,
@@ -194,7 +200,7 @@
 	TODO:
 	bolus for lidocaine drip?? i think worth adding, no policy against
 
-## 10 & 10i,
+## 10 & 10i 10/18/18,
 	Amphotericin B and amphotericin B liposomal changed to primary only
 	MVI Only and MVI+Folate+Thiamine moved to fluids libary to allow interop
 	Added 15 mEq/L therapy to IVF + KCL
@@ -276,7 +282,7 @@
 	Possibly alteplase.  Cannot exist in current form with interoperability, might need to be out of scope
 			UPDATE: alteplase should work in scope, check if ER is using bolus on pump or pulling out bolus with syringe
 
-## 8, Bolus feature removed from diltiazem drips
+## 8 5/3/18, Bolus feature removed from diltiazem drips
 	changes to occlusion configurations under Pump Module Configuration
 	Changed naming for pantoprazole, from 'pantoprazole' to 'pantoprazole gtt' avoid confusion
 	Auto-Restart Attempts changed in configuration for Adults and Peds library from 5-->>9
@@ -287,20 +293,20 @@
 	Oxytocin conversion chart made for OB for mL to unit in order to easily access for bolus
 	Oxytocin min and max bolus values changed to allow boluses from 1 to 30
 
-## 7, Ketamine ANES added, initial 0.1 mg/kg/hr, soft max 0.5 mg/kg/hr, hard max 1 mg/kg/hr
+## 7 4/6/18, Ketamine ANES added, initial 0.1 mg/kg/hr, soft max 0.5 mg/kg/hr, hard max 1 mg/kg/hr
 		Concentrations of 50mg/50ml and 100mg/100ml added until can be narrowed
 	Propofol ANES given bolus range of 19-71 mg, initial 30 mg (3 mL); Bolus is 12 mL/min
 	zz Code drugs fixed to match their non-zz counterparts
 
 ## 6, Oxytocin blank setup removed, entries added under postparum for 10, 20, 30, 40 units in 1000 ml; GO LIVE DATASET
 
-## 5, Post-"finalized" data set, pre-go live
+## 5 3/22/18, Post-"finalized" data set, pre-go live
 	Double concentrated therapies added for dopamine, dobutamine, norepinephrine, and vasopressin
 	Dobutamine Echo Stress therapy added
 	Bug fixes and stability improvements
 	Added blank setup for oxytocin postpartum with conc. limits
 
-## 4, Finalized data set with changes from data set analysis
+## 4 3/09/18, Finalized data set with changes from data set analysis
 	Library nomenclature changed from eg. cmc.pump.library.yyyy.x to conwaymedical.yyyy.x where x is version number
 	Typos found during data set anaylsis fixed
 	Mins set for every drug

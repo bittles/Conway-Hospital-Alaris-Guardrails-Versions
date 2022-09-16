@@ -1,7 +1,15 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
-## 40is x/x/xx:
-	
+## 41is x/x/xx:
+
+## 40is 9/16/22:
+	norepinephrine: increase soft max from 45 to 60 mcg/min to reflect latest form/policy
+	phenylephrine/phenylephrine ANES: lower soft min from 10 and 40 (anes) to 5 mcg/min to allow titrating down
+	ampicillin: hard max added as reports showed people programming unasyn doses in, soft max 2.1g hard 2.4g; wildcard concentration remove as well
+	cefazolin: soft max increased from 2.3 to 3.1g, standard concentration of 3g/100mL and 3000mg/100mL added; wildcard concentration removed
+	meropenem: increased soft max duration from 1h to 3h 10m; remove wildcard concentration
+	fluids: raised soft max rates for blood and prbcs from 150 to 301 since they're regular ramped up after initial slower rate is tolerated; raised soft max for FFP from 150 to 201 for the same reasons
+	pantoprazole: change pantoprazole ivpb to pantoprazole bolus and pantoprazole gtt to pantoprazole drip, add hard max to drip since that runs at constant rate
 
 ## 39is 8/15/22:
 	change max peds nicardipine bolus from 2000 mcg/kg to 50 mcg/kg.  basing this upon max peds weight being 40 kg

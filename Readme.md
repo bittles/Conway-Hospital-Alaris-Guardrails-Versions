@@ -1,6 +1,9 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
-## 41is x/x/xx:
+## 42is xx/xx/xx:
+
+## 41is 10/14/22:
+	caffeine & sodium benzoate: add 500mg/1000ml preset for OB with default initial admin times
 
 ## 40is 9/16/22:
 	norepinephrine: increase soft max from 45 to 60 mcg/min to reflect latest form/policy

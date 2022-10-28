@@ -1,7 +1,10 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
-## 43is xx/xx/xx:
+## 44is xx/xx/xx:
 
+## 43is 10/28/22:
+	change dosing in penG syringe with advisory that 1 unit in pump = 1,000 units on label
+	
 ## 42is 10/28/22:
 	add penG to nursery syringe pump library
 	

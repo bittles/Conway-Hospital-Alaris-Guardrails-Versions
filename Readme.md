@@ -1,7 +1,10 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
-## 42is xx/xx/xx:
+## 43is xx/xx/xx:
 
+## 42is 10/28/22:
+	add penG to nursery syringe pump library
+	
 ## 41is 10/14/22:
 	caffeine & sodium benzoate: add 500mg/1000ml preset for OB with default initial admin times
 

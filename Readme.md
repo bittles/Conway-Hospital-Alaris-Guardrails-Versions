@@ -1,6 +1,9 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
-## 44is xx/xx/xx:
+## 45is xx/xx/xx:
+
+## 44is 12/11/22:
+	increase soft max of furosemide drip from 10 mg/hr to 40 mg/hr
 
 ## 43is 10/28/22:
 	change dosing in penG syringe with advisory that 1 unit in pump = 1,000 units on label

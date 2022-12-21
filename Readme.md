@@ -1,6 +1,7 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
 ## 45is xx/xx/xx:
+	change epoprostenol for inhalation protocol for syringe pump
 
 ## 44is 12/11/22:
 	increase soft max of furosemide drip from 10 mg/hr to 40 mg/hr

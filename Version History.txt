@@ -1,1 +1,4 @@
-version changes migrated to Readme.md
+Version changes migrated to Readme.md
+
+See github link for all file history changes
+https://github.com/bittles/Conway-Hospital-Alaris-Guardrails-Versions

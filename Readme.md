@@ -1,7 +1,10 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 
 ## 46is xx/xx/xx:
-	no changes yet
+	furosmide drip changes:
+		remove 300 mg/30 mL concentration
+		remove --- mg/-- mL wildcard concentration
+		add 200 mg/100 mL concentration
 
 ## 45is 01/02/23:
 	change epoprostenol for inhalation protocol for syringe pump

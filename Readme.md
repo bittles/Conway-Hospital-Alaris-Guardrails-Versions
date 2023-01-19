@@ -12,6 +12,7 @@
 		change initial infusion for cerebrovascular to 10 unit/kg/hr (was 15)
 	change soft min for bolus propofol ANES from 19 mg to 10 mg
 	increase soft max of nitroglycerin drip from 150 mg/min to 200 mg/min
+	remove soft max for nitroprusside (3 mcg/kg/min), hard max of 10 mcg/kg/min unchanged
 
 ## 45is 01/02/23:
 	change epoprostenol for inhalation protocol for syringe pump

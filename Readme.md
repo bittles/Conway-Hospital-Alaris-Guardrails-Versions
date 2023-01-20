@@ -5,14 +5,15 @@
 		remove 300 mg/30 mL concentration
 		remove --- mg/-- mL wildcard concentration
 		add 200 mg/100 mL concentration
-	heparin drip:
-		change soft min bolus to 24 unit/kg (was 30) for newest protocol
-			only for standard/peripheral vascular disease and VTE
-		change soft max bolus for standard to 62 unit/kg (was 82, max on protocol is 60
-		change initial infusion for cerebrovascular to 10 unit/kg/hr (was 15)
 	change soft min for bolus propofol ANES from 19 mg to 10 mg
-	increase soft max of nitroglycerin drip from 150 mg/min to 200 mg/min
-	remove soft max for nitroprusside (3 mcg/kg/min), hard max of 10 mcg/kg/min unchanged
+	updated all protocols if new revisions were found:
+		heparin drip:
+			change soft min bolus to 24 unit/kg (was 30) for newest protocol
+				only for standard/peripheral vascular disease and VTE, cerebrovascular has no bolus
+			change soft max bolus for standard to 62 unit/kg (was 82, max on protocol is 60
+			change initial infusion for cerebrovascular to 10 unit/kg/hr (was 15)
+		increase soft max of nitroglycerin drip from 150 mg/min to 200 mg/min
+		remove soft max for nitroprusside (3 mcg/kg/min), hard max of 10 mcg/kg/min unchanged
 
 ## 45is 01/02/23:
 	change epoprostenol for inhalation protocol for syringe pump

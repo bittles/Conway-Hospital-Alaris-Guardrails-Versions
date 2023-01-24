@@ -1,11 +1,37 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
+## Format is "version # and activated go-live date"
+
+## 47is xx/xx/xx:
+	naloxone drip changes:
+		remove 2 mg/500 mL concentration
+		add 4 mg/100 mL concentration as sole strength/volume option
+			no change to rate limits:
+				0.25 mg/hr soft min
+				2 mg/hr soft max
+				no hard max
+				no pre-programmed initial rate
+				no bolus
+	bumetanide continuous:
+		remove wildcard concentration
+		add 24 mg/96 mL as sole strength/volume option
+			no change to rate limits:
+				0.1 mg/hr soft min
+				2 mg/hr soft max
+				no hard max
+				0.5 mg/hr pre-programmed initial rate
+				bolus options:
+					0.25 mg soft min
+					4 mg soft max
+					0.25 mg/min soft min bolus rate
+					0.5 mg/min hard max bolus rate
+					Lexi: Undiluted direct IV injections may be administered at a rate of 0.5 to 1 mg over 1 to 2 minutes.
 
 ## 46is xx/xx/xx:
 	furosmide drip changes:
 		remove 300 mg/30 mL concentration
 		remove --- mg/-- mL wildcard concentration
 		add 200 mg/100 mL concentration
-	change soft min for bolus propofol ANES from 19 mg to 10 mg
+	change soft min for bolus propofol ANES from 19 mg to 10 mg based on number of alerts overridden in anesthesia
 	updated all protocols if new revisions were found:
 		heparin drip:
 			change soft min bolus to 24 unit/kg (was 30) for newest protocol

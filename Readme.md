@@ -1,7 +1,7 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
-## 47is xx/xx/xx:
+## 47is 01/30/23:
 	naloxone drip changes:
 		remove 2 mg/500 mL concentration
 		add 4 mg/100 mL concentration as sole strength/volume option

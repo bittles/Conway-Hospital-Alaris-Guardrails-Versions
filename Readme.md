@@ -26,7 +26,7 @@
 					0.5 mg/min hard max bolus rate
 					Lexi: Undiluted direct IV injections may be administered at a rate of 0.5 to 1 mg over 1 to 2 minutes.
 
-## 46is xx/xx/xx:
+## 46is xx/xx/xx (never activated for live pumps):
 	furosmide drip changes:
 		remove 300 mg/30 mL concentration
 		remove --- mg/-- mL wildcard concentration

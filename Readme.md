@@ -1,6 +1,10 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
+## 48is 02/17/23:
+    epinephrine standard continuous:
+        remove hard max of 30 mcg/min, soft max still in place at 20 mcg/min
+
 ## 47is 01/30/23:
 	naloxone drip changes:
 		remove 2 mg/500 mL concentration

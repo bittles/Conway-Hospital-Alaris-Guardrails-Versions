@@ -1,6 +1,11 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
+## 49is 02/17/23:
+    insulin drip:
+        add weight based dosing per protocol
+        non weight based needs removed? probably not will check
+
 ## 48is 02/17/23:
     epinephrine standard continuous:
         remove hard max of 30 mcg/min, soft max still in place at 20 mcg/min

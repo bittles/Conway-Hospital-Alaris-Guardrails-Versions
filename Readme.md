@@ -1,6 +1,13 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
+## 5iis xx/xx/23:
+
+## 50is 03/19/23:
+    Ferumoxytol:
+      add 510 and 1020 mg in 50 and 100 mL to adult intermittent library
+      add 0.51 and 1.02 g in 50 and 100 mL too
+
 ## 49is 02/17/23:
     insulin drip:
         add weight based dosing per protocol

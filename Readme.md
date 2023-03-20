@@ -1,7 +1,13 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
-## 5iis xx/xx/23:
+## 52is xx/xx/23:
+
+## 51is 03/19/23:
+    Ferumoxytol:
+      removed 50 mL sizes for 510, 1020 mg and 0.51 g and 1.02 g
+      remove 100 mL for both 1020 mg and 1.02 g
+      add 250 mL for 1020 mg and 1.02 g
 
 ## 50is 03/19/23:
     Ferumoxytol:

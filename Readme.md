@@ -1,7 +1,15 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
-## 52is xx/xx/23:
+## 53is xx/xx/23:
+
+## 52is 03/27/23:
+    Ferumoxytol:
+      fix concentrations to be 510 mg in 117 mL (old was 510 mg in 100 mL) to factor in vial fluid volume of 17 mL for 510 mg
+        same for 0.51 g
+      same for 1.02 g in 284 mL (old was 1.02 g in 250 mL) with 34 mL vial volume for 1.02 g
+        same for 1020 mg
+      add to onc infusion center library and outpt infusion center library
 
 ## 51is 03/19/23:
     Ferumoxytol:

@@ -2,36 +2,43 @@
 ## Format is "version # and activated go-live date"
 
 ## 53is xx/xx/23:
-    dalbavancin:
-      add to master drug list
-      add wildcard x mg/x mL and x g/x mL to outpt infusion center library
-        initial duration 00:30
-        concentration limits soft min 1 mg/mL soft max 5 mg/mL
-        for gram limits 0.001 g/mL and 0.005 g/mL matching the same soft min and soft max for mg
+    promethazine:
+      concentration limits changed:
+        hard min now 0.123 mg/mL (was 1 mg/mL)  (6.25 mg/50.25 mL = 0.124 mg/mL)  (25 mg/51 mL = 0.4902 mg/mL)
+        soft min removed
+        soft max now 1 mg/mL (was 25 mg/ml)
     iron sucrose:
       remove wildcard x mg/x mL concentration from adult library
       add 100 mg/105 mL, 300 mg/265 mL, and 400 mg/270 mL to adult library (200 mg/110 mL and 500 mg/275 mL already present)\
-      100 mg and 200 mg given same infusion limits, 
+      100 mg and 200 mg given same duration limits, 
         hard min 00:14
         soft max 08:00
         initial  00:30
-      300 mg limits
+      300 mg duration limits
         hard min 01:25
         soft max 08:00
         initial  01:30
-      400 mg limits
+      400 mg duration limits
         hard min 02:25
         soft max 08:00
         initial  02:30
-      500 mg unchanged but for reference
+      500 mg duration limits unchanged but for reference
         hard min 03:25
         soft max 08:00
         initial  04:00
       added to outpt infusion center profile per request
-    tociluzumab
+    dalbavancin:
+      add to master drug list
+      add wildcard concentrations to outpatient infusion centerper request:
+        x mg/x mL 
+        x g/x mL
+          initial duration 00:30
+          concentration limits soft min 1 mg/mL soft max 5 mg/mL
+          for gram limits 0.001 g/mL and 0.005 g/mL matching the same soft min and soft max for mg
+    tociluzumab:
       lower soft min for non weight based to 160 mg (40 kg * 4 mg/kg), previous soft min was 200 mg (weight based already went down to 3.9 mg/kg, but non weight based can now go that low)
       outpatient infusion center requested Actemra in their library, has been available as tociluzumab since 03/29/22
-    amikacin
+    amikacin:
       soft max increased from 10 mg/kg to 21 mg/kg
       hard max added for 31 mg/kg
       soft min remains at 1 mg/kg
@@ -40,6 +47,31 @@
         soft min removed
         soft max now 5.1 mg/mL      (was 11 mg/mL)
       added to outpatient infusion center profile per request
+    belimumab:
+      added to master drug list
+      added wildcard concentration as only weight based (not dosed any other way) to outpatient infusion center library per request:
+        x mg/x mL
+        primary only (dedicated iv line required)
+        dose limits:    (only dose for IV is 10 mg/kg, not adjusted for any reasons)
+          soft min 9 mg/kg
+          hard max 11 mg/kg
+        concentration limits: (patients <= 40 kg dilute in 100 mL, > 40 kg dilute in 250 mL)
+          hard min 1.6 mg/mL    (40.1 kg patient * 10 mg/kg = 401 mg represents lowest strength possible in 250 mL, 401 mg/250 mL = 1.604 mg/mL)
+          soft max 10 mg/mL      (40 kg patient * 10 mg/kg = 400 mg; 400 mg/100 mL = 4 mg/mL aka highest strength in 100 mL; for patient to exceed 10 mg/mL would have to be >250 kg; 2500 mg/250 mL = 10 mg/mL)
+        duration limits:
+          hard min 00:55
+          soft max 08:00  (1 hr infusion but can be slowed for infusion related reactions)
+          initial  01:00
+    vedolizumab:
+      added to master drug list
+      added 300 mg/250 mL to outpatient infusion center per request:
+        duration limits:
+          hard min 00:28
+          soft max 02:00
+          initial  00:30
+        dose limits:    (only dosed IV as 300 mg, not adjusted for any reasons)
+          soft min 299 mg
+          hard max 301 mg
 
 ## 52is 03/27/23:
     Ferumoxytol:

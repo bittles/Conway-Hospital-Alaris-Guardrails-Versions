@@ -15,7 +15,7 @@
       remove wildcard x mg/x mL concentration from adult library
       add 100 mg/105 mL, 300 mg/265 mL, and 400 mg/270 mL to adult library (200 mg/110 mL and 500 mg/275 mL already present)
       dose limits:
-        soft min 99 mg
+        soft min 99 mg  (was 25 mg)
         hard max 510 mg
       100 mg and 200 mg given same duration limits, 
         hard min 00:14

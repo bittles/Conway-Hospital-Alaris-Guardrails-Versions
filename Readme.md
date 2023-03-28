@@ -2,6 +2,33 @@
 ## Format is "version # and activated go-live date"
 
 ## 53is xx/xx/23:
+    dalbavancin:
+      add to master drug list
+      add wildcard x mg/x mL and x g/x mL to outpt infusion center library
+        initial duration 00:30
+        concentration limits soft min 1 mg/mL soft max 5 mg/mL
+        for gram limits 0.001 g/mL and 0.005 g/mL matching the same soft min and soft max for mg
+    iron sucrose:
+      remove wildcard x mg/x mL concentration from adult library
+      add 100 mg/105 mL, 300 mg/265 mL, and 400 mg/270 mL to adult library (200 mg/110 mL and 500 mg/275 mL already present)\
+      100 mg and 200 mg given same infusion limits, 
+        hard min 00:14
+        soft max 08:00
+        initial  00:30
+      300 mg limits
+        hard min 01:25
+        soft max 08:00
+        initial  01:30
+      400 mg limits
+        hard min 02:25
+        soft max 08:00
+        initial  02:30
+      500 mg unchanged but for reference
+        hard min 03:25
+        soft max 08:00
+        initial  04:00
+      outpatient infusion center given all same concentrations and limits as adult profile
+    
 
 ## 52is 03/27/23:
     Ferumoxytol:

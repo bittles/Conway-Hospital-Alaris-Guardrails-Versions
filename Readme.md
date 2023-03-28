@@ -46,9 +46,9 @@
             soft max 5 mg/mL
             for gram limits 0.001 g/mL and 0.005 g/mL matching the same soft min and soft max for mg
 
-    tociluzumab:
+    tocilizumab:
       lower soft min for non weight based to 160 mg (40 kg * 4 mg/kg), previous soft min was 200 mg (weight based already went down to 3.9 mg/kg, but non weight based can now go that low)
-      outpatient infusion center requested Actemra in their library, has been available in their library as tociluzumab since 03/29/22
+      outpatient infusion center requested Actemra in their library, has been available in their library as tocilizumab since 03/29/22
 
     amikacin:
       soft max increased from 10 mg/kg to 21 mg/kg
@@ -279,7 +279,7 @@
 	add bamlaniviab/estesivimab entries for all volumes
 
 	check injectafer catalog code interop (done, no change)
-	add tociluzumab
+	add tocilizumab
 
 	**to do
 	

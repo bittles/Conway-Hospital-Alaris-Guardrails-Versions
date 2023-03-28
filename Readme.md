@@ -27,8 +27,19 @@
         hard min 03:25
         soft max 08:00
         initial  04:00
-      outpatient infusion center given all same concentrations and limits as adult profile
-    
+      added to outpt infusion center profile per request
+    tociluzumab
+      lower soft min for non weight based to 160 mg (40 kg * 4 mg/kg), previous soft min was 200 mg (weight based already went down to 3.9 mg/kg, but non weight based can now go that low)
+      outpatient infusion center requested Actemra in their library, has been available as tociluzumab since 03/29/22
+    amikacin
+      soft max increased from 10 mg/kg to 21 mg/kg
+      hard max added for 31 mg/kg
+      soft min remains at 1 mg/kg
+      concentration limits changed:
+        hard min now 0.2 mg/mL   (was 2 mg/mL)
+        soft min removed
+        soft max now 5.1 mg/mL      (was 11 mg/mL)
+      added to outpatient infusion center profile per request
 
 ## 52is 03/27/23:
     Ferumoxytol:

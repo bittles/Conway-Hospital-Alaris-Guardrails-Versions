@@ -4,7 +4,7 @@ BD AlarisTM GuardrailsTM Editor
 Data Set Report
 APPROVED
 
-Conway2023v53is
+Conway2023v54is
 
 
 Conway Medical Center
@@ -27,7 +27,7 @@ Further, Conway Medical Center acknowledges that the person signing this agreeme
 Signature			                     Name                                       Title      	                            Date
 
 1.  Current Data Set Status
- Data Set NameConway2023v53is Hospital NameConway Medical Center Data Set ID02bb4c627-A Data Set StatusApproved Last Changed On3/27/2023 21:24 FilenameC:\Users\nbauer\OneDrive\Documents\Guardrails Editor\02bb466db-R.gre
+ Data Set NameConway2023v54is Hospital NameConway Medical Center Data Set ID02bc97572-A Data Set StatusApproved Last Changed On4/12/2023 13:58 FilenameC:\Users\nbauer\OneDrive\Documents\Guardrails Editor\02bb4c627-R.gre
 
 2.  Drug Library by Profile
     2.1  Adult
@@ -1200,7 +1200,7 @@ Load NonWtBased MGXXmg9002,300--- mg / --- mLX00:1001:0000:20mg/mL
 Load NonWtBasedGMXXgram0.92.3--- gram / --- mLX00:1001:0000:15gram/mL0.0090.051pralidoxime
 Maintenance Dose GMXXgram0.92.3--- gram / --- mLX00:1024:00gram/mL0.0090.051pralidoxime
 Maintenance Dose MGXXmg9002,300--- mg / --- mLX00:1024:00mg/mL5951promethazine
-XXmg6.2525--- mg / --- mLX00:1000:30mg/mL0.1231raNITIdine
+XXmg6.2525--- mg / --- mLX00:1000:30mg/mL0.0311raNITIdine
 XXmg2551--- mg / --- mLX00:2001:3000:30mg/mL0.10.52.5remdesivir
 XXmg99201100 mg / 230 mL (0.4348 mg / mL)X00:2502:1501:00n/a100 mg / 250 mL (0.4 mg / mL)X00:2502:1501:00n/a                                200 mg / 210 mL (0.9524 mg / mL)X00:2502:1501:00n/a                                200 mg / 250 mL (0.8 mg / mL)X00:2502:1501:00n/a                                rifAMPin
 XXmg100600300 mg / 250 mL (1.2 mg / mL)X00:2503:0001:00n/a600 mg / 500 mL (1.2 mg / mL)X00:2503:0001:00n/a                                --- mg / --- mLX00:2503:0001:00mg/mL0.10.56                                riTUXimab
@@ -1834,8 +1834,8 @@ Appendix D Clinical Advisories List
 Clinical AdvisoriesAdvisory NameClinical Advisory Text0.2 to 5 micron filtUse a low-protein binding in-line or add-on filter between 0.2 and 5 microns.0.22 Filter NeededUse a 0.22 micron in-line filter when administering this product.1 unit = 1 mL1 unit = 1 mL1unit=1million1 unit = 1 million units2nd RN to verify2 RNs to verify and document concentration and programming prior to infusion.48 Hour TubingChange tubing every 48 hours.Alteplase wt basedDose and volume to be infused need to be set according to weight based protocol to avoid potential over infusion of entire contents of bag.AmBisomeExisting IV lines must be flushed with D5w prior to infusion. If unable, must start a new line. ***Infusion requires the use of an in-line filter.Antivenin1 unit = 1 vial Infuse over 25-50 mL/hr for the first 10 minutes, if no allergic reaction, may increase rate.Bleeding PrecautionsMonitor for signs of bleeding.Calcium PrecipitateDo not infuse Calcium and Phosphate though the same line.CeftriSyringeAdminster over 60 minutes to decrease risk of bilirubin encephalopathy.Code only drugsThis selection is reserved for use during Code Blue, ACLS events. DO NOT USE for routine infusions!Dedicated IV LineDo not infuse any other drugs through this line.DEHPThis medication must be infused using DEHP FREE tubing.Double Concentrated****DOUBLE CONCENTRATED DRIP**** Double-check bag concentration and pump settings.Filter and DEHP FreeRequires Low protein binding 0.2 micron filter and DEHP free bagFlush Before/AfterFlush line before and after administration. Can be given on same line as sodium chloride 0.9%.HeparinMonitor PTT. Do not administer other drugs through same IV line.High RiskThis is a HIGH RISK medication. 2nd RN to verify prior to initiating therapy.HypersensitivityRisk of hypersensitivity. Check vital signs frequently during infusion.In-line filterInfusion requires the use of an in-line filter.INR > 6INR > 6 ** Max dose of Kcentra should not exceed 5000 units **INR 2-4INR 2 - 4 ** Max dose of Kcentra should not exceed 2500 units **INR 4-6INR 4 - 6 ** Max dose of Kcentra should not exceed 3500 units **Levophed*****Must have physician order for rates greater than 60 mcg/min*****Low Binding 0.2or1.2This medication must be infused using a 0.2- to 1.2-micron, low protein brinding filter.Low Binding FilterThis medication must be infused using a 0.2- micron, low protein binding filter.MAX DOSE 180 mgMAXIMUM dose of brentuximab is 180 mg.Midline WarningDo NOT infuse through a midline catheter.Neuromuscular BA*Train of Four Required* Mechanical Ventilation and concurrent Sedation is mandatory.No DextroseDo NOT administer through lines containing dextrose.NO FILTERDo NOT use an in-line filter for administration.Non-PVCThis medication must be infused using Non-PVC tubing.Patient Lie DownAdvise patient to lie down during and 30 minutes after infusion to prevent hypotension.PenG-Syringe1 unit in pump = 1,000 units on label. Eg. 200 units in pump = 200,000 units on drug label.Phenylephrine*****Must have physician order for rates greater than 300 mcg/min*****PremedicatePremedicate before each infusion.Protect From LightProtect this drug from light.SCr 2.0-4.0SCr 2.0 - 4.0SCr<2.0SCr < 2.0VesicantDrug is a vesicant. Check blood return.
 
 
-Conway Medical Center - 3/27/2023 21:24														Page 1 of 2
-Conway2023v53is, 02bb4c627-A
+Conway Medical Center - 4/12/2023 13:58														Page 1 of 2
+Conway2023v54is, 02bc97572-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)
 

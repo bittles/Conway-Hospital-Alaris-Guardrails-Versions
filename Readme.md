@@ -1,7 +1,23 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
+## 56is xx/xx/23:
+
 ## 55is xx/xx/23:
+    midazolam:
+      add therapy for anti-convulsant
+        100 mg/100 mL and 250 mg/250 mL
+        initial rate: 0.1 mg/kg/hr
+        soft min: 0.0001 mg/kg/hr  (basically zero)
+        soft max: 2 mg/kg/hr
+        bolus:
+          initial value: 0.2 mg/kg
+          soft min: 0.0001 mg/kg (basically zero)
+          soft max: 0.21 mg/kg
+          rate limits:
+            initial value: 2 mg/min
+            soft min: 1.9 mg/min
+            soft max: 2.1 mg/min
 
 ## 54is 04/12/23:
     promethazine:

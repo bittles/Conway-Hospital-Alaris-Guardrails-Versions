@@ -2,6 +2,33 @@
 ## Format is "version # and activated go-live date"
 
 ## 56is xx/xx/23:
+  updated to current protocol:
+    esmolol:
+      minor changes to default initial rate/boluses to match protocol
+        50 mcg/kg/min initial default rate
+        initial default bolus dose removed and made blank as initial boluses can be 250-500 mcg/kg (previously only 250 mcg/kg) and followup boluses are now 250 mcg/kg (changed from 200 mcg/kg)
+    epinephrine:
+      soft max rate increased from 20 mcg/min to 40 mcg/min
+    norepinephrine:
+      soft max rate increased from 40 mcg/min to 80 mcg/min
+    phenylephrine:
+      initial default rate decreased from 100 mcg/min to 20 mcg/min
+      soft max rate increased from 300 mcg/min to 400 mcg/min
+    dopamine:
+      remove initial default rate (was 2 mcg/kg/min) (titratable and nontritable have different starting rates)
+      no renal dosing protocol listed as an option anymore, remove?
+    dobutamine:
+      remove intial default rate (was 2 mcg/kg/min) (titratable and nontritable have different starting rates)
+
+    other changes based on alerts reports:
+      ceftolazone/tazobactam:
+        soft max duration for all strengths increased from 1:30 to 4:00
+        3g and 3000mg doses given default durations of 3:00, soft max changed to 6:00
+       levetiracetam:
+        soft max dose increased from 1500 mg to 2001 mg
+        soft max concentration increased from 15 to 20.1
+       thiamine:
+        concentration soft max increased from 5 to 10.1
 
 ## 55is 04/28/23:
     midazolam:

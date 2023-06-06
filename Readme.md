@@ -1,7 +1,9 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
-## 56is xx/xx/23:
+## 57is xx/xx/23:
+
+## 56is 06/05/23:
   updated to current protocol:
     esmolol:
       minor changes to default initial rate/boluses to match protocol
@@ -19,6 +21,9 @@
       no renal dosing protocol listed as an option anymore, remove?
     dobutamine:
       remove intial default rate (was 2 mcg/kg/min) (titratable and nontritable have different starting rates)
+
+    zz code only drugs:
+      update all to match regular gaurdrails limits
 
     other changes based on alerts reports:
       ceftolazone/tazobactam:

@@ -4,7 +4,7 @@ BD AlarisTM GuardrailsTM Editor
 Data Set Report
 APPROVED
 
-Conway2023v55is
+Conway2023v56is
 
 
 Conway Medical Center
@@ -27,7 +27,7 @@ Further, Conway Medical Center acknowledges that the person signing this agreeme
 Signature			                     Name                                       Title      	                            Date
 
 1.  Current Data Set Status
- Data Set NameConway2023v55is Hospital NameConway Medical Center Data Set ID02bde901e-A Data Set StatusApproved Last Changed On4/28/2023 14:09 FilenameC:\Users\nbauer\OneDrive\Documents\Guardrails Editor\02bc97572-R.gre
+ Data Set NameConway2023v56is Hospital NameConway Medical Center Data Set ID02c1111e0-A Data Set StatusApproved Last Changed On6/5/2023 21:36 FilenameC:\Users\nbauer\OneDrive\Documents\Guardrails Editor\02bde901e-R.gre
 
 2.  Drug Library by Profile
     2.1  Adult
@@ -261,7 +261,7 @@ X
 
 
 N/AContinuous
-mcg/kg/min0.520302DOBUTamine
+mcg/kg/min0.52030DOBUTamine
 .Double Concentrated
 500 mg / 250 mL (2 mg / mL)
 1,000 mg / 500 mL (2 mg / mL)
@@ -271,7 +271,7 @@ X
 
 
 N/AContinuous
-mcg/kg/min0.520302Double ConcentratedDOBUTamine
+mcg/kg/min0.52030Double ConcentratedDOBUTamine
 Echo Stress Test
 --- mg / --- mL
 
@@ -292,14 +292,14 @@ mcg/kg/min55010DOPamine
 X
 
 N/AContinuous
-mcg/kg/min0.920302DOPamine
+mcg/kg/min0.92030DOPamine
 .Double Concentrated
 800 mg / 250 mL (3.2 mg / mL)
 
 X
 
 N/AContinuous
-mcg/kg/min0.920302Double ConcentratedDOPamine
+mcg/kg/min0.92030Double ConcentratedDOPamine
 Renal Dose
 400 mg / 250 mL (1.6 mg / mL)
 
@@ -348,7 +348,7 @@ X
 
 
 N/AContinuous
-mcg/min0.3320Dedicated IV LineEPINEPHrine
+mcg/min0.3340Dedicated IV LineEPINEPHrine
 Cardiac Arrest
 30 mg / 250 mL (0.12 mg / mL)
 
@@ -413,7 +413,7 @@ mcg/kg/min
 Bolus Dose
 mcg/kg
 Bolus Admin Rate
-mcg/kg/min25300100100500250100500200fenoldopam
+mcg/kg/min2530050100500100500fenoldopam
 
 10 mg / 250 mL (0.04 mg / mL)
 
@@ -634,14 +634,14 @@ X
 
 
 N/AContinuous
-mcg/min0.360Levophednorepinephrine
+mcg/min0.380Levophednorepinephrine
 .Double Concentrated
 16 mg / 500 mL (0.032 mg / mL)
 
 X
 
 N/AContinuous
-mcg/min0.360Double Concentratedoctreotide
+mcg/min0.380Double Concentratedoctreotide
 
 600 mcg / 240 mL (2.5 mcg / mL)
 
@@ -713,7 +713,7 @@ X
 
 
 N/AContinuous
-mcg/min5300100Phenylephrinephenylephrine ANES
+mcg/min540020Phenylephrinephenylephrine ANES
 
 10 mg / 101 mL (0.099 mg / mL)
 10 mg / 251 mL (0.0398 mg / mL)
@@ -798,48 +798,45 @@ mcg/kg/min
 Bolus Dose
 mg
 Bolus Admin Rate
-mg/min0.011.31.671510520Neuromuscular BAzz amiodarone
+mg/min0.011.31.671510520Neuromuscular BAzz amiodarone DRIP
 
-150 mg / 100 mL (1.5 mg / mL)
 360 mg / 200 mL (1.8 mg / mL)
 900 mg / 500 mL (1.8 mg / mL)
 
 X
-X
 X
 
 
-
 N/AContinuous
-mg/min0.51Code only drugszz DOBUTamine
+mg/min0.4911.41Code only drugszz DOBUTamine
 ..Standard
 500 mg / 250 mL (2 mg / mL)
 
 X
 
 N/AContinuous
-mcg/kg/min0.5202Code only drugszz DOBUTamine
+mcg/kg/min0.52030Code only drugszz DOBUTamine
 .Double Concentrated
 1,000 mg / 250 mL (4 mg / mL)
 
 X
 
 N/AContinuous
-mcg/kg/min0.5202Code only drugszz DOPamine
+mcg/kg/min0.52030Code only drugszz DOPamine
 ..Standard
 400 mg / 250 mL (1.6 mg / mL)
 
 X
 
 N/AContinuous
-mcg/kg/min2202Code only drugszz DOPamine
+mcg/kg/min0.92030Code only drugszz DOPamine
 .Double Concentrated
 800 mg / 250 mL (3.2 mg / mL)
 
 X
 
 N/AContinuous
-mcg/kg/min2202Code only drugszz EPINEPHrine
+mcg/kg/min0.92030Code only drugszz EPINEPHrine
 
 5 mg / 250 mL (0.02 mg / mL)
 10 mg / 500 mL (0.02 mg / mL)
@@ -849,35 +846,35 @@ X
 
 
 N/AContinuous
-mcg/min0.3320Code only drugszz lidocaine
+mcg/min0.3340Code only drugszz lidocaine
 
 2 gram / 500 mL (0.004 gram / mL)
 
 X
 
 N/AContinuous
-mg/min0.542Code only drugszz nitroglycerin
+mg/min0.544.62Code only drugszz nitroglycerin
 ..Standard
 25 mg / 250 mL (0.1 mg / mL)
 
 X
 
 N/AContinuous
-mcg/min11505Code only drugszz nitroglycerin
+mcg/min52004005Code only drugszz nitroglycerin
 .Double Concentrated
 50 mg / 250 mL (0.2 mg / mL)
 
 X
 
 N/AContinuous
-mcg/min11505zz nitroprusside
+mcg/min52004005zz nitroprusside
 
 50 mg / 250 mL (0.2 mg / mL)
 
 X
 
 N/AContinuous
-mcg/kg/min0.130.3Code only drugszz norepinephrine
+mcg/kg/min0.1100.3Code only drugszz norepinephrine
 ..Standard
 4 mg / 250 mL (0.016 mg / mL)
 8 mg / 500 mL (0.016 mg / mL)
@@ -887,21 +884,27 @@ X
 
 
 N/AContinuous
-mcg/min0.345Code only drugszz norepinephrine
+mcg/min0.380Code only drugszz norepinephrine
 .Double Concentrated
 16 mg / 500 mL (0.032 mg / mL)
 
 X
 
 N/AContinuous
-mcg/min0.345Code only drugszz phenylephrine
+mcg/min0.380Code only drugszz phenylephrine
 
-10 mg / 250 mL (0.04 mg / mL)
+10 mg / 250 mL (0.04 mg / mL)
+20 mg / 500 mL (0.04 mg / mL)
+40 mg / 1,000 mL (0.04 mg / mL)
 
+X
+X
 X
 
+
+
 N/AContinuous
-mcg/min10120100Code only drugs
+mcg/min540020Code only drugs
 2.1.2 Continuous/Bolus - Non-Anesthesia Drugs - Concentration Limits
 Continuous/Bolus - Non-Anesthesia Drugs - Concentration Limits - AdultDrug Name
 Therapy
@@ -1114,8 +1117,8 @@ GM dosingXXgram121 gram / 100 mL (0.01 gram / mL)X00:1501:0000:30n
 .MG DosingXXmg2502,0001,000 mg / 50 mL (20 mg / mL)X00:1501:0000:30n/a1,000 mg / 100 mL (10 mg / mL)X00:1501:0000:30n/a                                2,000 mg / 50 mL (40 mg / mL)X00:1501:0000:30n/a                                2,000 mg / 100 mL (20 mg / mL)X00:1501:0000:30n/a                                cefTAZidime
 GM dosingXXgram0.24921 gram / 50 mL (0.02 gram / mL)X00:1501:0000:30n/a1 gram / 100 mL (0.01 gram / mL)X00:1501:0000:30n/a                                2 gram / 50 mL (0.04 gram / mL)X00:1501:0000:30n/a                                2 gram / 100 mL (0.02 gram / mL)X00:1501:0000:30n/a                                ceftazidime/avibacta
 XXgram0.932.8--- gram / --- mLX01:4202:1802:00gram/mL0.0090.051ceftolozane/tazo
-.MG DosingXXmg1493,010150 mg / 100 mL (1.5 mg / mL)X00:4501:3001:00n/a375 mg / 100 mL (3.75 mg / mL)X00:4501:3001:00n/a                                750 mg / 100 mL (7.5 mg / mL)X00:4501:3001:00n/a                                1,500 mg / 100 mL (15 mg / mL)X00:4501:3001:00n/a                                3,000 mg / 100 mL (30 mg / mL)X00:4501:3001:00n/a                                --- mg / --- mLX00:4501:3001:00mg/mL11.430.1                                ceftolozane/tazo
-GM dosingXXgram0.1493.11.5 gram / 100 mL (0.015 gram / mL)X00:4501:3001:00n/a3 gram / 100 mL (0.03 gram / mL)X00:4501:3001:00n/a                                --- gram / --- mLX00:4501:3001:00gram/mL0.0010.031                                cefTRIAXone
+.MG DosingXXmg1493,010150 mg / 100 mL (1.5 mg / mL)X00:4504:0001:00n/a375 mg / 100 mL (3.75 mg / mL)X00:4504:0001:00n/a                                750 mg / 100 mL (7.5 mg / mL)X00:4504:0001:00n/a                                1,500 mg / 100 mL (15 mg / mL)X00:4504:0001:00n/a                                3,000 mg / 100 mL (30 mg / mL)X00:4506:0003:00n/a                                --- mg / --- mLX00:4504:0001:00mg/mL11.430.1                                ceftolozane/tazo
+GM dosingXXgram0.1493.11.5 gram / 100 mL (0.015 gram / mL)X00:4504:0001:00n/a3 gram / 100 mL (0.03 gram / mL)X00:4506:0003:00n/a                                --- gram / --- mLX00:4504:0001:00gram/mL0.0010.031                                cefTRIAXone
 .MG DosingXXmg5002,0001,000 mg / 50 mL (20 mg / mL)X00:1501:0000:30n/a1,000 mg / 100 mL (10 mg / mL)X00:1501:0000:30n/a                                2,000 mg / 50 mL (40 mg / mL)X00:1501:0000:30n/a                                2,000 mg / 100 mL (20 mg / mL)X00:1501:0000:30n/a                                --- mg / --- mLX00:1501:0000:30mg/mL1540                                cefTRIAXone
 GM dosingXXgram0.521 gram / 50 mL (0.02 gram / mL)X00:1501:0000:30n/a1 gram / 100 mL (0.01 gram / mL)X00:1501:0000:30n/a                                2 gram / 50 mL (0.04 gram / mL)X00:1501:0000:30n/a                                2 gram / 100 mL (0.02 gram / mL)X00:1501:0000:30n/a                                --- gram / --- mLX00:1501:0000:30gram/mL0.0010.0050.04                                cefuroxime
 .MG DosingXXmg7501,5012,000750 mg / 50 mL (15 mg / mL)X00:2501:0000:30n/a750 mg / 100 mL (7.5 mg / mL)X00:2501:0000:30n/a                                1,500 mg / 50 mL (30 mg / mL)X00:2501:0000:30n/a                                1,500 mg / 100 mL (15 mg / mL)X00:2501:0000:30n/a                                cefuroxime
@@ -1173,8 +1176,8 @@ GM dosingXXgram0.510.5 gram / 100 mL (0.005 gram / mL)X00:2501:0000
 INR  >   6XXunit/kg4953--- unit / --- mLX00:1000:30unit/mL192030INR > 6Kinevac (sincalide)
 XXmcg/kg0.0180.13--- mcg / --- mLX00:1202:0000:16mcg/mL0.010.5lacosamide
 XXmg25200--- mg / --- mLX00:3002:0001:00mg/mL0.250.54.1levETIRAcetam
-XXmg2501,500--- mg / --- mLX00:0602:0000:15mg/mL22.515levETIRAcetam
-XXmg/kg160--- mg / --- mLX00:0602:0000:15mg/mL0.515levoFLOXacin
+XXmg2502,001--- mg / --- mLX00:0602:0000:15mg/mL22.520.1levETIRAcetam
+XXmg/kg160--- mg / --- mLX00:0602:0000:15mg/mL22.520.1levoFLOXacin
 XXmg250750250 mg / 50 mL (5 mg / mL)X00:5002:0001:00n/a500 mg / 100 mL (5 mg / mL)X00:5002:0001:00n/a                                750 mg / 150 mL (5 mg / mL)X01:1502:0001:30n/a                                linezolid
 XXmg400800600 mg / 300 mL (2 mg / mL)X00:3004:0001:00n/amag sulfate
 XXgram0.5782 gram / 50 mL (0.04 gram / mL)X00:3005:0004:00n/a4 gram / 100 mL (0.04 gram / mL)X00:2009:00n/a                                --- gram / --- mLX00:3012:00gram/mL0.0050.010.12                                mannitol  20%
@@ -1223,7 +1226,7 @@ Maintenance Dose MGXXmg9002,300--- mg / --- mLX00:1024:00mg/mL59
 XXmmol1560--- mmol / --- mLX00:4512:00mmol/mL0.0050.010.25sotrovimab
 XXmg490510511500 mg / 50 mL (10 mg / mL)X00:2200:2304:0000:30n/aLow Binding Filter500 mg / 100 mL (5 mg / mL)X00:2200:2304:0000:30n/a                                tedizolid phosphate
 XXmg175225250200 mg / 250 mL (0.8 mg / mL)X00:4501:1501:00n/athiamine
-XXmg90550--- mg / --- mLX00:2001:1500:30mg/mL0.0010.75ticarcillin/clav
+XXmg90550--- mg / --- mLX00:2001:1500:30mg/mL0.0010.710.1ticarcillin/clav
 XXgram23.12 gram / 50 mL (0.04 gram / mL)X00:2501:0000:30n/a2 gram / 100 mL (0.02 gram / mL)X00:2501:0000:30n/a                                3.1 gram / 50 mL (0.062 gram / mL)X00:2501:0000:30n/a                                3.1 gram / 100 mL (0.031 gram / mL)X00:2501:0000:30n/a                                tigecycline
 XXmg2510050 mg / 50 mL (1 mg / mL)X00:2501:1500:30n/a50 mg / 100 mL (0.5 mg / mL)X00:2501:1500:30n/a                                100 mg / 100 mL (1 mg / mL)X00:2501:1500:30n/a                                tobramycin
 XXmg/kg0.59--- mg / --- mLX00:2501:0000:30mg/mL0.10.510tocilizumab
@@ -1240,7 +1243,8 @@ GM dosingXXgram/kg0.0050.030.5 gram / 100 mL (0.005 gram / mL)X00:20
 XXmg200400200 mg / 50 mL (4 mg / mL)X00:5002:0001:00n/a400 mg / 100 mL (4 mg / mL)X01:4004:0002:00n/a                                voriconazole
 XXmg/kg27--- mg / --- mLX00:5001:0004:0002:00mg/mL0.55zidovudine
 XXmg/kg12.23--- mg / --- mLX00:4900:5024:00mg/mL0.0010.014.2zoledronic acid
-XXmg25--- mg / --- mLX00:1500:2502:0000:30mg/mL0.010.030.05zz mag sulfate
+XXmg25--- mg / --- mLX00:1500:2502:0000:30mg/mL0.010.030.05zz amiodarone BOLUS
+XXmg149151150 mg / 100 mL (1.5 mg / mL)X00:0800:1500:10n/aCode only drugszz mag sulfate
 XXgram161 gram / 50 mL (0.02 gram / mL)X00:0700:1402:0000:20n/aCode only drugs1 gram / 100 mL (0.01 gram / mL)X00:0700:1402:0000:20n/a                                2 gram / 50 mL (0.04 gram / mL)X00:1400:2804:0000:40n/a                                4 gram / 100 mL (0.04 gram / mL)X00:2800:5608:0001:20n/a                                --- gram / --- mLX00:1400:2808:00gram/mL0.0050.010.08                                
 2.1.6 Fluids
 Fluids - AdultFluid Name
@@ -1252,7 +1256,7 @@ Max..IVF MaintenanceYesX1999.IVF + KCL
 15 mEq/LYesX1666700.IVF + KCL
 20 mEq/LYesX1500550.IVF + KCL
 30 mEq/LYesX1333366.IVF + KCL
-40 mEq/LYesX1250275.IVF + KCL 10 mEq/LYesX1999.IVF + KCL 20 mEq/LYesX1500550.IVF + KCL 40 mEq/LYesX1250275.Maint IVF+AdditivesYesX19993% Sodium ChlorideYesX150100Bicarb DripYesX1999Blood (whole)NoX1301Dedicated IV LineDextrose 10%YesX1150Fresh Frozen PlasmaNoX1201Dedicated IV LineInsulin MaternityYesX70160200Parenteral NutritionNoX3595Midline WarningPRBCsNoX1301Dedicated IV Line
+40 mEq/LYesX1250275.IVF + KCL 10 mEq/LYesX1999.IVF + KCL 20 mEq/LYesX1500550.IVF + KCL 40 mEq/LYesX1250275.Maint IVF+AdditivesYesX19993% Sodium ChlorideYesX150100Bicarb DripYesX1999Blood (whole)NoX1301Dedicated IV LineDextrose 10%YesX1150Fresh Frozen PlasmaNoX1201Dedicated IV LineInsulin MaternityYesX70160200Parenteral NutritionNoX1995Midline WarningPRBCsNoX1301Dedicated IV Line
 2.1.7 PCA Drugs
 No drugs exist in this section.
     2.2  Nursery
@@ -1848,8 +1852,8 @@ Appendix D Clinical Advisories List
 Clinical AdvisoriesAdvisory NameClinical Advisory Text0.2 to 5 micron filtUse a low-protein binding in-line or add-on filter between 0.2 and 5 microns.0.22 Filter NeededUse a 0.22 micron in-line filter when administering this product.1 unit = 1 mL1 unit = 1 mL1unit=1million1 unit = 1 million units2nd RN to verify2 RNs to verify and document concentration and programming prior to infusion.48 Hour TubingChange tubing every 48 hours.Alteplase wt basedDose and volume to be infused need to be set according to weight based protocol to avoid potential over infusion of entire contents of bag.AmBisomeExisting IV lines must be flushed with D5w prior to infusion. If unable, must start a new line. ***Infusion requires the use of an in-line filter.Antivenin1 unit = 1 vial Infuse over 25-50 mL/hr for the first 10 minutes, if no allergic reaction, may increase rate.Bleeding PrecautionsMonitor for signs of bleeding.Calcium PrecipitateDo not infuse Calcium and Phosphate though the same line.CeftriSyringeAdminster over 60 minutes to decrease risk of bilirubin encephalopathy.Code only drugsThis selection is reserved for use during Code Blue, ACLS events. DO NOT USE for routine infusions!Dedicated IV LineDo not infuse any other drugs through this line.DEHPThis medication must be infused using DEHP FREE tubing.Double Concentrated****DOUBLE CONCENTRATED DRIP**** Double-check bag concentration and pump settings.Filter and DEHP FreeRequires Low protein binding 0.2 micron filter and DEHP free bagFlush Before/AfterFlush line before and after administration. Can be given on same line as sodium chloride 0.9%.HeparinMonitor PTT. Do not administer other drugs through same IV line.High RiskThis is a HIGH RISK medication. 2nd RN to verify prior to initiating therapy.HypersensitivityRisk of hypersensitivity. Check vital signs frequently during infusion.In-line filterInfusion requires the use of an in-line filter.INR > 6INR > 6 ** Max dose of Kcentra should not exceed 5000 units **INR 2-4INR 2 - 4 ** Max dose of Kcentra should not exceed 2500 units **INR 4-6INR 4 - 6 ** Max dose of Kcentra should not exceed 3500 units **Levophed*****Must have physician order for rates greater than 60 mcg/min*****Low Binding 0.2or1.2This medication must be infused using a 0.2- to 1.2-micron, low protein brinding filter.Low Binding FilterThis medication must be infused using a 0.2- micron, low protein binding filter.MAX DOSE 180 mgMAXIMUM dose of brentuximab is 180 mg.Midline WarningDo NOT infuse through a midline catheter.Neuromuscular BA*Train of Four Required* Mechanical Ventilation and concurrent Sedation is mandatory.No DextroseDo NOT administer through lines containing dextrose.NO FILTERDo NOT use an in-line filter for administration.Non-PVCThis medication must be infused using Non-PVC tubing.Patient Lie DownAdvise patient to lie down during and 30 minutes after infusion to prevent hypotension.PenG-Syringe1 unit in pump = 1,000 units on label. Eg. 200 units in pump = 200,000 units on drug label.Phenylephrine*****Must have physician order for rates greater than 300 mcg/min*****PremedicatePremedicate before each infusion.Protect From LightProtect this drug from light.SCr 2.0-4.0SCr 2.0 - 4.0SCr<2.0SCr < 2.0VesicantDrug is a vesicant. Check blood return.
 
 
-Conway Medical Center - 4/28/2023 14:09														Page 1 of 2
-Conway2023v55is, 02bde901e-A
+Conway Medical Center - 6/5/2023 21:36														Page 1 of 2
+Conway2023v56is, 02c1111e0-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)
 

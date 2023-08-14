@@ -1,7 +1,11 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
-## 57is xx/xx/23:
+## 58is xx/xx/23:
+
+## 57is 08/16/23:
+  oxytocin:
+    remove all strengths/therapies except for 30 units/500 mL
 
 ## 56is 06/05/23:
   updated to current protocol:

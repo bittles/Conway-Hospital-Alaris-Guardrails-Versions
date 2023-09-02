@@ -4,7 +4,7 @@
 ## 59is xx/xx/23:
 
 ## 58is 09/02/23:
-  nicardine:
+  nicardipine:
     add 50 mg/250 mL double concentrated strength for future scenarios where 40 mg/200 mL premix is out of stock
 
 ## 57is 08/16/23:

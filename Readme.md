@@ -1,7 +1,9 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
-## 58is xx/xx/23:
+## 59is xx/xx/23:
+
+## 58is 09/02/23:
   nicardine:
     add 50 mg/250 mL double concentrated strength for future scenarios where 40 mg/200 mL premix is out of stock
 

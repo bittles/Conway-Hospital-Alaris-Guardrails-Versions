@@ -2,6 +2,8 @@
 ## Format is "version # and activated go-live date"
 
 ## 58is xx/xx/23:
+  nicardine:
+    add 50 mg/250 mL double concentrated strength for future scenarios where 40 mg/200 mL premix is out of stock
 
 ## 57is 08/16/23:
   oxytocin:

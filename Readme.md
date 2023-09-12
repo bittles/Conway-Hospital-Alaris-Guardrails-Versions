@@ -2,6 +2,12 @@
 ## Format is "version # and activated go-live date"
 
 ## 59is xx/xx/23:
+  insulin:
+    non-weight based:
+      change soft max from 22.5 units/hr to 20 units/hr per protocol
+    weight based:
+      change soft max from 5 units/kg/hr to 0.3 units/kg/hr
+      currently unset hard max, will set to 0.8 units/kg/hr
 
 ## 58is 09/02/23:
   nicardipine:

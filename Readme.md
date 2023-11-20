@@ -8,6 +8,7 @@
     weight based:
       change soft max from 5 units/kg/hr to 0.3 units/kg/hr
       currently unset hard max, will set to 0.8 units/kg/hr
+      add to pediatric profile
 
 ## 58is 09/02/23:
   nicardipine:

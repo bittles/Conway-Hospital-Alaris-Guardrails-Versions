@@ -1,7 +1,9 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
-## 59is xx/xx/23:
+## 60is xx/xx/23:
+
+## 59is 11/22/23:
   insulin:
     non-weight based:
       change soft max from 22.5 units/hr to 20 units/hr per protocol

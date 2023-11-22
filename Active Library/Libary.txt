@@ -4,7 +4,7 @@ BD AlarisTM GuardrailsTM Editor
 Data Set Report
 APPROVED
 
-Conway2023v58is
+Conway2023v59is
 
 
 Conway Medical Center
@@ -27,7 +27,7 @@ Further, Conway Medical Center acknowledges that the person signing this agreeme
 Signature			                     Name                                       Title      	                            Date
 
 1.  Current Data Set Status
- Data Set NameConway2023v58is Hospital NameConway Medical Center Data Set ID02c85fd27-A Data Set StatusApproved Last Changed On9/2/2023 14:03 FilenameC:\Users\nbauer\OneDrive\Documents\Guardrails Editor\02c6e38e4-R.gre
+ Data Set NameConway2023v59is Hospital NameConway Medical Center Data Set ID02cf0e112-A Data Set StatusApproved Last Changed On11/22/2023 15:56 FilenameC:\Users\nbauer\OneDrive\Documents\Guardrails Editor\02c85fd27-R.gre
 
 2.  Drug Library by Profile
     2.1  Adult
@@ -488,7 +488,7 @@ unit/h
 Bolus Dose
 unit
 Bolus Admin Rate
-unit/min122.130111110102nd RN to verifyinsulin
+unit/min120301110.515102nd RN to verifyinsulin
 
 100 unit / 100 mL (1 unit / mL)
 
@@ -499,7 +499,7 @@ unit/kg/h
 Bolus Dose
 unit/kg
 Bolus Admin Rate
-unit/min0.00150.00150.10.515102nd RN to verifyisoproterenol
+unit/min0.0010.30.80.0010.30.10.515102nd RN to verifyisoproterenol
 
 1 mg / 250 mL (0.004 mg / mL)
 2 mg / 500 mL (0.004 mg / mL)
@@ -1577,7 +1577,18 @@ unit/h
 Bolus Dose
 unit
 Bolus Admin Rate
-unit/min1153011211010lidocaine
+unit/min120301110.515102nd RN to verifyinsulin
+
+100 unit / 100 mL (1 unit / mL)
+
+X
+
+N/AContinuous
+unit/kg/h
+Bolus Dose
+unit/kg
+Bolus Admin Rate
+unit/min0.0010.30.80.0010.30.10.515102nd RN to verifylidocaine
 
 2,000 mg / 500 mL (4 mg / mL)
 
@@ -1801,7 +1812,7 @@ No drugs exist in this section.
 
 3.  Configuration Settings
     3.1 PC Unit
-SettingsAdultNurseryONC Infusion CenterOutPt InfusionCenterPediatrics              Alarm Audio ProfileProfile 1Profile 1Profile 1Profile 1Profile 1              Minimum Audio Volume32333              Default Audio Volume43444              Anesthesia ModeEnabledDisabledDisabledDisabledDisabled              Battery Meter DisplayEnabledEnabledEnabledEnabledEnabled              Color DisplayEnabledEnabledEnabledEnabledEnabled              Key Click AudioEnabledEnabledEnabledEnabledEnabled              Limit CheckingAlwaysAlwaysAlwaysAlwaysAlways              Max Patient BSA (m2)33333              Max Patient Weight (kg)5007500500250              Patient ID EntryDisabledDisabledDisabledDisabledDisabled              Preventive Maintenance ReminderEnabledEnabledEnabledEnabledEnabled              Tamper ResistantEnabledEnabledEnabledEnabledEnabled              Authorized User ModeDisabledDisabledDisabledDisabledDisabled              No Guardrails Basic Infusion Clinical AdvisoryEnabledEnabledEnabledEnabledEnabled              Clinical Advisory Message: This infusion selection DOES NOT have Guardrails Protection                                                3.2 
+SettingsAdultNurseryONC Infusion CenterOutPt InfusionCenterPediatrics              Alarm Audio ProfileProfile 1Profile 1Profile 1Profile 1Profile 1              Minimum Audio Volume32333              Default Audio Volume43444              Anesthesia ModeEnabledDisabledDisabledDisabledDisabled              Battery Meter DisplayEnabledEnabledEnabledEnabledEnabled              Color DisplayEnabledEnabledEnabledEnabledEnabled              Key Click AudioEnabledEnabledEnabledEnabledEnabled              Limit CheckingAlwaysAlwaysAlwaysAlwaysAlways              Max Patient BSA (m2)33333              Max Patient Weight (kg)5007500500250              Patient ID EntryDisabledDisabledDisabledDisabledDisabled              Preventive Maintenance ReminderEnabledEnabledEnabledEnabledEnabled              Tamper ResistantEnabledEnabledEnabledEnabledEnabled              Authorized User ModeDisabledDisabledDisabledDisabledDisabled              No Guardrails Basic Infusion Clinical AdvisoryEnabledEnabledEnabledEnabledEnabled              Clinical Advisory Message: This infusion selection DOES NOT have Guardrails Protection                                                     3.2 
 Pump Module
 SettingsAdultNurseryONC Infusion CenterOutPt InfusionCenterPediatrics              Accumulated Air-In-LineEnabledEnabledEnabledEnabledEnabled              Air-In-Line (microliter)2505025025075              Auto-Restart Attempts91999              KVO Rate Adjust (mL/h)20220205              Max Occlusion Pressure (mmHg)525525525525525              Default Pressure (mmHg)525525525525525              Maximum Rate (mL/h)99925999999999              Maximum VTBI (mL)3,0001,2003,0003,0002,200              Pressure Mode Lock StatusUnlockedUnlockedUnlockedUnlockedUnlocked              Pressure Mode SelectionPumpPumpPumpPumpPump              Secondary InfusionEnabledEnabledEnabledEnabledEnabled              SEC-PRI Audio AlertEnabledEnabledEnabledEnabledEnabled                  3.3 
 Syringe Module
@@ -1816,7 +1827,7 @@ EtCO2 Module
 SettingsAdultNurseryONC Infusion CenterOutPt InfusionCenterPediatrics              Alarm Limit TypeAdultAdultAdultAdultAdult              EtCO2 High (mmHg)6060606060              EtCO2 Low (mmHg)1010101010              Respiratory Rate High (bpm)3535353535              Respiratory Rate Low (bpm)76666              No Breath Alarm (Seconds)3030303030              FiCO2 High (mmHg)88888              Waveform Time Scale (Seconds)1010101010                  3.8 
 PCA Pause Protocol
 3.8.1 PCA Pause Protocol Settings
-SettingsAdultNurseryONC Infusion CenterOutPt InfusionCenterPediatrics              PCA Pause Protocol EnabledEnabledDisabledDisabledDisabledDisabled              Available forEtco2n/an/an/an/a              Monitoring Module Attach EnforcementDisabledn/an/an/an/a              PCA Pause Protocol: PCA Infusion has paused due to a decline in respiratory status. Check Patient!                                            
+SettingsAdultNurseryONC Infusion CenterOutPt InfusionCenterPediatrics              PCA Pause Protocol EnabledEnabledDisabledDisabledDisabledDisabled              Available forEtco2n/an/an/an/a              Monitoring Module Attach EnforcementDisabledn/an/an/an/a              PCA Pause Protocol: PCA Infusion has paused due to a decline in respiratory status. Check Patient!                                                 
 
 3.8.2 PCA Pause Protocol (EtCO2) Settings
 SettingsAdultNurseryONC Infusion CenterOutPt InfusionCenterPediatrics              Resp. Rate Lower Limit (bpm)5n/an/an/an/a              Resp. Rate Initial Value (bpm)6n/an/an/an/a              
@@ -1839,8 +1850,8 @@ Appendix D Clinical Advisories List
 Clinical AdvisoriesAdvisory NameClinical Advisory Text0.2 to 5 micron filtUse a low-protein binding in-line or add-on filter between 0.2 and 5 microns.0.22 Filter NeededUse a 0.22 micron in-line filter when administering this product.1 unit = 1 mL1 unit = 1 mL1unit=1million1 unit = 1 million units2nd RN to verify2 RNs to verify and document concentration and programming prior to infusion.48 Hour TubingChange tubing every 48 hours.Alteplase wt basedDose and volume to be infused need to be set according to weight based protocol to avoid potential over infusion of entire contents of bag.AmBisomeExisting IV lines must be flushed with D5w prior to infusion. If unable, must start a new line. ***Infusion requires the use of an in-line filter.Antivenin1 unit = 1 vial Infuse over 25-50 mL/hr for the first 10 minutes, if no allergic reaction, may increase rate.Bleeding PrecautionsMonitor for signs of bleeding.Calcium PrecipitateDo not infuse Calcium and Phosphate though the same line.CeftriSyringeAdminster over 60 minutes to decrease risk of bilirubin encephalopathy.Code only drugsThis selection is reserved for use during Code Blue, ACLS events. DO NOT USE for routine infusions!Dedicated IV LineDo not infuse any other drugs through this line.DEHPThis medication must be infused using DEHP FREE tubing.Double Concentrated****DOUBLE CONCENTRATED DRIP**** Double-check bag concentration and pump settings.Filter and DEHP FreeRequires Low protein binding 0.2 micron filter and DEHP free bagFlush Before/AfterFlush line before and after administration. Can be given on same line as sodium chloride 0.9%.HeparinMonitor PTT. Do not administer other drugs through same IV line.High RiskThis is a HIGH RISK medication. 2nd RN to verify prior to initiating therapy.HypersensitivityRisk of hypersensitivity. Check vital signs frequently during infusion.In-line filterInfusion requires the use of an in-line filter.INR > 6INR > 6 ** Max dose of Kcentra should not exceed 5000 units **INR 2-4INR 2 - 4 ** Max dose of Kcentra should not exceed 2500 units **INR 4-6INR 4 - 6 ** Max dose of Kcentra should not exceed 3500 units **Levophed*****Must have physician order for rates greater than 60 mcg/min*****Low Binding 0.2or1.2This medication must be infused using a 0.2- to 1.2-micron, low protein brinding filter.Low Binding FilterThis medication must be infused using a 0.2- micron, low protein binding filter.MAX DOSE 180 mgMAXIMUM dose of brentuximab is 180 mg.Midline WarningDo NOT infuse through a midline catheter.Neuromuscular BA*Train of Four Required* Mechanical Ventilation and concurrent Sedation is mandatory.No DextroseDo NOT administer through lines containing dextrose.NO FILTERDo NOT use an in-line filter for administration.Non-PVCThis medication must be infused using Non-PVC tubing.Patient Lie DownAdvise patient to lie down during and 30 minutes after infusion to prevent hypotension.PenG-Syringe1 unit in pump = 1,000 units on label. Eg. 200 units in pump = 200,000 units on drug label.Phenylephrine*****Must have physician order for rates greater than 300 mcg/min*****PremedicatePremedicate before each infusion.Protect From LightProtect this drug from light.SCr 2.0-4.0SCr 2.0 - 4.0SCr<2.0SCr < 2.0VesicantDrug is a vesicant. Check blood return.
 
 
-Conway Medical Center - 9/2/2023 14:03														Page 1 of 2
-Conway2023v58is, 02c85fd27-A
+Conway Medical Center - 11/22/2023 15:56														Page 1 of 2
+Conway2023v59is, 02cf0e112-A
 
 Reviewed and Approved by __________________________________Date___________(Approval Only)
 

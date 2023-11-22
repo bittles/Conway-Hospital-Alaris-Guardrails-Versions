@@ -1,10 +1,19 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
-## 59is xx/xx/23:
+## 60is xx/xx/23:
+
+## 59is 11/22/23:
+  insulin:
+    non-weight based:
+      change soft max from 22.5 units/hr to 20 units/hr per protocol
+    weight based:
+      change soft max from 5 units/kg/hr to 0.3 units/kg/hr
+      currently unset hard max, will set to 0.8 units/kg/hr
+      add to pediatric profile
 
 ## 58is 09/02/23:
-  nicardine:
+  nicardipine:
     add 50 mg/250 mL double concentrated strength for future scenarios where 40 mg/200 mL premix is out of stock
 
 ## 57is 08/16/23:

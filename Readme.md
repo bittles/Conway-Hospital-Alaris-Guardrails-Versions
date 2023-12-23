@@ -197,29 +197,29 @@
       remove hard max of 30 mcg/min, soft max still in place at 20 mcg/min
 
 ## 47is 01/30/23:
-	### naloxone drip changes:
-		remove 2 mg/500 mL concentration
-		add 4 mg/100 mL concentration as sole strength/volume option
-			no change to rate limits:
-				0.25 mg/hr soft min
-				2 mg/hr soft max
-				no hard max
-				no pre-programmed initial rate
-				no bolus
-	# bumetanide continuous:
-		remove wildcard concentration
-		add 24 mg/96 mL as sole strength/volume option
-			no change to rate limits:
-				0.1 mg/hr soft min
-				2 mg/hr soft max
-				no hard max
-				0.5 mg/hr pre-programmed initial rate
-				bolus options:
-					0.25 mg soft min
-					4 mg soft max
-					0.25 mg/min soft min bolus rate
-					0.5 mg/min hard max bolus rate
-					Lexi: Undiluted direct IV injections may be administered at a rate of 0.5 to 1 mg over 1 to 2 minutes.
+  ### naloxone drip changes:
+    remove 2 mg/500 mL concentration
+    add 4 mg/100 mL concentration as sole strength/volume option
+      no change to rate limits:
+        0.25 mg/hr soft min
+        2 mg/hr soft max
+        no hard max
+        no pre-programmed initial rate
+        no bolus
+  ### bumetanide continuous:
+    - remove wildcard concentration
+    - add 24 mg/96 mL as sole strength/volume option
+    - no change to rate limits:
+      - 0.1 mg/hr soft min
+      - 2 mg/hr soft max
+      - no hard max
+      - 0.5 mg/hr pre-programmed initial rate
+      - bolus options:
+        - 0.25 mg soft min
+        - 4 mg soft max
+        - 0.25 mg/min soft min bolus rate
+        - 0.5 mg/min hard max bolus rate
+        - Lexi: Undiluted direct IV injections may be administered at a rate of 0.5 to 1 mg over 1 to 2 minutes.
 
 ## 46is xx/xx/xx (never activated for live pumps):
   # furosemide drip changes:

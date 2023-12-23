@@ -5,7 +5,7 @@
 
 
 ## 60is 12/23/23:
-  # dalbavancin:
+  ### dalbavancin:
     - add to adult library with mg and gm dosing options
     - mg: 375 mg / 250 mL, 500 mg / 250 mL, 750 mg / 250 mL, 1000 mg / 250 mL, 1125 mg / 250 mL, 1500 mg / 250 mL
     - gm: 0.375 g / 250 mL, 0.5 g / 250 mL, 0.75 g / 250 mL, 1 g / 250 mL, 1.125 g / 250 mL, 1500 g / 250 mL
@@ -16,7 +16,7 @@
     - no wildcard option as these cover any indicated doses and dosing adjustments for renal function
 
 ## 59is 11/22/23:
-  # insulin:
+  ### insulin:
     - non-weight based:
       - change soft max from 22.5 units/hr to 20 units/hr per protocol
     - weight based:
@@ -25,47 +25,47 @@
       - add to pediatric profile
 
 ## 58is 09/02/23:
-  # nicardipine:
+  ### nicardipine:
     - add 50 mg/250 mL double concentrated strength for future scenarios where 40 mg/200 mL premix is out of stock
 
 ## 57is 08/16/23:
-  # oxytocin:
+  ### oxytocin:
     - remove all strengths/therapies except for 30 units/500 mL
 
 ## 56is 06/05/23:
-  # updated to current protocol:
-    # esmolol:
+  ### updated to current protocol:
+    ### esmolol:
       - minor changes to default initial rate/boluses to match protocol
         - 50 mcg/kg/min initial default rate
         - initial default bolus dose removed and made blank as initial boluses can be 250-500 mcg/kg (previously only 250 mcg/kg) and followup boluses are now 250 mcg/kg (changed from 200 mcg/kg)
-    # epinephrine:
+    ### epinephrine:
       - soft max rate increased from 20 mcg/min to 40 mcg/min
-    # norepinephrine:
+    ### norepinephrine:
       - soft max rate increased from 40 mcg/min to 80 mcg/min
-    # phenylephrine:
+    ### phenylephrine:
       - initial default rate decreased from 100 mcg/min to 20 mcg/min
       - soft max rate increased from 300 mcg/min to 400 mcg/min
-    # dopamine:
+    ### dopamine:
       - remove initial default rate (was 2 mcg/kg/min) (titratable and nontritable have different starting rates)
       - no renal dosing protocol listed as an option anymore, remove?
-    # dobutamine:
+    ### dobutamine:
       - remove intial default rate (was 2 mcg/kg/min) (titratable and nontritable have different starting rates)
 
-    # zz code only drugs:
+    ### zz code only drugs:
       - update all to match regular gaurdrails limits
 
-    # other changes based on alerts reports:
-      # ceftolazone/tazobactam:
+    ### other changes based on alerts reports:
+      ### ceftolazone/tazobactam:
         - soft max duration for all strengths increased from 1:30 to 4:00
         - 3g and 3000mg doses given default durations of 3:00, soft max changed to 6:00
-       # levetiracetam:
+       ### levetiracetam:
         - soft max dose increased from 1500 mg to 2001 mg
         - soft max concentration increased from 15 to 20.1
-       # thiamine:
+       ### thiamine:
         - concentration soft max increased from 5 to 10.1
 
 ## 55is 04/28/23:
-    # midazolam:
+    ### midazolam:
       - add therapy for anti-convulsant
         100 mg/100 mL and 250 mg/250 mL
         initial rate: 0.1 mg/kg/hr
@@ -81,18 +81,18 @@
             soft max: 2.1 mg/min
 
 ## 54is 04/12/23:
-    # promethazine:
+    ### promethazine:
       concentration limit changed:
         hard min was 0.123 mg/mL, now 0.031 mg/mL to accommodate doses like 3.125 mg put into a 50 mL or 100 mL bag
 
 ## 53is 03/27/23:
-    # promethazine:
+    ### promethazine:
       concentration limits changed:
         hard min now 0.123 mg/mL (was 1 mg/mL)  (6.25 mg/50.25 mL = 0.124 mg/mL)  (25 mg/51 mL = 0.4902 mg/mL)
         soft min removed
         soft max now 1 mg/mL (was 25 mg/ml)
 
-    # iron sucrose:
+    ### iron sucrose:
       remove wildcard x mg/x mL concentration from adult library
       add 100 mg/105 mL, 300 mg/265 mL, and 400 mg/270 mL to adult library (200 mg/110 mL and 500 mg/275 mL already present)
       dose limits:
@@ -116,7 +116,7 @@
         initial  04:00
       added 100 mg, 200 mg, 300 mg, 400 mg, and 500 mg to outpt infusion center profile per request
 
-    # dalbavancin:
+    ### dalbavancin:
       add to master drug list
       add wildcard concentrations to outpatient infusion center per request:
         x mg/x mL 
@@ -127,11 +127,11 @@
             soft max 5 mg/mL
             for gram limits 0.001 g/mL and 0.005 g/mL matching the same soft min and soft max for mg
 
-    # tocilizumab:
+    ### tocilizumab:
       lower soft min for non weight based to 160 mg (40 kg * 4 mg/kg), previous soft min was 200 mg (weight based already went down to 3.9 mg/kg, but non weight based can now go that low)
       outpatient infusion center requested Actemra in their library, has been available in their library as tocilizumab since 03/29/22
 
-    # amikacin:
+    ### amikacin:
       soft max increased from 10 mg/kg to 21 mg/kg
       hard max added for 31 mg/kg
       soft min remains at 1 mg/kg
@@ -141,7 +141,7 @@
         soft max now 5.1 mg/mL      (was 11 mg/mL)
       added to outpatient infusion center profile per request
 
-    # belimumab:
+    ### belimumab:
       added to master drug list
       added wildcard concentration as only weight based (not dosed any other way) to outpatient infusion center library per request:
         x mg/x mL
@@ -157,7 +157,7 @@
           soft max 08:00  (1 hr infusion but can be slowed for infusion related reactions)
           initial  01:00
 
-    # vedolizumab:
+    ### vedolizumab:
       added to master drug list
       added 300 mg/250 mL to outpatient infusion center per request:
         duration limits:
@@ -169,7 +169,7 @@
           hard max 301 mg
 
 ## 52is 03/27/23:
-    # Ferumoxytol:
+    ### Ferumoxytol:
       fix concentrations to be 510 mg in 117 mL (old was 510 mg in 100 mL) to factor in vial fluid volume of 17 mL for 510 mg
         same for 0.51 g
       same for 1.02 g in 284 mL (old was 1.02 g in 250 mL) with 34 mL vial volume for 1.02 g
@@ -177,27 +177,27 @@
       add to onc infusion center library and outpt infusion center library
 
 ## 51is 03/19/23:
-    # Ferumoxytol:
+    ### Ferumoxytol:
       removed 50 mL sizes for 510, 1020 mg and 0.51 g and 1.02 g
       remove 100 mL for both 1020 mg and 1.02 g
       add 250 mL for 1020 mg and 1.02 g
 
 ## 50is 03/19/23:
-    # Ferumoxytol:
+    ### Ferumoxytol:
       add 510 and 1020 mg in 50 and 100 mL to adult intermittent library
       add 0.51 and 1.02 g in 50 and 100 mL too
 
 ## 49is 02/17/23:
-    # insulin drip:
+    ### insulin drip:
         add weight based dosing per protocol
         non weight based needs removed? probably not will check
 
 ## 48is 02/17/23:
-    # epinephrine standard continuous:
+    ### epinephrine standard continuous:
         remove hard max of 30 mcg/min, soft max still in place at 20 mcg/min
 
 ## 47is 01/30/23:
-	# naloxone drip changes:
+	### naloxone drip changes:
 		remove 2 mg/500 mL concentration
 		add 4 mg/100 mL concentration as sole strength/volume option
 			no change to rate limits:

@@ -1,7 +1,19 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
-## 60is xx/xx/23:
+## 61is xx/xx/24:
+
+
+## 60is 12/23/23:
+  dalbavancin:
+    add to adult library with mg and gm dosing options
+    mg: 375 mg / 250 mL, 500 mg / 250 mL, 750 mg / 250 mL, 1000 mg / 250 mL, 1125 mg / 250 mL, 1500 mg / 250 mL
+    gm: 0.375 g / 250 mL, 0.5 g / 250 mL, 0.75 g / 250 mL, 1 g / 250 mL, 1.125 g / 250 mL, 1500 g / 250 mL
+    hard min: 25 min
+    soft max: 4 hr
+    initial default: 30 min
+    clinical advisory: If a common IV line is being used to administer other drugs in addition to this drug, the line should be flushed before and after each infusion with D5W.
+    no wildcard option as these cover any indicated doses and dosing adjustments for renal function
 
 ## 59is 11/22/23:
   insulin:

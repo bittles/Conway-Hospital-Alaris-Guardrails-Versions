@@ -5,68 +5,68 @@
 
 
 ## 60is 12/23/23:
-  dalbavancin:
-    add to adult library with mg and gm dosing options
-    mg: 375 mg / 250 mL, 500 mg / 250 mL, 750 mg / 250 mL, 1000 mg / 250 mL, 1125 mg / 250 mL, 1500 mg / 250 mL
-    gm: 0.375 g / 250 mL, 0.5 g / 250 mL, 0.75 g / 250 mL, 1 g / 250 mL, 1.125 g / 250 mL, 1500 g / 250 mL
-    hard min: 25 min
-    soft max: 4 hr
-    initial default: 30 min
-    clinical advisory: If a common IV line is being used to administer other drugs in addition to this drug, the line should be flushed before and after each infusion with D5W.
-    no wildcard option as these cover any indicated doses and dosing adjustments for renal function
+  # dalbavancin:
+    - add to adult library with mg and gm dosing options
+    - mg: 375 mg / 250 mL, 500 mg / 250 mL, 750 mg / 250 mL, 1000 mg / 250 mL, 1125 mg / 250 mL, 1500 mg / 250 mL
+    - gm: 0.375 g / 250 mL, 0.5 g / 250 mL, 0.75 g / 250 mL, 1 g / 250 mL, 1.125 g / 250 mL, 1500 g / 250 mL
+    - hard min: 25 min
+    - soft max: 4 hr
+    - initial default: 30 min
+    - clinical advisory: If a common IV line is being used to administer other drugs in addition to this drug, the line should be flushed before and after each infusion with D5W.
+    - no wildcard option as these cover any indicated doses and dosing adjustments for renal function
 
 ## 59is 11/22/23:
-  insulin:
-    non-weight based:
-      change soft max from 22.5 units/hr to 20 units/hr per protocol
-    weight based:
-      change soft max from 5 units/kg/hr to 0.3 units/kg/hr
-      currently unset hard max, will set to 0.8 units/kg/hr
-      add to pediatric profile
+  # insulin:
+    - non-weight based:
+      - change soft max from 22.5 units/hr to 20 units/hr per protocol
+    - weight based:
+      - change soft max from 5 units/kg/hr to 0.3 units/kg/hr
+      - currently unset hard max, will set to 0.8 units/kg/hr
+      - add to pediatric profile
 
 ## 58is 09/02/23:
-  nicardipine:
-    add 50 mg/250 mL double concentrated strength for future scenarios where 40 mg/200 mL premix is out of stock
+  # nicardipine:
+    - add 50 mg/250 mL double concentrated strength for future scenarios where 40 mg/200 mL premix is out of stock
 
 ## 57is 08/16/23:
-  oxytocin:
-    remove all strengths/therapies except for 30 units/500 mL
+  # oxytocin:
+    - remove all strengths/therapies except for 30 units/500 mL
 
 ## 56is 06/05/23:
-  updated to current protocol:
-    esmolol:
-      minor changes to default initial rate/boluses to match protocol
-        50 mcg/kg/min initial default rate
-        initial default bolus dose removed and made blank as initial boluses can be 250-500 mcg/kg (previously only 250 mcg/kg) and followup boluses are now 250 mcg/kg (changed from 200 mcg/kg)
-    epinephrine:
-      soft max rate increased from 20 mcg/min to 40 mcg/min
-    norepinephrine:
-      soft max rate increased from 40 mcg/min to 80 mcg/min
-    phenylephrine:
-      initial default rate decreased from 100 mcg/min to 20 mcg/min
-      soft max rate increased from 300 mcg/min to 400 mcg/min
-    dopamine:
-      remove initial default rate (was 2 mcg/kg/min) (titratable and nontritable have different starting rates)
-      no renal dosing protocol listed as an option anymore, remove?
-    dobutamine:
-      remove intial default rate (was 2 mcg/kg/min) (titratable and nontritable have different starting rates)
+  # updated to current protocol:
+    # esmolol:
+      - minor changes to default initial rate/boluses to match protocol
+        - 50 mcg/kg/min initial default rate
+        - initial default bolus dose removed and made blank as initial boluses can be 250-500 mcg/kg (previously only 250 mcg/kg) and followup boluses are now 250 mcg/kg (changed from 200 mcg/kg)
+    # epinephrine:
+      - soft max rate increased from 20 mcg/min to 40 mcg/min
+    # norepinephrine:
+      - soft max rate increased from 40 mcg/min to 80 mcg/min
+    # phenylephrine:
+      - initial default rate decreased from 100 mcg/min to 20 mcg/min
+      - soft max rate increased from 300 mcg/min to 400 mcg/min
+    # dopamine:
+      - remove initial default rate (was 2 mcg/kg/min) (titratable and nontritable have different starting rates)
+      - no renal dosing protocol listed as an option anymore, remove?
+    # dobutamine:
+      - remove intial default rate (was 2 mcg/kg/min) (titratable and nontritable have different starting rates)
 
-    zz code only drugs:
-      update all to match regular gaurdrails limits
+    # zz code only drugs:
+      - update all to match regular gaurdrails limits
 
-    other changes based on alerts reports:
-      ceftolazone/tazobactam:
-        soft max duration for all strengths increased from 1:30 to 4:00
-        3g and 3000mg doses given default durations of 3:00, soft max changed to 6:00
-       levetiracetam:
-        soft max dose increased from 1500 mg to 2001 mg
-        soft max concentration increased from 15 to 20.1
-       thiamine:
-        concentration soft max increased from 5 to 10.1
+    # other changes based on alerts reports:
+      # ceftolazone/tazobactam:
+        - soft max duration for all strengths increased from 1:30 to 4:00
+        - 3g and 3000mg doses given default durations of 3:00, soft max changed to 6:00
+       # levetiracetam:
+        - soft max dose increased from 1500 mg to 2001 mg
+        - soft max concentration increased from 15 to 20.1
+       # thiamine:
+        - concentration soft max increased from 5 to 10.1
 
 ## 55is 04/28/23:
-    midazolam:
-      add therapy for anti-convulsant
+    # midazolam:
+      - add therapy for anti-convulsant
         100 mg/100 mL and 250 mg/250 mL
         initial rate: 0.1 mg/kg/hr
         soft min: 0.0001 mg/kg/hr  (basically zero)
@@ -81,18 +81,18 @@
             soft max: 2.1 mg/min
 
 ## 54is 04/12/23:
-    promethazine:
+    # promethazine:
       concentration limit changed:
         hard min was 0.123 mg/mL, now 0.031 mg/mL to accommodate doses like 3.125 mg put into a 50 mL or 100 mL bag
 
 ## 53is 03/27/23:
-    promethazine:
+    # promethazine:
       concentration limits changed:
         hard min now 0.123 mg/mL (was 1 mg/mL)  (6.25 mg/50.25 mL = 0.124 mg/mL)  (25 mg/51 mL = 0.4902 mg/mL)
         soft min removed
         soft max now 1 mg/mL (was 25 mg/ml)
 
-    iron sucrose:
+    # iron sucrose:
       remove wildcard x mg/x mL concentration from adult library
       add 100 mg/105 mL, 300 mg/265 mL, and 400 mg/270 mL to adult library (200 mg/110 mL and 500 mg/275 mL already present)
       dose limits:
@@ -116,7 +116,7 @@
         initial  04:00
       added 100 mg, 200 mg, 300 mg, 400 mg, and 500 mg to outpt infusion center profile per request
 
-    dalbavancin:
+    # dalbavancin:
       add to master drug list
       add wildcard concentrations to outpatient infusion center per request:
         x mg/x mL 
@@ -127,11 +127,11 @@
             soft max 5 mg/mL
             for gram limits 0.001 g/mL and 0.005 g/mL matching the same soft min and soft max for mg
 
-    tocilizumab:
+    # tocilizumab:
       lower soft min for non weight based to 160 mg (40 kg * 4 mg/kg), previous soft min was 200 mg (weight based already went down to 3.9 mg/kg, but non weight based can now go that low)
       outpatient infusion center requested Actemra in their library, has been available in their library as tocilizumab since 03/29/22
 
-    amikacin:
+    # amikacin:
       soft max increased from 10 mg/kg to 21 mg/kg
       hard max added for 31 mg/kg
       soft min remains at 1 mg/kg
@@ -141,7 +141,7 @@
         soft max now 5.1 mg/mL      (was 11 mg/mL)
       added to outpatient infusion center profile per request
 
-    belimumab:
+    # belimumab:
       added to master drug list
       added wildcard concentration as only weight based (not dosed any other way) to outpatient infusion center library per request:
         x mg/x mL
@@ -157,7 +157,7 @@
           soft max 08:00  (1 hr infusion but can be slowed for infusion related reactions)
           initial  01:00
 
-    vedolizumab:
+    # vedolizumab:
       added to master drug list
       added 300 mg/250 mL to outpatient infusion center per request:
         duration limits:
@@ -169,7 +169,7 @@
           hard max 301 mg
 
 ## 52is 03/27/23:
-    Ferumoxytol:
+    # Ferumoxytol:
       fix concentrations to be 510 mg in 117 mL (old was 510 mg in 100 mL) to factor in vial fluid volume of 17 mL for 510 mg
         same for 0.51 g
       same for 1.02 g in 284 mL (old was 1.02 g in 250 mL) with 34 mL vial volume for 1.02 g
@@ -177,27 +177,27 @@
       add to onc infusion center library and outpt infusion center library
 
 ## 51is 03/19/23:
-    Ferumoxytol:
+    # Ferumoxytol:
       removed 50 mL sizes for 510, 1020 mg and 0.51 g and 1.02 g
       remove 100 mL for both 1020 mg and 1.02 g
       add 250 mL for 1020 mg and 1.02 g
 
 ## 50is 03/19/23:
-    Ferumoxytol:
+    # Ferumoxytol:
       add 510 and 1020 mg in 50 and 100 mL to adult intermittent library
       add 0.51 and 1.02 g in 50 and 100 mL too
 
 ## 49is 02/17/23:
-    insulin drip:
+    # insulin drip:
         add weight based dosing per protocol
         non weight based needs removed? probably not will check
 
 ## 48is 02/17/23:
-    epinephrine standard continuous:
+    # epinephrine standard continuous:
         remove hard max of 30 mcg/min, soft max still in place at 20 mcg/min
 
 ## 47is 01/30/23:
-	naloxone drip changes:
+	# naloxone drip changes:
 		remove 2 mg/500 mL concentration
 		add 4 mg/100 mL concentration as sole strength/volume option
 			no change to rate limits:
@@ -206,7 +206,7 @@
 				no hard max
 				no pre-programmed initial rate
 				no bolus
-	bumetanide continuous:
+	# bumetanide continuous:
 		remove wildcard concentration
 		add 24 mg/96 mL as sole strength/volume option
 			no change to rate limits:
@@ -222,96 +222,96 @@
 					Lexi: Undiluted direct IV injections may be administered at a rate of 0.5 to 1 mg over 1 to 2 minutes.
 
 ## 46is xx/xx/xx (never activated for live pumps):
-	furosemide drip changes:
-		remove 300 mg/30 mL concentration
-		remove --- mg/-- mL wildcard concentration
-		add 200 mg/100 mL concentration
-	change soft min for bolus propofol ANES from 19 mg to 10 mg based on number of alerts overridden in anesthesia
-	updated all protocols if new revisions were found:
-		heparin drip:
-			change soft min bolus to 24 unit/kg (was 30) for newest protocol
-				only for standard/peripheral vascular disease and VTE, cerebrovascular has no bolus
-			change soft max bolus for standard to 62 unit/kg (was 82, max on protocol is 60
-			change initial infusion for cerebrovascular to 10 unit/kg/hr (was 15)
-		increase soft max of nitroglycerin drip from 150 mg/min to 200 mg/min
-		remove soft max for nitroprusside (3 mcg/kg/min), hard max of 10 mcg/kg/min unchanged
+    # furosemide drip changes:
+      remove 300 mg/30 mL concentration
+      remove --- mg/-- mL wildcard concentration
+      add 200 mg/100 mL concentration
+    # change soft min for bolus propofol ANES from 19 mg to 10 mg based on number of alerts overridden in anesthesia
+    # updated all protocols if new revisions were found:
+      # heparin drip:
+        change soft min bolus to 24 unit/kg (was 30) for newest protocol
+          only for standard/peripheral vascular disease and VTE, cerebrovascular has no bolus
+        change soft max bolus for standard to 62 unit/kg (was 82, max on protocol is 60
+        change initial infusion for cerebrovascular to 10 unit/kg/hr (was 15)
+      # increase soft max of nitroglycerin drip from 150 mg/min to 200 mg/min
+      # remove soft max for nitroprusside (3 mcg/kg/min), hard max of 10 mcg/kg/min unchanged
 
 ## 45is 01/02/23:
-	change epoprostenol for inhalation protocol for syringe pump
+    # change epoprostenol for inhalation protocol for syringe pump
 
 ## 44is 12/11/22:
-	increase soft max of furosemide drip from 10 mg/hr to 40 mg/hr
+    # increase soft max of furosemide drip from 10 mg/hr to 40 mg/hr
 
 ## 43is 10/28/22:
-	change dosing in penG syringe with advisory that 1 unit in pump = 1,000 units on label
+    # change dosing in penG syringe with advisory that 1 unit in pump = 1,000 units on label
 	
 ## 42is 10/28/22:
-	add penG to nursery syringe pump library
+    # add penG to nursery syringe pump library
 	
 ## 41is 10/14/22:
-	caffeine & sodium benzoate: add 500mg/1000ml preset for OB with default initial admin times
+    # caffeine & sodium benzoate: add 500mg/1000ml preset for OB with default initial admin times
 
 ## 40is 9/16/22:
-	norepinephrine: increase soft max from 45 to 60 mcg/min to reflect latest form/policy
-	phenylephrine/phenylephrine ANES: lower soft min from 10 and 40 (anes) to 5 mcg/min to allow titrating down
-	ampicillin: hard max added as reports showed people programming unasyn doses in, soft max 2.1g hard 2.4g; wildcard concentration remove as well
-	cefazolin: soft max increased from 2.3 to 3.1g, standard concentration of 3g/100mL and 3000mg/100mL added; wildcard concentration removed
-	meropenem: increased soft max duration from 1h to 3h 10m; remove wildcard concentration
-	fluids: raised soft max rates for blood and prbcs from 150 to 301 since they're regular ramped up after initial slower rate is tolerated; raised soft max for FFP from 150 to 201 for the same reasons
-	pantoprazole: change pantoprazole ivpb to pantoprazole bolus and pantoprazole gtt to pantoprazole drip, add hard max to drip since that runs at constant rate
+    # norepinephrine: increase soft max from 45 to 60 mcg/min to reflect latest form/policy
+    # phenylephrine/phenylephrine ANES: lower soft min from 10 and 40 (anes) to 5 mcg/min to allow titrating down
+    # ampicillin: hard max added as reports showed people programming unasyn doses in, soft max 2.1g hard 2.4g; wildcard concentration remove as well
+    # cefazolin: soft max increased from 2.3 to 3.1g, standard concentration of 3g/100mL and 3000mg/100mL added; wildcard concentration removed
+    # meropenem: increased soft max duration from 1h to 3h 10m; remove wildcard concentration
+    # fluids: raised soft max rates for blood and prbcs from 150 to 301 since they're regular ramped up after initial slower rate is tolerated; raised soft max for FFP from 150 to 201 for the same reasons
+    # pantoprazole: change pantoprazole ivpb to pantoprazole bolus and pantoprazole gtt to pantoprazole drip, add hard max to drip since that runs at constant rate
 
 ## 39is 8/15/22:
-	change max peds nicardipine bolus from 2000 mcg/kg to 50 mcg/kg.  basing this upon max peds weight being 40 kg
+    # change max peds nicardipine bolus from 2000 mcg/kg to 50 mcg/kg.  basing this upon max peds weight being 40 kg
 
 ## 38is 8/15/22:
-	add nicardipine to pediatrics library, all dosing in mcg/kg/min with bolus.
-		based on lexicomp dosing:
-			Dosing: Pediatric
-			Hypertension: Note: Use should be reserved for acute severe hypertension: Limited data available: Infants, Children, and Adolescents: Continuous IV infusion: Bolus dose (optional): Initial: 30 mcg/kg, maximum dose: 2 mg/dose; followed by continuous infusion: Initial: 0.5 to 1 mcg/kg/minute; titrate dose according to blood pressure; rate of infusion may be increased every 15 to 30 minutes; maximum dose: 4 to 5 mcg/kg/minute (AAP [Flynn 2017]; Flynn 2000; Flynn 2001). In a retrospective analysis (n=29; mean age: 7.8 ± 6 years [range: 2 days to 17.9 years]), the mean initial dose was 0.8 ± 0.3 mcg/kg/minute (range: 0.2 to 1.3 mcg/kg/minute), the mean effective dose was 1.8 ± 1 mcg/kg/minute (range: 0.3 to 4 mcg/kg/minute); blood pressure was controlled within 2.7 ± 2.1 hours (range: 0.5 to 9 hours) after starting nicardipine continuous infusion (Flynn 2001).
+    # add nicardipine to pediatrics library, all dosing in mcg/kg/min with bolus.
+      based on lexicomp dosing:
+        Dosing: Pediatric
+        Hypertension: Note: Use should be reserved for acute severe hypertension: Limited data available: Infants, Children, and Adolescents: Continuous IV infusion: Bolus dose (optional): Initial: 30 mcg/kg, maximum dose: 2 mg/dose; followed by continuous infusion: Initial: 0.5 to 1 mcg/kg/minute; titrate dose according to blood pressure; rate of infusion may be increased every 15 to 30 minutes; maximum dose: 4 to 5 mcg/kg/minute (AAP [Flynn 2017]; Flynn 2000; Flynn 2001). In a retrospective analysis (n=29; mean age: 7.8 ± 6 years [range: 2 days to 17.9 years]), the mean initial dose was 0.8 ± 0.3 mcg/kg/minute (range: 0.2 to 1.3 mcg/kg/minute), the mean effective dose was 1.8 ± 1 mcg/kg/minute (range: 0.3 to 4 mcg/kg/minute); blood pressure was controlled within 2.7 ± 2.1 hours (range: 0.5 to 9 hours) after starting nicardipine continuous infusion (Flynn 2001).
 
 ## 37is 8/01/22:
-    add zz code drugs to peds library (not done in activated set, changes in 37is for review)
-	add adenosine double concentrated drip and therapy for pt above 115 kg for FFR in cath lab
-	change some soft min stops and catches for IV potassium
+    # add zz code drugs to peds library (not done in activated set, changes in 37is for review)
+    # add adenosine double concentrated drip and therapy for pt above 115 kg for FFR in cath lab
+    # change some soft min stops and catches for IV potassium
 
 ## 36is 6/26/22:
-	change mvi from a fluid to an intermittent
-	add propofol to peds
-	make seperate therapies for std and dbl conc nitroglycerin
+    # change mvi from a fluid to an intermittent
+    # add propofol to peds
+    # make seperate therapies for std and dbl conc nitroglycerin
 
 ## 35is 5/09/22:
-	add Bezlotoxumab to infusion center
+    # add Bezlotoxumab to infusion center
 
 ## 34is 4/28/22:
-	add Teprotumumab and Ocrelizumab to infusion center
+    # add Teprotumumab and Ocrelizumab to infusion center
 
 ## 33is:
-	fix data set and file names to remove non-alphanumeric characters
+    # fix data set and file names to remove non-alphanumeric characters
 
 ## 32is 3/29/22:
-	split infusion center profile into onc and outpt, onc left the same, outpt profile removed drugs they requested and added drugs they requested
+    # split infusion center profile into onc and outpt, onc left the same, outpt profile removed drugs they requested and added drugs they requested
 
 ## 31is 3/28/22:
-	add missing vanc premix concentrations
+    # add missing vanc premix concentrations
 
 ## 30is 3/28/22:
-	add ob epidural w/ and w/o fentanyl
+    # add ob epidural w/ and w/o fentanyl
 
 ## 29is 3/17/22:
-	add 50 mg/250 ml nitro
+    # add 50 mg/250 ml nitro
 
 ## 28is 3/3/22:
-	update module settings with basic infusion warning enabled, approved and released v28 and enumerated v29
+    # update module settings with basic infusion warning enabled, approved and released v28 and enumerated v29
 
 ## 27is 3/2/22:
-	mg and mcg fixes for pancuronium and dobutamine. v27 convert to new guardrails editor version
-	add abatacept and golimumab
+    # mg and mcg fixes for pancuronium and dobutamine. v27 convert to new guardrails editor version
+    # add abatacept and golimumab
 
 ## 26is 2/16/22:
-	fix hard mins for pancuronium and dobutamine echo stress being below allowed lower limits
+    # fix hard mins for pancuronium and dobutamine echo stress being below allowed lower limits
 
 ## 25is 2/14/22:
-	add fentanyl and versed to continuous due to cadd casette backorders
+    # add fentanyl and versed to continuous due to cadd casette backorders
 
 ## 24is 2/2/22:
 	added any required missing hard min conc. limits for server upgrade

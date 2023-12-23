@@ -33,7 +33,7 @@
     - remove all strengths/therapies except for 30 units/500 mL
 
 ## 56is 06/05/23:
-  ### updated to current protocol:
+  ## updated to current protocol:
   ### esmolol:
       - minor changes to default initial rate/boluses to match protocol
         - 50 mcg/kg/min initial default rate
@@ -54,7 +54,7 @@
   ### zz code only drugs:
       - update all to match regular gaurdrails limits
 
-  ### other changes based on alerts reports:
+  ## other changes based on alerts reports:
   ### ceftolazone/tazobactam:
         - soft max duration for all strengths increased from 1:30 to 4:00
         - 3g and 3000mg doses given default durations of 3:00, soft max changed to 6:00
@@ -67,106 +67,106 @@
 ## 55is 04/28/23:
     ### midazolam:
       - add therapy for anti-convulsant
-        100 mg/100 mL and 250 mg/250 mL
-        initial rate: 0.1 mg/kg/hr
-        soft min: 0.0001 mg/kg/hr  (basically zero)
-        soft max: 2 mg/kg/hr
-        bolus:
-          initial value: 0.2 mg/kg
-          soft min: 0.0001 mg/kg (basically zero)
-          soft max: 0.21 mg/kg
-          rate limits:
-            initial value: 2 mg/min
-            soft min: 1.9 mg/min
-            soft max: 2.1 mg/min
+        - 100 mg/100 mL and 250 mg/250 mL
+        - initial rate: 0.1 mg/kg/hr
+        - soft min: 0.0001 mg/kg/hr  (basically zero)
+        - soft max: 2 mg/kg/hr
+        - bolus:
+          - initial value: 0.2 mg/kg
+          - soft min: 0.0001 mg/kg (basically zero)
+          - soft max: 0.21 mg/kg
+          - rate limits:
+            - initial value: 2 mg/min
+            - soft min: 1.9 mg/min
+            - soft max: 2.1 mg/min
 
 ## 54is 04/12/23:
     ### promethazine:
-      concentration limit changed:
-        hard min was 0.123 mg/mL, now 0.031 mg/mL to accommodate doses like 3.125 mg put into a 50 mL or 100 mL bag
+      - concentration limit changed:
+        - hard min was 0.123 mg/mL, now 0.031 mg/mL to accommodate doses like 3.125 mg put into a 50 mL or 100 mL bag
 
 ## 53is 03/27/23:
     ### promethazine:
-      concentration limits changed:
-        hard min now 0.123 mg/mL (was 1 mg/mL)  (6.25 mg/50.25 mL = 0.124 mg/mL)  (25 mg/51 mL = 0.4902 mg/mL)
-        soft min removed
-        soft max now 1 mg/mL (was 25 mg/ml)
+      - concentration limits changed:
+        - hard min now 0.123 mg/mL (was 1 mg/mL)  (6.25 mg/50.25 mL = 0.124 mg/mL)  (25 mg/51 mL = 0.4902 mg/mL)
+        - soft min removed
+        - soft max now 1 mg/mL (was 25 mg/ml)
 
     ### iron sucrose:
-      remove wildcard x mg/x mL concentration from adult library
-      add 100 mg/105 mL, 300 mg/265 mL, and 400 mg/270 mL to adult library (200 mg/110 mL and 500 mg/275 mL already present)
-      dose limits:
-        soft min 99 mg  (was 25 mg)
-        hard max 510 mg
-      100 mg and 200 mg given same duration limits, 
-        hard min 00:14
-        soft max 08:00
-        initial  00:30
-      300 mg duration limits
-        hard min 01:25
-        soft max 08:00
-        initial  01:30
-      400 mg duration limits
-        hard min 02:25
-        soft max 08:00
-        initial  02:30
-      500 mg duration limits unchanged but for reference
-        hard min 03:25
-        soft max 08:00
-        initial  04:00
-      added 100 mg, 200 mg, 300 mg, 400 mg, and 500 mg to outpt infusion center profile per request
+      - remove wildcard x mg/x mL concentration from adult library
+      - add 100 mg/105 mL, 300 mg/265 mL, and 400 mg/270 mL to adult library (200 mg/110 mL and 500 mg/275 mL already present)
+      - dose limits:
+        - soft min 99 mg  (was 25 mg)
+        - hard max 510 mg
+      - 100 mg and 200 mg given same duration limits, 
+        - hard min 00:14
+        - soft max 08:00
+        - initial  00:30
+      - 300 mg duration limits
+        - hard min 01:25
+        - soft max 08:00
+        - initial  01:30
+      - 400 mg duration limits
+        - hard min 02:25
+        - soft max 08:00
+        - initial  02:30
+      - 500 mg duration limits unchanged but for reference
+        - hard min 03:25
+        - soft max 08:00
+        - initial  04:00
+      - added 100 mg, 200 mg, 300 mg, 400 mg, and 500 mg to outpt infusion center profile per request
 
     ### dalbavancin:
-      add to master drug list
-      add wildcard concentrations to outpatient infusion center per request:
-        x mg/x mL 
-        x g/x mL
-          initial duration 00:30
-          concentration limits:
-            soft min 1 mg/mL
-            soft max 5 mg/mL
-            for gram limits 0.001 g/mL and 0.005 g/mL matching the same soft min and soft max for mg
+      - add to master drug list
+      - add wildcard concentrations to outpatient infusion center per request:
+        - x mg/x mL 
+        - x g/x mL
+          - initial duration 00:30
+          - concentration limits:
+            - soft min 1 mg/mL
+            - soft max 5 mg/mL
+            - for gram limits 0.001 g/mL and 0.005 g/mL matching the same soft min and soft max for mg
 
     ### tocilizumab:
-      lower soft min for non weight based to 160 mg (40 kg * 4 mg/kg), previous soft min was 200 mg (weight based already went down to 3.9 mg/kg, but non weight based can now go that low)
-      outpatient infusion center requested Actemra in their library, has been available in their library as tocilizumab since 03/29/22
+      - lower soft min for non weight based to 160 mg (40 kg * 4 mg/kg), previous soft min was 200 mg (weight based already went down to 3.9 mg/kg, but non weight based can now go that low)
+      - outpatient infusion center requested Actemra in their library, has been available in their library as tocilizumab since 03/29/22
 
     ### amikacin:
-      soft max increased from 10 mg/kg to 21 mg/kg
-      hard max added for 31 mg/kg
-      soft min remains at 1 mg/kg
-      concentration limits changed:
-        hard min now 0.2 mg/mL   (was 2 mg/mL)
-        soft min removed
-        soft max now 5.1 mg/mL      (was 11 mg/mL)
-      added to outpatient infusion center profile per request
+      - soft max increased from 10 mg/kg to 21 mg/kg
+      - hard max added for 31 mg/kg
+      - soft min remains at 1 mg/kg
+      - concentration limits changed:
+        - hard min now 0.2 mg/mL   (was 2 mg/mL)
+        - soft min removed
+        - soft max now 5.1 mg/mL      (was 11 mg/mL)
+      - added to outpatient infusion center profile per request
 
     ### belimumab:
-      added to master drug list
-      added wildcard concentration as only weight based (not dosed any other way) to outpatient infusion center library per request:
-        x mg/x mL
-        primary only (dedicated iv line required)
-        dose limits:    (only dose for IV is 10 mg/kg, not adjusted for any reasons)
-          soft min 9 mg/kg
-          hard max 11 mg/kg
-        concentration limits: (patients <= 40 kg dilute in 100 mL, > 40 kg dilute in 250 mL)
-          hard min 1.6 mg/mL    (40.1 kg patient * 10 mg/kg = 401 mg represents lowest strength possible in 250 mL, 401 mg/250 mL = 1.604 mg/mL)
-          soft max 10 mg/mL      (40 kg patient * 10 mg/kg = 400 mg; 400 mg/100 mL = 4 mg/mL aka highest strength in 100 mL; for patient to exceed 10 mg/mL would have to be >250 kg; 2500 mg/250 mL = 10 mg/mL)
-        duration limits:
-          hard min 00:55
-          soft max 08:00  (1 hr infusion but can be slowed for infusion related reactions)
-          initial  01:00
+      - added to master drug list
+      - added wildcard concentration as only weight based (not dosed any other way) to outpatient infusion center library per request:
+        - x mg/x mL
+        - primary only (dedicated iv line required)
+        - dose limits:    (only dose for IV is 10 mg/kg, not adjusted for any reasons)
+          - soft min 9 mg/kg
+          - hard max 11 mg/kg
+        - concentration limits: (patients <= 40 kg dilute in 100 mL, > 40 kg dilute in 250 mL)
+          - hard min 1.6 mg/mL    (40.1 kg patient * 10 mg/kg = 401 mg represents lowest strength possible in 250 mL, 401 mg/250 mL = 1.604 mg/mL)
+          - soft max 10 mg/mL      (40 kg patient * 10 mg/kg = 400 mg; 400 mg/100 mL = 4 mg/mL aka highest strength in 100 mL; for patient to exceed 10 mg/mL would have to be >250 kg; 2500 mg/250 mL = 10 mg/mL)
+        - duration limits:
+          - hard min 00:55
+          - soft max 08:00  (1 hr infusion but can be slowed for infusion related reactions)
+          - initial  01:00
 
     ### vedolizumab:
-      added to master drug list
-      added 300 mg/250 mL to outpatient infusion center per request:
-        duration limits:
-          hard min 00:28
-          soft max 02:00
-          initial  00:30
-        dose limits:    (only dosed IV as 300 mg, not adjusted for any reasons)
-          soft min 299 mg
-          hard max 301 mg
+      - added to master drug list
+      - added 300 mg/250 mL to outpatient infusion center per request:
+        - duration limits:
+          - hard min 00:28
+          - soft max 02:00
+          - initial  00:30
+        - dose limits:    (only dosed IV as 300 mg, not adjusted for any reasons)
+          - soft min 299 mg
+          - hard max 301 mg
 
 ## 52is 03/27/23:
     ### Ferumoxytol:

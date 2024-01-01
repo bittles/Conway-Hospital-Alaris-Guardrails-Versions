@@ -2,6 +2,49 @@
 ## Format is "version # and activated go-live date"
 
 ## 61is xx/xx/24:
+  ### spesolimumab:
+    - add to outpt infusion library
+    - 900 mg/100 mL
+    - 1:30 initial default duration
+    - 1:25 soft min
+    - 3:00 soft max
+    - 899 mg dosage soft min
+    - 901 mg dosage hard max
+    - primary only
+    - advisory: This medication must be infused using a 0.2- micron, low protein binding filter.
+  ### ceftazidime:
+    - add to outpt infusion library with same guardrails as adult
+    - 1 g/50 mL, 1 g/100 mL, 2 g/50 mL, 2 g/100 mL, 1000 mg/50 mL, 1000 mg/100 mL, 2000 mg/50 mL, 2000 mg/100 mL
+    - soft min 0.25 g (and 250 mg)
+    - soft max 2 g (and 2000 mg)
+    - initial 0:30
+    - soft max 1:00
+    - soft min 0:15
+    - add 500 mg/50 mL, 500 mg/100 mL, 0.5 g/50 mL, 0.5 g/100 mL to adult and outpt infusion libraries
+    - reviewed dosage and administration information
+  ### oritavancin:
+    - add to outpt infusion library
+    - 4 therapies options: Kimsyra mg, Kimsyra gram, Orbactiv mg, Orbactiv gram
+    - 1199 mg (1.199 g) soft min for both brands
+    - 1201 mg (1.201 g) hard max for both brands
+    - Kimsyra: 1200 mg/250 mL, 1.2 g/250 mL
+      - 1:00 initial
+      - 1:15 soft max
+      - 0:55 hard min
+      - Advisory:  If a common IV line is being used to administer other drugs in addition to oritavancin, the line should be flushed before and after each infusion with D5W or NS.
+    - Orbactiv: 1200 mg/1000 mL, 1.2 g/1000 mL
+      - 3:00 initial
+      - 3:30 soft max
+      - 2:45 hard min
+      - Advisory: If a common IV line is being used to administer other drugs in addition to oritavancin, the line should be flushed before and after each infusion with D5W.
+  ### ustekinumab:
+    - add to outpt infusion library
+    - 260 mg/250 mL, 390 mg/250 mL, 520 mg/250 mL
+    - initial 1:00
+    - soft max 3:00
+    - hard min 0:55
+    - advisory: This medication must be infused using a 0.2- micron, low protein binding filter.
+    - primary only
 
 
 ## 60is 12/23/23:

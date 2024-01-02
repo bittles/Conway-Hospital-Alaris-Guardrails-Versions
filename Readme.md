@@ -22,7 +22,7 @@
       - soft min: 9 mg/kg
       - soft max: 21 mg/kg
     - primary only
-    - advisory: This medication must be infused using a 0.2- micron, low protein binding filter.
+    - Advisory: This medication must be infused using a 0.2- micron, low protein binding filter.
   ### spesolimumab:
     - add to outpt infusion library
     - 900 mg/100 mL
@@ -75,7 +75,52 @@
       - soft max: 3:10
       - soft min: 0:15
     - reviewed dosage and administration guardrails for adult library as well
-
+  ### micafungin:
+    - add to outpt infusion library
+    - 50 mg/100 mL, 100 mg/100 mL, 150 mg/100 mL
+    - durations:
+      - initial: 1:00
+      - soft min: 0:55
+      - soft max: 3:00
+    - reviewed dosage and administration guardrails for adult library as well
+    - extend soft max for adult library from 1:30 to 3:00 as can be infused slower to minimize infusion related reactions
+  ### potassium chloride:
+    - add to outpt infusion library
+    - 10 mEq/100 mL, 40 mEq/520 mL, x mg/x mL
+    - dose limits:
+      - soft min: 5 mEq
+      - hard max: 41 mEq
+    - concentration limits:
+      - hard min: 0.04 mEq/mL
+      - soft min: 0.07 mEq/mL
+      - soft max: 0.11 mEq/mL
+    - duration limits:
+      - 10 mEq/100 mL:
+        - initial: 1:00
+        - soft max: 6:00
+        - soft min: 0:45
+        - hard min: 0:25
+      - 40 mEq/520 mL:
+        - initial: 4:00
+        - soft max: 12:00
+        - hard min: 3:15
+      x mEq/x mL:
+        - no initial
+        - soft max: 12:00
+        - soft min: 1:45
+        - hard min: 0:50
+    - reviewed dosage and administration guardrails for adult library as well, concentrations and durations updated for peripheral line to match above guardrails
+  ### piperacillin/tazobactam:
+    - add to outpt infusion library
+    - 3.375 g/50 mL, 3.375 g/100 mL, 4.5 g/50 mL, 4.5 g 100 mL
+    - duration limits:
+      - no initial
+      - soft max: 4:15
+      - soft min: 0:20
+    - dose limits:
+      - soft min: 3 g
+      - hard max: 4.6 g
+    - reviewed dosage and administration guardrails for adult library as well, concentrations and durations updated for peripheral line to match above guardrails (except initial rate for 3.375 g set to 4:00)
 
 ## 60is 12/23/23:
   ### dalbavancin:

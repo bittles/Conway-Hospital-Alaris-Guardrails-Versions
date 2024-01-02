@@ -121,6 +121,100 @@
       - soft min: 3 g
       - hard max: 4.6 g
     - reviewed dosage and administration guardrails for adult library as well, concentrations and durations updated for peripheral line to match above guardrails (except initial rate for 3.375 g set to 4:00)
+  ### tociluzumab:
+    - reviewed dose and administrations guardrails for outpt infusion library and adult library
+    - concentration limits slightly adjusted
+      - hard min: 1 mg/mL   (allowing for extremely unlikely 20 kg patient dosed at 4 mg/kg, i.e. 80 mg, made in 50 mL)
+      - soft min: 1.1 mg/mL
+      - soft max: 8.1 mg/mL  (800 mg being max dose prepared in 100 mL)
+    - 2 options:
+      - weight based wild card concentration:
+        - soft min: 3.9 mg/kg
+        - hard max: 8.1 mg/kg
+      - non weight based, 800 mg/100 mL:
+        - soft min: 161 mg
+        - hard max: 801 mg
+    - added to pediatric library with 2 options, same as above but weight based wild card hard max is 12.1 mg/kg
+    - durations for all libraries and options:
+      - initial: 1:00
+      - soft max: 4:00
+      - hard min: 0:55
+  ### albumin 25%:
+    - reviewed adult, pediatric, and outpt infusion libraries
+    - add 5 g/20 mL concentration
+      - durations:
+        - initial: 0:20
+        - soft max: 1:00
+        - soft min: 0:08
+    - dose limits updated:
+      - soft min: changed from 12.5 g to 4.9 g
+  ### amphotericin B liposomal:
+    - reviewed adult and outpt infusion libraries
+    - dose limits adjusted after review:
+      - soft min decreased from 2 to 1.9 mg/kg to account for rounding
+      - soft max increased from 7 to 10.5 mg/kg for mucormycosis dosing
+    - clinical advisory updated changing the wording from required use of in-line filter to may use an in-line filter >= 1 micron
+    - concentration limits updated:
+      - hard min increased from 0.1 mg/mL to 0.8 mg/mL
+      - soft min increased from 0.2 mg/mL to 0.9 mg/mL
+      - soft max increased from 2 to 2.1 mg/mL
+  ### amikacin:
+    - reviewed adult and outpt infusion libraries
+    - hard max increased from 31 mg/kg to 39 mg/kg for cystic fibrosis dosing (~10% buffer)
+  ### belimumab:
+    - reviewed outpt infusion library
+    - minor adjustments to concentration limits otherwise no changes
+  ### dalbanvacin:
+    - reviewed adult and outpt infusion libraries
+    - outpt infusion library updated to match options from adult library
+  ### daptomycin:
+    - reviewed adult and outpt infusion library
+    - soft max increased from 10.5 mg/kg to 12.1 mg/kg for VRE bacteremia
+    - minor adjustments to concentration limits
+    - outpt infusion updated to be on par with adult library
+  ### ceftriaxone:
+    - reviewed adult and outpt infusion libraries
+    - very minor updates to to dose and concentration limits
+  ### vedolizumab:
+    - reviewed outpt infusion library
+    - added advisory: Following infusion, flush with 30 mL of sterile normal saline or lactated ringers.
+  ### ertapenem:
+    - reviewed outpt infusion and adult libraries, no changes
+  ### iron sucrose:
+    - reviewed outpt infusion and adult libraries, no changes
+  ### ferumoxytol:
+    - reviewed outpt infusion and adult libraries
+    - add advisory: Risk of hypersensitivity.  Check vital signs frequenty during infusion.
+  ### immune globulin:
+    - reviewed outpt infusion and adult libraries
+    - remove wildcard, 5 g/100 mL, and 10 g/200 mL concentrations
+  ### mag sulfate:
+    - reviewed outpt infusion and adult libraries
+    - add 1 g/100 mL premixed bag concentration to both libraries
+    - add 2 g/50 mL, 4 g/100 mL, and wildcard concentration from adult library to outpt infusion
+  ### ocrelizumab:
+    - reviewed outpt infusion library
+    - changed concentrations from 300 mg/250 mL and 600 mg/500 mL to 300 mg/260 mL and 600 mg/520 mL, respectively, to account for drug volume
+  ### abatacept:
+    - reviewed outpt infusion library
+    - add weight based dosing for GVHD and covid
+  ### zoledronic acid:
+    - reviewed adult and outpt infusion library
+    - intial duration changed from 0:30 to 0:15
+    - add 5 mg/100 mL premixed bag concentration
+    - set volume in Cerner inpatient formulary manager to never include in total volume calculation, as there's premixed bags but if unavailable and 5 mg mixed in 100 mL bag then total volume is 106.25 mL and guardrails only allows expressing total volume to the tenth decimal place
+    - 4 mg/100 mL, 5 mg/100 mL, and x mg/x mL wildcard concentrations (note volume from drug not needed to be accounted for as Cerner's item in the formulary for the vial is set to not include in total volume calculation)
+  ### golimumab:
+    - reviewed outpt infusion library, no changes
+  ### methylprednisolone:
+    - reviewed outpt infusion and adult libraries
+    - add options for 500 mg/50 mL and 1000 mg/50 mL as stability allows it and allow possible future scenarios with 100 mL snap bags on back-order
+  ### teprotumumab:
+    - reviewed outpt infusion library, no changes
+  ### vancomycin:
+    - reviewed outpt infusion and adult libraries, only change is standardizing all mg and g options to same times
+  ### bezolotxumab:
+    - reviewed outpt infusion library, no changes
 
 ## 60is 12/23/23:
   ### dalbavancin:

@@ -2,6 +2,27 @@
 ## Format is "version # and activated go-live date"
 
 ## 61is xx/xx/24:
+  ### durvalumab:
+    - add to onc infusion library
+    - 1500 mg/280 mL and wildcard x mg/x mL concentrations
+    - two therapies: >= 30 kg, and < 30 kg
+    - durations for both therapies:
+      - initial: 1:00
+      - soft max: 8:00
+      - soft min: 0:55
+    - concentration limits:
+      - soft min 1 mg/mL
+      - soft max 15 mg/mL
+    - >=30 kg
+      - 1500 mg/280 mL
+      - soft min: 1499 mg
+      - soft max: 1501 mg
+    - < 30 kg
+      - x mg/x mL weight based dosing
+      - soft min: 9 mg/kg
+      - soft max: 21 mg/kg
+    - primary only
+    - advisory: This medication must be infused using a 0.2- micron, low protein binding filter.
   ### spesolimumab:
     - add to outpt infusion library
     - 900 mg/100 mL
@@ -11,7 +32,7 @@
     - 899 mg dosage soft min
     - 901 mg dosage hard max
     - primary only
-    - advisory: This medication must be infused using a 0.2- micron, low protein binding filter.
+    - Advisory: This medication must be infused using a 0.2- micron, low protein binding filter.
   ### ceftazidime:
     - add to outpt infusion library with same guardrails as adult
     - 1 g/50 mL, 1 g/100 mL, 2 g/50 mL, 2 g/100 mL, 1000 mg/50 mL, 1000 mg/100 mL, 2000 mg/50 mL, 2000 mg/100 mL
@@ -21,7 +42,7 @@
     - soft max 1:00
     - soft min 0:15
     - add 500 mg/50 mL, 500 mg/100 mL, 0.5 g/50 mL, 0.5 g/100 mL to adult and outpt infusion libraries
-    - reviewed dosage and administration information
+    - reviewed dosage and administration guardrails for adult library as well
   ### oritavancin:
     - add to outpt infusion library
     - 4 therapies options: Kimsyra mg, Kimsyra gram, Orbactiv mg, Orbactiv gram
@@ -43,8 +64,17 @@
     - initial 1:00
     - soft max 3:00
     - hard min 0:55
-    - advisory: This medication must be infused using a 0.2- micron, low protein binding filter.
+    - Advisory: This medication must be infused using a 0.2- micron, low protein binding filter.
     - primary only
+  ### meropenem:
+    - add to outpt infusion library
+    - 500 mg/50 mL, 500 mg/100 mL, 1000 mg/50 mL, 1000 mg/100 mL, 2000 mg/100 mL
+    - 0.5 g/50 mL, 0.5 g/100 mL, 1 g/50 mL, 1 g/100 mL, 2 g/100 mL
+    - durations:
+      - initial: 0:30
+      - soft max: 3:10
+      - soft min: 0:15
+    - reviewed dosage and administration guardrails for adult library as well
 
 
 ## 60is 12/23/23:

@@ -215,6 +215,9 @@
     - reviewed outpt infusion and adult libraries, only change is standardizing all mg and g options to same times
   ### bezolotxumab:
     - reviewed outpt infusion library, no changes
+  ### ceftazidime/avibacta:
+    - reviewed adult library
+    - changed soft max from 2:18 to 3:20 as there's some dosing on administering over 3 hr
 
 ## 60is 12/23/23:
   ### dalbavancin:

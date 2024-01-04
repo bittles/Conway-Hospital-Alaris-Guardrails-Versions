@@ -4,7 +4,7 @@
 ## 62is xx/xx/24:
 
 ## 61is 01/04/24:
-  ### Adult library drugs with any changes (see alphabetical list of drug entries below libary summary for details on changes):
+  ### Adult library drugs with any changes (see alphabetical list of drug entries below library summary for details on changes):
     - albumin 25%
     - amikacin
     - amphotericin B liposomal
@@ -18,7 +18,7 @@
     - micafungin
     - piperacillin/tazobactam
     - potassium chloride
-    - tociluzumab
+    - tocilizumab
     - vancomycin
     - zoledronic acid
   ### Adult library drugs reviewed with no changes:
@@ -35,7 +35,7 @@
     - potassium chloride
     - spesolimumab
     - ustekinumab
-  ### OutPt InfusionCenter with any changes (see alphabetical list of drug entries below libary summary for details on changes)
+  ### OutPt InfusionCenter with any changes (see alphabetical list of drug entries below library summary for details on changes)
     - abatacept
     - albumin 25%
     - amphotericin B liposomal
@@ -49,7 +49,7 @@
     - methylprednisolone
     - mag sulfate
     - ocrelizumab
-    - tociluzumab
+    - tocilizumab
     - vancomycin
     - vedolizumab
     - zoledronic acid
@@ -111,8 +111,8 @@
     - reviewed dosage and administration guardrails for adult library as well
   ### ceftriaxone:
     - reviewed adult and outpt infusion libraries
-    - very minor updates to to dose and concentration limits
-  ### dalbanvacin:
+    - very minor updates to dose and concentration limits
+  ### dalbavancin:
     - reviewed adult and outpt infusion libraries
     - outpt infusion library updated to match options from adult library
   ### daptomycin:
@@ -145,7 +145,7 @@
     - reviewed outpt infusion and adult libraries, no changes
   ### ferumoxytol:
     - reviewed outpt infusion and adult libraries
-    - add advisory: Risk of hypersensitivity.  Check vital signs frequenty during infusion.
+    - add advisory: Risk of hypersensitivity.  Check vital signs frequently during infusion.
   ### golimumab:
     - reviewed outpt infusion library, no changes
   ### immune globulin:
@@ -245,7 +245,7 @@
     - Advisory: This medication must be infused using a 0.2- micron, low protein binding filter.
   ### teprotumumab:
     - reviewed outpt infusion library, no changes
-  ### tociluzumab:
+  ### tocilizumab:
     - reviewed dose and administrations guardrails for outpt infusion library and adult library
     - concentration limits slightly adjusted
       - hard min: 1 mg/mL   (allowing for extremely unlikely 20 kg patient dosed at 4 mg/kg, i.e. 80 mg, made in 50 mL)
@@ -278,7 +278,7 @@
     - added advisory: Following infusion, flush with 30 mL of sterile normal saline or lactated ringers.
   ### zoledronic acid:
     - reviewed adult and outpt infusion library
-    - intial duration changed from 0:30 to 0:15
+    - initial duration changed from 0:30 to 0:15
     - add 5 mg/100 mL premixed bag concentration
     - set volume in Cerner inpatient formulary manager to never include in total volume calculation, as there's premixed bags but if unavailable and 5 mg mixed in 100 mL bag then total volume is 106.25 mL and guardrails only allows expressing total volume to the tenth decimal place
     - 4 mg/100 mL, 5 mg/100 mL, and x mg/x mL wildcard concentrations (note volume from drug not needed to be accounted for as Cerner's item in the formulary for the vial is set to not include in total volume calculation)

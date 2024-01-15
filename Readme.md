@@ -2,6 +2,78 @@
 ## Format is "version # and activated go-live date"
 
 ## 62is xx/xx/24:
+  ### tociluzumab:
+    - change from primary only to primary and secondary to allow to hang bag for flushing
+    - add clinical advsisory: Dedicated IV Line: Do not infuse any other drugs through this line.
+  ### iron sucrose:
+    - add to pediatrics library with 2 therapies
+      - .mg, pt wt <40kg; .mg, pt weight >=40 mg
+    - .mg, pt wt <40kg:
+      - weight based
+      - dosages:
+        - soft min: 0.4 mg/kg
+        - soft max: 7 mg/kg
+        - hard max: 7.3 mg/kg
+      - durations:
+        - hard min: 00:29
+        - soft min: 00:30
+        - soft max: 1:35
+      - concentration limits:
+        - hard min: 0.9 mg/mL
+        - soft min: 1 mg/mL
+        - soft max: 2 mg/mL
+    - .mg, pt weight >=40 mg
+      - dosages and durations:
+        - 100 mg/105 mL and 100 mg/55 mL
+          - hard min: 00:29
+          - soft min: 00:30
+          - soft max: 2:00
+          - initial: 00:30
+        - 200 mg/110 mL
+          - hard min: 00:55
+          - soft min: 00:57
+          - soft max: 3:00
+          - initial: 1:00
+        - 300 mg/265 mL
+          - hard min: 1:20
+          - soft min: 1:25
+          - soft max: 4:00
+          - inital: 1:30
+  ### Trabectedin:
+    - add to onc infusion library
+    - clinical advisory: 0.22 micron in-line  low protein binding filter needed
+    - dosage limits:
+      - soft min: 0.2 mg/m2
+      - soft max: 1.15 mg/m2
+      - hard max: 1.6 mg/m2
+    - concentration limits:
+      - no hard min
+      - soft min: 0.001 mg/mL
+      - soft max: 0.01 mg/mL
+    - durations:
+      - hard min: 02:45
+      - soft min: 02:50
+      - soft max: 04:00
+      - initial: 03:00
+  ### Polatuzumab Vedotin:
+    - add to onc infusion library with wildcard concentration
+    - clinical advisory: 0.22 micron in-line filter needed
+    - dosages:
+      - soft min: 0.9 mg/kg
+      - soft max: 1.98 mg/kg
+      - hard max: 2 mg/kg
+    - concentration limits:
+      - hard min: 0.71 mg/kg
+      - soft min: 0.72 mg/kg
+      - soft max: 2.71 mg/kg
+    - durations:
+      - hard min: 00:29
+      - soft min: 00:30
+      - soft max: 03:00
+      - no initial
+  ### permetrexed:
+    - lower soft min dose from 250 mg/m2 to 240 mg/m2 for rounding
+    - adjust hard max from 900 mg/m2 to 910 mg/m2
 
 ## 61is 01/04/24:
   ### Adult library drugs with any changes (see alphabetical list of drug entries below library summary for details on changes):

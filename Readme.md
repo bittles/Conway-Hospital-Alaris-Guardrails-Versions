@@ -45,7 +45,7 @@
     - dosage limits:
       - soft min: 0.2 mg/m2
       - soft max: 1.15 mg/m2
-      - hard max: 1.6 mg/m2
+      - hard max: 1.2 mg/m2
     - concentration limits:
       - no hard min
       - soft min: 0.001 mg/mL
@@ -74,6 +74,23 @@
   ### permetrexed:
     - lower soft min dose from 250 mg/m2 to 240 mg/m2 for rounding
     - adjust hard max from 900 mg/m2 to 910 mg/m2
+  ### Crizanlizumab:
+    - add to onc infusion center
+    - clinical advisory: Use a 0.22 micron in-line filter when administering this product.
+    - wildcard weight based concentration
+    - dose limit:
+      - soft min 4.5 mg/kg
+      - soft max 5.5 mg/kg
+      - hard max 5.51 mg/kg
+    - concentration limits:
+      - hard min 1 mg/mL
+      - soft min 2 mg/mL
+      - soft max 5 mg/mL
+    - duration limits:
+      - hard min 00:27
+      - soft min 00:28
+      - soft max 04:30
+      - initial 00:30
 
 ## 61is 01/04/24:
   ### Adult library drugs with any changes (see alphabetical list of drug entries below library summary for details on changes):

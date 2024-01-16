@@ -73,7 +73,7 @@
       - soft min: 00:30
       - soft max: 03:00
       - no initial
-  ### permetrexed:
+  ### pemetrexed:
     - lower soft min dose from 250 mg/m2 to 240 mg/m2 for rounding
     - adjust hard max from 900 mg/m2 to 910 mg/m2
   ### Crizanlizumab:

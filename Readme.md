@@ -4,9 +4,9 @@
 ## 63is xx/xx/24:
 
 ## 62is 01/16/24:
-  ### tociluzumab:
+  ### tocilizumab:
     - change from primary only to primary and secondary to allow to hang bag for flushing
-    - add clinical advsisory: Dedicated IV Line: Do not infuse any other drugs through this line.
+    - add clinical advisory: Dedicated IV Line: Do not infuse any other drugs through this line.
   ### iron sucrose:
     - add to pediatrics library with 2 therapies
       - .mg, pt wt <40kg; .mg, pt weight >=40 mg
@@ -40,7 +40,7 @@
           - hard min: 1:20
           - soft min: 1:25
           - soft max: 4:00
-          - inital: 1:30
+          - initial: 1:30
   ### Trabectedin:
     - add to onc infusion library
     - clinical advisory: 0.22 micron in-line  low protein binding filter needed

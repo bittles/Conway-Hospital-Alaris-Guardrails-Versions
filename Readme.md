@@ -40,7 +40,7 @@
           - hard min: 1:20
           - soft min: 1:25
           - soft max: 4:00
-          - inital: 1:30
+          - initial: 1:30
   ### Trabectedin:
     - add to onc infusion library
     - clinical advisory: 0.22 micron in-line  low protein binding filter needed

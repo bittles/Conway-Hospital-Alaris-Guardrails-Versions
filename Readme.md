@@ -1,7 +1,37 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
-## 63is xx/xx/24:
+## 64is xx/xx/24:
+
+## 63is 01/22/24:
+  ### enfortumab vedotin:
+    - add to oncology infusion library
+    - 2 therapies
+    - wt <= 100 kg
+      - soft min: 0.4 mg/kg
+      - soft max: 1.25 mg/kg
+      - hard max: 1.3 mg/kg
+    - wt > 100 kg
+      - soft min: 49 mg
+      - soft max: 125 mg
+      - hard max: 125.1 mg
+    - duration limits:
+      - hard min: 00:27
+      - soft min: 0028
+      - soft max: 04:00
+      - initial: 00:30
+    - concentration limits:
+      - hard min: 0.29 mg/mL
+      - soft min: 0.3 mg/mL
+      - soft max: 4 mg/mL
+  ### fosaprepitant:
+    - change 150 mg/150 mL concentration entry to 150 mg/250 mL
+  ### dexamethasone:
+    - only changes to oncology infusion library:
+    - set concentration limits:
+      - hard min: 0.008 mg/mL
+      - soft min: 0.009 mg/mL
+      - soft max: 0.4 mg/mL
 
 ## 62is 01/16/24:
   ### tocilizumab:

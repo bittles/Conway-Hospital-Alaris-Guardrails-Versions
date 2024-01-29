@@ -1,7 +1,37 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
-## 64is xx/xx/24:
+## 65is xx/xx/24:
+
+## 64is 01/29/24:
+  ### ado-trastuzumab:
+    - added to onc infusion library
+    - weight based dose limits:
+      - soft min: 2.25 mg/kg
+      - soft max: 3.9 mg/kg
+      - hard max: 4 mg/kg
+    - duration limits:
+      - hard min: 00:28
+      - soft min: 00:29
+      - soft max: 02:00
+      - no initial
+    - concentration limits:
+      - hard min 0.3 mg/mL
+      - soft min 0.4 mg/mL
+      - soft max 3.6 mg/mL
+    - advisory: 0.22 micron in line filter needed for admin
+  ### protamine:
+    - added to adult library
+    - dose limits:
+      - soft min: 0.4 mg
+      - hard max: 50 mg
+    - duration limits:
+      - hard min: 00:05
+      - soft max: 01:00
+      - initial: 00:10
+    - concentration limits:
+      - hard min: 0.004 mg/mL (allows for unlikely but possible 0.5 mg in 100 mL)
+      - soft max: 1.11 mg/mL (50 mg/5 mL of drug in 50 mL bag for 50 mg/55 mL total volume is 1.1 mg/mL)
 
 ## 63is 01/22/24:
   ### enfortumab vedotin:

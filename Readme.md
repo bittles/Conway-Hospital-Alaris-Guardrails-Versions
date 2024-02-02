@@ -1,7 +1,11 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
-## 65is xx/xx/24:
+## 66is xx/xx/24:
+
+## 65is 02/02/24:
+  ### dextrose 12.5%:
+    - added to nursery library under fluids with same limits as D10%
 
 ## 64is 01/29/24:
   ### ado-trastuzumab:

@@ -1,7 +1,7 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
-## 66is xx/xx/24:
+## 66is 02/14/24:
   ### risankizumab:
     - add to outpt infusion library
     - 600 mg/110 mL, 600 mg/260 mL, 600 mg/510 mL

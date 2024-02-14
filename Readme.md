@@ -1,7 +1,9 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
-## 66is xx/xx/24:
+## 67is xx/xx/24:
+
+## 66is 02/14/24:
   ### risankizumab:
     - add to outpt infusion library
     - 600 mg/110 mL, 600 mg/260 mL, 600 mg/510 mL
@@ -695,65 +697,71 @@
         - Lexi: Undiluted direct IV injections may be administered at a rate of 0.5 to 1 mg over 1 to 2 minutes.
 
 ## 46is xx/xx/xx (never activated for live pumps):
-  # furosemide drip changes:
+  ### furosemide drip changes:
     remove 300 mg/30 mL concentration
     remove --- mg/-- mL wildcard concentration
     add 200 mg/100 mL concentration
-  # change soft min for bolus propofol ANES from 19 mg to 10 mg based on number of alerts overridden in anesthesia
-  # updated all protocols if new revisions were found:
-    # heparin drip:
-      change soft min bolus to 24 unit/kg (was 30) for newest protocol
-        only for standard/peripheral vascular disease and VTE, cerebrovascular has no bolus
-      change soft max bolus for standard to 62 unit/kg (was 82, max on protocol is 60
-      change initial infusion for cerebrovascular to 10 unit/kg/hr (was 15)
-    # increase soft max of nitroglycerin drip from 150 mg/min to 200 mg/min
-    # remove soft max for nitroprusside (3 mcg/kg/min), hard max of 10 mcg/kg/min unchanged
+  ### change soft min for bolus propofol ANES from 19 mg to 10 mg based on number of alerts overridden in anesthesia
+  ### updated all protocols if new revisions were found:
+    ### heparin drip:
+      - change soft min bolus to 24 unit/kg (was 30) for newest protocol only for standard/peripheral vascular disease and VTE, cerebrovascular has no bolus
+      - change soft max bolus for standard to 62 unit/kg (was 82, max on protocol is 60
+      - change initial infusion for cerebrovascular to 10 unit/kg/hr (was 15)
+    ### increase soft max of nitroglycerin drip from 150 mg/min to 200 mg/min
+    ### remove soft max for nitroprusside (3 mcg/kg/min), hard max of 10 mcg/kg/min unchanged
 
 ## 45is 01/02/23:
-# change epoprostenol for inhalation protocol for syringe pump
+### change epoprostenol for inhalation protocol for syringe pump
 
 ## 44is 12/11/22:
-# increase soft max of furosemide drip from 10 mg/hr to 40 mg/hr
+### increase soft max of furosemide drip from 10 mg/hr to 40 mg/hr
 
 ## 43is 10/28/22:
-# change dosing in penG syringe with advisory that 1 unit in pump = 1,000 units on label
+### change dosing in penG syringe with advisory that 1 unit in pump = 1,000 units on label
 
 ## 42is 10/28/22:
-  # add penG to nursery syringe pump library
+  ### add penG to nursery syringe pump library
 
 ## 41is 10/14/22:
-  # caffeine & sodium benzoate: add 500mg/1000ml preset for OB with default initial admin times
+  ### caffeine & sodium benzoate: add 500mg/1000ml preset for OB with default initial admin times
 
 ## 40is 9/16/22:
-  # norepinephrine: increase soft max from 45 to 60 mcg/min to reflect latest form/policy
-  # phenylephrine/phenylephrine ANES: lower soft min from 10 and 40 (anes) to 5 mcg/min to allow titrating down
-  # ampicillin: hard max added as reports showed people programming unasyn doses in, soft max 2.1g hard 2.4g; wildcard concentration remove as well
-  # cefazolin: soft max increased from 2.3 to 3.1g, standard concentration of 3g/100mL and 3000mg/100mL added; wildcard concentration removed
-  # meropenem: increased soft max duration from 1h to 3h 10m; remove wildcard concentration
-  # fluids: raised soft max rates for blood and prbcs from 150 to 301 since they're regular ramped up after initial slower rate is tolerated; raised soft max for FFP from 150 to 201 for the same reasons
-  # pantoprazole: change pantoprazole ivpb to pantoprazole bolus and pantoprazole gtt to pantoprazole drip, add hard max to drip since that runs at constant rate
+  ### norepinephrine: 
+    - increase soft max from 45 to 60 mcg/min to reflect latest form/policy
+  ### phenylephrine/phenylephrine ANES: 
+    - lower soft min from 10 and 40 (anes) to 5 mcg/min to allow titrating down
+  ### ampicillin: 
+    - hard max added as reports showed people programming unasyn doses in, soft max 2.1g hard 2.4g; wildcard concentration remove as well
+  ### cefazolin: 
+    - soft max increased from 2.3 to 3.1g, standard concentration of 3g/100mL and 3000mg/100mL added; wildcard concentration removed
+  ### meropenem: 
+    - increased soft max duration from 1h to 3h 10m; remove wildcard concentration
+  ### fluids: 
+    - raised soft max rates for blood and prbcs from 150 to 301 since they're regular ramped up after initial slower rate is tolerated; raised soft max for FFP from 150 to 201 for the same reasons
+  ### pantoprazole: 
+    - change pantoprazole ivpb to pantoprazole bolus and pantoprazole gtt to pantoprazole drip, add hard max to drip since that runs at constant rate
 
 ## 39is 8/15/22:
-  # change max peds nicardipine bolus from 2000 mcg/kg to 50 mcg/kg.  basing this upon max peds weight being 40 kg
+  ### change max peds nicardipine bolus from 2000 mcg/kg to 50 mcg/kg.  basing this upon max peds weight being 40 kg
 
 ## 38is 8/15/22:
-  # add nicardipine to pediatrics library, all dosing in mcg/kg/min with bolus.
-    based on lexicomp dosing:
-      Dosing: Pediatric
-      Hypertension: Note: Use should be reserved for acute severe hypertension: Limited data available: Infants, Children, and Adolescents: Continuous IV infusion: Bolus dose (optional): Initial: 30 mcg/kg, maximum dose: 2 mg/dose; followed by continuous infusion: Initial: 0.5 to 1 mcg/kg/minute; titrate dose according to blood pressure; rate of infusion may be increased every 15 to 30 minutes; maximum dose: 4 to 5 mcg/kg/minute (AAP [Flynn 2017]; Flynn 2000; Flynn 2001). In a retrospective analysis (n=29; mean age: 7.8 ± 6 years [range: 2 days to 17.9 years]), the mean initial dose was 0.8 ± 0.3 mcg/kg/minute (range: 0.2 to 1.3 mcg/kg/minute), the mean effective dose was 1.8 ± 1 mcg/kg/minute (range: 0.3 to 4 mcg/kg/minute); blood pressure was controlled within 2.7 ± 2.1 hours (range: 0.5 to 9 hours) after starting nicardipine continuous infusion (Flynn 2001).
+  ### add nicardipine to pediatrics library, all dosing in mcg/kg/min with bolus.
+    - based on lexicomp dosing:
+      - Dosing: Pediatric
+      - Hypertension: Note: Use should be reserved for acute severe hypertension: Limited data available: Infants, Children, and Adolescents: Continuous IV infusion: Bolus dose (optional): Initial: 30 mcg/kg, maximum dose: 2 mg/dose; followed by continuous infusion: Initial: 0.5 to 1 mcg/kg/minute; titrate dose according to blood pressure; rate of infusion may be increased every 15 to 30 minutes; maximum dose: 4 to 5 mcg/kg/minute (AAP [Flynn 2017]; Flynn 2000; Flynn 2001). In a retrospective analysis (n=29; mean age: 7.8 ± 6 years [range: 2 days to 17.9 years]), the mean initial dose was 0.8 ± 0.3 mcg/kg/minute (range: 0.2 to 1.3 mcg/kg/minute), the mean effective dose was 1.8 ± 1 mcg/kg/minute (range: 0.3 to 4 mcg/kg/minute); blood pressure was controlled within 2.7 ± 2.1 hours (range: 0.5 to 9 hours) after starting nicardipine continuous infusion (Flynn 2001).
 
 ## 37is 8/01/22:
-  # add zz code drugs to peds library (not done in activated set, changes in 37is for review)
-  # add adenosine double concentrated drip and therapy for pt above 115 kg for FFR in cath lab
-  # change some soft min stops and catches for IV potassium
+  ### add zz code drugs to peds library (not done in activated set, changes in 37is for review)
+  ### add adenosine double concentrated drip and therapy for pt above 115 kg for FFR in cath lab
+  ### change some soft min stops and catches for IV potassium
 
 ## 36is 6/26/22:
-  # change mvi from a fluid to an intermittent
-  # add propofol to peds
-  # make seperate therapies for std and dbl conc nitroglycerin
+  ### change mvi from a fluid to an intermittent
+  ### add propofol to peds
+  ### make seperate therapies for std and dbl conc nitroglycerin
 
 ## 35is 5/09/22:
-  # add Bezlotoxumab to infusion center
+  ### add Bezlotoxumab to infusion center
 
 ## 34is 4/28/22:
   # add Teprotumumab and Ocrelizumab to infusion center

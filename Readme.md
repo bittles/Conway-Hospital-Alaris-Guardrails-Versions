@@ -2,6 +2,45 @@
 ## Format is "version # and activated go-live date"
 
 ## 66is xx/xx/24:
+  ### risankizumab:
+    - add to outpt infusion library
+    - 600 mg/110 mL, 600 mg/260 mL, 600 mg/510 mL
+    - duration limits:
+      - initial: 01:00
+      - soft max: 04:00
+      - hard min 00:55
+    - dose limits:
+      - soft min: 550 mg
+      - soft max: 650 mg
+      - hard max: 660 mg
+  ### deferoxamine:
+    - add to onc infusion library
+    - 1000 mg/1000 mL, 1 g/1000 mL
+    - duration limits:
+      - initial: 03:00
+      - soft max: 24:00
+      - soft min: 01:00
+    - dose limits:
+      - soft min 900 mg / 0.9 g
+      - soft max 1100 mg / 1.1 g
+  ### ertapenem:
+    - add to pediatrics library
+    - two therapies:
+      - Weight <= 33 kg:
+        - Wildcard x mg/x mL
+        - Weight bosed dose limits:
+          - soft min: 5 mg/kg
+          - hard max: 15.1 mg/kg
+        - Concentration based limits:
+          - hard minL 1.4 mg/mL
+          - soft min: 1.46 mg/mL   (9.8 kg, the lower limit for non-syringe antibiotics for peds, at 15 mg/kg is 147 mg and in 100 mL is 1.47 mg/mL)
+          - soft max: 20.1 mg/mL  (1000 mg/50 mL = 20 mg/mL)
+      - Weight > 33 kg:
+        - 500 mg/50 mL, 500 mg/100 mL, 1000 mg/50 mL, 1000 mg/100 mL
+    - Duration limits:
+      - initial: 00:30
+      - hard min: 00:28
+      - soft max: 06:00
 
 ## 65is 02/02/24:
   ### dextrose 12.5%:

@@ -1,8 +1,9 @@
 # Conway-Hospital-Alaris-Guardrails-Versions
 ## Format is "version # and activated go-live date"
 
-### MAPPING FILE CHANGES NOT LIVE (Nick 3/13/24)
+### MAPPING FILE CHANGES NOT LIVE (Nick 3/13/24)                                in file Mapping_File - NEXT_VERSION.xlsx
   #### added Clinimix 4.25/5 with and w/o additives to mapping file   (mapped to alias 1000000001 (Parenteral Nutrition, fluid))
+    ##### no changes needed to guardrails data set for this
   #### added regular insuliin in NS to specify an alias for regular insulin drip to differentiate from insulin maternity  (mapped to alias 1000000200 (insulin, continuous))
     ##### WHENEVER THIS MAPPING FILE GOES LIVE, GUARDRAILS DATA SET ALIAS FOR INSULIN (in master drug list) WILL NEED UPDATED FOR ALL CONCENTRATIONS TO 1000000200C
   #### added regular insulin in D5NS to specify an alias for insulin maternity to differentiate from regular insulin   (mapped to alias 1000000201 (Insulin Maternity, fluid))
